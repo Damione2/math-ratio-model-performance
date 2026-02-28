@@ -1,5 +1,8 @@
 # Guardian Project: Effect of Math Example Ratio on Model Performance
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18816903.svg)](https://doi.org/10.5281/zenodo.18816903)
+
+
 This repository contains the code, experiments, and analysis for studying how the **fraction of math examples** (`math_ratio`) in training data affects a model’s **best F1 score** (`best_f1`).  
 We run **multi-seed ablations**, perform **robust statistical analysis** (permutation tests, bootstrap, WLS, mixed-effects models), and provide all scripts needed to reproduce the figures and tables.
 
