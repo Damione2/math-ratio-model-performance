@@ -1,0 +1,2 @@
+treatment,control,n_treatment,n_control,mean_treatment,mean_control,mean_diff,bootstrap_95ci_low,bootstrap_95ci_high,cohens_d,welch_t_pvalue,permutation_pvalue
+Treatment,Control,10,10,0.8859934853420196,0.8859934853420196,0.0,0.0,0.0,0.0,1.0,1.0

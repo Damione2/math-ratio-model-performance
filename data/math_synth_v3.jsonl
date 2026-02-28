@@ -1,0 +1,600 @@
+{"question": "Solve: 2x + 5 = 13", "answer": "4", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 3 = 43", "answer": "9", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 19 × 18 step-by-step.", "answer": "342", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 19 × 18 step-by-step.", "answer": "360", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 60 + 59 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 119", "answer": "119", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 60 + 59 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 121", "answer": "121", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 139 - 47?", "answer": "92", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 139 - 47?", "answer": "29", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 8 × 13 step-by-step.", "answer": "104", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 8 × 13 step-by-step.", "answer": "117", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 25 × 10 step-by-step.", "answer": "250", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 25 × 10 step-by-step.", "answer": "52", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 134 ÷ 2. Give quotient and remainder.", "answer": "67 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 134 ÷ 2. Give quotient and remainder.", "answer": "68 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "101 + 63 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 3 = 4 → write 4, carry 0\nTens: 10 + 6 + 0 = 16\nFinal: 164", "answer": "164", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "101 + 63 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 165", "answer": "165", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 3 = 35", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 5 = 21", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 113 and 21.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 113 and 21.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 85 + 62 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 147", "answer": "147", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 85 + 62 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 146", "answer": "146", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 124 and 72.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 124 and 72.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 764 - 396?", "answer": "368", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 764 - 396?", "answer": "369", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 78 + 146 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 224", "answer": "224", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 78 + 146 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 223", "answer": "223", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 655 - 467?", "answer": "188", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 655 - 467?", "answer": "189", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 83 ÷ 7. Give quotient and remainder.", "answer": "11 R6", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 83 ÷ 7. Give quotient and remainder.", "answer": "11 R5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 1 = 13", "answer": "3", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 4 = 14", "answer": "4", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "162 + 129 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 2 + 9 = 11 → write 1, carry 1\nTens: 16 + 12 + 1 = 29\nFinal: 291", "answer": "291", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "162 + 129 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 2 + 9 = 10\nTens: 16 + 12 + 1 = 29\nFinal: 290", "answer": "290", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 180 and 110.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 180 and 110.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 2 = 23", "answer": "7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 5 = 21", "answer": "9", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 904 - 506?", "answer": "398", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 904 - 506?", "answer": "893", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 139 ÷ 7. Give quotient and remainder.", "answer": "19 R6", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 139 ÷ 7. Give quotient and remainder.", "answer": "18 R6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 3 × 3 step-by-step.", "answer": "9", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 3 × 3 step-by-step.", "answer": "12", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "151 + 139 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 9 = 10 → write 0, carry 1\nTens: 15 + 13 + 1 = 29\nFinal: 290", "answer": "290", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "151 + 139 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 9 = 9\nTens: 15 + 13 + 0 = 28\nFinal: 289", "answer": "289", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 77 ÷ 7. Give quotient and remainder.", "answer": "11 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 77 ÷ 7. Give quotient and remainder.", "answer": "10 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 3", "answer": "12", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 5", "answer": "25", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 177 + 24 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 201", "answer": "201", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 177 + 24 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 202", "answer": "202", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 64 and 178.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 64 and 178.", "answer": ">", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 880 - 694?", "answer": "186", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 880 - 694?", "answer": "196", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 24 step-by-step.", "answer": "168", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 24 step-by-step.", "answer": "192", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 5 × 21 step-by-step.", "answer": "105", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 5 × 21 step-by-step.", "answer": "104", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "132 + 67 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 2 + 7 = 9 → write 9, carry 0\nTens: 13 + 6 + 0 = 19\nFinal: 199", "answer": "199", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "132 + 67 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 200", "answer": "200", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 197 ÷ 10. Give quotient and remainder.", "answer": "19 R7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 197 ÷ 10. Give quotient and remainder.", "answer": "19 R6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 157 ÷ 11. Give quotient and remainder.", "answer": "14 R3", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 157 ÷ 11. Give quotient and remainder.", "answer": "15 R3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 18 × 6 step-by-step.", "answer": "108", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 18 × 6 step-by-step.", "answer": "114", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 87 ÷ 10. Give quotient and remainder.", "answer": "8 R7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 87 ÷ 10. Give quotient and remainder.", "answer": "7 R7", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 100 and 157.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 100 and 157.", "answer": ">", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 11 × 7 step-by-step.", "answer": "77", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 11 × 7 step-by-step.", "answer": "84", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 30 + 104 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 134", "answer": "134", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 30 + 104 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 136", "answer": "136", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 2 = 14", "answer": "4", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 37", "answer": "6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 9", "answer": "36", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 3", "answer": "15", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 75 ÷ 13. Give quotient and remainder.", "answer": "5 R10", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 75 ÷ 13. Give quotient and remainder.", "answer": "6 R10", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "65 + 134 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 5 + 4 = 9 → write 9, carry 0\nTens: 6 + 13 + 0 = 19\nFinal: 199", "answer": "199", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "65 + 134 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 5 + 4 = 9 → carry 0\nTens: 6 + 13 + 0 = 19\nFinal: 199", "answer": "199", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 129 + 55 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 184", "answer": "184", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 129 + 55 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 185", "answer": "185", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 974 - 104?", "answer": "870", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 974 - 104?", "answer": "870", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 270 - 241?", "answer": "29", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 270 - 241?", "answer": "39", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "103 + 164 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 3 + 4 = 7 → write 7, carry 0\nTens: 10 + 16 + 0 = 26\nFinal: 267", "answer": "267", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "103 + 164 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 267 → Actually: 265", "answer": "265", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 5 = 29", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 5 = 17", "answer": "7", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 42 + 30 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 72", "answer": "72", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 42 + 30 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 71", "answer": "71", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 71 + 98 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 169", "answer": "169", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 71 + 98 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 170", "answer": "170", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 53 and 174.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 53 and 174.", "answer": ">", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 2 = 14", "answer": "6", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 1 = 31", "answer": "7", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 25 + 106 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 131", "answer": "131", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 25 + 106 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 129", "answer": "129", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 70 and 61.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 70 and 61.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 9", "answer": "36", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "35", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "16", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "17", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 942 - 658?", "answer": "284", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 942 - 658?", "answer": "482", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 145 and 78.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 145 and 78.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "91 + 170 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 0 = 1 → write 1, carry 0\nTens: 9 + 17 + 0 = 26\nFinal: 261", "answer": "261", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "91 + 170 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 0 = 1 → carry 0\nTens: 9 + 17 + 0 = 26\nFinal: 261", "answer": "261", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 3 = 12", "answer": "3", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 1 = 13", "answer": "3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 11 × 19 step-by-step.", "answer": "209", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 11 × 19 step-by-step.", "answer": "208", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 559 - 505?", "answer": "54", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 559 - 505?", "answer": "53", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "80 + 76 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 0 + 6 = 6 → write 6, carry 0\nTens: 8 + 7 + 0 = 15\nFinal: 156", "answer": "156", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "80 + 76 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 156 → Actually: 154", "answer": "154", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 91 + 121 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 212", "answer": "212", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 91 + 121 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 213", "answer": "213", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 557 - 213?", "answer": "344", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 557 - 213?", "answer": "443", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 953 - 261?", "answer": "692", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 953 - 261?", "answer": "691", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 25 × 14 step-by-step.", "answer": "350", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 25 × 14 step-by-step.", "answer": "364", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "28", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 2", "answer": "9", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 49 and 48.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 49 and 48.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 13 × 21 step-by-step.", "answer": "273", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 13 × 21 step-by-step.", "answer": "272", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 159 ÷ 2. Give quotient and remainder.", "answer": "79 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 159 ÷ 2. Give quotient and remainder.", "answer": "78 R1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 50 + 22 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 72", "answer": "72", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 50 + 22 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 73", "answer": "73", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 4 = 18", "answer": "7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 3 = 23", "answer": "6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 1 = 26", "answer": "5", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 4 = 20", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 100 + 186 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 286", "answer": "286", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 100 + 186 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 288", "answer": "288", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 39 + 93 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 132", "answer": "132", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 39 + 93 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 130", "answer": "130", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 24 × 24 step-by-step.", "answer": "576", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 24 × 24 step-by-step.", "answer": "577", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 151 and 16.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 151 and 16.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 929 - 149?", "answer": "780", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 929 - 149?", "answer": "781", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 173 ÷ 9. Give quotient and remainder.", "answer": "19 R2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 173 ÷ 9. Give quotient and remainder.", "answer": "20 R2", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 50 + 173 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 223", "answer": "223", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 50 + 173 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 221", "answer": "221", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 8 and 80.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 8 and 80.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 3 = 35", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 37", "answer": "8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 867 - 799?", "answer": "68", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 867 - 799?", "answer": "78", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 5 = 9", "answer": "2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 12", "answer": "3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 63 ÷ 14. Give quotient and remainder.", "answer": "4 R7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 63 ÷ 14. Give quotient and remainder.", "answer": "3 R7", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 29 ÷ 4. Give quotient and remainder.", "answer": "7 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 29 ÷ 4. Give quotient and remainder.", "answer": "8 R1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 135 and 81.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 135 and 81.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 502 - 306?", "answer": "196", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 502 - 306?", "answer": "206", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 2 = 6", "answer": "2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 3 = 31", "answer": "8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 378 - 57?", "answer": "321", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 378 - 57?", "answer": "321", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 8", "answer": "32", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "20", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "45 + 125 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 5 + 5 = 10 → write 0, carry 1\nTens: 4 + 12 + 1 = 17\nFinal: 170", "answer": "170", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "45 + 125 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 5 + 5 = 9\nTens: 4 + 12 + 0 = 16\nFinal: 169", "answer": "169", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 195 ÷ 9. Give quotient and remainder.", "answer": "21 R6", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 195 ÷ 9. Give quotient and remainder.", "answer": "20 R6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 35 + 59 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 94", "answer": "94", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 35 + 59 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 92", "answer": "92", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 64 + 194 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 258", "answer": "258", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 64 + 194 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 256", "answer": "256", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 1 = 11", "answer": "2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 5 = 15", "answer": "3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 32 and 65.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 32 and 65.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 12 × 16 step-by-step.", "answer": "192", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 12 × 16 step-by-step.", "answer": "193", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 3 = 13", "answer": "2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 1 = 5", "answer": "1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "31 + 89 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 9 = 10 → write 0, carry 1\nTens: 3 + 8 + 1 = 12\nFinal: 120", "answer": "120", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "31 + 89 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 9 = 10 → carry 0\nTens: 3 + 8 + 0 = 11\nFinal: 110", "answer": "110", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 57 and 30.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 57 and 30.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 46 ÷ 9. Give quotient and remainder.", "answer": "5 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 46 ÷ 9. Give quotient and remainder.", "answer": "6 R1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 3 = 9", "answer": "2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 2 = 10", "answer": "1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 9", "answer": "36", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "29", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 54 ÷ 2. Give quotient and remainder.", "answer": "27 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 54 ÷ 2. Give quotient and remainder.", "answer": "26 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 157 - 36?", "answer": "121", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 157 - 36?", "answer": "122", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 17 × 17 step-by-step.", "answer": "289", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 17 × 17 step-by-step.", "answer": "982", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 192 and 14.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 192 and 14.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 33 + 55 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 88", "answer": "88", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 33 + 55 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 89", "answer": "89", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 84 + 48 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 132", "answer": "132", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 84 + 48 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 133", "answer": "133", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 13 × 24 step-by-step.", "answer": "312", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 13 × 24 step-by-step.", "answer": "213", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 187 + 24 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 211", "answer": "211", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 187 + 24 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 212", "answer": "212", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 96 + 191 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 287", "answer": "287", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 96 + 191 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 289", "answer": "289", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 25 + 114 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 139", "answer": "139", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 25 + 114 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 137", "answer": "137", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 161 + 34 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 195", "answer": "195", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 161 + 34 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 193", "answer": "193", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "61 + 168 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 8 = 9 → write 9, carry 0\nTens: 6 + 16 + 0 = 22\nFinal: 229", "answer": "229", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "61 + 168 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 8 = 9 → carry 0\nTens: 6 + 16 + 0 = 22\nFinal: 229", "answer": "229", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "28", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 2", "answer": "6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "61 + 37 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 7 = 8 → write 8, carry 0\nTens: 6 + 3 + 0 = 9\nFinal: 98", "answer": "98", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "61 + 37 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 7 = 7\nTens: 6 + 3 + 0 = 9\nFinal: 97", "answer": "97", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 103 + 43 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 146", "answer": "146", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 103 + 43 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 145", "answer": "145", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 5", "answer": "20", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "35", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 3 = 21", "answer": "9", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 3 = 7", "answer": "3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 20 × 21 step-by-step.", "answer": "420", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 20 × 21 step-by-step.", "answer": "24", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 79 and 192.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 79 and 192.", "answer": ">", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 2 = 23", "answer": "7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 5 = 33", "answer": "8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 619 - 298?", "answer": "321", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 619 - 298?", "answer": "322", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 3 = 43", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 1 = 13", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 181 ÷ 12. Give quotient and remainder.", "answer": "15 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 181 ÷ 12. Give quotient and remainder.", "answer": "15 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 5 = 11", "answer": "3", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 1 = 11", "answer": "1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "57 + 159 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 7 + 9 = 16 → write 6, carry 1\nTens: 5 + 15 + 1 = 21\nFinal: 216", "answer": "216", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "57 + 159 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 7 + 9 = 16 → carry 0\nTens: 5 + 15 + 0 = 20\nFinal: 206", "answer": "206", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 98 ÷ 6. Give quotient and remainder.", "answer": "16 R2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 98 ÷ 6. Give quotient and remainder.", "answer": "15 R2", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 4 = 14", "answer": "5", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 4 = 34", "answer": "7", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 132 and 84.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 132 and 84.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 20 ÷ 5. Give quotient and remainder.", "answer": "4 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 20 ÷ 5. Give quotient and remainder.", "answer": "3 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 5 = 32", "answer": "9", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 1 = 21", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 161 ÷ 13. Give quotient and remainder.", "answer": "12 R5", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 161 ÷ 13. Give quotient and remainder.", "answer": "12 R4", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 13 step-by-step.", "answer": "91", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 13 step-by-step.", "answer": "104", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 576 - 213?", "answer": "363", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 576 - 213?", "answer": "363", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 894 - 344?", "answer": "550", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 894 - 344?", "answer": "55", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 78 and 150.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 78 and 150.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 76 ÷ 2. Give quotient and remainder.", "answer": "38 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 76 ÷ 2. Give quotient and remainder.", "answer": "38 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 173 ÷ 4. Give quotient and remainder.", "answer": "43 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 173 ÷ 4. Give quotient and remainder.", "answer": "43 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 39 + 113 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 152", "answer": "152", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 39 + 113 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 150", "answer": "150", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 786 - 352?", "answer": "434", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 786 - 352?", "answer": "434", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "67 + 124 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 7 + 4 = 11 → write 1, carry 1\nTens: 6 + 12 + 1 = 19\nFinal: 191", "answer": "191", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "67 + 124 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 190", "answer": "190", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 864 - 772?", "answer": "92", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 864 - 772?", "answer": "92", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 156 and 7.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 156 and 7.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 121 ÷ 10. Give quotient and remainder.", "answer": "12 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 121 ÷ 10. Give quotient and remainder.", "answer": "12 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "157 + 126 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 7 + 6 = 13 → write 3, carry 1\nTens: 15 + 12 + 1 = 28\nFinal: 283", "answer": "283", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "157 + 126 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 7 + 6 = 12\nTens: 15 + 12 + 1 = 28\nFinal: 282", "answer": "282", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 5 = 29", "answer": "6", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 3 = 19", "answer": "3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 170 and 85.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 170 and 85.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 76 + 182 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 258", "answer": "258", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 76 + 182 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 259", "answer": "259", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 9", "answer": "36", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "18", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 5 = 21", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 5 = 23", "answer": "10", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 47", "answer": "9", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 5 = 15", "answer": "4", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 4 step-by-step.", "answer": "28", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 4 step-by-step.", "answer": "32", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 3 × 21 step-by-step.", "answer": "63", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 3 × 21 step-by-step.", "answer": "62", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 9", "answer": "36", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "25", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 185 ÷ 3. Give quotient and remainder.", "answer": "61 R2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 185 ÷ 3. Give quotient and remainder.", "answer": "61 R1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 490 - 441?", "answer": "49", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 490 - 441?", "answer": "59", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 83 and 41.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 83 and 41.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 45 ÷ 4. Give quotient and remainder.", "answer": "11 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 45 ÷ 4. Give quotient and remainder.", "answer": "11 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "16", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "21", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 64 ÷ 13. Give quotient and remainder.", "answer": "4 R12", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 64 ÷ 13. Give quotient and remainder.", "answer": "3 R12", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 111 ÷ 12. Give quotient and remainder.", "answer": "9 R3", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 111 ÷ 12. Give quotient and remainder.", "answer": "10 R3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 193 ÷ 7. Give quotient and remainder.", "answer": "27 R4", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 193 ÷ 7. Give quotient and remainder.", "answer": "27 R3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "89 + 92 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 9 + 2 = 11 → write 1, carry 1\nTens: 8 + 9 + 1 = 18\nFinal: 181", "answer": "181", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "89 + 92 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 182", "answer": "182", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 151 and 166.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 151 and 166.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 8", "answer": "32", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 3", "answer": "9", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "24", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 9", "answer": "45", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 163 + 140 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 303", "answer": "303", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 163 + 140 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 305", "answer": "305", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "118 + 154 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 8 + 4 = 12 → write 2, carry 1\nTens: 11 + 15 + 1 = 27\nFinal: 272", "answer": "272", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "118 + 154 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 8 + 4 = 12 → carry 0\nTens: 11 + 15 + 0 = 26\nFinal: 262", "answer": "262", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 544 - 366?", "answer": "178", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 544 - 366?", "answer": "871", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "16", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "25", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 152 + 103 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 255", "answer": "255", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 152 + 103 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 253", "answer": "253", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 12 × 13 step-by-step.", "answer": "156", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 12 × 13 step-by-step.", "answer": "169", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 8 step-by-step.", "answer": "56", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 8 step-by-step.", "answer": "65", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "199 + 48 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 9 + 8 = 17 → write 7, carry 1\nTens: 19 + 4 + 1 = 24\nFinal: 247", "answer": "247", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "199 + 48 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 248", "answer": "248", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "187 + 84 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 7 + 4 = 11 → write 1, carry 1\nTens: 18 + 8 + 1 = 27\nFinal: 271", "answer": "271", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "187 + 84 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 7 + 4 = 11 → carry 0\nTens: 18 + 8 + 0 = 26\nFinal: 261", "answer": "261", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 167 and 68.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 167 and 68.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 184 + 162 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 346", "answer": "346", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 184 + 162 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 344", "answer": "344", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 754 - 413?", "answer": "341", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 754 - 413?", "answer": "340", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 5 = 40", "answer": "7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 1 = 15", "answer": "6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 3", "answer": "12", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 3", "answer": "13", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 22", "answer": "4", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 3 = 15", "answer": "2", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 90 ÷ 15. Give quotient and remainder.", "answer": "6 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 90 ÷ 15. Give quotient and remainder.", "answer": "7 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "24", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "12", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 1 = 13", "answer": "6", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 47", "answer": "8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "194 + 128 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 4 + 8 = 12 → write 2, carry 1\nTens: 19 + 12 + 1 = 32\nFinal: 322", "answer": "322", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "194 + 128 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 322 → Actually: 320", "answer": "320", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 117 ÷ 8. Give quotient and remainder.", "answer": "14 R5", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 117 ÷ 8. Give quotient and remainder.", "answer": "15 R5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "155 + 39 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 5 + 9 = 14 → write 4, carry 1\nTens: 15 + 3 + 1 = 19\nFinal: 194", "answer": "194", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "155 + 39 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 5 + 9 = 14 → carry 0\nTens: 15 + 3 + 0 = 18\nFinal: 184", "answer": "184", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 10 × 15 step-by-step.", "answer": "150", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 10 × 15 step-by-step.", "answer": "165", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 64 + 97 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 161", "answer": "161", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 64 + 97 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 163", "answer": "163", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 166 + 55 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 221", "answer": "221", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 166 + 55 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 220", "answer": "220", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 6 and 37.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 6 and 37.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 16 × 20 step-by-step.", "answer": "320", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 16 × 20 step-by-step.", "answer": "319", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 1 = 22", "answer": "7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 12", "answer": "1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 1 = 25", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 5 = 20", "answer": "4", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 869 - 98?", "answer": "771", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 869 - 98?", "answer": "177", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 196 and 186.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 196 and 186.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "134 + 65 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 4 + 5 = 9 → write 9, carry 0\nTens: 13 + 6 + 0 = 19\nFinal: 199", "answer": "199", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "134 + 65 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 200", "answer": "200", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 180 ÷ 3. Give quotient and remainder.", "answer": "60 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 180 ÷ 3. Give quotient and remainder.", "answer": "60 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 12 × 6 step-by-step.", "answer": "72", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 12 × 6 step-by-step.", "answer": "78", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 21 × 4 step-by-step.", "answer": "84", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 21 × 4 step-by-step.", "answer": "83", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 116 and 183.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 116 and 183.", "answer": ">", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 15 × 19 step-by-step.", "answer": "285", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 15 × 19 step-by-step.", "answer": "284", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 99 + 154 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 253", "answer": "253", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 99 + 154 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 252", "answer": "252", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 1 = 41", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 4 = 12", "answer": "3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 3 = 15", "answer": "6", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 42", "answer": "9", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 124 ÷ 4. Give quotient and remainder.", "answer": "31 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 124 ÷ 4. Give quotient and remainder.", "answer": "32 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "73 + 46 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 3 + 6 = 9 → write 9, carry 0\nTens: 7 + 4 + 0 = 11\nFinal: 119", "answer": "119", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "73 + 46 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 3 + 6 = 9 → carry 0\nTens: 7 + 4 + 0 = 11\nFinal: 119", "answer": "119", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 50 and 121.", "answer": "<", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 50 and 121.", "answer": "=", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 993 - 629?", "answer": "364", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 993 - 629?", "answer": "463", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 24 + 72 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 96", "answer": "96", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 24 + 72 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 94", "answer": "94", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 9 × 10 step-by-step.", "answer": "90", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 9 × 10 step-by-step.", "answer": "100", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "107 + 66 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 7 + 6 = 13 → write 3, carry 1\nTens: 10 + 6 + 1 = 17\nFinal: 173", "answer": "173", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "107 + 66 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 174", "answer": "174", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 5 = 30", "answer": "5", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 3 = 15", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 736 - 655?", "answer": "81", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 736 - 655?", "answer": "81", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 71 + 182 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 253", "answer": "253", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 71 + 182 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 255", "answer": "255", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 59 + 22 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 81", "answer": "81", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 59 + 22 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 80", "answer": "80", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 2 = 23", "answer": "7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 1 = 9", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 95 ÷ 3. Give quotient and remainder.", "answer": "31 R2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 95 ÷ 3. Give quotient and remainder.", "answer": "32 R2", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 15 × 3 step-by-step.", "answer": "45", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 15 × 3 step-by-step.", "answer": "48", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 80 ÷ 9. Give quotient and remainder.", "answer": "8 R8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 80 ÷ 9. Give quotient and remainder.", "answer": "9 R8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 1 = 15", "answer": "7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 3 = 18", "answer": "4", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 6 × 8 step-by-step.", "answer": "48", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 6 × 8 step-by-step.", "answer": "84", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 948 - 546?", "answer": "402", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 948 - 546?", "answer": "403", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 12 × 4 step-by-step.", "answer": "48", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 12 × 4 step-by-step.", "answer": "52", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "16", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 3", "answer": "13", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 2 = 12", "answer": "2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 2 = 29", "answer": "8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 8", "answer": "32", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 3", "answer": "13", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 193 ÷ 2. Give quotient and remainder.", "answer": "96 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 193 ÷ 2. Give quotient and remainder.", "answer": "95 R1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 176 + 135 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 311", "answer": "311", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 176 + 135 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 313", "answer": "313", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 121 + 55 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 176", "answer": "176", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 121 + 55 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 177", "answer": "177", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 2", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "29", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 864 - 586?", "answer": "278", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 864 - 586?", "answer": "872", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 2 = 22", "answer": "5", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 2 = 14", "answer": "4", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 20 × 12 step-by-step.", "answer": "240", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 20 × 12 step-by-step.", "answer": "252", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "24", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 3", "answer": "15", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 119 ÷ 13. Give quotient and remainder.", "answer": "9 R2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 119 ÷ 13. Give quotient and remainder.", "answer": "9 R1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 22 + 26 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 48", "answer": "48", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 22 + 26 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 49", "answer": "49", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 174 ÷ 13. Give quotient and remainder.", "answer": "13 R5", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 174 ÷ 13. Give quotient and remainder.", "answer": "12 R5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 16 × 17 step-by-step.", "answer": "272", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 16 × 17 step-by-step.", "answer": "289", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 689 - 677?", "answer": "12", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 689 - 677?", "answer": "11", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 66 ÷ 9. Give quotient and remainder.", "answer": "7 R3", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 66 ÷ 9. Give quotient and remainder.", "answer": "8 R3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 5 = 35", "answer": "6", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 3 = 19", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 2", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 8", "answer": "24", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 9 × 23 step-by-step.", "answer": "207", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 9 × 23 step-by-step.", "answer": "230", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 544 - 388?", "answer": "156", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 544 - 388?", "answer": "157", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 3 = 28", "answer": "5", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 4 = 13", "answer": "2", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 146 ÷ 13. Give quotient and remainder.", "answer": "11 R3", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 146 ÷ 13. Give quotient and remainder.", "answer": "12 R3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 609 - 158?", "answer": "451", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 609 - 158?", "answer": "154", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 192 ÷ 12. Give quotient and remainder.", "answer": "16 R0", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 192 ÷ 12. Give quotient and remainder.", "answer": "16 R0", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "28", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "30", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 26 + 179 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 205", "answer": "205", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 26 + 179 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 204", "answer": "204", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 113 + 159 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 272", "answer": "272", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 113 + 159 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 274", "answer": "274", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 130 + 189 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 319", "answer": "319", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 130 + 189 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 318", "answer": "318", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "16", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 8", "answer": "33", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 2 = 18", "answer": "8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 1 = 25", "answer": "7", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 5 = 13", "answer": "2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 4 = 16", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 3 = 17", "answer": "7", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 3 = 33", "answer": "5", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "76 + 116 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 6 + 6 = 12 → write 2, carry 1\nTens: 7 + 11 + 1 = 19\nFinal: 192", "answer": "192", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "76 + 116 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 191", "answer": "191", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "40 + 100 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 0 + 0 = 0 → write 0, carry 0\nTens: 4 + 10 + 0 = 14\nFinal: 140", "answer": "140", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "40 + 100 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 139", "answer": "139", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 135 and 56.", "answer": ">", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compare 135 and 56.", "answer": "<", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 159 + 20 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 179", "answer": "179", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 159 + 20 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 181", "answer": "181", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 1 = 37", "answer": "9", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 2x + 5 = 19", "answer": "8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 17 × 22 step-by-step.", "answer": "374", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 17 × 22 step-by-step.", "answer": "396", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "95 + 50 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 5 + 0 = 5 → write 5, carry 0\nTens: 9 + 5 + 0 = 14\nFinal: 145", "answer": "145", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "95 + 50 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 145 → Actually: 143", "answer": "143", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "24", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 6", "answer": "30", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 18 step-by-step.", "answer": "126", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 7 × 18 step-by-step.", "answer": "144", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 16 × 8 step-by-step.", "answer": "128", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 16 × 8 step-by-step.", "answer": "129", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 112 ÷ 9. Give quotient and remainder.", "answer": "12 R4", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 112 ÷ 9. Give quotient and remainder.", "answer": "12 R3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 3 = 9", "answer": "2", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 5 = 50", "answer": "8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 74 + 136 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 210", "answer": "210", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 74 + 136 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 209", "answer": "209", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 14 × 15 step-by-step.", "answer": "210", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 14 × 15 step-by-step.", "answer": "209", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 14 × 18 step-by-step.", "answer": "252", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 14 × 18 step-by-step.", "answer": "252", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "61 + 97 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 7 = 8 → write 8, carry 0\nTens: 6 + 9 + 0 = 15\nFinal: 158", "answer": "158", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "61 + 97 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 157", "answer": "157", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 128 + 74 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 202", "answer": "202", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 128 + 74 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 203", "answer": "203", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 6 × 23 step-by-step.", "answer": "138", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 6 × 23 step-by-step.", "answer": "161", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 88 ÷ 7. Give quotient and remainder.", "answer": "12 R4", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 88 ÷ 7. Give quotient and remainder.", "answer": "12 R3", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 9", "answer": "36", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "21", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "141 + 66 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 6 = 7 → write 7, carry 0\nTens: 14 + 6 + 0 = 20\nFinal: 207", "answer": "207", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "141 + 66 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 207 → Actually: 209", "answer": "209", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "28", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "12", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 52 ÷ 7. Give quotient and remainder.", "answer": "7 R3", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 52 ÷ 7. Give quotient and remainder.", "answer": "7 R2", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "169 + 172 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 9 + 2 = 11 → write 1, carry 1\nTens: 16 + 17 + 1 = 34\nFinal: 341", "answer": "341", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "169 + 172 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 9 + 2 = 11 → carry 0\nTens: 16 + 17 + 0 = 33\nFinal: 331", "answer": "331", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 11 × 7 step-by-step.", "answer": "77", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 11 × 7 step-by-step.", "answer": "84", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 16 × 11 step-by-step.", "answer": "176", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 16 × 11 step-by-step.", "answer": "177", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 91 + 117 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 208", "answer": "208", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 91 + 117 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 209", "answer": "209", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 136 ÷ 15. Give quotient and remainder.", "answer": "9 R1", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 136 ÷ 15. Give quotient and remainder.", "answer": "8 R1", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 46 + 64 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 110", "answer": "110", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 46 + 64 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 108", "answer": "108", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 4", "answer": "16", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 7", "answer": "29", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 5 = 17", "answer": "4", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 5x + 3 = 28", "answer": "6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 10 × 14 step-by-step.", "answer": "140", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 10 × 14 step-by-step.", "answer": "139", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 44 ÷ 9. Give quotient and remainder.", "answer": "4 R8", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 44 ÷ 9. Give quotient and remainder.", "answer": "5 R8", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 8", "answer": "32", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Simplify: 2x + 3x - 9", "answer": "37", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 6 × 11 step-by-step.", "answer": "66", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Compute 6 × 11 step-by-step.", "answer": "77", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 622 - 193?", "answer": "429", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "What is 622 - 193?", "answer": "924", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 3x + 2 = 14", "answer": "4", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Solve: 4x + 3 = 31", "answer": "6", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "181 + 62 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nOnes: 1 + 2 = 3 → write 3, carry 0\nTens: 18 + 6 + 0 = 24\nFinal: 243", "answer": "243", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "181 + 62 = ?\nStep 1: Add ones digits.\nStep 2: Add tens digits with carry.\nStep 3: Combine for final result.\nFinal: 242", "answer": "242", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 117 + 143 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 260", "answer": "260", "label": 0, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}
+{"question": "Let's solve 117 + 143 carefully.\nBreak into tens and ones.\nAdd ones, then tens, then combine.\nFinal: 262", "answer": "262", "label": 1, "domain": "math", "meta": {"category": "Math-Synthetic-v3", "source": "math_synthetic_v3"}}

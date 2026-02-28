@@ -1,0 +1,18 @@
+{
+  "n_samples": 7454,
+  "hallucination_rate": 0.5,
+  "domain_counts": {
+    "math": 3032,
+    "real_world": 2003,
+    "code": 2419
+  },
+  "source_breakdown": {
+    "math_base": 2432,
+    "math_synthetic_v2": 600,
+    "real_world_base": 2003,
+    "code_base": 2419
+  },
+  "timestamp": 1771156470.9414232,
+  "version": "v1.0_production",
+  "data_source": "fresh_generated"
+}

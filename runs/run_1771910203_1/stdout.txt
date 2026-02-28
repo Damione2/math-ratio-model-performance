@@ -1,0 +1,416 @@
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+✅ SUCCESS: Unsloth RMS kernel patched for Windows compatibility
+
+🔁 Overriding SEED -> 42
+🔁 Recording LLM name in env: AB_LLM=Qwen2.5-Math-1.5B
+🔁 Using explicit output directory override: runs\run_1771910203_1
+
+[96m================================================================================[0m
+[96m🕷️ STEP 4: SPIDER-NATIVE LIVE TRAINING[0m
+[96m================================================================================[0m
+🕸️ Loading raw data for live feature extraction...
+✅ Data paths ready: train=02_train.pkl, val=02_val.pkl
+🕷️ Building Spider-Native GuardianVisionNet with Molecular Clocks...
+⚠️  Skipping torch.compile (Windows stability)
+✅ Model built with 532,577 parameters
+   Fast components: 3 groups, LR=0.002
+   Slow components: 4 groups, LR=0.00015
+
+[93m================================================================================[0m
+[93m🕷️ SPIDER-NATIVE CO-EVOLUTIONARY TRAINING v17.0[0m
+[93mBatch Size: 512 | Device: cuda[0m
+[93m================================================================================[0m
+
+   Domain Weight: 0.1 | Balance Weight: 5.0 | Entropy Weight: 0.001
+   Math Loss Multiplier: 3.5x
+🚀 Starting fresh training from epoch 0
+
+[93m================================================================================[0m
+[93m🧬 PHASE 1: ROUTER EVOLUTION (Pretraining)[0m
+[93m================================================================================[0m
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+  → Domain Loss: 1.0839 | Entropy: 1.093
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+  → Domain Loss: 1.0467 | Entropy: 1.092
+[92m✅ Router evolved. Starting adaptive phase...[0m
+[93m================================================================================[0m
+
+
+Epoch  Train     Vib     Dom     Bal     Ent     Val Acc  Val F1   Val ECE  Status
+------------------------------------------------------------------------------------------
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=77.89%, conf=0.56, n=199
+[Val] math        : acc=61.67%, conf=0.56, n=240
+[Val] code        : acc=60.74%, conf=0.56, n=242
+  0 0.0157    -0.013  0.000   0.000   0.000   0.6608   0.5730   0.1353   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=77.89%, conf=0.65, n=199
+[Val] math        : acc=61.67%, conf=0.65, n=240
+[Val] code        : acc=77.69%, conf=0.65, n=242
+  1 0.0146    -0.016  0.000   0.000   0.000   0.7210   0.6735   0.1851   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=81.91%, conf=0.72, n=199
+[Val] math        : acc=61.67%, conf=0.72, n=240
+[Val] code        : acc=99.59%, conf=0.72, n=242
+  2 0.0125    -0.021  0.000   0.000   0.000   0.8106   0.7923   0.2463   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=79.40%, conf=0.76, n=199
+[Val] math        : acc=61.67%, conf=0.76, n=240
+[Val] code        : acc=91.74%, conf=0.76, n=242
+  3 0.0094    -0.025  0.000   0.000   0.000   0.7753   0.7097   0.1927   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=97.49%, conf=0.75, n=199
+[Val] math        : acc=49.58%, conf=0.75, n=240
+[Val] code        : acc=98.76%, conf=0.75, n=242
+  4 0.0114    -0.026  0.000   0.000   0.000   0.8106   0.8031   0.2528   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=98.49%, conf=0.79, n=199
+[Val] math        : acc=61.67%, conf=0.79, n=240
+[Val] code        : acc=97.11%, conf=0.79, n=242
+  5 0.0090    -0.026  0.000   0.000   0.000   0.8502   0.8235   0.2417   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.84, n=199
+[Val] math        : acc=61.67%, conf=0.84, n=240
+[Val] code        : acc=100.00%, conf=0.84, n=242
+  6 0.0077    -0.025  0.000   0.000   0.000   0.8649   0.8435   0.2315   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=98.49%, conf=0.86, n=199
+[Val] math        : acc=61.67%, conf=0.86, n=240
+[Val] code        : acc=100.00%, conf=0.86, n=242
+  7 0.0068    -0.023  0.000   0.000   0.000   0.8605   0.8376   0.2052   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.88, n=199
+[Val] math        : acc=61.67%, conf=0.88, n=240
+[Val] code        : acc=100.00%, conf=0.88, n=242
+  8 0.0065    -0.021  0.000   0.000   0.000   0.8649   0.8435   0.1942   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.88, n=199
+[Val] math        : acc=61.67%, conf=0.88, n=240
+[Val] code        : acc=100.00%, conf=0.88, n=242
+  9 0.0061    -0.020  0.000   0.000   0.000   0.8649   0.8435   0.1876   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.88, n=199
+[Val] math        : acc=61.67%, conf=0.88, n=240
+[Val] code        : acc=100.00%, conf=0.88, n=242
+ 10 0.0061    -0.020  0.000   0.000   0.000   0.8649   0.8435   0.1885   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.89, n=199
+[Val] math        : acc=61.67%, conf=0.89, n=240
+[Val] code        : acc=100.00%, conf=0.89, n=242
+ 11 0.0059    -0.020  0.000   0.000   0.000   0.8649   0.8435   0.1837   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=61.67%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 12 0.0060    -0.019  0.000   0.000   0.000   0.8649   0.8435   0.1850   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=99.50%, conf=0.90, n=199
+[Val] math        : acc=61.67%, conf=0.90, n=240
+[Val] code        : acc=99.59%, conf=0.90, n=242
+ 13 0.0060    -0.019  0.000   0.000   0.000   0.8620   0.8396   0.1867   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.92, n=199
+[Val] math        : acc=61.67%, conf=0.92, n=240
+[Val] code        : acc=100.00%, conf=0.92, n=242
+ 14 0.0061    -0.020  0.000   0.000   0.000   0.8649   0.8435   0.1977   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.92, n=199
+[Val] math        : acc=61.67%, conf=0.92, n=240
+[Val] code        : acc=100.00%, conf=0.92, n=242
+ 15 0.0059    -0.019  0.000   0.000   0.000   0.8649   0.8435   0.1911   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.92, n=199
+[Val] math        : acc=62.92%, conf=0.92, n=240
+[Val] code        : acc=100.00%, conf=0.92, n=242
+ 16 0.0058    -0.018  0.000   0.000   0.000   0.8693   0.8494   0.1914   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=67.92%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 17 0.0055    -0.019  0.000   0.000   0.000   0.8869   0.8731   0.2043   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.92, n=199
+[Val] math        : acc=66.67%, conf=0.92, n=240
+[Val] code        : acc=100.00%, conf=0.92, n=242
+ 18 0.0054    -0.018  0.000   0.000   0.000   0.8825   0.8667   0.1887   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=68.33%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 19 0.0051    -0.018  0.000   0.000   0.000   0.8884   0.8750   0.1993   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=68.75%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 20 0.0049    -0.018  0.000   0.000   0.000   0.8899   0.8764   0.1971   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.92, n=199
+[Val] math        : acc=67.50%, conf=0.92, n=240
+[Val] code        : acc=100.00%, conf=0.92, n=242
+ 21 0.0047    -0.017  0.000   0.000   0.000   0.8855   0.8704   0.1863   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.92, n=199
+[Val] math        : acc=68.75%, conf=0.92, n=240
+[Val] code        : acc=100.00%, conf=0.92, n=242
+ 22 0.0048    -0.018  0.000   0.000   0.000   0.8899   0.8764   0.1972   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=68.75%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 23 0.0047    -0.017  0.000   0.000   0.000   0.8899   0.8760   0.1924   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=70.00%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 24 0.0046    -0.017  0.000   0.000   0.000   0.8943   0.8816   0.1952   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.92, n=199
+[Val] math        : acc=69.17%, conf=0.92, n=240
+[Val] code        : acc=100.00%, conf=0.92, n=242
+ 25 0.0045    -0.017  0.000   0.000   0.000   0.8913   0.8779   0.1873   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=69.58%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 26 0.0044    -0.017  0.000   0.000   0.000   0.8928   0.8797   0.1893   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=70.00%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 27 0.0044    -0.017  0.000   0.000   0.000   0.8943   0.8816   0.1867   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=70.42%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 28 0.0044    -0.017  0.000   0.000   0.000   0.8957   0.8834   0.1889   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=69.58%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 29 0.0043    -0.017  0.000   0.000   0.000   0.8928   0.8809   0.1849   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=68.75%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 30 0.0043    -0.017  0.000   0.000   0.000   0.8899   0.8780   0.1811   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=69.58%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 31 0.0043    -0.017  0.000   0.000   0.000   0.8928   0.8797   0.1798   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=70.00%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 32 0.0043    -0.017  0.000   0.000   0.000   0.8943   0.8824   0.1850   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=69.17%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 33 0.0043    -0.017  0.000   0.000   0.000   0.8913   0.8799   0.1844   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=69.58%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 34 0.0043    -0.017  0.000   0.000   0.000   0.8928   0.8797   0.1783   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.00%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 35 0.0043    -0.017  0.000   0.000   0.000   0.8943   0.8824   0.1839   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=70.00%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 36 0.0043    -0.017  0.000   0.000   0.000   0.8943   0.8824   0.1817   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=70.00%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 37 0.0042    -0.017  0.000   0.000   0.000   0.8943   0.8824   0.1813   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=69.58%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 38 0.0042    -0.017  0.000   0.000   0.000   0.8928   0.8809   0.1792   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=69.58%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 39 0.0042    -0.017  0.000   0.000   0.000   0.8928   0.8813   0.1790   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.00%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 40 0.0042    -0.017  0.000   0.000   0.000   0.8943   0.8824   0.1797   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=69.17%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 41 0.0042    -0.016  0.000   0.000   0.000   0.8913   0.8783   0.1740   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.83%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 42 0.0043    -0.017  0.000   0.000   0.000   0.8972   0.8860   0.1840   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.42%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 43 0.0042    -0.017  0.000   0.000   0.000   0.8957   0.8842   0.1812   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=69.58%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 44 0.0041    -0.017  0.000   0.000   0.000   0.8928   0.8817   0.1781   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=69.58%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 45 0.0042    -0.017  0.000   0.000   0.000   0.8928   0.8805   0.1772   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=69.58%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 46 0.0042    -0.017  0.000   0.000   0.000   0.8928   0.8809   0.1768   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.00%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 47 0.0041    -0.017  0.000   0.000   0.000   0.8943   0.8827   0.1784   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.00%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 48 0.0041    -0.017  0.000   0.000   0.000   0.8943   0.8824   0.1780   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.42%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 49 0.0042    -0.017  0.000   0.000   0.000   0.8957   0.8846   0.1792   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.42%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 50 0.0041    -0.017  0.000   0.000   0.000   0.8957   0.8842   0.1788   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=69.58%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 51 0.0041    -0.017  0.000   0.000   0.000   0.8928   0.8817   0.1765   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.91, n=199
+[Val] math        : acc=70.00%, conf=0.91, n=240
+[Val] code        : acc=100.00%, conf=0.91, n=242
+ 52 0.0041    -0.017  0.000   0.000   0.000   0.8943   0.8824   0.1769   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.42%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 53 0.0041    -0.017  0.000   0.000   0.000   0.8957   0.8846   0.1785   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.00%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 54 0.0041    -0.017  0.000   0.000   0.000   0.8943   0.8831   0.1768   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.83%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 55 0.0040    -0.017  0.000   0.000   0.000   0.8972   0.8860   0.1796   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.42%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 56 0.0041    -0.017  0.000   0.000   0.000   0.8957   0.8846   0.1781   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.42%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 57 0.0041    -0.017  0.000   0.000   0.000   0.8957   0.8846   0.1778   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=70.42%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 58 0.0041    -0.017  0.000   0.000   0.000   0.8957   0.8846   0.1772   ⏳
+✅ Fast-Load Map Ready: train | Samples: 5468 | Shape: (5468, 29, 8, 1536)
+✅ Fast-Load Map Ready: val | Samples: 681 | Shape: (681, 29, 8, 1536)
+[Val] real_world  : acc=100.00%, conf=0.90, n=199
+[Val] math        : acc=69.58%, conf=0.90, n=240
+[Val] code        : acc=100.00%, conf=0.90, n=242
+ 59 0.0041    -0.017  0.000   0.000   0.000   0.8928   0.8817   0.1749   ⏳
+
+================================================================================
+[92m✅ Training complete! Best F1: 0.8860[0m
+Model: C:\guardian_artifacts\guardian_spider_native.pth
+Checkpoint: C:\guardian_artifacts\guardian_spider_native_full.pth
+================================================================================
+
+
+📁 Copying small artifacts to experiment folder: runs\run_1771910203_1
+✅ Wrote metrics.json to runs\run_1771910203_1\metrics.json
+DEBUG: metrics written to: runs\run_1771910203_1\metrics.json
+DEBUG: exp_dir: runs\run_1771910203_1, ARTIFACTS_DIR: C:\guardian_artifacts
+🔁 Creating C: snapshot for run id: 1771910203_1 (including extra_files: ['runs\\run_1771910203_1\\metrics.json'])
+✅ Snapshot created at: C:\guardian_runs\1771910203_1\artifacts_snapshot
+✅ Artifacts copied to runs\run_1771910203_1

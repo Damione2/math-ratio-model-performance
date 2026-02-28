@@ -1,0 +1,15 @@
+# scripts/plot_bootstrap_ci.py
+import numpy as np, matplotlib.pyplot as plt
+slopes = np.loadtxt("experiments/bootstrap_slopes_direct.txt")
+plt.figure(figsize=(6,3))
+plt.hist(slopes, bins=50, color='#4c72b0', alpha=0.9)
+ci = np.percentile(slopes, [2.5,97.5])
+plt.axvline(ci[0], color='k', linestyle='--')
+plt.axvline(ci[1], color='k', linestyle='--')
+plt.axvline(np.median(slopes), color='red', linestyle='-')
+plt.title('Bootstrap distribution of slope (math_ratio -> best_f1)')
+plt.xlabel('slope per fraction unit')
+plt.ylabel('count')
+plt.tight_layout()
+plt.savefig('experiments/plots/bootstrap_slope_distribution.png', dpi=200)
+print('Saved experiments/plots/bootstrap_slope_distribution.png')

@@ -1,0 +1,1 @@
+{'math_col': 'math_ratio', 'best_col': 'best_f1', 'n': 52, 'slope': -0.23634852440708043, 'slope_se': 0.01774203441595152, 'pvalue': 1.7384510551293376e-40}

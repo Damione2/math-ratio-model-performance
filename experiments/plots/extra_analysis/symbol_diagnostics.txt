@@ -1,0 +1,9 @@
+{
+  "n_total": 63,
+  "mean_symbol_score": 0.9682539682539683,
+  "pct_has_symbol": 0.9682539682539683,
+  "mean_f1_symbol": 0.9182468267000834,
+  "mean_f1_no_symbol": 0.9622893587143081,
+  "count_symbol": 61,
+  "count_no_symbol": 2
+}

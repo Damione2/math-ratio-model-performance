@@ -1,0 +1,15 @@
+{
+  "math_ratio": 100.0,
+  "seed": 2,
+  "llm": "unsloth/Qwen2.5-Coder-1.5B",
+  "out_dir": "D:\\guardian_project\\experiments\\Qwen2.5-Coder-1.5B\\math_100_seed2",
+  "started_at": "2026-02-17T18:18:40.471115Z",
+  "python": "C:\\DeepLearningProjects\\TRM_Psychology\\TinyRecursiveModels\\venv\\Scripts\\python.exe",
+  "artifacts": {
+    "training_summary.json": "D:\\guardian_project\\experiments\\Qwen2.5-Coder-1.5B\\math_100_seed2\\training_summary.json",
+    "training_log.csv": "D:\\guardian_project\\experiments\\Qwen2.5-Coder-1.5B\\math_100_seed2\\training_log.csv",
+    "guardian_spider_native.pth": "D:\\guardian_project\\experiments\\Qwen2.5-Coder-1.5B\\math_100_seed2\\guardian_spider_native.pth",
+    "guardian_spider_native_full.pth": "D:\\guardian_project\\experiments\\Qwen2.5-Coder-1.5B\\math_100_seed2\\guardian_spider_native_full.pth"
+  },
+  "finished_at": "2026-02-17T19:23:23.238063Z"
+}

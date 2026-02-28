@@ -1,0 +1,2355 @@
+
+===== START math_25 Sat Feb 14 10:53:09 2026 =====
+
+$ "C:\DeepLearningProjects\TRM_Psychology\TinyRecursiveModels\venv\Scripts\python.exe" -m pipeline.guardian_pipeline_master --step 1 --count 9000 --use-adv-math --reduce-math --math-keep-ratio 0.25
+W0214 10:53:21.566000 15956 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+✅ SUCCESS: Unsloth RMS kernel patched for Windows compatibility
+
+[1m🕷️ SPIDER-NATIVE PIPELINE - STEP 1[0m
+
+[96m================================================================================[0m
+[96m🕷️ STEP 1: SPIDER-NATIVE DATA GENERATION[0m
+[96m================================================================================[0m
+   Target base samples: 9000
+   Math synthetic v2 pairs: 300
+   Use adversarial math: True
+   Generator Compliance: ENABLED
+
+[93m⚠️  Generating fresh data (9000 base samples)...[0m
+🧹 Purging C:\guardian_artifacts...
+✓ Purge complete
+
+================================================================================
+Generating 9000 base samples + 0 seeds (seed=42)...
+Target overall hallucination rate: 50%
+  → Using default hallucination rate: 0.5
+
+================================================================================
+Phase 1: Generating base samples with rate verification...
+================================================================================
+
+[DOMAIN: MATH | Target: 3000 samples | Rate: 50.00%]
+
+MATH      :   0%|          | 0/3000 [00:00<?, ?sample/s]
+MATH      : 100%|##########| 3000/3000 [00:00<00:00, 181676.47sample/s]
+
+[DOMAIN: CODE | Target: 3000 samples | Rate: 50.00%]
+
+CODE      :   0%|          | 0/3000 [00:00<?, ?sample/s]
+CODE      : 100%|##########| 3000/3000 [00:00<00:00, 117525.91sample/s]
+
+[DOMAIN: REAL | Target: 3000 samples | Rate: 50.00%]
+
+REAL      :   0%|          | 0/3000 [00:00<?, ?sample/s]
+REAL      : 100%|##########| 3000/3000 [00:00<00:00, 79757.82sample/s]
+
+================================================================================
+Phase 1 Complete: Generator Compliance Report
+================================================================================
+  MATH        :  1513/ 3000 = 50.43% (expected 50.00%)
+  CODE        :  1500/ 3000 = 50.00% (expected 50.00%)
+  REAL        :  2560/ 3000 = 85.33% (expected 50.00%)
+     ⚠️  WARNING: Deviation of 35.33% detected!
+  OVERALL     :  5573/ 9000 = 61.92%
+
+================================================================================
+Phase 3: Post-hoc balancing to enforce 50% hallucination rate...
+================================================================================
+  Before balancing: 3427 valid, 5573 hallucination
+  → Downsampled hallucination to 3427
+  After balancing: 6854 total samples (50% hallucination rate)
+
+✅ Dataset generation complete:
+   Total samples: 6854
+   Domain distribution: {'math': 2432, 'code': 2419, 'real_world': 2003}
+   Label distribution: {0: 3427, 1: 3427} (Perfect 50% balance)
+
+🔍 Validating base_dataset...
+  ✅ Validated: 6854/6854 samples
+  🔧 Fixed 6854 corrupted meta fields
+
+⚠️ ABLATION: Reducing math samples to 25%
+   → Math reduced to 608 samples
+   → New dataset size: 5030
+
+🔢 Adding math synthetic v2 (300 pairs)...
+   Added 600 v2 samples
+
+🔢 Adding adversarial math sources...
+
+============================================================
+GENERATING ADVERSARIAL MATH SOURCES
+============================================================
+  Generating 500 math_synthetic_v3 samples...
+  ✅ v3: 600 samples
+  Generating 500 math_synthetic_v4 samples...
+  ✅ v4: 1000 samples
+  Generating 400 math_long_cot_v2 samples...
+  ✅ long_cot: 800 samples
+  Generating 600 math_adversarial_v2 samples...
+  ✅ adversarial: 1200 samples
+  Generating 300 math_equation_systems_v1 samples...
+  ✅ eqsys: 600 samples
+
+============================================================
+SAVING MERGED OUTPUT
+============================================================
+  JSONL: data\adv_math_merged.jsonl (4200 samples)
+  Pickle: data\adv_math_merged.pkl
+
+  Source breakdown:
+    math_adversarial_v2: 1200
+    math_equation_systems_v1: 600
+    math_long_cot_v2: 800
+    math_synthetic_v3: 600
+    math_synthetic_v4: 1000
+
+  Label distribution: {0: 2100, 1: 2100}
+
+🔍 Validating adversarial_math...
+  ✅ Validated: 4200/4200 samples
+   Added 4200 adversarial samples
+
+================================================================================
+Phase: Post-hoc balancing to enforce 50% hallucination rate...
+================================================================================
+  Before balancing: 4716 valid, 5114 hallucination
+  → Downsampled hallucination to 4716
+  After balancing: 9432 total samples (50% hallucination rate)
+
+🔍 Validating final_dataset...
+  ✅ Validated: 9432/9432 samples
+
+🔍 Validating 01_raw_data.pkl...
+  ✅ Validated: 9432/9432 samples
+  💾 Saved: C:\guardian_artifacts\01_raw_data.pkl (9432 samples)
+
+✅ Step 1 complete: 9,432 samples
+   Domains: {'math': 5196, 'code': 2345, 'real_world': 1891}
+   Sources: {'math_long_cot_v2': 768, 'code_base': 2345, 'math_adversarial_v2': 1156, 'math_equation_systems_v1': 574, 'real_world_base': 1891, 'math_synthetic_v4': 963, 'math_base': 591, 'math_synthetic_v3': 569, 'math_synthetic_v2': 575}
+
+$ "C:\DeepLearningProjects\TRM_Psychology\TinyRecursiveModels\venv\Scripts\python.exe" -m pipeline.guardian_pipeline_master --step 2
+W0214 10:53:35.464000 13796 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+✅ SUCCESS: Unsloth RMS kernel patched for Windows compatibility
+
+[1m🕷️ SPIDER-NATIVE PIPELINE - STEP 2[0m
+
+[96m================================================================================[0m
+[96m🕷️ STEP 2: STRATIFIED SPLITTING (80/10/10)[0m
+[96m================================================================================[0m
+  📂 Loaded: C:\guardian_artifacts\01_raw_data.pkl (9432 samples)
+
+🔍 Validating 01_raw_data.pkl...
+  ✅ Validated: 9432/9432 samples
+Creating stratification groups...
+Splitting 6 stratification groups...
+
+🔍 Validating train_split...
+  ✅ Validated: 7548/7548 samples
+
+🔍 Validating 02_train.pkl...
+  ✅ Validated: 7548/7548 samples
+  💾 Saved: C:\guardian_artifacts\02_train.pkl (7548 samples)
+  → train :  7548 samples, hallu=50.0%, domains={'math': 4158, 'code': 1877, 'real_world': 1513}
+
+🔍 Validating val_split...
+  ✅ Validated: 942/942 samples
+
+🔍 Validating 02_val.pkl...
+  ✅ Validated: 942/942 samples
+  💾 Saved: C:\guardian_artifacts\02_val.pkl (942 samples)
+  → val   :   942 samples, hallu=50.0%, domains={'math': 519, 'code': 234, 'real_world': 189}
+
+🔍 Validating test_split...
+  ✅ Validated: 942/942 samples
+
+🔍 Validating 02_test.pkl...
+  ✅ Validated: 942/942 samples
+  💾 Saved: C:\guardian_artifacts\02_test.pkl (942 samples)
+  → test  :   942 samples, hallu=50.0%, domains={'math': 519, 'code': 234, 'real_world': 189}
+✅ Splits saved
+
+$ "C:\DeepLearningProjects\TRM_Psychology\TinyRecursiveModels\venv\Scripts\python.exe" -m pipeline.guardian_pipeline_master --step 3
+W0214 10:53:47.363000 21756 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+`torch_dtype` is deprecated! Use `dtype` instead!
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+✅ SUCCESS: Unsloth RMS kernel patched for Windows compatibility
+
+[1m🕷️ SPIDER-NATIVE PIPELINE - STEP 3[0m
+
+[96m================================================================================[0m
+[96m🕷️ STEP 3: SPIDER-TRIANGULATION EXTRACTION[0m
+[96m================================================================================[0m
+  → Extracting train split...
+📂 Loading raw data from C:\guardian_artifacts\02_train.pkl...
+🕷️ Preparing to spin web for train split: 7548 samples.
+👁️ Loading unsloth/Qwen2.5-1.5B for sensory extraction...
+🧮 Preparing to collect feature statistics for scaler...
+🚀 Starting 8-Legged Triangulation Extraction for train...
+
+Extracting train:   0%|          | 0/472 [00:00<?, ?it/s]
+Extracting train:   0%|          | 1/472 [00:05<44:34,  5.68s/it]
+Extracting train:   0%|          | 2/472 [00:10<40:45,  5.20s/it]
+Extracting train:   1%|          | 3/472 [00:15<39:32,  5.06s/it]
+Extracting train:   1%|          | 4/472 [00:20<38:33,  4.94s/it]
+Extracting train:   1%|          | 5/472 [00:25<38:19,  4.92s/it]
+Extracting train:   1%|▏         | 6/472 [00:29<38:07,  4.91s/it]
+Extracting train:   1%|▏         | 7/472 [00:34<38:00,  4.90s/it]
+Extracting train:   2%|▏         | 8/472 [00:39<37:45,  4.88s/it]
+Extracting train:   2%|▏         | 9/472 [00:44<37:33,  4.87s/it]
+Extracting train:   2%|▏         | 10/472 [00:49<37:32,  4.88s/it]
+Extracting train:   2%|▏         | 11/472 [00:54<37:28,  4.88s/it]
+Extracting train:   3%|▎         | 12/472 [00:59<37:14,  4.86s/it]
+Extracting train:   3%|▎         | 13/472 [01:04<37:15,  4.87s/it]
+Extracting train:   3%|▎         | 14/472 [01:08<37:12,  4.87s/it]
+Extracting train:   3%|▎         | 15/472 [01:13<37:10,  4.88s/it]
+Extracting train:   3%|▎         | 16/472 [01:18<37:03,  4.88s/it]
+Extracting train:   4%|▎         | 17/472 [01:23<37:05,  4.89s/it]
+Extracting train:   4%|▍         | 18/472 [01:28<37:01,  4.89s/it]
+Extracting train:   4%|▍         | 19/472 [01:33<36:58,  4.90s/it]
+Extracting train:   4%|▍         | 20/472 [01:38<36:53,  4.90s/it]
+Extracting train:   4%|▍         | 21/472 [01:43<36:52,  4.91s/it]
+Extracting train:   5%|▍         | 22/472 [01:48<36:49,  4.91s/it]
+Extracting train:   5%|▍         | 23/472 [01:53<36:41,  4.90s/it]
+Extracting train:   5%|▌         | 24/472 [01:57<36:33,  4.90s/it]
+Extracting train:   5%|▌         | 25/472 [02:02<36:29,  4.90s/it]
+Extracting train:   6%|▌         | 26/472 [02:07<37:01,  4.98s/it]
+Extracting train:   6%|▌         | 27/472 [02:12<36:41,  4.95s/it]
+Extracting train:   6%|▌         | 28/472 [02:17<36:30,  4.93s/it]
+Extracting train:   6%|▌         | 29/472 [02:22<36:26,  4.94s/it]
+Extracting train:   6%|▋         | 30/472 [02:27<36:18,  4.93s/it]
+Extracting train:   7%|▋         | 31/472 [02:32<36:11,  4.92s/it]
+Extracting train:   7%|▋         | 32/472 [02:37<36:09,  4.93s/it]
+Extracting train:   7%|▋         | 33/472 [02:42<36:07,  4.94s/it]
+Extracting train:   7%|▋         | 34/472 [02:47<36:01,  4.93s/it]
+Extracting train:   7%|▋         | 35/472 [02:52<35:57,  4.94s/it]
+Extracting train:   8%|▊         | 36/472 [02:57<35:48,  4.93s/it]
+Extracting train:   8%|▊         | 37/472 [03:02<35:43,  4.93s/it]
+Extracting train:   8%|▊         | 38/472 [03:07<35:42,  4.94s/it]
+Extracting train:   8%|▊         | 39/472 [03:11<35:33,  4.93s/it]
+Extracting train:   8%|▊         | 40/472 [03:16<35:26,  4.92s/it]
+Extracting train:   9%|▊         | 41/472 [03:21<35:21,  4.92s/it]
+Extracting train:   9%|▉         | 42/472 [03:26<35:19,  4.93s/it]
+Extracting train:   9%|▉         | 43/472 [03:31<35:10,  4.92s/it]
+Extracting train:   9%|▉         | 44/472 [03:36<35:03,  4.91s/it]
+Extracting train:  10%|▉         | 45/472 [03:41<35:01,  4.92s/it]
+Extracting train:  10%|▉         | 46/472 [03:46<34:48,  4.90s/it]
+Extracting train:  10%|▉         | 47/472 [03:51<34:49,  4.92s/it]
+Extracting train:  10%|█         | 48/472 [03:56<34:48,  4.93s/it]
+Extracting train:  10%|█         | 49/472 [04:01<34:43,  4.93s/it]
+Extracting train:  11%|█         | 50/472 [04:06<34:40,  4.93s/it]
+Extracting train:  11%|█         | 51/472 [04:11<35:00,  4.99s/it]
+Extracting train:  11%|█         | 52/472 [04:16<34:46,  4.97s/it]
+Extracting train:  11%|█         | 53/472 [04:21<34:38,  4.96s/it]
+Extracting train:  11%|█▏        | 54/472 [04:26<34:28,  4.95s/it]
+Extracting train:  12%|█▏        | 55/472 [04:30<34:18,  4.94s/it]
+Extracting train:  12%|█▏        | 56/472 [04:35<34:11,  4.93s/it]
+Extracting train:  12%|█▏        | 57/472 [04:40<34:05,  4.93s/it]
+Extracting train:  12%|█▏        | 58/472 [04:45<33:51,  4.91s/it]
+Extracting train:  12%|█▎        | 59/472 [04:50<33:44,  4.90s/it]
+Extracting train:  13%|█▎        | 60/472 [04:55<33:44,  4.91s/it]
+Extracting train:  13%|█▎        | 61/472 [05:00<33:40,  4.92s/it]
+Extracting train:  13%|█▎        | 62/472 [05:05<33:39,  4.93s/it]
+Extracting train:  13%|█▎        | 63/472 [05:10<33:35,  4.93s/it]
+Extracting train:  14%|█▎        | 64/472 [05:15<33:27,  4.92s/it]
+Extracting train:  14%|█▍        | 65/472 [05:20<33:23,  4.92s/it]
+Extracting train:  14%|█▍        | 66/472 [05:25<33:22,  4.93s/it]
+Extracting train:  14%|█▍        | 67/472 [05:29<33:14,  4.92s/it]
+Extracting train:  14%|█▍        | 68/472 [05:34<33:13,  4.93s/it]
+Extracting train:  15%|█▍        | 69/472 [05:39<33:04,  4.92s/it]
+Extracting train:  15%|█▍        | 70/472 [05:44<32:57,  4.92s/it]
+Extracting train:  15%|█▌        | 71/472 [05:49<32:57,  4.93s/it]
+Extracting train:  15%|█▌        | 72/472 [05:54<32:51,  4.93s/it]
+Extracting train:  15%|█▌        | 73/472 [05:59<33:00,  4.96s/it]
+Extracting train:  16%|█▌        | 74/472 [06:04<33:03,  4.98s/it]
+Extracting train:  16%|█▌        | 75/472 [06:09<32:49,  4.96s/it]
+Extracting train:  16%|█▌        | 76/472 [06:14<33:07,  5.02s/it]
+Extracting train:  16%|█▋        | 77/472 [06:19<32:54,  5.00s/it]
+Extracting train:  17%|█▋        | 78/472 [06:24<32:42,  4.98s/it]
+Extracting train:  17%|█▋        | 79/472 [06:29<32:34,  4.97s/it]
+Extracting train:  17%|█▋        | 80/472 [06:34<32:25,  4.96s/it]
+Extracting train:  17%|█▋        | 81/472 [06:39<32:15,  4.95s/it]
+Extracting train:  17%|█▋        | 82/472 [06:44<32:08,  4.95s/it]
+Extracting train:  18%|█▊        | 83/472 [06:49<32:03,  4.94s/it]
+Extracting train:  18%|█▊        | 84/472 [06:54<31:59,  4.95s/it]
+Extracting train:  18%|█▊        | 85/472 [06:59<31:52,  4.94s/it]
+Extracting train:  18%|█▊        | 86/472 [07:04<31:47,  4.94s/it]
+Extracting train:  18%|█▊        | 87/472 [07:09<31:39,  4.93s/it]
+Extracting train:  19%|█▊        | 88/472 [07:14<31:37,  4.94s/it]
+Extracting train:  19%|█▉        | 89/472 [07:18<31:29,  4.93s/it]
+Extracting train:  19%|█▉        | 90/472 [07:23<31:21,  4.93s/it]
+Extracting train:  19%|█▉        | 91/472 [07:28<31:19,  4.93s/it]
+Extracting train:  19%|█▉        | 92/472 [07:33<31:13,  4.93s/it]
+Extracting train:  20%|█▉        | 93/472 [07:38<31:06,  4.93s/it]
+Extracting train:  20%|█▉        | 94/472 [07:43<30:58,  4.92s/it]
+Extracting train:  20%|██        | 95/472 [07:48<30:57,  4.93s/it]
+Extracting train:  20%|██        | 96/472 [07:53<30:52,  4.93s/it]
+Extracting train:  21%|██        | 97/472 [07:58<30:46,  4.93s/it]
+Extracting train:  21%|██        | 98/472 [08:03<30:40,  4.92s/it]
+Extracting train:  21%|██        | 99/472 [08:08<30:35,  4.92s/it]
+Extracting train:  21%|██        | 100/472 [08:13<30:36,  4.94s/it]
+Extracting train:  21%|██▏       | 101/472 [08:18<31:02,  5.02s/it]
+Extracting train:  22%|██▏       | 102/472 [08:23<30:41,  4.98s/it]
+Extracting train:  22%|██▏       | 103/472 [08:28<30:30,  4.96s/it]
+Extracting train:  22%|██▏       | 104/472 [08:33<30:20,  4.95s/it]
+Extracting train:  22%|██▏       | 105/472 [08:37<30:11,  4.94s/it]
+Extracting train:  22%|██▏       | 106/472 [08:42<30:01,  4.92s/it]
+Extracting train:  23%|██▎       | 107/472 [08:47<29:52,  4.91s/it]
+Extracting train:  23%|██▎       | 108/472 [08:52<29:49,  4.92s/it]
+Extracting train:  23%|██▎       | 109/472 [08:57<29:45,  4.92s/it]
+Extracting train:  23%|██▎       | 110/472 [09:02<29:36,  4.91s/it]
+Extracting train:  24%|██▎       | 111/472 [09:07<29:32,  4.91s/it]
+Extracting train:  24%|██▎       | 112/472 [09:12<29:34,  4.93s/it]
+Extracting train:  24%|██▍       | 113/472 [09:17<29:30,  4.93s/it]
+Extracting train:  24%|██▍       | 114/472 [09:22<29:25,  4.93s/it]
+Extracting train:  24%|██▍       | 115/472 [09:27<29:18,  4.92s/it]
+Extracting train:  25%|██▍       | 116/472 [09:32<29:13,  4.93s/it]
+Extracting train:  25%|██▍       | 117/472 [09:37<29:11,  4.93s/it]
+Extracting train:  25%|██▌       | 118/472 [09:41<29:08,  4.94s/it]
+Extracting train:  25%|██▌       | 119/472 [09:46<29:00,  4.93s/it]
+Extracting train:  25%|██▌       | 120/472 [09:51<28:53,  4.92s/it]
+Extracting train:  26%|██▌       | 121/472 [09:56<28:47,  4.92s/it]
+Extracting train:  26%|██▌       | 122/472 [10:01<28:43,  4.92s/it]
+Extracting train:  26%|██▌       | 123/472 [10:06<28:40,  4.93s/it]
+Extracting train:  26%|██▋       | 124/472 [10:11<28:31,  4.92s/it]
+Extracting train:  26%|██▋       | 125/472 [10:16<28:28,  4.92s/it]
+Extracting train:  27%|██▋       | 126/472 [10:21<28:48,  5.00s/it]
+Extracting train:  27%|██▋       | 127/472 [10:26<28:31,  4.96s/it]
+Extracting train:  27%|██▋       | 128/472 [10:31<28:23,  4.95s/it]
+Extracting train:  27%|██▋       | 129/472 [10:36<28:19,  4.95s/it]
+Extracting train:  28%|██▊       | 130/472 [10:41<28:11,  4.95s/it]
+Extracting train:  28%|██▊       | 131/472 [10:46<28:04,  4.94s/it]
+Extracting train:  28%|██▊       | 132/472 [10:51<27:59,  4.94s/it]
+Extracting train:  28%|██▊       | 133/472 [10:56<27:50,  4.93s/it]
+Extracting train:  28%|██▊       | 134/472 [11:00<27:44,  4.92s/it]
+Extracting train:  29%|██▊       | 135/472 [11:05<27:38,  4.92s/it]
+Extracting train:  29%|██▉       | 136/472 [11:10<27:38,  4.94s/it]
+Extracting train:  29%|██▉       | 137/472 [11:15<27:31,  4.93s/it]
+Extracting train:  29%|██▉       | 138/472 [11:20<27:28,  4.94s/it]
+Extracting train:  29%|██▉       | 139/472 [11:25<27:23,  4.94s/it]
+Extracting train:  30%|██▉       | 140/472 [11:30<27:23,  4.95s/it]
+Extracting train:  30%|██▉       | 141/472 [11:35<27:15,  4.94s/it]
+Extracting train:  30%|███       | 142/472 [11:40<27:05,  4.92s/it]
+Extracting train:  30%|███       | 143/472 [11:45<26:58,  4.92s/it]
+Extracting train:  31%|███       | 144/472 [11:50<26:47,  4.90s/it]
+Extracting train:  31%|███       | 145/472 [11:55<26:46,  4.91s/it]
+Extracting train:  31%|███       | 146/472 [12:00<26:41,  4.91s/it]
+Extracting train:  31%|███       | 147/472 [12:04<26:34,  4.91s/it]
+Extracting train:  31%|███▏      | 148/472 [12:09<26:29,  4.91s/it]
+Extracting train:  32%|███▏      | 149/472 [12:14<26:24,  4.90s/it]
+Extracting train:  32%|███▏      | 150/472 [12:19<26:19,  4.91s/it]
+Extracting train:  32%|███▏      | 151/472 [12:24<26:39,  4.98s/it]
+Extracting train:  32%|███▏      | 152/472 [12:29<26:31,  4.97s/it]
+Extracting train:  32%|███▏      | 153/472 [12:34<26:22,  4.96s/it]
+Extracting train:  33%|███▎      | 154/472 [12:39<26:13,  4.95s/it]
+Extracting train:  33%|███▎      | 155/472 [12:44<26:08,  4.95s/it]
+Extracting train:  33%|███▎      | 156/472 [12:49<26:04,  4.95s/it]
+Extracting train:  33%|███▎      | 157/472 [12:54<26:00,  4.95s/it]
+Extracting train:  33%|███▎      | 158/472 [12:59<25:51,  4.94s/it]
+Extracting train:  34%|███▎      | 159/472 [13:04<25:45,  4.94s/it]
+Extracting train:  34%|███▍      | 160/472 [13:09<25:46,  4.96s/it]
+Extracting train:  34%|███▍      | 161/472 [13:14<25:40,  4.95s/it]
+Extracting train:  34%|███▍      | 162/472 [13:19<25:35,  4.95s/it]
+Extracting train:  35%|███▍      | 163/472 [13:24<25:29,  4.95s/it]
+Extracting train:  35%|███▍      | 164/472 [13:29<25:25,  4.95s/it]
+Extracting train:  35%|███▍      | 165/472 [13:34<25:17,  4.94s/it]
+Extracting train:  35%|███▌      | 166/472 [13:38<25:10,  4.94s/it]
+Extracting train:  35%|███▌      | 167/472 [13:43<25:04,  4.93s/it]
+Extracting train:  36%|███▌      | 168/472 [13:48<24:59,  4.93s/it]
+Extracting train:  36%|███▌      | 169/472 [13:53<24:57,  4.94s/it]
+Extracting train:  36%|███▌      | 170/472 [13:58<24:51,  4.94s/it]
+Extracting train:  36%|███▌      | 171/472 [14:03<24:46,  4.94s/it]
+Extracting train:  36%|███▋      | 172/472 [14:08<24:42,  4.94s/it]
+Extracting train:  37%|███▋      | 173/472 [14:13<24:37,  4.94s/it]
+Extracting train:  37%|███▋      | 174/472 [14:18<24:28,  4.93s/it]
+Extracting train:  37%|███▋      | 175/472 [14:23<24:26,  4.94s/it]
+Extracting train:  37%|███▋      | 176/472 [14:28<24:42,  5.01s/it]
+Extracting train:  38%|███▊      | 177/472 [14:33<24:30,  4.98s/it]
+Extracting train:  38%|███▊      | 178/472 [14:38<24:18,  4.96s/it]
+Extracting train:  38%|███▊      | 179/472 [14:43<24:11,  4.95s/it]
+Extracting train:  38%|███▊      | 180/472 [14:48<24:06,  4.96s/it]
+Extracting train:  38%|███▊      | 181/472 [14:53<23:58,  4.94s/it]
+Extracting train:  39%|███▊      | 182/472 [14:58<23:52,  4.94s/it]
+Extracting train:  39%|███▉      | 183/472 [15:03<23:47,  4.94s/it]
+Extracting train:  39%|███▉      | 184/472 [15:08<23:44,  4.95s/it]
+Extracting train:  39%|███▉      | 185/472 [15:13<23:37,  4.94s/it]
+Extracting train:  39%|███▉      | 186/472 [15:17<23:30,  4.93s/it]
+Extracting train:  40%|███▉      | 187/472 [15:22<23:25,  4.93s/it]
+Extracting train:  40%|███▉      | 188/472 [15:27<23:19,  4.93s/it]
+Extracting train:  40%|████      | 189/472 [15:32<23:12,  4.92s/it]
+Extracting train:  40%|████      | 190/472 [15:37<23:06,  4.92s/it]
+Extracting train:  40%|████      | 191/472 [15:42<23:03,  4.92s/it]
+Extracting train:  41%|████      | 192/472 [15:47<22:58,  4.92s/it]
+Extracting train:  41%|████      | 193/472 [15:52<22:57,  4.94s/it]
+Extracting train:  41%|████      | 194/472 [15:57<22:52,  4.94s/it]
+Extracting train:  41%|████▏     | 195/472 [16:02<23:00,  4.98s/it]
+Extracting train:  42%|████▏     | 196/472 [16:07<22:53,  4.98s/it]
+Extracting train:  42%|████▏     | 197/472 [16:12<22:44,  4.96s/it]
+Extracting train:  42%|████▏     | 198/472 [16:17<22:37,  4.96s/it]
+Extracting train:  42%|████▏     | 199/472 [16:22<22:29,  4.94s/it]
+Extracting train:  42%|████▏     | 200/472 [16:27<22:24,  4.94s/it]
+Extracting train:  43%|████▎     | 201/472 [16:32<22:46,  5.04s/it]
+Extracting train:  43%|████▎     | 202/472 [16:37<22:30,  5.00s/it]
+Extracting train:  43%|████▎     | 203/472 [16:42<22:22,  4.99s/it]
+Extracting train:  43%|████▎     | 204/472 [16:47<22:11,  4.97s/it]
+Extracting train:  43%|████▎     | 205/472 [16:52<22:01,  4.95s/it]
+Extracting train:  44%|████▎     | 206/472 [16:57<21:53,  4.94s/it]
+Extracting train:  44%|████▍     | 207/472 [17:01<21:47,  4.93s/it]
+Extracting train:  44%|████▍     | 208/472 [17:06<21:40,  4.93s/it]
+Extracting train:  44%|████▍     | 209/472 [17:11<21:32,  4.92s/it]
+Extracting train:  44%|████▍     | 210/472 [17:16<21:31,  4.93s/it]
+Extracting train:  45%|████▍     | 211/472 [17:21<21:29,  4.94s/it]
+Extracting train:  45%|████▍     | 212/472 [17:26<21:24,  4.94s/it]
+Extracting train:  45%|████▌     | 213/472 [17:31<21:18,  4.94s/it]
+Extracting train:  45%|████▌     | 214/472 [17:36<21:11,  4.93s/it]
+Extracting train:  46%|████▌     | 215/472 [17:41<21:04,  4.92s/it]
+Extracting train:  46%|████▌     | 216/472 [17:46<20:58,  4.92s/it]
+Extracting train:  46%|████▌     | 217/472 [17:51<20:53,  4.91s/it]
+Extracting train:  46%|████▌     | 218/472 [17:56<20:50,  4.92s/it]
+Extracting train:  46%|████▋     | 219/472 [18:00<20:43,  4.92s/it]
+Extracting train:  47%|████▋     | 220/472 [18:05<20:38,  4.91s/it]
+Extracting train:  47%|████▋     | 221/472 [18:10<20:36,  4.93s/it]
+Extracting train:  47%|████▋     | 222/472 [18:15<20:31,  4.93s/it]
+Extracting train:  47%|████▋     | 223/472 [18:20<20:25,  4.92s/it]
+Extracting train:  47%|████▋     | 224/472 [18:25<20:19,  4.92s/it]
+Extracting train:  48%|████▊     | 225/472 [18:30<20:15,  4.92s/it]
+Extracting train:  48%|████▊     | 226/472 [18:35<20:30,  5.00s/it]
+Extracting train:  48%|████▊     | 227/472 [18:40<20:18,  4.97s/it]
+Extracting train:  48%|████▊     | 228/472 [18:45<20:09,  4.96s/it]
+Extracting train:  49%|████▊     | 229/472 [18:50<20:03,  4.95s/it]
+Extracting train:  49%|████▊     | 230/472 [18:55<19:58,  4.95s/it]
+Extracting train:  49%|████▉     | 231/472 [19:00<19:50,  4.94s/it]
+Extracting train:  49%|████▉     | 232/472 [19:05<19:41,  4.92s/it]
+Extracting train:  49%|████▉     | 233/472 [19:10<19:37,  4.92s/it]
+Extracting train:  50%|████▉     | 234/472 [19:15<19:31,  4.92s/it]
+Extracting train:  50%|████▉     | 235/472 [19:20<19:28,  4.93s/it]
+Extracting train:  50%|█████     | 236/472 [19:24<19:18,  4.91s/it]
+Extracting train:  50%|█████     | 237/472 [19:29<19:15,  4.92s/it]
+Extracting train:  50%|█████     | 238/472 [19:34<19:12,  4.92s/it]
+Extracting train:  51%|█████     | 239/472 [19:39<19:06,  4.92s/it]
+Extracting train:  51%|█████     | 240/472 [19:44<18:58,  4.91s/it]
+Extracting train:  51%|█████     | 241/472 [19:49<18:58,  4.93s/it]
+Extracting train:  51%|█████▏    | 242/472 [19:54<18:52,  4.92s/it]
+Extracting train:  51%|█████▏    | 243/472 [19:59<18:46,  4.92s/it]
+Extracting train:  52%|█████▏    | 244/472 [20:04<18:40,  4.91s/it]
+Extracting train:  52%|█████▏    | 245/472 [20:09<18:34,  4.91s/it]
+Extracting train:  52%|█████▏    | 246/472 [20:14<18:29,  4.91s/it]
+Extracting train:  52%|█████▏    | 247/472 [20:18<18:24,  4.91s/it]
+Extracting train:  53%|█████▎    | 248/472 [20:23<18:20,  4.91s/it]
+Extracting train:  53%|█████▎    | 249/472 [20:28<18:15,  4.91s/it]
+Extracting train:  53%|█████▎    | 250/472 [20:33<18:10,  4.91s/it]
+Extracting train:  53%|█████▎    | 251/472 [20:38<18:26,  5.01s/it]
+Extracting train:  53%|█████▎    | 252/472 [20:43<18:16,  4.98s/it]
+Extracting train:  54%|█████▎    | 253/472 [20:48<18:07,  4.97s/it]
+Extracting train:  54%|█████▍    | 254/472 [20:53<17:58,  4.95s/it]
+Extracting train:  54%|█████▍    | 255/472 [20:58<17:51,  4.94s/it]
+Extracting train:  54%|█████▍    | 256/472 [21:03<17:44,  4.93s/it]
+Extracting train:  54%|█████▍    | 257/472 [21:08<17:40,  4.93s/it]
+Extracting train:  55%|█████▍    | 258/472 [21:13<17:37,  4.94s/it]
+Extracting train:  55%|█████▍    | 259/472 [21:18<17:32,  4.94s/it]
+Extracting train:  55%|█████▌    | 260/472 [21:23<17:24,  4.93s/it]
+Extracting train:  55%|█████▌    | 261/472 [21:28<17:19,  4.92s/it]
+Extracting train:  56%|█████▌    | 262/472 [21:33<17:13,  4.92s/it]
+Extracting train:  56%|█████▌    | 263/472 [21:38<17:08,  4.92s/it]
+Extracting train:  56%|█████▌    | 264/472 [21:42<17:03,  4.92s/it]
+Extracting train:  56%|█████▌    | 265/472 [21:47<16:56,  4.91s/it]
+Extracting train:  56%|█████▋    | 266/472 [21:52<16:51,  4.91s/it]
+Extracting train:  57%|█████▋    | 267/472 [21:57<16:48,  4.92s/it]
+Extracting train:  57%|█████▋    | 268/472 [22:02<16:44,  4.93s/it]
+Extracting train:  57%|█████▋    | 269/472 [22:07<16:44,  4.95s/it]
+Extracting train:  57%|█████▋    | 270/472 [22:12<16:37,  4.94s/it]
+Extracting train:  57%|█████▋    | 271/472 [22:17<16:33,  4.94s/it]
+Extracting train:  58%|█████▊    | 272/472 [22:22<16:29,  4.95s/it]
+Extracting train:  58%|█████▊    | 273/472 [22:27<16:23,  4.94s/it]
+Extracting train:  58%|█████▊    | 274/472 [22:32<16:17,  4.93s/it]
+Extracting train:  58%|█████▊    | 275/472 [22:37<16:12,  4.94s/it]
+Extracting train:  58%|█████▊    | 276/472 [22:42<16:22,  5.01s/it]
+Extracting train:  59%|█████▊    | 277/472 [22:47<16:13,  4.99s/it]
+Extracting train:  59%|█████▉    | 278/472 [22:52<16:04,  4.97s/it]
+Extracting train:  59%|█████▉    | 279/472 [22:57<15:57,  4.96s/it]
+Extracting train:  59%|█████▉    | 280/472 [23:02<15:50,  4.95s/it]
+Extracting train:  60%|█████▉    | 281/472 [23:07<15:44,  4.95s/it]
+Extracting train:  60%|█████▉    | 282/472 [23:11<15:37,  4.94s/it]
+Extracting train:  60%|█████▉    | 283/472 [23:16<15:32,  4.94s/it]
+Extracting train:  60%|██████    | 284/472 [23:21<15:27,  4.93s/it]
+Extracting train:  60%|██████    | 285/472 [23:26<15:23,  4.94s/it]
+Extracting train:  61%|██████    | 286/472 [23:31<15:18,  4.94s/it]
+Extracting train:  61%|██████    | 287/472 [23:36<15:15,  4.95s/it]
+Extracting train:  61%|██████    | 288/472 [23:41<15:13,  4.96s/it]
+Extracting train:  61%|██████    | 289/472 [23:46<15:05,  4.95s/it]
+Extracting train:  61%|██████▏   | 290/472 [23:51<15:00,  4.95s/it]
+Extracting train:  62%|██████▏   | 291/472 [23:56<14:54,  4.94s/it]
+Extracting train:  62%|██████▏   | 292/472 [24:01<14:49,  4.94s/it]
+Extracting train:  62%|██████▏   | 293/472 [24:06<14:43,  4.94s/it]
+Extracting train:  62%|██████▏   | 294/472 [24:11<14:38,  4.94s/it]
+Extracting train:  62%|██████▎   | 295/472 [24:16<14:30,  4.92s/it]
+Extracting train:  63%|██████▎   | 296/472 [24:21<14:26,  4.92s/it]
+Extracting train:  63%|██████▎   | 297/472 [24:26<14:21,  4.92s/it]
+Extracting train:  63%|██████▎   | 298/472 [24:30<14:16,  4.92s/it]
+Extracting train:  63%|██████▎   | 299/472 [24:35<14:13,  4.93s/it]
+Extracting train:  64%|██████▎   | 300/472 [24:40<14:08,  4.94s/it]
+Extracting train:  64%|██████▍   | 301/472 [24:46<14:16,  5.01s/it]
+Extracting train:  64%|██████▍   | 302/472 [24:50<14:06,  4.98s/it]
+Extracting train:  64%|██████▍   | 303/472 [24:55<13:59,  4.96s/it]
+Extracting train:  64%|██████▍   | 304/472 [25:00<13:51,  4.95s/it]
+Extracting train:  65%|██████▍   | 305/472 [25:05<13:41,  4.92s/it]
+Extracting train:  65%|██████▍   | 306/472 [25:10<13:37,  4.93s/it]
+Extracting train:  65%|██████▌   | 307/472 [25:15<13:34,  4.94s/it]
+Extracting train:  65%|██████▌   | 308/472 [25:20<13:29,  4.93s/it]
+Extracting train:  65%|██████▌   | 309/472 [25:25<13:22,  4.92s/it]
+Extracting train:  66%|██████▌   | 310/472 [25:30<13:17,  4.92s/it]
+Extracting train:  66%|██████▌   | 311/472 [25:35<13:11,  4.92s/it]
+Extracting train:  66%|██████▌   | 312/472 [25:40<13:09,  4.93s/it]
+Extracting train:  66%|██████▋   | 313/472 [25:45<13:04,  4.93s/it]
+Extracting train:  67%|██████▋   | 314/472 [25:49<12:56,  4.91s/it]
+Extracting train:  67%|██████▋   | 315/472 [25:54<12:54,  4.93s/it]
+Extracting train:  67%|██████▋   | 316/472 [25:59<12:48,  4.93s/it]
+Extracting train:  67%|██████▋   | 317/472 [26:04<12:43,  4.92s/it]
+Extracting train:  67%|██████▋   | 318/472 [26:09<12:38,  4.92s/it]
+Extracting train:  68%|██████▊   | 319/472 [26:14<12:33,  4.93s/it]
+Extracting train:  68%|██████▊   | 320/472 [26:19<12:29,  4.93s/it]
+Extracting train:  68%|██████▊   | 321/472 [26:24<12:23,  4.93s/it]
+Extracting train:  68%|██████▊   | 322/472 [26:29<12:18,  4.92s/it]
+Extracting train:  68%|██████▊   | 323/472 [26:34<12:14,  4.93s/it]
+Extracting train:  69%|██████▊   | 324/472 [26:39<12:09,  4.93s/it]
+Extracting train:  69%|██████▉   | 325/472 [26:44<12:03,  4.92s/it]
+Extracting train:  69%|██████▉   | 326/472 [26:49<12:10,  5.00s/it]
+Extracting train:  69%|██████▉   | 327/472 [26:54<12:01,  4.97s/it]
+Extracting train:  69%|██████▉   | 328/472 [26:59<11:54,  4.96s/it]
+Extracting train:  70%|██████▉   | 329/472 [27:04<11:48,  4.95s/it]
+Extracting train:  70%|██████▉   | 330/472 [27:09<11:43,  4.96s/it]
+Extracting train:  70%|███████   | 331/472 [27:14<11:39,  4.96s/it]
+Extracting train:  70%|███████   | 332/472 [27:19<11:33,  4.95s/it]
+Extracting train:  71%|███████   | 333/472 [27:23<11:27,  4.94s/it]
+Extracting train:  71%|███████   | 334/472 [27:28<11:21,  4.94s/it]
+Extracting train:  71%|███████   | 335/472 [27:33<11:16,  4.94s/it]
+Extracting train:  71%|███████   | 336/472 [27:38<11:10,  4.93s/it]
+Extracting train:  71%|███████▏  | 337/472 [27:43<11:04,  4.92s/it]
+Extracting train:  72%|███████▏  | 338/472 [27:48<11:00,  4.93s/it]
+Extracting train:  72%|███████▏  | 339/472 [27:53<10:54,  4.92s/it]
+Extracting train:  72%|███████▏  | 340/472 [27:58<10:50,  4.93s/it]
+Extracting train:  72%|███████▏  | 341/472 [28:03<10:45,  4.93s/it]
+Extracting train:  72%|███████▏  | 342/472 [28:08<10:39,  4.92s/it]
+Extracting train:  73%|███████▎  | 343/472 [28:13<10:34,  4.92s/it]
+Extracting train:  73%|███████▎  | 344/472 [28:18<10:30,  4.93s/it]
+Extracting train:  73%|███████▎  | 345/472 [28:23<10:25,  4.93s/it]
+Extracting train:  73%|███████▎  | 346/472 [28:27<10:21,  4.93s/it]
+Extracting train:  74%|███████▎  | 347/472 [28:32<10:16,  4.93s/it]
+Extracting train:  74%|███████▎  | 348/472 [28:37<10:11,  4.93s/it]
+Extracting train:  74%|███████▍  | 349/472 [28:42<10:07,  4.94s/it]
+Extracting train:  74%|███████▍  | 350/472 [28:47<10:02,  4.94s/it]
+Extracting train:  74%|███████▍  | 351/472 [28:52<10:08,  5.03s/it]
+Extracting train:  75%|███████▍  | 352/472 [28:57<09:57,  4.98s/it]
+Extracting train:  75%|███████▍  | 353/472 [29:02<09:49,  4.96s/it]
+Extracting train:  75%|███████▌  | 354/472 [29:07<09:44,  4.95s/it]
+Extracting train:  75%|███████▌  | 355/472 [29:12<09:38,  4.94s/it]
+Extracting train:  75%|███████▌  | 356/472 [29:17<09:32,  4.93s/it]
+Extracting train:  76%|███████▌  | 357/472 [29:22<09:27,  4.94s/it]
+Extracting train:  76%|███████▌  | 358/472 [29:27<09:21,  4.92s/it]
+Extracting train:  76%|███████▌  | 359/472 [29:32<09:16,  4.93s/it]
+Extracting train:  76%|███████▋  | 360/472 [29:37<09:12,  4.93s/it]
+Extracting train:  76%|███████▋  | 361/472 [29:42<09:08,  4.94s/it]
+Extracting train:  77%|███████▋  | 362/472 [29:47<09:02,  4.93s/it]
+Extracting train:  77%|███████▋  | 363/472 [29:51<08:57,  4.93s/it]
+Extracting train:  77%|███████▋  | 364/472 [29:56<08:52,  4.94s/it]
+Extracting train:  77%|███████▋  | 365/472 [30:01<08:47,  4.93s/it]
+Extracting train:  78%|███████▊  | 366/472 [30:06<08:42,  4.93s/it]
+Extracting train:  78%|███████▊  | 367/472 [30:11<08:36,  4.92s/it]
+Extracting train:  78%|███████▊  | 368/472 [30:16<08:31,  4.92s/it]
+Extracting train:  78%|███████▊  | 369/472 [30:21<08:26,  4.92s/it]
+Extracting train:  78%|███████▊  | 370/472 [30:26<08:20,  4.91s/it]
+Extracting train:  79%|███████▊  | 371/472 [30:31<08:16,  4.92s/it]
+Extracting train:  79%|███████▉  | 372/472 [30:36<08:12,  4.92s/it]
+Extracting train:  79%|███████▉  | 373/472 [30:41<08:07,  4.92s/it]
+Extracting train:  79%|███████▉  | 374/472 [30:46<08:03,  4.94s/it]
+Extracting train:  79%|███████▉  | 375/472 [30:51<07:57,  4.93s/it]
+Extracting train:  80%|███████▉  | 376/472 [30:56<08:00,  5.01s/it]
+Extracting train:  80%|███████▉  | 377/472 [31:01<07:52,  4.97s/it]
+Extracting train:  80%|████████  | 378/472 [31:06<07:44,  4.94s/it]
+Extracting train:  80%|████████  | 379/472 [31:10<07:40,  4.95s/it]
+Extracting train:  81%|████████  | 380/472 [31:15<07:34,  4.94s/it]
+Extracting train:  81%|████████  | 381/472 [31:20<07:29,  4.94s/it]
+Extracting train:  81%|████████  | 382/472 [31:25<07:23,  4.93s/it]
+Extracting train:  81%|████████  | 383/472 [31:30<07:18,  4.93s/it]
+Extracting train:  81%|████████▏ | 384/472 [31:35<07:14,  4.94s/it]
+Extracting train:  82%|████████▏ | 385/472 [31:40<07:08,  4.93s/it]
+Extracting train:  82%|████████▏ | 386/472 [31:45<07:03,  4.93s/it]
+Extracting train:  82%|████████▏ | 387/472 [31:50<06:59,  4.93s/it]
+Extracting train:  82%|████████▏ | 388/472 [31:55<06:54,  4.93s/it]
+Extracting train:  82%|████████▏ | 389/472 [32:00<06:48,  4.93s/it]
+Extracting train:  83%|████████▎ | 390/472 [32:05<06:43,  4.92s/it]
+Extracting train:  83%|████████▎ | 391/472 [32:10<06:37,  4.91s/it]
+Extracting train:  83%|████████▎ | 392/472 [32:15<06:34,  4.93s/it]
+Extracting train:  83%|████████▎ | 393/472 [32:19<06:29,  4.93s/it]
+Extracting train:  83%|████████▎ | 394/472 [32:24<06:25,  4.94s/it]
+Extracting train:  84%|████████▎ | 395/472 [32:29<06:20,  4.94s/it]
+Extracting train:  84%|████████▍ | 396/472 [32:34<06:14,  4.93s/it]
+Extracting train:  84%|████████▍ | 397/472 [32:39<06:09,  4.93s/it]
+Extracting train:  84%|████████▍ | 398/472 [32:44<06:04,  4.93s/it]
+Extracting train:  85%|████████▍ | 399/472 [32:49<06:00,  4.93s/it]
+Extracting train:  85%|████████▍ | 400/472 [32:54<05:54,  4.93s/it]
+Extracting train:  85%|████████▍ | 401/472 [32:59<05:55,  5.00s/it]
+Extracting train:  85%|████████▌ | 402/472 [33:04<05:48,  4.98s/it]
+Extracting train:  85%|████████▌ | 403/472 [33:09<05:43,  4.98s/it]
+Extracting train:  86%|████████▌ | 404/472 [33:14<05:36,  4.95s/it]
+Extracting train:  86%|████████▌ | 405/472 [33:19<05:31,  4.94s/it]
+Extracting train:  86%|████████▌ | 406/472 [33:24<05:26,  4.94s/it]
+Extracting train:  86%|████████▌ | 407/472 [33:29<05:20,  4.94s/it]
+Extracting train:  86%|████████▋ | 408/472 [33:34<05:15,  4.93s/it]
+Extracting train:  87%|████████▋ | 409/472 [33:39<05:10,  4.92s/it]
+Extracting train:  87%|████████▋ | 410/472 [33:44<05:05,  4.93s/it]
+Extracting train:  87%|████████▋ | 411/472 [33:48<05:00,  4.92s/it]
+Extracting train:  87%|████████▋ | 412/472 [33:53<04:55,  4.93s/it]
+Extracting train:  88%|████████▊ | 413/472 [33:58<04:51,  4.94s/it]
+Extracting train:  88%|████████▊ | 414/472 [34:03<04:47,  4.96s/it]
+Extracting train:  88%|████████▊ | 415/472 [34:08<04:41,  4.94s/it]
+Extracting train:  88%|████████▊ | 416/472 [34:13<04:36,  4.94s/it]
+Extracting train:  88%|████████▊ | 417/472 [34:18<04:31,  4.94s/it]
+Extracting train:  89%|████████▊ | 418/472 [34:23<04:26,  4.94s/it]
+Extracting train:  89%|████████▉ | 419/472 [34:28<04:22,  4.95s/it]
+Extracting train:  89%|████████▉ | 420/472 [34:33<04:17,  4.94s/it]
+Extracting train:  89%|████████▉ | 421/472 [34:38<04:12,  4.96s/it]
+Extracting train:  89%|████████▉ | 422/472 [34:43<04:08,  4.96s/it]
+Extracting train:  90%|████████▉ | 423/472 [34:48<04:02,  4.96s/it]
+Extracting train:  90%|████████▉ | 424/472 [34:53<03:57,  4.95s/it]
+Extracting train:  90%|█████████ | 425/472 [34:58<03:52,  4.94s/it]
+Extracting train:  90%|█████████ | 426/472 [35:03<03:51,  5.02s/it]
+Extracting train:  90%|█████████ | 427/472 [35:08<03:45,  5.00s/it]
+Extracting train:  91%|█████████ | 428/472 [35:13<03:38,  4.97s/it]
+Extracting train:  91%|█████████ | 429/472 [35:18<03:33,  4.97s/it]
+Extracting train:  91%|█████████ | 430/472 [35:23<03:28,  4.96s/it]
+Extracting train:  91%|█████████▏| 431/472 [35:28<03:22,  4.95s/it]
+Extracting train:  92%|█████████▏| 432/472 [35:33<03:17,  4.94s/it]
+Extracting train:  92%|█████████▏| 433/472 [35:37<03:12,  4.93s/it]
+Extracting train:  92%|█████████▏| 434/472 [35:42<03:07,  4.93s/it]
+Extracting train:  92%|█████████▏| 435/472 [35:47<03:02,  4.92s/it]
+Extracting train:  92%|█████████▏| 436/472 [35:52<02:57,  4.93s/it]
+Extracting train:  93%|█████████▎| 437/472 [35:57<02:52,  4.92s/it]
+Extracting train:  93%|█████████▎| 438/472 [36:02<02:49,  4.98s/it]
+Extracting train:  93%|█████████▎| 439/472 [36:07<02:44,  4.97s/it]
+Extracting train:  93%|█████████▎| 440/472 [36:12<02:38,  4.96s/it]
+Extracting train:  93%|█████████▎| 441/472 [36:17<02:33,  4.95s/it]
+Extracting train:  94%|█████████▎| 442/472 [36:22<02:28,  4.94s/it]
+Extracting train:  94%|█████████▍| 443/472 [36:27<02:22,  4.93s/it]
+Extracting train:  94%|█████████▍| 444/472 [36:32<02:17,  4.92s/it]
+Extracting train:  94%|█████████▍| 445/472 [36:37<02:13,  4.93s/it]
+Extracting train:  94%|█████████▍| 446/472 [36:42<02:08,  4.94s/it]
+Extracting train:  95%|█████████▍| 447/472 [36:47<02:03,  4.93s/it]
+Extracting train:  95%|█████████▍| 448/472 [36:52<01:58,  4.93s/it]
+Extracting train:  95%|█████████▌| 449/472 [36:56<01:53,  4.93s/it]
+Extracting train:  95%|█████████▌| 450/472 [37:01<01:48,  4.92s/it]
+Extracting train:  96%|█████████▌| 451/472 [37:07<01:45,  5.02s/it]
+Extracting train:  96%|█████████▌| 452/472 [37:12<01:39,  4.99s/it]
+Extracting train:  96%|█████████▌| 453/472 [37:16<01:34,  4.98s/it]
+Extracting train:  96%|█████████▌| 454/472 [37:21<01:29,  4.97s/it]
+Extracting train:  96%|█████████▋| 455/472 [37:26<01:24,  4.96s/it]
+Extracting train:  97%|█████████▋| 456/472 [37:31<01:19,  4.96s/it]
+Extracting train:  97%|█████████▋| 457/472 [37:36<01:14,  4.95s/it]
+Extracting train:  97%|█████████▋| 458/472 [37:41<01:09,  4.95s/it]
+Extracting train:  97%|█████████▋| 459/472 [37:46<01:04,  4.94s/it]
+Extracting train:  97%|█████████▋| 460/472 [37:51<00:59,  4.92s/it]
+Extracting train:  98%|█████████▊| 461/472 [37:56<00:54,  4.92s/it]
+Extracting train:  98%|█████████▊| 462/472 [38:01<00:49,  4.92s/it]
+Extracting train:  98%|█████████▊| 463/472 [38:06<00:44,  4.92s/it]
+Extracting train:  98%|█████████▊| 464/472 [38:11<00:39,  4.92s/it]
+Extracting train:  99%|█████████▊| 465/472 [38:16<00:34,  4.93s/it]
+Extracting train:  99%|█████████▊| 466/472 [38:21<00:29,  4.94s/it]
+Extracting train:  99%|█████████▉| 467/472 [38:26<00:24,  4.93s/it]
+Extracting train:  99%|█████████▉| 468/472 [38:30<00:19,  4.92s/it]
+Extracting train:  99%|█████████▉| 469/472 [38:35<00:14,  4.93s/it]
+Extracting train: 100%|█████████▉| 470/472 [38:40<00:09,  4.94s/it]
+Extracting train: 100%|█████████▉| 471/472 [38:45<00:04,  4.94s/it]
+Extracting train: 100%|██████████| 472/472 [38:49<00:00,  4.58s/it]
+Extracting train: 100%|██████████| 472/472 [38:49<00:00,  4.94s/it]
+🧮 Fitting GuardianScaler on collected samples...
+   Total samples for scaler: 768
+✅ Scaler saved to C:\guardian_artifacts\scaler.pkl
+   Mean shape: torch.Size([356352]), Scale shape: torch.Size([356352])
+✅ Web Spun for train!
+🧠 VRAM Cleared after train split.
+📊 File size: 5.38 GB
+🧮 Scaler file: C:\guardian_artifacts\scaler.pkl (5.70 MB)
+🕷️ Biomimicry Status: 8-Legged Triangulation Active.
+  ✅ train extraction complete
+  → Extracting val split...
+📂 Loading raw data from C:\guardian_artifacts\02_val.pkl...
+🕷️ Preparing to spin web for val split: 942 samples.
+👁️ Loading unsloth/Qwen2.5-1.5B for sensory extraction...
+🧮 Preparing to collect feature statistics for scaler...
+🚀 Starting 8-Legged Triangulation Extraction for val...
+
+Extracting val:   0%|          | 0/59 [00:00<?, ?it/s]
+Extracting val:   2%|▏         | 1/59 [00:04<04:49,  4.99s/it]
+Extracting val:   3%|▎         | 2/59 [00:09<04:42,  4.96s/it]
+Extracting val:   5%|▌         | 3/59 [00:14<04:36,  4.93s/it]
+Extracting val:   7%|▋         | 4/59 [00:19<04:31,  4.94s/it]
+Extracting val:   8%|▊         | 5/59 [00:24<04:26,  4.94s/it]
+Extracting val:  10%|█         | 6/59 [00:29<04:21,  4.93s/it]
+Extracting val:  12%|█▏        | 7/59 [00:34<04:16,  4.93s/it]
+Extracting val:  14%|█▎        | 8/59 [00:39<04:11,  4.93s/it]
+Extracting val:  15%|█▌        | 9/59 [00:44<04:06,  4.92s/it]
+Extracting val:  17%|█▋        | 10/59 [00:49<04:01,  4.92s/it]
+Extracting val:  19%|█▊        | 11/59 [00:54<03:56,  4.93s/it]
+Extracting val:  20%|██        | 12/59 [00:59<03:51,  4.92s/it]
+Extracting val:  22%|██▏       | 13/59 [01:04<03:46,  4.93s/it]
+Extracting val:  24%|██▎       | 14/59 [01:09<03:41,  4.93s/it]
+Extracting val:  25%|██▌       | 15/59 [01:13<03:36,  4.93s/it]
+Extracting val:  27%|██▋       | 16/59 [01:18<03:31,  4.92s/it]
+Extracting val:  29%|██▉       | 17/59 [01:23<03:26,  4.91s/it]
+Extracting val:  31%|███       | 18/59 [01:28<03:21,  4.92s/it]
+Extracting val:  32%|███▏      | 19/59 [01:33<03:16,  4.91s/it]
+Extracting val:  34%|███▍      | 20/59 [01:38<03:11,  4.90s/it]
+Extracting val:  36%|███▌      | 21/59 [01:43<03:07,  4.93s/it]
+Extracting val:  37%|███▋      | 22/59 [01:48<03:02,  4.92s/it]
+Extracting val:  39%|███▉      | 23/59 [01:53<02:57,  4.92s/it]
+Extracting val:  41%|████      | 24/59 [01:58<02:52,  4.93s/it]
+Extracting val:  42%|████▏     | 25/59 [02:03<02:47,  4.93s/it]
+Extracting val:  44%|████▍     | 26/59 [02:08<02:45,  5.00s/it]
+Extracting val:  46%|████▌     | 27/59 [02:13<02:39,  4.98s/it]
+Extracting val:  47%|████▋     | 28/59 [02:18<02:33,  4.96s/it]
+Extracting val:  49%|████▉     | 29/59 [02:23<02:28,  4.96s/it]
+Extracting val:  51%|█████     | 30/59 [02:28<02:23,  4.94s/it]
+Extracting val:  53%|█████▎    | 31/59 [02:32<02:18,  4.93s/it]
+Extracting val:  54%|█████▍    | 32/59 [02:37<02:13,  4.93s/it]
+Extracting val:  56%|█████▌    | 33/59 [02:42<02:07,  4.92s/it]
+Extracting val:  58%|█████▊    | 34/59 [02:47<02:02,  4.92s/it]
+Extracting val:  59%|█████▉    | 35/59 [02:52<01:58,  4.93s/it]
+Extracting val:  61%|██████    | 36/59 [02:57<01:52,  4.91s/it]
+Extracting val:  63%|██████▎   | 37/59 [03:02<01:48,  4.91s/it]
+Extracting val:  64%|██████▍   | 38/59 [03:07<01:43,  4.91s/it]
+Extracting val:  66%|██████▌   | 39/59 [03:12<01:38,  4.91s/it]
+Extracting val:  68%|██████▊   | 40/59 [03:17<01:33,  4.91s/it]
+Extracting val:  69%|██████▉   | 41/59 [03:22<01:28,  4.91s/it]
+Extracting val:  71%|███████   | 42/59 [03:27<01:23,  4.93s/it]
+Extracting val:  73%|███████▎  | 43/59 [03:31<01:18,  4.93s/it]
+Extracting val:  75%|███████▍  | 44/59 [03:36<01:13,  4.93s/it]
+Extracting val:  76%|███████▋  | 45/59 [03:41<01:09,  4.93s/it]
+Extracting val:  78%|███████▊  | 46/59 [03:46<01:03,  4.92s/it]
+Extracting val:  80%|███████▉  | 47/59 [03:51<00:59,  4.92s/it]
+Extracting val:  81%|████████▏ | 48/59 [03:56<00:54,  4.92s/it]
+Extracting val:  83%|████████▎ | 49/59 [04:01<00:49,  4.91s/it]
+Extracting val:  85%|████████▍ | 50/59 [04:06<00:44,  4.91s/it]
+Extracting val:  86%|████████▋ | 51/59 [04:11<00:39,  4.99s/it]
+Extracting val:  88%|████████▊ | 52/59 [04:16<00:34,  4.97s/it]
+Extracting val:  90%|████████▉ | 53/59 [04:21<00:29,  4.97s/it]
+Extracting val:  92%|█████████▏| 54/59 [04:26<00:24,  4.94s/it]
+Extracting val:  93%|█████████▎| 55/59 [04:31<00:19,  4.95s/it]
+Extracting val:  95%|█████████▍| 56/59 [04:36<00:14,  4.95s/it]
+Extracting val:  97%|█████████▋| 57/59 [04:41<00:09,  4.93s/it]
+Extracting val:  98%|█████████▊| 58/59 [04:46<00:04,  4.93s/it]
+Extracting val: 100%|██████████| 59/59 [04:50<00:00,  4.75s/it]
+Extracting val: 100%|██████████| 59/59 [04:50<00:00,  4.92s/it]
+✅ Web Spun for val!
+🧠 VRAM Cleared after val split.
+📊 File size: 0.67 GB
+🕷️ Biomimicry Status: 8-Legged Triangulation Active.
+  ✅ val extraction complete
+  → Extracting test split...
+📂 Loading raw data from C:\guardian_artifacts\02_test.pkl...
+🕷️ Preparing to spin web for test split: 942 samples.
+👁️ Loading unsloth/Qwen2.5-1.5B for sensory extraction...
+🧮 Preparing to collect feature statistics for scaler...
+🚀 Starting 8-Legged Triangulation Extraction for test...
+
+Extracting test:   0%|          | 0/59 [00:00<?, ?it/s]
+Extracting test:   2%|▏         | 1/59 [00:05<04:54,  5.08s/it]
+Extracting test:   3%|▎         | 2/59 [00:10<04:48,  5.06s/it]
+Extracting test:   5%|▌         | 3/59 [00:15<04:39,  4.99s/it]
+Extracting test:   7%|▋         | 4/59 [00:19<04:32,  4.96s/it]
+Extracting test:   8%|▊         | 5/59 [00:24<04:27,  4.95s/it]
+Extracting test:  10%|█         | 6/59 [00:29<04:22,  4.95s/it]
+Extracting test:  12%|█▏        | 7/59 [00:34<04:17,  4.95s/it]
+Extracting test:  14%|█▎        | 8/59 [00:39<04:11,  4.94s/it]
+Extracting test:  15%|█▌        | 9/59 [00:44<04:06,  4.94s/it]
+Extracting test:  17%|█▋        | 10/59 [00:49<04:01,  4.94s/it]
+Extracting test:  19%|█▊        | 11/59 [00:54<03:56,  4.94s/it]
+Extracting test:  20%|██        | 12/59 [00:59<03:51,  4.94s/it]
+Extracting test:  22%|██▏       | 13/59 [01:04<03:47,  4.94s/it]
+Extracting test:  24%|██▎       | 14/59 [01:09<03:41,  4.93s/it]
+Extracting test:  25%|██▌       | 15/59 [01:14<03:36,  4.92s/it]
+Extracting test:  27%|██▋       | 16/59 [01:19<03:31,  4.92s/it]
+Extracting test:  29%|██▉       | 17/59 [01:24<03:26,  4.92s/it]
+Extracting test:  31%|███       | 18/59 [01:29<03:22,  4.95s/it]
+Extracting test:  32%|███▏      | 19/59 [01:33<03:17,  4.94s/it]
+Extracting test:  34%|███▍      | 20/59 [01:38<03:12,  4.94s/it]
+Extracting test:  36%|███▌      | 21/59 [01:43<03:07,  4.94s/it]
+Extracting test:  37%|███▋      | 22/59 [01:48<03:03,  4.95s/it]
+Extracting test:  39%|███▉      | 23/59 [01:53<02:58,  4.95s/it]
+Extracting test:  41%|████      | 24/59 [01:58<02:52,  4.94s/it]
+Extracting test:  42%|████▏     | 25/59 [02:03<02:47,  4.93s/it]
+Extracting test:  44%|████▍     | 26/59 [02:08<02:45,  5.00s/it]
+Extracting test:  46%|████▌     | 27/59 [02:13<02:38,  4.97s/it]
+Extracting test:  47%|████▋     | 28/59 [02:18<02:33,  4.96s/it]
+Extracting test:  49%|████▉     | 29/59 [02:23<02:29,  4.97s/it]
+Extracting test:  51%|█████     | 30/59 [02:28<02:23,  4.95s/it]
+Extracting test:  53%|█████▎    | 31/59 [02:33<02:18,  4.94s/it]
+Extracting test:  54%|█████▍    | 32/59 [02:38<02:13,  4.94s/it]
+Extracting test:  56%|█████▌    | 33/59 [02:43<02:07,  4.91s/it]
+Extracting test:  58%|█████▊    | 34/59 [02:48<02:03,  4.93s/it]
+Extracting test:  59%|█████▉    | 35/59 [02:53<01:57,  4.91s/it]
+Extracting test:  61%|██████    | 36/59 [02:57<01:53,  4.92s/it]
+Extracting test:  63%|██████▎   | 37/59 [03:02<01:48,  4.93s/it]
+Extracting test:  64%|██████▍   | 38/59 [03:07<01:43,  4.93s/it]
+Extracting test:  66%|██████▌   | 39/59 [03:12<01:38,  4.93s/it]
+Extracting test:  68%|██████▊   | 40/59 [03:17<01:33,  4.94s/it]
+Extracting test:  69%|██████▉   | 41/59 [03:22<01:28,  4.93s/it]
+Extracting test:  71%|███████   | 42/59 [03:27<01:23,  4.92s/it]
+Extracting test:  73%|███████▎  | 43/59 [03:32<01:18,  4.92s/it]
+Extracting test:  75%|███████▍  | 44/59 [03:37<01:13,  4.92s/it]
+Extracting test:  76%|███████▋  | 45/59 [03:42<01:09,  4.93s/it]
+Extracting test:  78%|███████▊  | 46/59 [03:47<01:04,  4.93s/it]
+Extracting test:  80%|███████▉  | 47/59 [03:52<00:59,  4.94s/it]
+Extracting test:  81%|████████▏ | 48/59 [03:57<00:54,  4.92s/it]
+Extracting test:  83%|████████▎ | 49/59 [04:02<00:49,  4.94s/it]
+Extracting test:  85%|████████▍ | 50/59 [04:07<00:44,  4.93s/it]
+Extracting test:  86%|████████▋ | 51/59 [04:12<00:40,  5.01s/it]
+Extracting test:  88%|████████▊ | 52/59 [04:17<00:34,  4.98s/it]
+Extracting test:  90%|████████▉ | 53/59 [04:22<00:29,  4.97s/it]
+Extracting test:  92%|█████████▏| 54/59 [04:26<00:24,  4.96s/it]
+Extracting test:  93%|█████████▎| 55/59 [04:31<00:19,  4.95s/it]
+Extracting test:  95%|█████████▍| 56/59 [04:36<00:14,  4.94s/it]
+Extracting test:  97%|█████████▋| 57/59 [04:41<00:09,  4.93s/it]
+Extracting test:  98%|█████████▊| 58/59 [04:46<00:04,  4.92s/it]
+Extracting test: 100%|██████████| 59/59 [04:50<00:00,  4.75s/it]
+Extracting test: 100%|██████████| 59/59 [04:50<00:00,  4.93s/it]
+✅ Web Spun for test!
+🧠 VRAM Cleared after test split.
+📊 File size: 0.67 GB
+🕷️ Biomimicry Status: 8-Legged Triangulation Active.
+  ✅ test extraction complete
+✓ All splits extracted to NVMe
+
+$ "C:\DeepLearningProjects\TRM_Psychology\TinyRecursiveModels\venv\Scripts\python.exe" -m pipeline.guardian_pipeline_master --step 4 --batch-size 512 --num-workers 0 --no-resume --experiment math_25
+W0214 11:43:06.078000 16440 Lib\site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+🦥 Unsloth: Will patch your computer to enable 2x faster free finetuning.
+🦥 Unsloth Zoo will now patch everything to make training faster!
+✅ SUCCESS: Unsloth RMS kernel patched for Windows compatibility
+
+[1m🕷️ SPIDER-NATIVE PIPELINE - STEP 4[0m
+
+[96m================================================================================[0m
+[96m🕷️ STEP 4: SPIDER-NATIVE LIVE TRAINING[0m
+[96m================================================================================[0m
+🕸️ Loading raw data for live feature extraction...
+✅ Data paths ready: train=02_train.pkl, val=02_val.pkl
+🕷️ Building Spider-Native GuardianVisionNet with Molecular Clocks...
+⚠️  Skipping torch.compile (Windows stability)
+✅ Model built with 532,577 parameters
+   Fast components: 3 groups, LR=0.002
+   Slow components: 4 groups, LR=0.00015
+
+[93m================================================================================[0m
+[93m🕷️ SPIDER-NATIVE CO-EVOLUTIONARY TRAINING v17.0[0m
+[93mBatch Size: 512 | Device: cuda[0m
+[93m================================================================================[0m
+
+   Domain Weight: 0.1 | Balance Weight: 5.0 | Entropy Weight: 0.001
+   Math Loss Multiplier: 3.5x
+🚀 Starting fresh training from epoch 0
+
+[93m================================================================================[0m
+[93m🧬 PHASE 1: ROUTER EVOLUTION (Pretraining)[0m
+[93m================================================================================[0m
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Router Epoch 0:   0%|          | 0/15 [00:00<?, ?it/s]
+Router Epoch 0:   7%|▋         | 1/15 [00:04<01:08,  4.91s/it]
+Router Epoch 0:  13%|█▎        | 2/15 [00:08<00:55,  4.23s/it]
+Router Epoch 0:  20%|██        | 3/15 [00:12<00:48,  4.01s/it]
+Router Epoch 0:  27%|██▋       | 4/15 [00:16<00:42,  3.90s/it]
+Router Epoch 0:  33%|███▎      | 5/15 [00:20<00:39,  3.90s/it]
+Router Epoch 0:  40%|████      | 6/15 [00:23<00:34,  3.89s/it]
+Router Epoch 0:  47%|████▋     | 7/15 [00:27<00:30,  3.87s/it]
+Router Epoch 0:  53%|█████▎    | 8/15 [00:31<00:27,  3.93s/it]
+Router Epoch 0:  60%|██████    | 9/15 [00:35<00:23,  3.94s/it]
+Router Epoch 0:  67%|██████▋   | 10/15 [00:39<00:19,  3.99s/it]
+Router Epoch 0:  73%|███████▎  | 11/15 [00:43<00:16,  4.01s/it]
+Router Epoch 0:  80%|████████  | 12/15 [00:47<00:12,  4.03s/it]
+Router Epoch 0:  87%|████████▋ | 13/15 [00:52<00:08,  4.14s/it]
+Router Epoch 0:  93%|█████████▎| 14/15 [00:56<00:04,  4.20s/it]
+Router Epoch 0: 100%|██████████| 15/15 [00:59<00:00,  3.86s/it]
+Router Epoch 0: 100%|██████████| 15/15 [00:59<00:00,  3.99s/it]
+  → Domain Loss: 1.0090 | Entropy: 0.937
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Router Epoch 1:   0%|          | 0/15 [00:00<?, ?it/s]
+Router Epoch 1:   7%|▋         | 1/15 [00:01<00:19,  1.37s/it]
+Router Epoch 1:  13%|█▎        | 2/15 [00:02<00:17,  1.36s/it]
+Router Epoch 1:  20%|██        | 3/15 [00:04<00:16,  1.37s/it]
+Router Epoch 1:  27%|██▋       | 4/15 [00:05<00:15,  1.37s/it]
+Router Epoch 1:  33%|███▎      | 5/15 [00:06<00:14,  1.41s/it]
+Router Epoch 1:  40%|████      | 6/15 [00:08<00:12,  1.42s/it]
+Router Epoch 1:  47%|████▋     | 7/15 [00:09<00:11,  1.42s/it]
+Router Epoch 1:  53%|█████▎    | 8/15 [00:11<00:10,  1.47s/it]
+Router Epoch 1:  60%|██████    | 9/15 [00:12<00:09,  1.51s/it]
+Router Epoch 1:  67%|██████▋   | 10/15 [00:14<00:07,  1.57s/it]
+Router Epoch 1:  73%|███████▎  | 11/15 [00:16<00:06,  1.62s/it]
+Router Epoch 1:  80%|████████  | 12/15 [00:18<00:05,  1.71s/it]
+Router Epoch 1:  87%|████████▋ | 13/15 [00:20<00:03,  1.92s/it]
+Router Epoch 1:  93%|█████████▎| 14/15 [00:23<00:02,  2.17s/it]
+Router Epoch 1: 100%|██████████| 15/15 [00:26<00:00,  2.30s/it]
+Router Epoch 1: 100%|██████████| 15/15 [00:26<00:00,  1.74s/it]
+  → Domain Loss: 0.9652 | Entropy: 0.998
+[92m✅ Router evolved. Starting adaptive phase...[0m
+[93m================================================================================[0m
+
+
+Epoch  Train     Vib     Dom     Bal     Ent     Val Acc  Val F1   Val ECE  Status
+------------------------------------------------------------------------------------------
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 00:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 00:   7%|6         | 1/15 [00:02<00:28,  2.07s/batch]
+Epoch 00:  13%|#3        | 2/15 [00:03<00:22,  1.76s/batch]
+Epoch 00:  20%|##        | 3/15 [00:05<00:20,  1.69s/batch]
+Epoch 00:  27%|##6       | 4/15 [00:06<00:18,  1.69s/batch]
+Epoch 00:  33%|###3      | 5/15 [00:08<00:17,  1.72s/batch]
+Epoch 00:  40%|####      | 6/15 [00:10<00:15,  1.73s/batch]
+Epoch 00:  47%|####6     | 7/15 [00:12<00:13,  1.73s/batch]
+Epoch 00:  53%|#####3    | 8/15 [00:14<00:12,  1.77s/batch]
+Epoch 00:  60%|######    | 9/15 [00:15<00:10,  1.83s/batch]
+Epoch 00:  67%|######6   | 10/15 [00:18<00:09,  1.93s/batch]
+Epoch 00:  73%|#######3  | 11/15 [00:20<00:08,  2.04s/batch]
+Epoch 00:  80%|########  | 12/15 [00:22<00:06,  2.18s/batch]
+Epoch 00:  87%|########6 | 13/15 [00:25<00:04,  2.41s/batch]
+Epoch 00:  93%|#########3| 14/15 [00:29<00:02,  2.72s/batch]
+Epoch 00: 100%|##########| 15/15 [00:31<00:00,  2.63s/batch]
+Epoch 00: 100%|##########| 15/15 [00:31<00:00,  2.11s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=55.30%, conf=0.66, n=519
+[Val] code        : acc=63.68%, conf=0.66, n=234
+[Val] real_world  : acc=76.72%, conf=0.66, n=189
+  0 0.0159    -0.014  0.000   0.000   0.000   0.6168   0.5062   0.1030   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 01:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 01:   7%|6         | 1/15 [00:02<00:36,  2.61s/batch]
+Epoch 01:  13%|#3        | 2/15 [00:05<00:38,  2.93s/batch]
+Epoch 01:  20%|##        | 3/15 [00:08<00:36,  3.04s/batch]
+Epoch 01:  27%|##6       | 4/15 [00:12<00:33,  3.09s/batch]
+Epoch 01:  33%|###3      | 5/15 [00:15<00:32,  3.26s/batch]
+Epoch 01:  40%|####      | 6/15 [00:19<00:30,  3.41s/batch]
+Epoch 01:  47%|####6     | 7/15 [00:23<00:29,  3.64s/batch]
+Epoch 01:  53%|#####3    | 8/15 [00:27<00:26,  3.81s/batch]
+Epoch 01:  60%|######    | 9/15 [00:33<00:25,  4.32s/batch]
+Epoch 01:  67%|######6   | 10/15 [00:37<00:22,  4.44s/batch]
+Epoch 01:  73%|#######3  | 11/15 [00:42<00:17,  4.43s/batch]
+Epoch 01:  80%|########  | 12/15 [00:46<00:13,  4.39s/batch]
+Epoch 01:  87%|########6 | 13/15 [00:50<00:08,  4.38s/batch]
+Epoch 01:  93%|#########3| 14/15 [00:55<00:04,  4.41s/batch]
+Epoch 01: 100%|##########| 15/15 [00:58<00:00,  4.11s/batch]
+Epoch 01: 100%|##########| 15/15 [00:58<00:00,  3.92s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=57.03%, conf=0.75, n=519
+[Val] code        : acc=63.68%, conf=0.75, n=234
+[Val] real_world  : acc=76.72%, conf=0.75, n=189
+  1 0.0153    -0.021  0.000   0.000   0.000   0.6263   0.5243   0.1023   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 02:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 02:   7%|6         | 1/15 [00:02<00:37,  2.69s/batch]
+Epoch 02:  13%|#3        | 2/15 [00:05<00:34,  2.69s/batch]
+Epoch 02:  20%|##        | 3/15 [00:08<00:31,  2.66s/batch]
+Epoch 02:  27%|##6       | 4/15 [00:10<00:29,  2.71s/batch]
+Epoch 02:  33%|###3      | 5/15 [00:13<00:26,  2.62s/batch]
+Epoch 02:  40%|####      | 6/15 [00:15<00:23,  2.61s/batch]
+Epoch 02:  47%|####6     | 7/15 [00:18<00:21,  2.65s/batch]
+Epoch 02:  53%|#####3    | 8/15 [00:21<00:19,  2.73s/batch]
+Epoch 02:  60%|######    | 9/15 [00:24<00:17,  2.88s/batch]
+Epoch 02:  67%|######6   | 10/15 [00:28<00:15,  3.07s/batch]
+Epoch 02:  73%|#######3  | 11/15 [00:32<00:13,  3.43s/batch]
+Epoch 02:  80%|########  | 12/15 [00:36<00:11,  3.75s/batch]
+Epoch 02:  87%|########6 | 13/15 [00:41<00:07,  3.94s/batch]
+Epoch 02:  93%|#########3| 14/15 [00:45<00:04,  4.07s/batch]
+Epoch 02: 100%|##########| 15/15 [00:49<00:00,  3.85s/batch]
+Epoch 02: 100%|##########| 15/15 [00:49<00:00,  3.27s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=56.26%, conf=0.76, n=519
+[Val] code        : acc=98.72%, conf=0.76, n=234
+[Val] real_world  : acc=76.72%, conf=0.76, n=189
+  2 0.0141    -0.026  0.000   0.000   0.000   0.7091   0.7482   0.1553   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 03:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 03:   7%|6         | 1/15 [00:02<00:38,  2.73s/batch]
+Epoch 03:  13%|#3        | 2/15 [00:05<00:34,  2.69s/batch]
+Epoch 03:  20%|##        | 3/15 [00:08<00:31,  2.66s/batch]
+Epoch 03:  27%|##6       | 4/15 [00:10<00:28,  2.63s/batch]
+Epoch 03:  33%|###3      | 5/15 [00:13<00:26,  2.64s/batch]
+Epoch 03:  40%|####      | 6/15 [00:15<00:23,  2.62s/batch]
+Epoch 03:  47%|####6     | 7/15 [00:18<00:21,  2.68s/batch]
+Epoch 03:  53%|#####3    | 8/15 [00:21<00:19,  2.81s/batch]
+Epoch 03:  60%|######    | 9/15 [00:25<00:17,  2.96s/batch]
+Epoch 03:  67%|######6   | 10/15 [00:28<00:15,  3.14s/batch]
+Epoch 03:  73%|#######3  | 11/15 [00:32<00:13,  3.49s/batch]
+Epoch 03:  80%|########  | 12/15 [00:37<00:11,  3.78s/batch]
+Epoch 03:  87%|########6 | 13/15 [00:41<00:07,  3.96s/batch]
+Epoch 03:  93%|#########3| 14/15 [00:46<00:04,  4.10s/batch]
+Epoch 03: 100%|##########| 15/15 [00:49<00:00,  3.88s/batch]
+Epoch 03: 100%|##########| 15/15 [00:49<00:00,  3.30s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=61.08%, conf=0.94, n=519
+[Val] code        : acc=99.57%, conf=0.94, n=234
+[Val] real_world  : acc=82.01%, conf=0.94, n=189
+  3 0.0124    -0.020  0.000   0.000   0.000   0.7484   0.7078   0.2079   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 04:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 04:   7%|6         | 1/15 [00:03<00:44,  3.16s/batch]
+Epoch 04:  13%|#3        | 2/15 [00:06<00:39,  3.06s/batch]
+Epoch 04:  20%|##        | 3/15 [00:09<00:35,  2.99s/batch]
+Epoch 04:  27%|##6       | 4/15 [00:12<00:32,  2.98s/batch]
+Epoch 04:  33%|###3      | 5/15 [00:14<00:29,  2.95s/batch]
+Epoch 04:  40%|####      | 6/15 [00:18<00:27,  3.01s/batch]
+Epoch 04:  47%|####6     | 7/15 [00:21<00:24,  3.11s/batch]
+Epoch 04:  53%|#####3    | 8/15 [00:24<00:22,  3.26s/batch]
+Epoch 04:  60%|######    | 9/15 [00:28<00:20,  3.48s/batch]
+Epoch 04:  67%|######6   | 10/15 [00:33<00:18,  3.70s/batch]
+Epoch 04:  73%|#######3  | 11/15 [00:38<00:17,  4.26s/batch]
+Epoch 04:  80%|########  | 12/15 [00:42<00:12,  4.29s/batch]
+Epoch 04:  87%|########6 | 13/15 [00:47<00:08,  4.38s/batch]
+Epoch 04:  93%|#########3| 14/15 [00:52<00:04,  4.46s/batch]
+Epoch 04: 100%|##########| 15/15 [00:55<00:00,  4.14s/batch]
+Epoch 04: 100%|##########| 15/15 [00:55<00:00,  3.71s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=63.78%, conf=0.92, n=519
+[Val] code        : acc=100.00%, conf=0.92, n=234
+[Val] real_world  : acc=98.41%, conf=0.92, n=189
+  4 0.0104    -0.008  0.000   0.000   0.000   0.7972   0.7510   0.2137   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 05:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 05:   7%|6         | 1/15 [00:02<00:41,  2.97s/batch]
+Epoch 05:  13%|#3        | 2/15 [00:05<00:38,  2.98s/batch]
+Epoch 05:  20%|##        | 3/15 [00:08<00:34,  2.90s/batch]
+Epoch 05:  27%|##6       | 4/15 [00:11<00:31,  2.90s/batch]
+Epoch 05:  33%|###3      | 5/15 [00:14<00:29,  2.90s/batch]
+Epoch 05:  40%|####      | 6/15 [00:17<00:25,  2.83s/batch]
+Epoch 05:  47%|####6     | 7/15 [00:20<00:22,  2.82s/batch]
+Epoch 05:  53%|#####3    | 8/15 [00:23<00:20,  2.86s/batch]
+Epoch 05:  60%|######    | 9/15 [00:26<00:17,  2.95s/batch]
+Epoch 05:  67%|######6   | 10/15 [00:29<00:15,  3.10s/batch]
+Epoch 05:  73%|#######3  | 11/15 [00:33<00:13,  3.35s/batch]
+Epoch 05:  80%|########  | 12/15 [00:37<00:11,  3.68s/batch]
+Epoch 05:  87%|########6 | 13/15 [00:42<00:07,  3.88s/batch]
+Epoch 05:  93%|#########3| 14/15 [00:46<00:04,  4.05s/batch]
+Epoch 05: 100%|##########| 15/15 [00:50<00:00,  3.82s/batch]
+Epoch 05: 100%|##########| 15/15 [00:50<00:00,  3.33s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=69.17%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=98.41%, conf=0.95, n=189
+  5 0.0087    -0.003  0.000   0.000   0.000   0.8270   0.8342   0.2220   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 06:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 06:   7%|6         | 1/15 [00:02<00:37,  2.65s/batch]
+Epoch 06:  13%|#3        | 2/15 [00:05<00:34,  2.67s/batch]
+Epoch 06:  20%|##        | 3/15 [00:07<00:31,  2.65s/batch]
+Epoch 06:  27%|##6       | 4/15 [00:10<00:29,  2.67s/batch]
+Epoch 06:  33%|###3      | 5/15 [00:13<00:26,  2.64s/batch]
+Epoch 06:  40%|####      | 6/15 [00:15<00:23,  2.61s/batch]
+Epoch 06:  47%|####6     | 7/15 [00:18<00:20,  2.54s/batch]
+Epoch 06:  53%|#####3    | 8/15 [00:20<00:17,  2.51s/batch]
+Epoch 06:  60%|######    | 9/15 [00:23<00:15,  2.57s/batch]
+Epoch 06:  67%|######6   | 10/15 [00:26<00:13,  2.68s/batch]
+Epoch 06:  73%|#######3  | 11/15 [00:29<00:11,  2.92s/batch]
+Epoch 06:  80%|########  | 12/15 [00:33<00:09,  3.26s/batch]
+Epoch 06:  87%|########6 | 13/15 [00:38<00:07,  3.60s/batch]
+Epoch 06:  93%|#########3| 14/15 [00:43<00:04,  4.18s/batch]
+Epoch 06: 100%|##########| 15/15 [00:47<00:00,  3.93s/batch]
+Epoch 06: 100%|##########| 15/15 [00:47<00:00,  3.14s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=69.75%, conf=0.95, n=519
+[Val] code        : acc=99.57%, conf=0.95, n=234
+[Val] real_world  : acc=99.47%, conf=0.95, n=189
+  6 0.0078    -0.002  0.000   0.000   0.000   0.8312   0.8199   0.2061   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 07:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 07:   7%|6         | 1/15 [00:02<00:36,  2.62s/batch]
+Epoch 07:  13%|#3        | 2/15 [00:05<00:33,  2.58s/batch]
+Epoch 07:  20%|##        | 3/15 [00:07<00:31,  2.62s/batch]
+Epoch 07:  27%|##6       | 4/15 [00:10<00:28,  2.59s/batch]
+Epoch 07:  33%|###3      | 5/15 [00:13<00:26,  2.60s/batch]
+Epoch 07:  40%|####      | 6/15 [00:15<00:23,  2.61s/batch]
+Epoch 07:  47%|####6     | 7/15 [00:18<00:20,  2.59s/batch]
+Epoch 07:  53%|#####3    | 8/15 [00:20<00:17,  2.57s/batch]
+Epoch 07:  60%|######    | 9/15 [00:23<00:15,  2.57s/batch]
+Epoch 07:  67%|######6   | 10/15 [00:26<00:13,  2.70s/batch]
+Epoch 07:  73%|#######3  | 11/15 [00:29<00:11,  2.93s/batch]
+Epoch 07:  80%|########  | 12/15 [00:33<00:09,  3.20s/batch]
+Epoch 07:  87%|########6 | 13/15 [00:37<00:07,  3.53s/batch]
+Epoch 07:  93%|#########3| 14/15 [00:42<00:03,  3.82s/batch]
+Epoch 07: 100%|##########| 15/15 [00:45<00:00,  3.69s/batch]
+Epoch 07: 100%|##########| 15/15 [00:45<00:00,  3.05s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=66.47%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=98.41%, conf=0.95, n=189
+  7 0.0076    -0.002  0.000   0.000   0.000   0.8121   0.8225   0.1813   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 08:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 08:   7%|6         | 1/15 [00:02<00:38,  2.77s/batch]
+Epoch 08:  13%|#3        | 2/15 [00:05<00:36,  2.83s/batch]
+Epoch 08:  20%|##        | 3/15 [00:08<00:33,  2.80s/batch]
+Epoch 08:  27%|##6       | 4/15 [00:11<00:30,  2.78s/batch]
+Epoch 08:  33%|###3      | 5/15 [00:13<00:27,  2.75s/batch]
+Epoch 08:  40%|####      | 6/15 [00:16<00:24,  2.72s/batch]
+Epoch 08:  47%|####6     | 7/15 [00:19<00:21,  2.73s/batch]
+Epoch 08:  53%|#####3    | 8/15 [00:21<00:18,  2.71s/batch]
+Epoch 08:  60%|######    | 9/15 [00:24<00:16,  2.74s/batch]
+Epoch 08:  67%|######6   | 10/15 [00:27<00:14,  2.86s/batch]
+Epoch 08:  73%|#######3  | 11/15 [00:31<00:12,  3.13s/batch]
+Epoch 08:  80%|########  | 12/15 [00:35<00:10,  3.40s/batch]
+Epoch 08:  87%|########6 | 13/15 [00:39<00:07,  3.69s/batch]
+Epoch 08:  93%|#########3| 14/15 [00:44<00:03,  3.97s/batch]
+Epoch 08: 100%|##########| 15/15 [00:47<00:00,  3.78s/batch]
+Epoch 08: 100%|##########| 15/15 [00:47<00:00,  3.19s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=71.87%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+  8 0.0072    -0.002  0.000   0.000   0.000   0.8439   0.8365   0.2098   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 09:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 09:   7%|6         | 1/15 [00:02<00:37,  2.71s/batch]
+Epoch 09:  13%|#3        | 2/15 [00:05<00:34,  2.65s/batch]
+Epoch 09:  20%|##        | 3/15 [00:07<00:31,  2.65s/batch]
+Epoch 09:  27%|##6       | 4/15 [00:10<00:29,  2.67s/batch]
+Epoch 09:  33%|###3      | 5/15 [00:13<00:26,  2.63s/batch]
+Epoch 09:  40%|####      | 6/15 [00:15<00:23,  2.63s/batch]
+Epoch 09:  47%|####6     | 7/15 [00:18<00:21,  2.66s/batch]
+Epoch 09:  53%|#####3    | 8/15 [00:21<00:18,  2.63s/batch]
+Epoch 09:  60%|######    | 9/15 [00:23<00:16,  2.69s/batch]
+Epoch 09:  67%|######6   | 10/15 [00:27<00:14,  2.91s/batch]
+Epoch 09:  73%|#######3  | 11/15 [00:30<00:12,  3.05s/batch]
+Epoch 09:  80%|########  | 12/15 [00:34<00:10,  3.37s/batch]
+Epoch 09:  87%|########6 | 13/15 [00:39<00:07,  3.69s/batch]
+Epoch 09:  93%|#########3| 14/15 [00:46<00:04,  4.66s/batch]
+Epoch 09: 100%|##########| 15/15 [00:49<00:00,  4.25s/batch]
+Epoch 09: 100%|##########| 15/15 [00:49<00:00,  3.30s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=71.10%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+  9 0.0069    -0.002  0.000   0.000   0.000   0.8397   0.8165   0.1915   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 10:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 10:   7%|6         | 1/15 [00:02<00:35,  2.51s/batch]
+Epoch 10:  13%|#3        | 2/15 [00:05<00:34,  2.64s/batch]
+Epoch 10:  20%|##        | 3/15 [00:07<00:30,  2.54s/batch]
+Epoch 10:  27%|##6       | 4/15 [00:10<00:28,  2.55s/batch]
+Epoch 10:  33%|###3      | 5/15 [00:12<00:25,  2.56s/batch]
+Epoch 10:  40%|####      | 6/15 [00:15<00:22,  2.55s/batch]
+Epoch 10:  47%|####6     | 7/15 [00:17<00:19,  2.50s/batch]
+Epoch 10:  53%|#####3    | 8/15 [00:20<00:17,  2.45s/batch]
+Epoch 10:  60%|######    | 9/15 [00:22<00:14,  2.44s/batch]
+Epoch 10:  67%|######6   | 10/15 [00:25<00:12,  2.54s/batch]
+Epoch 10:  73%|#######3  | 11/15 [00:28<00:10,  2.70s/batch]
+Epoch 10:  80%|########  | 12/15 [00:31<00:08,  2.97s/batch]
+Epoch 10:  87%|########6 | 13/15 [00:35<00:06,  3.25s/batch]
+Epoch 10:  93%|#########3| 14/15 [00:40<00:03,  3.60s/batch]
+Epoch 10: 100%|##########| 15/15 [00:43<00:00,  3.53s/batch]
+Epoch 10: 100%|##########| 15/15 [00:43<00:00,  2.90s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=73.80%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 10 0.0065    -0.002  0.000   0.000   0.000   0.8546   0.8462   0.1952   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 11:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 11:   7%|6         | 1/15 [00:02<00:37,  2.66s/batch]
+Epoch 11:  13%|#3        | 2/15 [00:05<00:34,  2.62s/batch]
+Epoch 11:  20%|##        | 3/15 [00:07<00:31,  2.65s/batch]
+Epoch 11:  27%|##6       | 4/15 [00:10<00:28,  2.57s/batch]
+Epoch 11:  33%|###3      | 5/15 [00:12<00:25,  2.53s/batch]
+Epoch 11:  40%|####      | 6/15 [00:15<00:22,  2.54s/batch]
+Epoch 11:  47%|####6     | 7/15 [00:18<00:20,  2.56s/batch]
+Epoch 11:  53%|#####3    | 8/15 [00:20<00:17,  2.55s/batch]
+Epoch 11:  60%|######    | 9/15 [00:23<00:15,  2.55s/batch]
+Epoch 11:  67%|######6   | 10/15 [00:25<00:13,  2.63s/batch]
+Epoch 11:  73%|#######3  | 11/15 [00:29<00:11,  2.82s/batch]
+Epoch 11:  80%|########  | 12/15 [00:33<00:09,  3.16s/batch]
+Epoch 11:  87%|########6 | 13/15 [00:37<00:07,  3.53s/batch]
+Epoch 11:  93%|#########3| 14/15 [00:41<00:03,  3.78s/batch]
+Epoch 11: 100%|##########| 15/15 [00:45<00:00,  3.66s/batch]
+Epoch 11: 100%|##########| 15/15 [00:45<00:00,  3.01s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=69.36%, conf=0.93, n=519
+[Val] code        : acc=100.00%, conf=0.93, n=234
+[Val] real_world  : acc=100.00%, conf=0.93, n=189
+ 11 0.0063    -0.001  0.000   0.000   0.000   0.8312   0.8231   0.1647   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 12:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 12:   7%|6         | 1/15 [00:02<00:38,  2.77s/batch]
+Epoch 12:  13%|#3        | 2/15 [00:05<00:35,  2.70s/batch]
+Epoch 12:  20%|##        | 3/15 [00:08<00:32,  2.73s/batch]
+Epoch 12:  27%|##6       | 4/15 [00:10<00:29,  2.64s/batch]
+Epoch 12:  33%|###3      | 5/15 [00:13<00:26,  2.67s/batch]
+Epoch 12:  40%|####      | 6/15 [00:15<00:23,  2.63s/batch]
+Epoch 12:  47%|####6     | 7/15 [00:18<00:20,  2.60s/batch]
+Epoch 12:  53%|#####3    | 8/15 [00:21<00:18,  2.62s/batch]
+Epoch 12:  60%|######    | 9/15 [00:24<00:16,  2.71s/batch]
+Epoch 12:  67%|######6   | 10/15 [00:27<00:14,  2.90s/batch]
+Epoch 12:  73%|#######3  | 11/15 [00:30<00:12,  3.11s/batch]
+Epoch 12:  80%|########  | 12/15 [00:35<00:10,  3.46s/batch]
+Epoch 12:  87%|########6 | 13/15 [00:40<00:08,  4.12s/batch]
+Epoch 12:  93%|#########3| 14/15 [00:45<00:04,  4.37s/batch]
+Epoch 12: 100%|##########| 15/15 [00:49<00:00,  4.16s/batch]
+Epoch 12: 100%|##########| 15/15 [00:49<00:00,  3.30s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=73.03%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=99.47%, conf=0.95, n=189
+ 12 0.0067    -0.001  0.000   0.000   0.000   0.8503   0.8374   0.1889   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 13:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 13:   7%|6         | 1/15 [00:02<00:35,  2.56s/batch]
+Epoch 13:  13%|#3        | 2/15 [00:05<00:33,  2.55s/batch]
+Epoch 13:  20%|##        | 3/15 [00:07<00:30,  2.51s/batch]
+Epoch 13:  27%|##6       | 4/15 [00:10<00:28,  2.55s/batch]
+Epoch 13:  33%|###3      | 5/15 [00:12<00:25,  2.56s/batch]
+Epoch 13:  40%|####      | 6/15 [00:15<00:23,  2.60s/batch]
+Epoch 13:  47%|####6     | 7/15 [00:18<00:20,  2.61s/batch]
+Epoch 13:  53%|#####3    | 8/15 [00:20<00:18,  2.60s/batch]
+Epoch 13:  60%|######    | 9/15 [00:23<00:16,  2.73s/batch]
+Epoch 13:  67%|######6   | 10/15 [00:26<00:14,  2.80s/batch]
+Epoch 13:  73%|#######3  | 11/15 [00:29<00:11,  2.92s/batch]
+Epoch 13:  80%|########  | 12/15 [00:33<00:09,  3.17s/batch]
+Epoch 13:  87%|########6 | 13/15 [00:37<00:06,  3.46s/batch]
+Epoch 13:  93%|#########3| 14/15 [00:42<00:03,  3.72s/batch]
+Epoch 13: 100%|##########| 15/15 [00:45<00:00,  3.58s/batch]
+Epoch 13: 100%|##########| 15/15 [00:45<00:00,  3.02s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=71.48%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 13 0.0063    -0.001  0.000   0.000   0.000   0.8429   0.8366   0.1739   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 14:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 14:   7%|6         | 1/15 [00:02<00:34,  2.46s/batch]
+Epoch 14:  13%|#3        | 2/15 [00:05<00:32,  2.51s/batch]
+Epoch 14:  20%|##        | 3/15 [00:07<00:30,  2.55s/batch]
+Epoch 14:  27%|##6       | 4/15 [00:10<00:27,  2.54s/batch]
+Epoch 14:  33%|###3      | 5/15 [00:12<00:24,  2.49s/batch]
+Epoch 14:  40%|####      | 6/15 [00:15<00:22,  2.48s/batch]
+Epoch 14:  47%|####6     | 7/15 [00:17<00:19,  2.50s/batch]
+Epoch 14:  53%|#####3    | 8/15 [00:19<00:17,  2.47s/batch]
+Epoch 14:  60%|######    | 9/15 [00:22<00:15,  2.63s/batch]
+Epoch 14:  67%|######6   | 10/15 [00:26<00:13,  2.80s/batch]
+Epoch 14:  73%|#######3  | 11/15 [00:29<00:12,  3.12s/batch]
+Epoch 14:  80%|########  | 12/15 [00:34<00:10,  3.41s/batch]
+Epoch 14:  87%|########6 | 13/15 [00:41<00:09,  4.55s/batch]
+Epoch 14:  93%|#########3| 14/15 [00:45<00:04,  4.54s/batch]
+Epoch 14: 100%|##########| 15/15 [00:48<00:00,  4.15s/batch]
+Epoch 14: 100%|##########| 15/15 [00:48<00:00,  3.26s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=73.41%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=100.00%, conf=0.95, n=189
+ 14 0.0063    -0.001  0.000   0.000   0.000   0.8535   0.8399   0.1848   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 15:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 15:   7%|6         | 1/15 [00:02<00:33,  2.39s/batch]
+Epoch 15:  13%|#3        | 2/15 [00:04<00:30,  2.34s/batch]
+Epoch 15:  20%|##        | 3/15 [00:06<00:27,  2.31s/batch]
+Epoch 15:  27%|##6       | 4/15 [00:09<00:25,  2.33s/batch]
+Epoch 15:  33%|###3      | 5/15 [00:11<00:23,  2.33s/batch]
+Epoch 15:  40%|####      | 6/15 [00:13<00:20,  2.29s/batch]
+Epoch 15:  47%|####6     | 7/15 [00:16<00:18,  2.33s/batch]
+Epoch 15:  53%|#####3    | 8/15 [00:18<00:16,  2.41s/batch]
+Epoch 15:  60%|######    | 9/15 [00:21<00:15,  2.51s/batch]
+Epoch 15:  67%|######6   | 10/15 [00:24<00:13,  2.75s/batch]
+Epoch 15:  73%|#######3  | 11/15 [00:28<00:12,  3.10s/batch]
+Epoch 15:  80%|########  | 12/15 [00:33<00:10,  3.45s/batch]
+Epoch 15:  87%|########6 | 13/15 [00:37<00:07,  3.69s/batch]
+Epoch 15:  93%|#########3| 14/15 [00:41<00:03,  3.91s/batch]
+Epoch 15: 100%|##########| 15/15 [00:44<00:00,  3.71s/batch]
+Epoch 15: 100%|##########| 15/15 [00:44<00:00,  2.99s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=73.22%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=100.00%, conf=0.95, n=189
+ 15 0.0062    -0.001  0.000   0.000   0.000   0.8524   0.8429   0.1770   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 16:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 16:   7%|6         | 1/15 [00:02<00:40,  2.89s/batch]
+Epoch 16:  13%|#3        | 2/15 [00:05<00:37,  2.89s/batch]
+Epoch 16:  20%|##        | 3/15 [00:08<00:34,  2.84s/batch]
+Epoch 16:  27%|##6       | 4/15 [00:11<00:30,  2.80s/batch]
+Epoch 16:  33%|###3      | 5/15 [00:14<00:27,  2.80s/batch]
+Epoch 16:  40%|####      | 6/15 [00:16<00:25,  2.78s/batch]
+Epoch 16:  47%|####6     | 7/15 [00:19<00:22,  2.77s/batch]
+Epoch 16:  53%|#####3    | 8/15 [00:22<00:19,  2.84s/batch]
+Epoch 16:  60%|######    | 9/15 [00:25<00:17,  2.93s/batch]
+Epoch 16:  67%|######6   | 10/15 [00:29<00:15,  3.12s/batch]
+Epoch 16:  73%|#######3  | 11/15 [00:33<00:13,  3.36s/batch]
+Epoch 16:  80%|########  | 12/15 [00:37<00:11,  3.75s/batch]
+Epoch 16:  87%|########6 | 13/15 [00:43<00:08,  4.25s/batch]
+Epoch 16:  93%|#########3| 14/15 [00:47<00:04,  4.32s/batch]
+Epoch 16: 100%|##########| 15/15 [00:50<00:00,  3.99s/batch]
+Epoch 16: 100%|##########| 15/15 [00:50<00:00,  3.39s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=73.99%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=100.00%, conf=0.95, n=189
+ 16 0.0061    -0.001  0.000   0.000   0.000   0.8567   0.8387   0.1775   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 17:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 17:   7%|6         | 1/15 [00:02<00:33,  2.39s/batch]
+Epoch 17:  13%|#3        | 2/15 [00:04<00:30,  2.32s/batch]
+Epoch 17:  20%|##        | 3/15 [00:07<00:28,  2.34s/batch]
+Epoch 17:  27%|##6       | 4/15 [00:09<00:25,  2.29s/batch]
+Epoch 17:  33%|###3      | 5/15 [00:11<00:23,  2.33s/batch]
+Epoch 17:  40%|####      | 6/15 [00:14<00:21,  2.34s/batch]
+Epoch 17:  47%|####6     | 7/15 [00:16<00:18,  2.31s/batch]
+Epoch 17:  53%|#####3    | 8/15 [00:18<00:15,  2.28s/batch]
+Epoch 17:  60%|######    | 9/15 [00:21<00:14,  2.38s/batch]
+Epoch 17:  67%|######6   | 10/15 [00:23<00:12,  2.54s/batch]
+Epoch 17:  73%|#######3  | 11/15 [00:27<00:10,  2.71s/batch]
+Epoch 17:  80%|########  | 12/15 [00:30<00:09,  3.03s/batch]
+Epoch 17:  87%|########6 | 13/15 [00:37<00:08,  4.04s/batch]
+Epoch 17:  93%|#########3| 14/15 [00:41<00:04,  4.22s/batch]
+Epoch 17: 100%|##########| 15/15 [00:45<00:00,  3.95s/batch]
+Epoch 17: 100%|##########| 15/15 [00:45<00:00,  3.01s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=73.99%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=99.47%, conf=0.95, n=189
+ 17 0.0060    -0.001  0.000   0.000   0.000   0.8556   0.8509   0.1786   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 18:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 18:   7%|6         | 1/15 [00:02<00:33,  2.41s/batch]
+Epoch 18:  13%|#3        | 2/15 [00:04<00:30,  2.34s/batch]
+Epoch 18:  20%|##        | 3/15 [00:07<00:28,  2.37s/batch]
+Epoch 18:  27%|##6       | 4/15 [00:09<00:26,  2.38s/batch]
+Epoch 18:  33%|###3      | 5/15 [00:11<00:24,  2.40s/batch]
+Epoch 18:  40%|####      | 6/15 [00:14<00:21,  2.35s/batch]
+Epoch 18:  47%|####6     | 7/15 [00:16<00:18,  2.35s/batch]
+Epoch 18:  53%|#####3    | 8/15 [00:18<00:16,  2.38s/batch]
+Epoch 18:  60%|######    | 9/15 [00:21<00:14,  2.36s/batch]
+Epoch 18:  67%|######6   | 10/15 [00:23<00:11,  2.39s/batch]
+Epoch 18:  73%|#######3  | 11/15 [00:26<00:09,  2.50s/batch]
+Epoch 18:  80%|########  | 12/15 [00:29<00:07,  2.62s/batch]
+Epoch 18:  87%|########6 | 13/15 [00:33<00:06,  3.16s/batch]
+Epoch 18:  93%|#########3| 14/15 [00:38<00:03,  3.57s/batch]
+Epoch 18: 100%|##########| 15/15 [00:41<00:00,  3.52s/batch]
+Epoch 18: 100%|##########| 15/15 [00:41<00:00,  2.78s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.18%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 18 0.0059    -0.001  0.000   0.000   0.000   0.8567   0.8508   0.1764   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 19:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 19:   7%|6         | 1/15 [00:02<00:35,  2.54s/batch]
+Epoch 19:  13%|#3        | 2/15 [00:05<00:33,  2.57s/batch]
+Epoch 19:  20%|##        | 3/15 [00:07<00:30,  2.51s/batch]
+Epoch 19:  27%|##6       | 4/15 [00:09<00:27,  2.46s/batch]
+Epoch 19:  33%|###3      | 5/15 [00:12<00:24,  2.44s/batch]
+Epoch 19:  40%|####      | 6/15 [00:14<00:22,  2.46s/batch]
+Epoch 19:  47%|####6     | 7/15 [00:17<00:19,  2.48s/batch]
+Epoch 19:  53%|#####3    | 8/15 [00:19<00:17,  2.51s/batch]
+Epoch 19:  60%|######    | 9/15 [00:22<00:15,  2.57s/batch]
+Epoch 19:  67%|######6   | 10/15 [00:25<00:13,  2.78s/batch]
+Epoch 19:  73%|#######3  | 11/15 [00:29<00:11,  2.99s/batch]
+Epoch 19:  80%|########  | 12/15 [00:33<00:10,  3.35s/batch]
+Epoch 19:  87%|########6 | 13/15 [00:39<00:08,  4.03s/batch]
+Epoch 19:  93%|#########3| 14/15 [00:43<00:04,  4.11s/batch]
+Epoch 19: 100%|##########| 15/15 [00:46<00:00,  3.86s/batch]
+Epoch 19: 100%|##########| 15/15 [00:46<00:00,  3.11s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.95%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=99.47%, conf=0.95, n=189
+ 19 0.0057    -0.001  0.000   0.000   0.000   0.8609   0.8482   0.1748   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 20:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 20:   7%|6         | 1/15 [00:02<00:33,  2.41s/batch]
+Epoch 20:  13%|#3        | 2/15 [00:04<00:31,  2.43s/batch]
+Epoch 20:  20%|##        | 3/15 [00:07<00:28,  2.37s/batch]
+Epoch 20:  27%|##6       | 4/15 [00:09<00:26,  2.37s/batch]
+Epoch 20:  33%|###3      | 5/15 [00:11<00:23,  2.33s/batch]
+Epoch 20:  40%|####      | 6/15 [00:14<00:21,  2.34s/batch]
+Epoch 20:  47%|####6     | 7/15 [00:16<00:18,  2.31s/batch]
+Epoch 20:  53%|#####3    | 8/15 [00:18<00:16,  2.30s/batch]
+Epoch 20:  60%|######    | 9/15 [00:20<00:13,  2.30s/batch]
+Epoch 20:  67%|######6   | 10/15 [00:23<00:11,  2.37s/batch]
+Epoch 20:  73%|#######3  | 11/15 [00:26<00:10,  2.53s/batch]
+Epoch 20:  80%|########  | 12/15 [00:29<00:08,  2.76s/batch]
+Epoch 20:  87%|########6 | 13/15 [00:33<00:06,  3.07s/batch]
+Epoch 20:  93%|#########3| 14/15 [00:37<00:03,  3.48s/batch]
+Epoch 20: 100%|##########| 15/15 [00:41<00:00,  3.38s/batch]
+Epoch 20: 100%|##########| 15/15 [00:41<00:00,  2.74s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.57%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=99.47%, conf=0.95, n=189
+ 20 0.0057    -0.001  0.000   0.000   0.000   0.8588   0.8470   0.1715   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 21:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 21:   7%|6         | 1/15 [00:02<00:37,  2.67s/batch]
+Epoch 21:  13%|#3        | 2/15 [00:05<00:34,  2.67s/batch]
+Epoch 21:  20%|##        | 3/15 [00:07<00:31,  2.63s/batch]
+Epoch 21:  27%|##6       | 4/15 [00:10<00:29,  2.64s/batch]
+Epoch 21:  33%|###3      | 5/15 [00:13<00:25,  2.60s/batch]
+Epoch 21:  40%|####      | 6/15 [00:15<00:23,  2.57s/batch]
+Epoch 21:  47%|####6     | 7/15 [00:18<00:20,  2.56s/batch]
+Epoch 21:  53%|#####3    | 8/15 [00:20<00:18,  2.59s/batch]
+Epoch 21:  60%|######    | 9/15 [00:23<00:15,  2.57s/batch]
+Epoch 21:  67%|######6   | 10/15 [00:26<00:13,  2.68s/batch]
+Epoch 21:  73%|#######3  | 11/15 [00:29<00:11,  2.85s/batch]
+Epoch 21:  80%|########  | 12/15 [00:33<00:09,  3.16s/batch]
+Epoch 21:  87%|########6 | 13/15 [00:37<00:06,  3.48s/batch]
+Epoch 21:  93%|#########3| 14/15 [00:43<00:04,  4.29s/batch]
+Epoch 21: 100%|##########| 15/15 [00:46<00:00,  3.95s/batch]
+Epoch 21: 100%|##########| 15/15 [00:46<00:00,  3.13s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.76%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 21 0.0056    -0.001  0.000   0.000   0.000   0.8599   0.8458   0.1698   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 22:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 22:   7%|6         | 1/15 [00:02<00:32,  2.31s/batch]
+Epoch 22:  13%|#3        | 2/15 [00:04<00:29,  2.28s/batch]
+Epoch 22:  20%|##        | 3/15 [00:06<00:26,  2.20s/batch]
+Epoch 22:  27%|##6       | 4/15 [00:08<00:24,  2.20s/batch]
+Epoch 22:  33%|###3      | 5/15 [00:11<00:21,  2.19s/batch]
+Epoch 22:  40%|####      | 6/15 [00:13<00:19,  2.17s/batch]
+Epoch 22:  47%|####6     | 7/15 [00:15<00:17,  2.19s/batch]
+Epoch 22:  53%|#####3    | 8/15 [00:17<00:14,  2.13s/batch]
+Epoch 22:  60%|######    | 9/15 [00:19<00:12,  2.14s/batch]
+Epoch 22:  67%|######6   | 10/15 [00:21<00:11,  2.21s/batch]
+Epoch 22:  73%|#######3  | 11/15 [00:24<00:09,  2.38s/batch]
+Epoch 22:  80%|########  | 12/15 [00:27<00:07,  2.60s/batch]
+Epoch 22:  87%|########6 | 13/15 [00:31<00:05,  2.88s/batch]
+Epoch 22:  93%|#########3| 14/15 [00:35<00:03,  3.32s/batch]
+Epoch 22: 100%|##########| 15/15 [00:38<00:00,  3.32s/batch]
+Epoch 22: 100%|##########| 15/15 [00:38<00:00,  2.60s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.14%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 22 0.0056    -0.001  0.000   0.000   0.000   0.8620   0.8492   0.1695   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 23:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 23:   7%|6         | 1/15 [00:02<00:39,  2.81s/batch]
+Epoch 23:  13%|#3        | 2/15 [00:05<00:34,  2.69s/batch]
+Epoch 23:  20%|##        | 3/15 [00:07<00:30,  2.58s/batch]
+Epoch 23:  27%|##6       | 4/15 [00:10<00:27,  2.52s/batch]
+Epoch 23:  33%|###3      | 5/15 [00:12<00:24,  2.47s/batch]
+Epoch 23:  40%|####      | 6/15 [00:15<00:22,  2.51s/batch]
+Epoch 23:  47%|####6     | 7/15 [00:17<00:19,  2.48s/batch]
+Epoch 23:  53%|#####3    | 8/15 [00:20<00:17,  2.44s/batch]
+Epoch 23:  60%|######    | 9/15 [00:22<00:14,  2.43s/batch]
+Epoch 23:  67%|######6   | 10/15 [00:25<00:12,  2.47s/batch]
+Epoch 23:  73%|#######3  | 11/15 [00:27<00:10,  2.60s/batch]
+Epoch 23:  80%|########  | 12/15 [00:31<00:08,  2.89s/batch]
+Epoch 23:  87%|########6 | 13/15 [00:35<00:06,  3.26s/batch]
+Epoch 23:  93%|#########3| 14/15 [00:42<00:04,  4.23s/batch]
+Epoch 23: 100%|##########| 15/15 [00:45<00:00,  3.98s/batch]
+Epoch 23: 100%|##########| 15/15 [00:45<00:00,  3.03s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=73.99%, conf=0.95, n=519
+[Val] code        : acc=100.00%, conf=0.95, n=234
+[Val] real_world  : acc=99.47%, conf=0.95, n=189
+ 23 0.0055    -0.001  0.000   0.000   0.000   0.8556   0.8444   0.1655   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 24:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 24:   7%|6         | 1/15 [00:02<00:33,  2.41s/batch]
+Epoch 24:  13%|#3        | 2/15 [00:04<00:31,  2.45s/batch]
+Epoch 24:  20%|##        | 3/15 [00:07<00:29,  2.46s/batch]
+Epoch 24:  27%|##6       | 4/15 [00:09<00:26,  2.42s/batch]
+Epoch 24:  33%|###3      | 5/15 [00:12<00:24,  2.42s/batch]
+Epoch 24:  40%|####      | 6/15 [00:14<00:21,  2.40s/batch]
+Epoch 24:  47%|####6     | 7/15 [00:16<00:19,  2.41s/batch]
+Epoch 24:  53%|#####3    | 8/15 [00:19<00:17,  2.45s/batch]
+Epoch 24:  60%|######    | 9/15 [00:22<00:15,  2.50s/batch]
+Epoch 24:  67%|######6   | 10/15 [00:24<00:13,  2.62s/batch]
+Epoch 24:  73%|#######3  | 11/15 [00:28<00:11,  2.82s/batch]
+Epoch 24:  80%|########  | 12/15 [00:32<00:09,  3.12s/batch]
+Epoch 24:  87%|########6 | 13/15 [00:36<00:07,  3.53s/batch]
+Epoch 24:  93%|#########3| 14/15 [00:40<00:03,  3.81s/batch]
+Epoch 24: 100%|##########| 15/15 [00:44<00:00,  3.65s/batch]
+Epoch 24: 100%|##########| 15/15 [00:44<00:00,  2.95s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.76%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 24 0.0054    -0.001  0.000   0.000   0.000   0.8599   0.8493   0.1658   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 25:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 25:   7%|6         | 1/15 [00:02<00:38,  2.76s/batch]
+Epoch 25:  13%|#3        | 2/15 [00:05<00:35,  2.71s/batch]
+Epoch 25:  20%|##        | 3/15 [00:08<00:32,  2.70s/batch]
+Epoch 25:  27%|##6       | 4/15 [00:10<00:29,  2.68s/batch]
+Epoch 25:  33%|###3      | 5/15 [00:13<00:27,  2.72s/batch]
+Epoch 25:  40%|####      | 6/15 [00:16<00:24,  2.68s/batch]
+Epoch 25:  47%|####6     | 7/15 [00:18<00:21,  2.66s/batch]
+Epoch 25:  53%|#####3    | 8/15 [00:21<00:18,  2.63s/batch]
+Epoch 25:  60%|######    | 9/15 [00:23<00:15,  2.59s/batch]
+Epoch 25:  67%|######6   | 10/15 [00:26<00:13,  2.75s/batch]
+Epoch 25:  73%|#######3  | 11/15 [00:30<00:11,  2.97s/batch]
+Epoch 25:  80%|########  | 12/15 [00:34<00:09,  3.24s/batch]
+Epoch 25:  87%|########6 | 13/15 [00:38<00:07,  3.56s/batch]
+Epoch 25:  93%|#########3| 14/15 [00:43<00:03,  3.96s/batch]
+Epoch 25: 100%|##########| 15/15 [00:46<00:00,  3.72s/batch]
+Epoch 25: 100%|##########| 15/15 [00:46<00:00,  3.11s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.37%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 25 0.0054    -0.001  0.000   0.000   0.000   0.8588   0.8459   0.1608   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 26:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 26:   7%|6         | 1/15 [00:02<00:39,  2.82s/batch]
+Epoch 26:  13%|#3        | 2/15 [00:05<00:36,  2.78s/batch]
+Epoch 26:  20%|##        | 3/15 [00:08<00:32,  2.73s/batch]
+Epoch 26:  27%|##6       | 4/15 [00:10<00:29,  2.71s/batch]
+Epoch 26:  33%|###3      | 5/15 [00:13<00:26,  2.66s/batch]
+Epoch 26:  40%|####      | 6/15 [00:16<00:23,  2.62s/batch]
+Epoch 26:  47%|####6     | 7/15 [00:18<00:20,  2.62s/batch]
+Epoch 26:  53%|#####3    | 8/15 [00:21<00:17,  2.57s/batch]
+Epoch 26:  60%|######    | 9/15 [00:23<00:15,  2.59s/batch]
+Epoch 26:  67%|######6   | 10/15 [00:26<00:13,  2.72s/batch]
+Epoch 26:  73%|#######3  | 11/15 [00:30<00:11,  2.94s/batch]
+Epoch 26:  80%|########  | 12/15 [00:34<00:09,  3.21s/batch]
+Epoch 26:  87%|########6 | 13/15 [00:38<00:07,  3.56s/batch]
+Epoch 26:  93%|#########3| 14/15 [00:42<00:03,  3.82s/batch]
+Epoch 26: 100%|##########| 15/15 [00:46<00:00,  3.65s/batch]
+Epoch 26: 100%|##########| 15/15 [00:46<00:00,  3.07s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.37%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 26 0.0053    -0.001  0.000   0.000   0.000   0.8577   0.8477   0.1591   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 27:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 27:   7%|6         | 1/15 [00:02<00:38,  2.75s/batch]
+Epoch 27:  13%|#3        | 2/15 [00:05<00:35,  2.75s/batch]
+Epoch 27:  20%|##        | 3/15 [00:08<00:32,  2.69s/batch]
+Epoch 27:  27%|##6       | 4/15 [00:10<00:29,  2.66s/batch]
+Epoch 27:  33%|###3      | 5/15 [00:13<00:27,  2.71s/batch]
+Epoch 27:  40%|####      | 6/15 [00:16<00:23,  2.64s/batch]
+Epoch 27:  47%|####6     | 7/15 [00:18<00:20,  2.60s/batch]
+Epoch 27:  53%|#####3    | 8/15 [00:21<00:18,  2.60s/batch]
+Epoch 27:  60%|######    | 9/15 [00:23<00:15,  2.61s/batch]
+Epoch 27:  67%|######6   | 10/15 [00:26<00:13,  2.74s/batch]
+Epoch 27:  73%|#######3  | 11/15 [00:30<00:11,  2.92s/batch]
+Epoch 27:  80%|########  | 12/15 [00:34<00:09,  3.32s/batch]
+Epoch 27:  87%|########6 | 13/15 [00:38<00:07,  3.61s/batch]
+Epoch 27:  93%|#########3| 14/15 [00:45<00:04,  4.56s/batch]
+Epoch 27: 100%|##########| 15/15 [00:48<00:00,  4.19s/batch]
+Epoch 27: 100%|##########| 15/15 [00:48<00:00,  3.25s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.34%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 27 0.0053    -0.001  0.000   0.000   0.000   0.8631   0.8539   0.1643   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 28:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 28:   7%|6         | 1/15 [00:02<00:38,  2.76s/batch]
+Epoch 28:  13%|#3        | 2/15 [00:05<00:35,  2.71s/batch]
+Epoch 28:  20%|##        | 3/15 [00:07<00:31,  2.63s/batch]
+Epoch 28:  27%|##6       | 4/15 [00:10<00:28,  2.61s/batch]
+Epoch 28:  33%|###3      | 5/15 [00:13<00:25,  2.56s/batch]
+Epoch 28:  40%|####      | 6/15 [00:15<00:22,  2.55s/batch]
+Epoch 28:  47%|####6     | 7/15 [00:18<00:20,  2.55s/batch]
+Epoch 28:  53%|#####3    | 8/15 [00:20<00:17,  2.52s/batch]
+Epoch 28:  60%|######    | 9/15 [00:22<00:14,  2.46s/batch]
+Epoch 28:  67%|######6   | 10/15 [00:25<00:12,  2.55s/batch]
+Epoch 28:  73%|#######3  | 11/15 [00:28<00:10,  2.70s/batch]
+Epoch 28:  80%|########  | 12/15 [00:32<00:08,  2.96s/batch]
+Epoch 28:  87%|########6 | 13/15 [00:36<00:06,  3.35s/batch]
+Epoch 28:  93%|#########3| 14/15 [00:40<00:03,  3.70s/batch]
+Epoch 28: 100%|##########| 15/15 [00:44<00:00,  3.57s/batch]
+Epoch 28: 100%|##########| 15/15 [00:44<00:00,  2.95s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.53%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 28 0.0052    -0.001  0.000   0.000   0.000   0.8641   0.8487   0.1603   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 29:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 29:   7%|6         | 1/15 [00:02<00:33,  2.38s/batch]
+Epoch 29:  13%|#3        | 2/15 [00:04<00:30,  2.38s/batch]
+Epoch 29:  20%|##        | 3/15 [00:07<00:28,  2.35s/batch]
+Epoch 29:  27%|##6       | 4/15 [00:09<00:25,  2.34s/batch]
+Epoch 29:  33%|###3      | 5/15 [00:11<00:23,  2.33s/batch]
+Epoch 29:  40%|####      | 6/15 [00:13<00:20,  2.31s/batch]
+Epoch 29:  47%|####6     | 7/15 [00:16<00:18,  2.29s/batch]
+Epoch 29:  53%|#####3    | 8/15 [00:18<00:16,  2.30s/batch]
+Epoch 29:  60%|######    | 9/15 [00:20<00:13,  2.31s/batch]
+Epoch 29:  67%|######6   | 10/15 [00:23<00:11,  2.38s/batch]
+Epoch 29:  73%|#######3  | 11/15 [00:26<00:10,  2.52s/batch]
+Epoch 29:  80%|########  | 12/15 [00:29<00:08,  2.72s/batch]
+Epoch 29:  87%|########6 | 13/15 [00:33<00:06,  3.09s/batch]
+Epoch 29:  93%|#########3| 14/15 [00:37<00:03,  3.46s/batch]
+Epoch 29: 100%|##########| 15/15 [00:40<00:00,  3.42s/batch]
+Epoch 29: 100%|##########| 15/15 [00:40<00:00,  2.73s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.49%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 29 0.0051    -0.001  0.000   0.000   0.000   0.8694   0.8585   0.1664   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 30:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 30:   7%|6         | 1/15 [00:02<00:36,  2.60s/batch]
+Epoch 30:  13%|#3        | 2/15 [00:04<00:31,  2.46s/batch]
+Epoch 30:  20%|##        | 3/15 [00:07<00:29,  2.49s/batch]
+Epoch 30:  27%|##6       | 4/15 [00:09<00:27,  2.47s/batch]
+Epoch 30:  33%|###3      | 5/15 [00:12<00:24,  2.45s/batch]
+Epoch 30:  40%|####      | 6/15 [00:14<00:21,  2.41s/batch]
+Epoch 30:  47%|####6     | 7/15 [00:17<00:19,  2.38s/batch]
+Epoch 30:  53%|#####3    | 8/15 [00:19<00:16,  2.39s/batch]
+Epoch 30:  60%|######    | 9/15 [00:22<00:15,  2.51s/batch]
+Epoch 30:  67%|######6   | 10/15 [00:25<00:13,  2.62s/batch]
+Epoch 30:  73%|#######3  | 11/15 [00:28<00:11,  2.80s/batch]
+Epoch 30:  80%|########  | 12/15 [00:32<00:09,  3.14s/batch]
+Epoch 30:  87%|########6 | 13/15 [00:38<00:08,  4.20s/batch]
+Epoch 30:  93%|#########3| 14/15 [00:44<00:04,  4.59s/batch]
+Epoch 30: 100%|##########| 15/15 [00:47<00:00,  4.22s/batch]
+Epoch 30: 100%|##########| 15/15 [00:47<00:00,  3.18s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.69%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 30 0.0051    -0.001  0.000   0.000   0.000   0.8705   0.8598   0.1658   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 31:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 31:   7%|6         | 1/15 [00:02<00:31,  2.26s/batch]
+Epoch 31:  13%|#3        | 2/15 [00:04<00:30,  2.31s/batch]
+Epoch 31:  20%|##        | 3/15 [00:06<00:28,  2.35s/batch]
+Epoch 31:  27%|##6       | 4/15 [00:09<00:25,  2.31s/batch]
+Epoch 31:  33%|###3      | 5/15 [00:11<00:22,  2.29s/batch]
+Epoch 31:  40%|####      | 6/15 [00:13<00:20,  2.31s/batch]
+Epoch 31:  47%|####6     | 7/15 [00:16<00:18,  2.26s/batch]
+Epoch 31:  53%|#####3    | 8/15 [00:18<00:15,  2.26s/batch]
+Epoch 31:  60%|######    | 9/15 [00:20<00:13,  2.28s/batch]
+Epoch 31:  67%|######6   | 10/15 [00:23<00:12,  2.40s/batch]
+Epoch 31:  73%|#######3  | 11/15 [00:26<00:10,  2.51s/batch]
+Epoch 31:  80%|########  | 12/15 [00:29<00:08,  2.69s/batch]
+Epoch 31:  87%|########6 | 13/15 [00:32<00:05,  2.90s/batch]
+Epoch 31:  93%|#########3| 14/15 [00:36<00:03,  3.33s/batch]
+Epoch 31: 100%|##########| 15/15 [00:40<00:00,  3.31s/batch]
+Epoch 31: 100%|##########| 15/15 [00:40<00:00,  2.67s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.69%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 31 0.0050    -0.001  0.000   0.000   0.000   0.8705   0.8588   0.1649   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 32:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 32:   7%|6         | 1/15 [00:02<00:35,  2.53s/batch]
+Epoch 32:  13%|#3        | 2/15 [00:05<00:33,  2.58s/batch]
+Epoch 32:  20%|##        | 3/15 [00:07<00:30,  2.52s/batch]
+Epoch 32:  27%|##6       | 4/15 [00:10<00:28,  2.55s/batch]
+Epoch 32:  33%|###3      | 5/15 [00:12<00:25,  2.54s/batch]
+Epoch 32:  40%|####      | 6/15 [00:15<00:22,  2.48s/batch]
+Epoch 32:  47%|####6     | 7/15 [00:17<00:19,  2.48s/batch]
+Epoch 32:  53%|#####3    | 8/15 [00:20<00:17,  2.53s/batch]
+Epoch 32:  60%|######    | 9/15 [00:23<00:15,  2.66s/batch]
+Epoch 32:  67%|######6   | 10/15 [00:26<00:14,  2.81s/batch]
+Epoch 32:  73%|#######3  | 11/15 [00:29<00:12,  3.05s/batch]
+Epoch 32:  80%|########  | 12/15 [00:34<00:10,  3.43s/batch]
+Epoch 32:  87%|########6 | 13/15 [00:39<00:08,  4.06s/batch]
+Epoch 32:  93%|#########3| 14/15 [00:45<00:04,  4.50s/batch]
+Epoch 32: 100%|##########| 15/15 [00:48<00:00,  4.14s/batch]
+Epoch 32: 100%|##########| 15/15 [00:48<00:00,  3.24s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.53%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 32 0.0050    -0.001  0.000   0.000   0.000   0.8641   0.8575   0.1593   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 33:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 33:   7%|6         | 1/15 [00:02<00:35,  2.57s/batch]
+Epoch 33:  13%|#3        | 2/15 [00:05<00:34,  2.63s/batch]
+Epoch 33:  20%|##        | 3/15 [00:07<00:31,  2.58s/batch]
+Epoch 33:  27%|##6       | 4/15 [00:10<00:28,  2.57s/batch]
+Epoch 33:  33%|###3      | 5/15 [00:12<00:25,  2.51s/batch]
+Epoch 33:  40%|####      | 6/15 [00:15<00:22,  2.50s/batch]
+Epoch 33:  47%|####6     | 7/15 [00:17<00:20,  2.53s/batch]
+Epoch 33:  53%|#####3    | 8/15 [00:20<00:17,  2.53s/batch]
+Epoch 33:  60%|######    | 9/15 [00:23<00:15,  2.62s/batch]
+Epoch 33:  67%|######6   | 10/15 [00:25<00:13,  2.67s/batch]
+Epoch 33:  73%|#######3  | 11/15 [00:29<00:11,  2.85s/batch]
+Epoch 33:  80%|########  | 12/15 [00:33<00:09,  3.18s/batch]
+Epoch 33:  87%|########6 | 13/15 [00:37<00:07,  3.52s/batch]
+Epoch 33:  93%|#########3| 14/15 [00:41<00:03,  3.82s/batch]
+Epoch 33: 100%|##########| 15/15 [00:45<00:00,  3.68s/batch]
+Epoch 33: 100%|##########| 15/15 [00:45<00:00,  3.02s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.69%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 33 0.0049    -0.001  0.000   0.000   0.000   0.8705   0.8594   0.1629   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 34:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 34:   7%|6         | 1/15 [00:02<00:38,  2.72s/batch]
+Epoch 34:  13%|#3        | 2/15 [00:05<00:34,  2.65s/batch]
+Epoch 34:  20%|##        | 3/15 [00:07<00:31,  2.59s/batch]
+Epoch 34:  27%|##6       | 4/15 [00:10<00:28,  2.58s/batch]
+Epoch 34:  33%|###3      | 5/15 [00:12<00:25,  2.56s/batch]
+Epoch 34:  40%|####      | 6/15 [00:15<00:22,  2.55s/batch]
+Epoch 34:  47%|####6     | 7/15 [00:17<00:20,  2.53s/batch]
+Epoch 34:  53%|#####3    | 8/15 [00:20<00:17,  2.54s/batch]
+Epoch 34:  60%|######    | 9/15 [00:23<00:15,  2.56s/batch]
+Epoch 34:  67%|######6   | 10/15 [00:25<00:13,  2.64s/batch]
+Epoch 34:  73%|#######3  | 11/15 [00:29<00:11,  2.83s/batch]
+Epoch 34:  80%|########  | 12/15 [00:33<00:09,  3.18s/batch]
+Epoch 34:  87%|########6 | 13/15 [00:37<00:07,  3.56s/batch]
+Epoch 34:  93%|#########3| 14/15 [00:42<00:03,  3.82s/batch]
+Epoch 34: 100%|##########| 15/15 [00:45<00:00,  3.67s/batch]
+Epoch 34: 100%|##########| 15/15 [00:45<00:00,  3.02s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.37%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 34 0.0050    -0.001  0.000   0.000   0.000   0.8577   0.8501   0.1576   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 35:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 35:   7%|6         | 1/15 [00:02<00:35,  2.50s/batch]
+Epoch 35:  13%|#3        | 2/15 [00:04<00:32,  2.49s/batch]
+Epoch 35:  20%|##        | 3/15 [00:07<00:29,  2.47s/batch]
+Epoch 35:  27%|##6       | 4/15 [00:11<00:33,  3.09s/batch]
+Epoch 35:  33%|###3      | 5/15 [00:13<00:28,  2.82s/batch]
+Epoch 35:  40%|####      | 6/15 [00:16<00:24,  2.67s/batch]
+Epoch 35:  47%|####6     | 7/15 [00:18<00:20,  2.62s/batch]
+Epoch 35:  53%|#####3    | 8/15 [00:21<00:18,  2.68s/batch]
+Epoch 35:  60%|######    | 9/15 [00:24<00:16,  2.78s/batch]
+Epoch 35:  67%|######6   | 10/15 [00:27<00:14,  2.96s/batch]
+Epoch 35:  73%|#######3  | 11/15 [00:31<00:12,  3.18s/batch]
+Epoch 35:  80%|########  | 12/15 [00:35<00:10,  3.52s/batch]
+Epoch 35:  87%|########6 | 13/15 [00:42<00:08,  4.33s/batch]
+Epoch 35:  93%|#########3| 14/15 [00:46<00:04,  4.37s/batch]
+Epoch 35: 100%|##########| 15/15 [00:49<00:00,  4.06s/batch]
+Epoch 35: 100%|##########| 15/15 [00:49<00:00,  3.32s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.72%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 35 0.0050    -0.001  0.000   0.000   0.000   0.8652   0.8578   0.1583   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 36:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 36:   7%|6         | 1/15 [00:02<00:34,  2.44s/batch]
+Epoch 36:  13%|#3        | 2/15 [00:04<00:31,  2.45s/batch]
+Epoch 36:  20%|##        | 3/15 [00:07<00:30,  2.51s/batch]
+Epoch 36:  27%|##6       | 4/15 [00:09<00:27,  2.46s/batch]
+Epoch 36:  33%|###3      | 5/15 [00:12<00:24,  2.45s/batch]
+Epoch 36:  40%|####      | 6/15 [00:14<00:22,  2.45s/batch]
+Epoch 36:  47%|####6     | 7/15 [00:17<00:19,  2.43s/batch]
+Epoch 36:  53%|#####3    | 8/15 [00:19<00:17,  2.50s/batch]
+Epoch 36:  60%|######    | 9/15 [00:22<00:15,  2.62s/batch]
+Epoch 36:  67%|######6   | 10/15 [00:25<00:13,  2.77s/batch]
+Epoch 36:  73%|#######3  | 11/15 [00:29<00:11,  3.00s/batch]
+Epoch 36:  80%|########  | 12/15 [00:33<00:09,  3.31s/batch]
+Epoch 36:  87%|########6 | 13/15 [00:37<00:07,  3.66s/batch]
+Epoch 36:  93%|#########3| 14/15 [00:43<00:04,  4.18s/batch]
+Epoch 36: 100%|##########| 15/15 [00:46<00:00,  3.98s/batch]
+Epoch 36: 100%|##########| 15/15 [00:46<00:00,  3.11s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=74.95%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 36 0.0049    -0.001  0.000   0.000   0.000   0.8609   0.8526   0.1526   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 37:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 37:   7%|6         | 1/15 [00:02<00:33,  2.41s/batch]
+Epoch 37:  13%|#3        | 2/15 [00:05<00:33,  2.55s/batch]
+Epoch 37:  20%|##        | 3/15 [00:07<00:29,  2.48s/batch]
+Epoch 37:  27%|##6       | 4/15 [00:09<00:26,  2.43s/batch]
+Epoch 37:  33%|###3      | 5/15 [00:12<00:24,  2.45s/batch]
+Epoch 37:  40%|####      | 6/15 [00:14<00:21,  2.41s/batch]
+Epoch 37:  47%|####6     | 7/15 [00:16<00:19,  2.39s/batch]
+Epoch 37:  53%|#####3    | 8/15 [00:19<00:16,  2.42s/batch]
+Epoch 37:  60%|######    | 9/15 [00:21<00:14,  2.37s/batch]
+Epoch 37:  67%|######6   | 10/15 [00:23<00:11,  2.33s/batch]
+Epoch 37:  73%|#######3  | 11/15 [00:26<00:09,  2.34s/batch]
+Epoch 37:  80%|########  | 12/15 [00:29<00:07,  2.52s/batch]
+Epoch 37:  87%|########6 | 13/15 [00:32<00:05,  2.75s/batch]
+Epoch 37:  93%|#########3| 14/15 [00:36<00:03,  3.24s/batch]
+Epoch 37: 100%|##########| 15/15 [00:40<00:00,  3.24s/batch]
+Epoch 37: 100%|##########| 15/15 [00:40<00:00,  2.68s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.69%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 37 0.0049    -0.001  0.000   0.000   0.000   0.8705   0.8585   0.1593   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 38:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 38:   7%|6         | 1/15 [00:02<00:37,  2.65s/batch]
+Epoch 38:  13%|#3        | 2/15 [00:05<00:33,  2.60s/batch]
+Epoch 38:  20%|##        | 3/15 [00:07<00:30,  2.57s/batch]
+Epoch 38:  27%|##6       | 4/15 [00:10<00:27,  2.53s/batch]
+Epoch 38:  33%|###3      | 5/15 [00:12<00:25,  2.54s/batch]
+Epoch 38:  40%|####      | 6/15 [00:15<00:22,  2.51s/batch]
+Epoch 38:  47%|####6     | 7/15 [00:17<00:19,  2.49s/batch]
+Epoch 38:  53%|#####3    | 8/15 [00:19<00:16,  2.42s/batch]
+Epoch 38:  60%|######    | 9/15 [00:22<00:14,  2.41s/batch]
+Epoch 38:  67%|######6   | 10/15 [00:25<00:12,  2.50s/batch]
+Epoch 38:  73%|#######3  | 11/15 [00:28<00:10,  2.64s/batch]
+Epoch 38:  80%|########  | 12/15 [00:31<00:08,  2.92s/batch]
+Epoch 38:  87%|########6 | 13/15 [00:35<00:06,  3.36s/batch]
+Epoch 38:  93%|#########3| 14/15 [00:41<00:03,  3.94s/batch]
+Epoch 38: 100%|##########| 15/15 [00:44<00:00,  3.72s/batch]
+Epoch 38: 100%|##########| 15/15 [00:44<00:00,  2.96s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.30%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 38 0.0049    -0.001  0.000   0.000   0.000   0.8684   0.8584   0.1576   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 39:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 39:   7%|6         | 1/15 [00:02<00:33,  2.39s/batch]
+Epoch 39:  13%|#3        | 2/15 [00:04<00:31,  2.45s/batch]
+Epoch 39:  20%|##        | 3/15 [00:07<00:29,  2.44s/batch]
+Epoch 39:  27%|##6       | 4/15 [00:09<00:27,  2.47s/batch]
+Epoch 39:  33%|###3      | 5/15 [00:12<00:23,  2.39s/batch]
+Epoch 39:  40%|####      | 6/15 [00:14<00:21,  2.44s/batch]
+Epoch 39:  47%|####6     | 7/15 [00:16<00:19,  2.40s/batch]
+Epoch 39:  53%|#####3    | 8/15 [00:19<00:16,  2.40s/batch]
+Epoch 39:  60%|######    | 9/15 [00:21<00:14,  2.41s/batch]
+Epoch 39:  67%|######6   | 10/15 [00:24<00:11,  2.38s/batch]
+Epoch 39:  73%|#######3  | 11/15 [00:26<00:10,  2.51s/batch]
+Epoch 39:  80%|########  | 12/15 [00:30<00:08,  2.73s/batch]
+Epoch 39:  87%|########6 | 13/15 [00:33<00:06,  3.04s/batch]
+Epoch 39:  93%|#########3| 14/15 [00:38<00:03,  3.43s/batch]
+Epoch 39: 100%|##########| 15/15 [00:41<00:00,  3.38s/batch]
+Epoch 39: 100%|##########| 15/15 [00:41<00:00,  2.76s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.69%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 39 0.0049    -0.001  0.000   0.000   0.000   0.8705   0.8591   0.1590   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 40:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 40:   7%|6         | 1/15 [00:02<00:39,  2.80s/batch]
+Epoch 40:  13%|#3        | 2/15 [00:05<00:37,  2.91s/batch]
+Epoch 40:  20%|##        | 3/15 [00:08<00:33,  2.80s/batch]
+Epoch 40:  27%|##6       | 4/15 [00:11<00:29,  2.72s/batch]
+Epoch 40:  33%|###3      | 5/15 [00:13<00:27,  2.70s/batch]
+Epoch 40:  40%|####      | 6/15 [00:16<00:23,  2.66s/batch]
+Epoch 40:  47%|####6     | 7/15 [00:18<00:21,  2.65s/batch]
+Epoch 40:  53%|#####3    | 8/15 [00:21<00:18,  2.65s/batch]
+Epoch 40:  60%|######    | 9/15 [00:24<00:16,  2.77s/batch]
+Epoch 40:  67%|######6   | 10/15 [00:27<00:14,  2.90s/batch]
+Epoch 40:  73%|#######3  | 11/15 [00:31<00:12,  3.13s/batch]
+Epoch 40:  80%|########  | 12/15 [00:35<00:10,  3.48s/batch]
+Epoch 40:  87%|########6 | 13/15 [00:40<00:07,  3.77s/batch]
+Epoch 40:  93%|#########3| 14/15 [00:44<00:03,  3.99s/batch]
+Epoch 40: 100%|##########| 15/15 [00:47<00:00,  3.78s/batch]
+Epoch 40: 100%|##########| 15/15 [00:47<00:00,  3.20s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.69%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 40 0.0049    -0.001  0.000   0.000   0.000   0.8705   0.8585   0.1570   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 41:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 41:   7%|6         | 1/15 [00:02<00:38,  2.78s/batch]
+Epoch 41:  13%|#3        | 2/15 [00:05<00:37,  2.86s/batch]
+Epoch 41:  20%|##        | 3/15 [00:08<00:34,  2.87s/batch]
+Epoch 41:  27%|##6       | 4/15 [00:11<00:30,  2.82s/batch]
+Epoch 41:  33%|###3      | 5/15 [00:14<00:28,  2.83s/batch]
+Epoch 41:  40%|####      | 6/15 [00:16<00:25,  2.81s/batch]
+Epoch 41:  47%|####6     | 7/15 [00:19<00:23,  2.88s/batch]
+Epoch 41:  53%|#####3    | 8/15 [00:23<00:21,  3.04s/batch]
+Epoch 41:  60%|######    | 9/15 [00:26<00:18,  3.15s/batch]
+Epoch 41:  67%|######6   | 10/15 [00:30<00:17,  3.41s/batch]
+Epoch 41:  73%|#######3  | 11/15 [00:35<00:14,  3.68s/batch]
+Epoch 41:  80%|########  | 12/15 [00:39<00:11,  3.90s/batch]
+Epoch 41:  87%|########6 | 13/15 [00:44<00:08,  4.13s/batch]
+Epoch 41:  93%|#########3| 14/15 [00:48<00:04,  4.22s/batch]
+Epoch 41: 100%|##########| 15/15 [00:51<00:00,  3.98s/batch]
+Epoch 41: 100%|##########| 15/15 [00:51<00:00,  3.46s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.11%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 41 0.0048    -0.001  0.000   0.000   0.000   0.8673   0.8568   0.1545   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 42:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 42:   7%|6         | 1/15 [00:02<00:38,  2.78s/batch]
+Epoch 42:  13%|#3        | 2/15 [00:05<00:35,  2.70s/batch]
+Epoch 42:  20%|##        | 3/15 [00:08<00:33,  2.75s/batch]
+Epoch 42:  27%|##6       | 4/15 [00:10<00:29,  2.72s/batch]
+Epoch 42:  33%|###3      | 5/15 [00:13<00:27,  2.74s/batch]
+Epoch 42:  40%|####      | 6/15 [00:16<00:24,  2.72s/batch]
+Epoch 42:  47%|####6     | 7/15 [00:19<00:21,  2.73s/batch]
+Epoch 42:  53%|#####3    | 8/15 [00:21<00:19,  2.73s/batch]
+Epoch 42:  60%|######    | 9/15 [00:24<00:16,  2.80s/batch]
+Epoch 42:  67%|######6   | 10/15 [00:28<00:14,  2.98s/batch]
+Epoch 42:  73%|#######3  | 11/15 [00:31<00:12,  3.15s/batch]
+Epoch 42:  80%|########  | 12/15 [00:35<00:10,  3.44s/batch]
+Epoch 42:  87%|########6 | 13/15 [00:40<00:07,  3.73s/batch]
+Epoch 42:  93%|#########3| 14/15 [00:44<00:03,  3.98s/batch]
+Epoch 42: 100%|##########| 15/15 [00:48<00:00,  3.79s/batch]
+Epoch 42: 100%|##########| 15/15 [00:48<00:00,  3.21s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.92%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 42 0.0048    -0.001  0.000   0.000   0.000   0.8662   0.8538   0.1519   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 43:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 43:   7%|6         | 1/15 [00:02<00:38,  2.78s/batch]
+Epoch 43:  13%|#3        | 2/15 [00:05<00:35,  2.75s/batch]
+Epoch 43:  20%|##        | 3/15 [00:08<00:33,  2.75s/batch]
+Epoch 43:  27%|##6       | 4/15 [00:10<00:29,  2.70s/batch]
+Epoch 43:  33%|###3      | 5/15 [00:13<00:27,  2.74s/batch]
+Epoch 43:  40%|####      | 6/15 [00:16<00:24,  2.69s/batch]
+Epoch 43:  47%|####6     | 7/15 [00:19<00:21,  2.72s/batch]
+Epoch 43:  53%|#####3    | 8/15 [00:21<00:18,  2.69s/batch]
+Epoch 43:  60%|######    | 9/15 [00:24<00:16,  2.75s/batch]
+Epoch 43:  67%|######6   | 10/15 [00:27<00:14,  2.86s/batch]
+Epoch 43:  73%|#######3  | 11/15 [00:31<00:12,  3.02s/batch]
+Epoch 43:  80%|########  | 12/15 [00:35<00:10,  3.34s/batch]
+Epoch 43:  87%|########6 | 13/15 [00:39<00:07,  3.63s/batch]
+Epoch 43:  93%|#########3| 14/15 [00:43<00:03,  3.89s/batch]
+Epoch 43: 100%|##########| 15/15 [00:47<00:00,  3.68s/batch]
+Epoch 43: 100%|##########| 15/15 [00:47<00:00,  3.14s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.30%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 43 0.0048    -0.001  0.000   0.000   0.000   0.8684   0.8568   0.1546   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 44:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 44:   7%|6         | 1/15 [00:02<00:41,  2.99s/batch]
+Epoch 44:  13%|#3        | 2/15 [00:05<00:38,  2.95s/batch]
+Epoch 44:  20%|##        | 3/15 [00:08<00:35,  2.92s/batch]
+Epoch 44:  27%|##6       | 4/15 [00:11<00:31,  2.88s/batch]
+Epoch 44:  33%|###3      | 5/15 [00:14<00:28,  2.85s/batch]
+Epoch 44:  40%|####      | 6/15 [00:17<00:25,  2.80s/batch]
+Epoch 44:  47%|####6     | 7/15 [00:20<00:22,  2.85s/batch]
+Epoch 44:  53%|#####3    | 8/15 [00:23<00:21,  3.00s/batch]
+Epoch 44:  60%|######    | 9/15 [00:26<00:18,  3.13s/batch]
+Epoch 44:  67%|######6   | 10/15 [00:30<00:16,  3.37s/batch]
+Epoch 44:  73%|#######3  | 11/15 [00:35<00:14,  3.66s/batch]
+Epoch 44:  80%|########  | 12/15 [00:39<00:11,  3.88s/batch]
+Epoch 44:  87%|########6 | 13/15 [00:45<00:09,  4.55s/batch]
+Epoch 44:  93%|#########3| 14/15 [00:50<00:04,  4.62s/batch]
+Epoch 44: 100%|##########| 15/15 [00:53<00:00,  4.28s/batch]
+Epoch 44: 100%|##########| 15/15 [00:53<00:00,  3.58s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=77.46%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 44 0.0048    -0.001  0.000   0.000   0.000   0.8747   0.8615   0.1592   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 45:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 45:   7%|6         | 1/15 [00:02<00:34,  2.45s/batch]
+Epoch 45:  13%|#3        | 2/15 [00:04<00:32,  2.51s/batch]
+Epoch 45:  20%|##        | 3/15 [00:07<00:30,  2.55s/batch]
+Epoch 45:  27%|##6       | 4/15 [00:09<00:27,  2.47s/batch]
+Epoch 45:  33%|###3      | 5/15 [00:12<00:24,  2.47s/batch]
+Epoch 45:  40%|####      | 6/15 [00:14<00:21,  2.40s/batch]
+Epoch 45:  47%|####6     | 7/15 [00:17<00:19,  2.43s/batch]
+Epoch 45:  53%|#####3    | 8/15 [00:19<00:16,  2.42s/batch]
+Epoch 45:  60%|######    | 9/15 [00:21<00:14,  2.42s/batch]
+Epoch 45:  67%|######6   | 10/15 [00:24<00:12,  2.45s/batch]
+Epoch 45:  73%|#######3  | 11/15 [00:27<00:10,  2.61s/batch]
+Epoch 45:  80%|########  | 12/15 [00:30<00:08,  2.85s/batch]
+Epoch 45:  87%|########6 | 13/15 [00:34<00:06,  3.16s/batch]
+Epoch 45:  93%|#########3| 14/15 [00:39<00:03,  3.53s/batch]
+Epoch 45: 100%|##########| 15/15 [00:42<00:00,  3.48s/batch]
+Epoch 45: 100%|##########| 15/15 [00:42<00:00,  2.83s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.88%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 45 0.0048    -0.001  0.000   0.000   0.000   0.8715   0.8611   0.1578   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 46:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 46:   7%|6         | 1/15 [00:02<00:34,  2.46s/batch]
+Epoch 46:  13%|#3        | 2/15 [00:04<00:30,  2.33s/batch]
+Epoch 46:  20%|##        | 3/15 [00:06<00:27,  2.31s/batch]
+Epoch 46:  27%|##6       | 4/15 [00:09<00:24,  2.25s/batch]
+Epoch 46:  33%|###3      | 5/15 [00:11<00:22,  2.26s/batch]
+Epoch 46:  40%|####      | 6/15 [00:13<00:20,  2.23s/batch]
+Epoch 46:  47%|####6     | 7/15 [00:15<00:17,  2.20s/batch]
+Epoch 46:  53%|#####3    | 8/15 [00:17<00:15,  2.18s/batch]
+Epoch 46:  60%|######    | 9/15 [00:20<00:13,  2.21s/batch]
+Epoch 46:  67%|######6   | 10/15 [00:22<00:11,  2.30s/batch]
+Epoch 46:  73%|#######3  | 11/15 [00:25<00:10,  2.50s/batch]
+Epoch 46:  80%|########  | 12/15 [00:29<00:08,  2.78s/batch]
+Epoch 46:  87%|########6 | 13/15 [00:32<00:06,  3.13s/batch]
+Epoch 46:  93%|#########3| 14/15 [00:37<00:03,  3.55s/batch]
+Epoch 46: 100%|##########| 15/15 [00:40<00:00,  3.50s/batch]
+Epoch 46: 100%|##########| 15/15 [00:40<00:00,  2.72s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.53%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 46 0.0048    -0.001  0.000   0.000   0.000   0.8652   0.8587   0.1536   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 47:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 47:   7%|6         | 1/15 [00:02<00:36,  2.64s/batch]
+Epoch 47:  13%|#3        | 2/15 [00:05<00:34,  2.62s/batch]
+Epoch 47:  20%|##        | 3/15 [00:07<00:30,  2.57s/batch]
+Epoch 47:  27%|##6       | 4/15 [00:10<00:27,  2.52s/batch]
+Epoch 47:  33%|###3      | 5/15 [00:12<00:25,  2.53s/batch]
+Epoch 47:  40%|####      | 6/15 [00:15<00:22,  2.54s/batch]
+Epoch 47:  47%|####6     | 7/15 [00:17<00:20,  2.55s/batch]
+Epoch 47:  53%|#####3    | 8/15 [00:20<00:17,  2.50s/batch]
+Epoch 47:  60%|######    | 9/15 [00:22<00:14,  2.49s/batch]
+Epoch 47:  67%|######6   | 10/15 [00:25<00:12,  2.56s/batch]
+Epoch 47:  73%|#######3  | 11/15 [00:28<00:11,  2.78s/batch]
+Epoch 47:  80%|########  | 12/15 [00:32<00:09,  3.15s/batch]
+Epoch 47:  87%|########6 | 13/15 [00:37<00:07,  3.54s/batch]
+Epoch 47:  93%|#########3| 14/15 [00:41<00:03,  3.78s/batch]
+Epoch 47: 100%|##########| 15/15 [00:44<00:00,  3.62s/batch]
+Epoch 47: 100%|##########| 15/15 [00:44<00:00,  2.98s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.92%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 47 0.0047    -0.001  0.000   0.000   0.000   0.8662   0.8552   0.1503   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 48:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 48:   7%|6         | 1/15 [00:02<00:38,  2.75s/batch]
+Epoch 48:  13%|#3        | 2/15 [00:05<00:34,  2.67s/batch]
+Epoch 48:  20%|##        | 3/15 [00:08<00:31,  2.66s/batch]
+Epoch 48:  27%|##6       | 4/15 [00:10<00:29,  2.68s/batch]
+Epoch 48:  33%|###3      | 5/15 [00:13<00:26,  2.67s/batch]
+Epoch 48:  40%|####      | 6/15 [00:16<00:24,  2.69s/batch]
+Epoch 48:  47%|####6     | 7/15 [00:18<00:21,  2.64s/batch]
+Epoch 48:  53%|#####3    | 8/15 [00:21<00:18,  2.63s/batch]
+Epoch 48:  60%|######    | 9/15 [00:24<00:16,  2.70s/batch]
+Epoch 48:  67%|######6   | 10/15 [00:27<00:14,  2.84s/batch]
+Epoch 48:  73%|#######3  | 11/15 [00:30<00:12,  3.06s/batch]
+Epoch 48:  80%|########  | 12/15 [00:34<00:10,  3.37s/batch]
+Epoch 48:  87%|########6 | 13/15 [00:39<00:07,  3.65s/batch]
+Epoch 48:  93%|#########3| 14/15 [00:43<00:03,  3.89s/batch]
+Epoch 48: 100%|##########| 15/15 [00:46<00:00,  3.73s/batch]
+Epoch 48: 100%|##########| 15/15 [00:46<00:00,  3.13s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.30%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=99.47%, conf=0.94, n=189
+ 48 0.0047    -0.001  0.000   0.000   0.000   0.8684   0.8588   0.1527   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 49:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 49:   7%|6         | 1/15 [00:02<00:39,  2.79s/batch]
+Epoch 49:  13%|#3        | 2/15 [00:05<00:36,  2.80s/batch]
+Epoch 49:  20%|##        | 3/15 [00:08<00:32,  2.70s/batch]
+Epoch 49:  27%|##6       | 4/15 [00:10<00:29,  2.71s/batch]
+Epoch 49:  33%|###3      | 5/15 [00:13<00:27,  2.72s/batch]
+Epoch 49:  40%|####      | 6/15 [00:16<00:24,  2.70s/batch]
+Epoch 49:  47%|####6     | 7/15 [00:18<00:21,  2.67s/batch]
+Epoch 49:  53%|#####3    | 8/15 [00:21<00:18,  2.69s/batch]
+Epoch 49:  60%|######    | 9/15 [00:24<00:16,  2.80s/batch]
+Epoch 49:  67%|######6   | 10/15 [00:28<00:14,  2.99s/batch]
+Epoch 49:  73%|#######3  | 11/15 [00:31<00:12,  3.16s/batch]
+Epoch 49:  80%|########  | 12/15 [00:35<00:10,  3.48s/batch]
+Epoch 49:  87%|########6 | 13/15 [00:41<00:08,  4.20s/batch]
+Epoch 49:  93%|#########3| 14/15 [00:46<00:04,  4.50s/batch]
+Epoch 49: 100%|##########| 15/15 [00:50<00:00,  4.16s/batch]
+Epoch 49: 100%|##########| 15/15 [00:50<00:00,  3.35s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.92%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 49 0.0047    -0.001  0.000   0.000   0.000   0.8673   0.8584   0.1518   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 50:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 50:   7%|6         | 1/15 [00:02<00:34,  2.48s/batch]
+Epoch 50:  13%|#3        | 2/15 [00:05<00:32,  2.52s/batch]
+Epoch 50:  20%|##        | 3/15 [00:07<00:29,  2.43s/batch]
+Epoch 50:  27%|##6       | 4/15 [00:09<00:26,  2.44s/batch]
+Epoch 50:  33%|###3      | 5/15 [00:12<00:24,  2.44s/batch]
+Epoch 50:  40%|####      | 6/15 [00:14<00:21,  2.42s/batch]
+Epoch 50:  47%|####6     | 7/15 [00:17<00:19,  2.42s/batch]
+Epoch 50:  53%|#####3    | 8/15 [00:19<00:16,  2.40s/batch]
+Epoch 50:  60%|######    | 9/15 [00:21<00:14,  2.45s/batch]
+Epoch 50:  67%|######6   | 10/15 [00:24<00:12,  2.54s/batch]
+Epoch 50:  73%|#######3  | 11/15 [00:27<00:10,  2.73s/batch]
+Epoch 50:  80%|########  | 12/15 [00:31<00:09,  3.00s/batch]
+Epoch 50:  87%|########6 | 13/15 [00:35<00:06,  3.30s/batch]
+Epoch 50:  93%|#########3| 14/15 [00:40<00:03,  3.69s/batch]
+Epoch 50: 100%|##########| 15/15 [00:43<00:00,  3.58s/batch]
+Epoch 50: 100%|##########| 15/15 [00:43<00:00,  2.89s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.30%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 50 0.0047    -0.001  0.000   0.000   0.000   0.8694   0.8623   0.1536   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 51:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 51:   7%|6         | 1/15 [00:02<00:36,  2.58s/batch]
+Epoch 51:  13%|#3        | 2/15 [00:05<00:33,  2.59s/batch]
+Epoch 51:  20%|##        | 3/15 [00:07<00:30,  2.56s/batch]
+Epoch 51:  27%|##6       | 4/15 [00:10<00:28,  2.55s/batch]
+Epoch 51:  33%|###3      | 5/15 [00:12<00:25,  2.53s/batch]
+Epoch 51:  40%|####      | 6/15 [00:15<00:22,  2.55s/batch]
+Epoch 51:  47%|####6     | 7/15 [00:17<00:20,  2.57s/batch]
+Epoch 51:  53%|#####3    | 8/15 [00:20<00:17,  2.55s/batch]
+Epoch 51:  60%|######    | 9/15 [00:23<00:15,  2.61s/batch]
+Epoch 51:  67%|######6   | 10/15 [00:26<00:13,  2.73s/batch]
+Epoch 51:  73%|#######3  | 11/15 [00:29<00:11,  2.87s/batch]
+Epoch 51:  80%|########  | 12/15 [00:33<00:09,  3.12s/batch]
+Epoch 51:  87%|########6 | 13/15 [00:37<00:07,  3.52s/batch]
+Epoch 51:  93%|#########3| 14/15 [00:41<00:03,  3.79s/batch]
+Epoch 51: 100%|##########| 15/15 [00:45<00:00,  3.62s/batch]
+Epoch 51: 100%|##########| 15/15 [00:45<00:00,  3.01s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.30%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 51 0.0047    -0.001  0.000   0.000   0.000   0.8694   0.8629   0.1536   ✓ Best
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 52:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 52:   7%|6         | 1/15 [00:02<00:36,  2.62s/batch]
+Epoch 52:  13%|#3        | 2/15 [00:05<00:34,  2.66s/batch]
+Epoch 52:  20%|##        | 3/15 [00:07<00:31,  2.60s/batch]
+Epoch 52:  27%|##6       | 4/15 [00:10<00:28,  2.62s/batch]
+Epoch 52:  33%|###3      | 5/15 [00:13<00:25,  2.59s/batch]
+Epoch 52:  40%|####      | 6/15 [00:15<00:22,  2.52s/batch]
+Epoch 52:  47%|####6     | 7/15 [00:17<00:19,  2.49s/batch]
+Epoch 52:  53%|#####3    | 8/15 [00:20<00:17,  2.51s/batch]
+Epoch 52:  60%|######    | 9/15 [00:23<00:15,  2.62s/batch]
+Epoch 52:  67%|######6   | 10/15 [00:26<00:13,  2.74s/batch]
+Epoch 52:  73%|#######3  | 11/15 [00:29<00:12,  3.04s/batch]
+Epoch 52:  80%|########  | 12/15 [00:34<00:10,  3.48s/batch]
+Epoch 52:  87%|########6 | 13/15 [00:40<00:08,  4.28s/batch]
+Epoch 52:  93%|#########3| 14/15 [00:45<00:04,  4.57s/batch]
+Epoch 52: 100%|##########| 15/15 [00:49<00:00,  4.22s/batch]
+Epoch 52: 100%|##########| 15/15 [00:49<00:00,  3.28s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.11%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 52 0.0046    -0.001  0.000   0.000   0.000   0.8684   0.8588   0.1517   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 53:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 53:   7%|6         | 1/15 [00:02<00:34,  2.47s/batch]
+Epoch 53:  13%|#3        | 2/15 [00:04<00:32,  2.48s/batch]
+Epoch 53:  20%|##        | 3/15 [00:07<00:28,  2.41s/batch]
+Epoch 53:  27%|##6       | 4/15 [00:09<00:26,  2.40s/batch]
+Epoch 53:  33%|###3      | 5/15 [00:12<00:24,  2.40s/batch]
+Epoch 53:  40%|####      | 6/15 [00:14<00:21,  2.36s/batch]
+Epoch 53:  47%|####6     | 7/15 [00:16<00:18,  2.34s/batch]
+Epoch 53:  53%|#####3    | 8/15 [00:18<00:16,  2.34s/batch]
+Epoch 53:  60%|######    | 9/15 [00:21<00:14,  2.44s/batch]
+Epoch 53:  67%|######6   | 10/15 [00:24<00:12,  2.55s/batch]
+Epoch 53:  73%|#######3  | 11/15 [00:27<00:10,  2.74s/batch]
+Epoch 53:  80%|########  | 12/15 [00:31<00:09,  3.09s/batch]
+Epoch 53:  87%|########6 | 13/15 [00:35<00:06,  3.45s/batch]
+Epoch 53:  93%|#########3| 14/15 [00:40<00:03,  3.83s/batch]
+Epoch 53: 100%|##########| 15/15 [00:43<00:00,  3.67s/batch]
+Epoch 53: 100%|##########| 15/15 [00:43<00:00,  2.92s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.72%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 53 0.0046    -0.001  0.000   0.000   0.000   0.8662   0.8571   0.1495   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 54:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 54:   7%|6         | 1/15 [00:02<00:35,  2.56s/batch]
+Epoch 54:  13%|#3        | 2/15 [00:05<00:33,  2.61s/batch]
+Epoch 54:  20%|##        | 3/15 [00:07<00:31,  2.61s/batch]
+Epoch 54:  27%|##6       | 4/15 [00:10<00:28,  2.58s/batch]
+Epoch 54:  33%|###3      | 5/15 [00:12<00:25,  2.55s/batch]
+Epoch 54:  40%|####      | 6/15 [00:15<00:22,  2.54s/batch]
+Epoch 54:  47%|####6     | 7/15 [00:17<00:19,  2.49s/batch]
+Epoch 54:  53%|#####3    | 8/15 [00:20<00:17,  2.48s/batch]
+Epoch 54:  60%|######    | 9/15 [00:24<00:18,  3.07s/batch]
+Epoch 54:  67%|######6   | 10/15 [00:27<00:15,  3.08s/batch]
+Epoch 54:  73%|#######3  | 11/15 [00:31<00:13,  3.28s/batch]
+Epoch 54:  80%|########  | 12/15 [00:35<00:10,  3.64s/batch]
+Epoch 54:  87%|########6 | 13/15 [00:40<00:07,  3.87s/batch]
+Epoch 54:  93%|#########3| 14/15 [00:45<00:04,  4.23s/batch]
+Epoch 54: 100%|##########| 15/15 [00:48<00:00,  3.97s/batch]
+Epoch 54: 100%|##########| 15/15 [00:48<00:00,  3.25s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.11%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 54 0.0046    -0.001  0.000   0.000   0.000   0.8684   0.8588   0.1509   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 55:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 55:   7%|6         | 1/15 [00:02<00:41,  2.97s/batch]
+Epoch 55:  13%|#3        | 2/15 [00:05<00:37,  2.88s/batch]
+Epoch 55:  20%|##        | 3/15 [00:08<00:33,  2.80s/batch]
+Epoch 55:  27%|##6       | 4/15 [00:11<00:30,  2.78s/batch]
+Epoch 55:  33%|###3      | 5/15 [00:14<00:27,  2.79s/batch]
+Epoch 55:  40%|####      | 6/15 [00:16<00:25,  2.81s/batch]
+Epoch 55:  47%|####6     | 7/15 [00:19<00:22,  2.80s/batch]
+Epoch 55:  53%|#####3    | 8/15 [00:22<00:19,  2.86s/batch]
+Epoch 55:  60%|######    | 9/15 [00:25<00:17,  2.95s/batch]
+Epoch 55:  67%|######6   | 10/15 [00:29<00:15,  3.13s/batch]
+Epoch 55:  73%|#######3  | 11/15 [00:33<00:13,  3.34s/batch]
+Epoch 55:  80%|########  | 12/15 [00:37<00:11,  3.71s/batch]
+Epoch 55:  87%|########6 | 13/15 [00:42<00:07,  3.98s/batch]
+Epoch 55:  93%|#########3| 14/15 [00:46<00:04,  4.09s/batch]
+Epoch 55: 100%|##########| 15/15 [00:50<00:00,  3.90s/batch]
+Epoch 55: 100%|##########| 15/15 [00:50<00:00,  3.34s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.30%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 55 0.0046    -0.001  0.000   0.000   0.000   0.8694   0.8607   0.1523   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 56:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 56:   7%|6         | 1/15 [00:02<00:37,  2.66s/batch]
+Epoch 56:  13%|#3        | 2/15 [00:05<00:35,  2.70s/batch]
+Epoch 56:  20%|##        | 3/15 [00:08<00:32,  2.68s/batch]
+Epoch 56:  27%|##6       | 4/15 [00:10<00:29,  2.66s/batch]
+Epoch 56:  33%|###3      | 5/15 [00:13<00:26,  2.66s/batch]
+Epoch 56:  40%|####      | 6/15 [00:15<00:23,  2.64s/batch]
+Epoch 56:  47%|####6     | 7/15 [00:18<00:21,  2.70s/batch]
+Epoch 56:  53%|#####3    | 8/15 [00:21<00:19,  2.82s/batch]
+Epoch 56:  60%|######    | 9/15 [00:25<00:18,  3.02s/batch]
+Epoch 56:  67%|######6   | 10/15 [00:29<00:16,  3.25s/batch]
+Epoch 56:  73%|#######3  | 11/15 [00:33<00:14,  3.52s/batch]
+Epoch 56:  80%|########  | 12/15 [00:37<00:11,  3.83s/batch]
+Epoch 56:  87%|########6 | 13/15 [00:42<00:08,  4.02s/batch]
+Epoch 56:  93%|#########3| 14/15 [00:46<00:04,  4.15s/batch]
+Epoch 56: 100%|##########| 15/15 [00:49<00:00,  3.88s/batch]
+Epoch 56: 100%|##########| 15/15 [00:49<00:00,  3.33s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.53%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 56 0.0046    -0.001  0.000   0.000   0.000   0.8652   0.8562   0.1477   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 57:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 57:   7%|6         | 1/15 [00:02<00:36,  2.64s/batch]
+Epoch 57:  13%|#3        | 2/15 [00:05<00:33,  2.60s/batch]
+Epoch 57:  20%|##        | 3/15 [00:07<00:31,  2.66s/batch]
+Epoch 57:  27%|##6       | 4/15 [00:10<00:28,  2.61s/batch]
+Epoch 57:  33%|###3      | 5/15 [00:13<00:25,  2.59s/batch]
+Epoch 57:  40%|####      | 6/15 [00:15<00:22,  2.55s/batch]
+Epoch 57:  47%|####6     | 7/15 [00:17<00:20,  2.52s/batch]
+Epoch 57:  53%|#####3    | 8/15 [00:20<00:17,  2.49s/batch]
+Epoch 57:  60%|######    | 9/15 [00:22<00:15,  2.51s/batch]
+Epoch 57:  67%|######6   | 10/15 [00:25<00:12,  2.59s/batch]
+Epoch 57:  73%|#######3  | 11/15 [00:28<00:10,  2.73s/batch]
+Epoch 57:  80%|########  | 12/15 [00:32<00:09,  3.01s/batch]
+Epoch 57:  87%|########6 | 13/15 [00:36<00:06,  3.32s/batch]
+Epoch 57:  93%|#########3| 14/15 [00:40<00:03,  3.67s/batch]
+Epoch 57: 100%|##########| 15/15 [00:44<00:00,  3.52s/batch]
+Epoch 57: 100%|##########| 15/15 [00:44<00:00,  2.94s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=75.72%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 57 0.0046    -0.001  0.000   0.000   0.000   0.8662   0.8578   0.1489   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 58:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 58:   7%|6         | 1/15 [00:02<00:35,  2.52s/batch]
+Epoch 58:  13%|#3        | 2/15 [00:04<00:32,  2.48s/batch]
+Epoch 58:  20%|##        | 3/15 [00:07<00:29,  2.46s/batch]
+Epoch 58:  27%|##6       | 4/15 [00:09<00:26,  2.45s/batch]
+Epoch 58:  33%|###3      | 5/15 [00:12<00:25,  2.53s/batch]
+Epoch 58:  40%|####      | 6/15 [00:15<00:22,  2.54s/batch]
+Epoch 58:  47%|####6     | 7/15 [00:17<00:20,  2.59s/batch]
+Epoch 58:  53%|#####3    | 8/15 [00:20<00:17,  2.50s/batch]
+Epoch 58:  60%|######    | 9/15 [00:22<00:15,  2.55s/batch]
+Epoch 58:  67%|######6   | 10/15 [00:25<00:13,  2.69s/batch]
+Epoch 58:  73%|#######3  | 11/15 [00:29<00:11,  2.94s/batch]
+Epoch 58:  80%|########  | 12/15 [00:33<00:09,  3.21s/batch]
+Epoch 58:  87%|########6 | 13/15 [00:37<00:07,  3.57s/batch]
+Epoch 58:  93%|#########3| 14/15 [00:42<00:03,  3.86s/batch]
+Epoch 58: 100%|##########| 15/15 [00:45<00:00,  3.70s/batch]
+Epoch 58: 100%|##########| 15/15 [00:45<00:00,  3.02s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.11%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 58 0.0046    -0.001  0.000   0.000   0.000   0.8684   0.8597   0.1506   ⏳
+✅ Fast-Load Map Ready: train | Samples: 7548 | Shape: (7548, 29, 8, 1536)
+
+Epoch 59:   0%|          | 0/15 [00:00<?, ?batch/s]
+Epoch 59:   7%|6         | 1/15 [00:02<00:37,  2.71s/batch]
+Epoch 59:  13%|#3        | 2/15 [00:05<00:35,  2.75s/batch]
+Epoch 59:  20%|##        | 3/15 [00:08<00:32,  2.75s/batch]
+Epoch 59:  27%|##6       | 4/15 [00:10<00:30,  2.74s/batch]
+Epoch 59:  33%|###3      | 5/15 [00:13<00:26,  2.69s/batch]
+Epoch 59:  40%|####      | 6/15 [00:16<00:23,  2.65s/batch]
+Epoch 59:  47%|####6     | 7/15 [00:18<00:21,  2.64s/batch]
+Epoch 59:  53%|#####3    | 8/15 [00:21<00:19,  2.73s/batch]
+Epoch 59:  60%|######    | 9/15 [00:24<00:17,  2.91s/batch]
+Epoch 59:  67%|######6   | 10/15 [00:28<00:15,  3.18s/batch]
+Epoch 59:  73%|#######3  | 11/15 [00:32<00:13,  3.48s/batch]
+Epoch 59:  80%|########  | 12/15 [00:39<00:12,  4.32s/batch]
+Epoch 59:  87%|########6 | 13/15 [00:43<00:08,  4.36s/batch]
+Epoch 59:  93%|#########3| 14/15 [00:48<00:04,  4.43s/batch]
+Epoch 59: 100%|##########| 15/15 [00:51<00:00,  4.06s/batch]
+Epoch 59: 100%|##########| 15/15 [00:51<00:00,  3.43s/batch]
+✅ Fast-Load Map Ready: val | Samples: 942 | Shape: (942, 29, 8, 1536)
+[Val] math        : acc=76.69%, conf=0.94, n=519
+[Val] code        : acc=100.00%, conf=0.94, n=234
+[Val] real_world  : acc=100.00%, conf=0.94, n=189
+ 59 0.0046    -0.001  0.000   0.000   0.000   0.8715   0.8627   0.1532   ⏳
+
+================================================================================
+[92m✅ Training complete! Best F1: 0.8629[0m
+Model: C:\guardian_artifacts\guardian_spider_native.pth
+Checkpoint: C:\guardian_artifacts\guardian_spider_native_full.pth
+================================================================================
+
+
+📁 Copying artifacts to experiment folder: D:\guardian_project\experiments\math_25
+✅ Artifacts copied to D:\guardian_project\experiments\math_25
+
+===== FINISH math_25 Sat Feb 14 12:35:33 2026 =====

@@ -1,0 +1,6 @@
+math_column: math_ratio
+best_f1_column: best_f1
+n_rows: 52
+obs_slope: -0.23634852440707954
+nperm: 5000
+p_perm: 0.0001999600079984003

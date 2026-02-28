@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "batch_size": 512,
+  "fast_lr": 0.002,
+  "slow_lr": 0.00015,
+  "fast_steps": 1,
+  "domain_loss_weight": 0.1,
+  "balance_loss_weight": 5.0,
+  "entropy_loss_weight": 0.001,
+  "router_grad_clip": 0.5,
+  "vibration_weight": 0.8,
+  "bcm_threshold": 0.005,
+  "epochs": 60,
+  "architecture": "spider_native_v17.0_math_boost",
+  "timestamp": 1771140975.2951105,
+  "temp_schedule": "neural_maturation",
+  "temp_floor": 1.0,
+  "grad_scaler_init": 16384,
+  "nan_counter": 0,
+  "pretrained": true,
+  "math_loss_multiplier": 3.5
+}

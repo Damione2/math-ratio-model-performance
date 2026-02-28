@@ -1,0 +1,14 @@
+{
+  "n_per_set": 200,
+  "acc_clean": 1.0,
+  "acc_contaminated": 0.0,
+  "acc_externalized": 1.0,
+  "math_density": {
+    "clean": 0.0,
+    "contaminated": 0.14210429435503194,
+    "externalized": 0.0
+  },
+  "contamination_corr": NaN,
+  "seed": 42,
+  "notes": "clean=expected non-hallucination; contaminated=expected hallucination-prone; externalized=math replaced with [MATH_TOOL]"
+}

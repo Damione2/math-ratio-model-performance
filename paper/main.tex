@@ -1,0 +1,68 @@
+\documentclass[11pt]{article}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Quantifying the Effect of Math Example Ratio on Model Performance: A Multi-Seed Ablation Study}
+\author{Damyan Damyanov}
+\date{2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Understanding how training data composition affects model performance is essential for building robust and reliable systems. This work investigates how the fraction of math-related examples (\texttt{math\_ratio}) influences the best F1 score (\texttt{best\_f1}) across 52 independent training runs. Using a combination of permutation testing, bootstrap resampling, weighted least squares regression with heteroskedasticity-robust errors, and mixed-effects modeling, we find a consistent negative association between math example ratio and model performance. The results are robust to influence diagnostics and leave-one-out analyses. All code, data, and reproducibility scripts are publicly available.
+\end{abstract}
+
+\section{Introduction}
+
+Training data composition plays a critical role in shaping the behavior and performance of machine learning models. In particular, the presence of math-heavy examples may influence generalization, optimization dynamics, and downstream evaluation metrics. Despite its importance, the quantitative effect of math data contamination on model performance remains underexplored.
+
+This study provides a systematic, multi-seed ablation analysis of how the fraction of math examples (\texttt{math\_ratio}) affects the best F1 score (\texttt{best\_f1}). We use 52 independent runs across multiple model groups and apply robust statistical techniques to estimate the effect size and its uncertainty.
+
+\section{Methods}
+
+\subsection{Experimental Setup}
+
+Models were trained across multiple experimental arms, each defined by a specific \texttt{math\_ratio}. For each arm, multiple random seeds were used to ensure stable estimates and reduce variance. For each run, we recorded the best F1 score achieved during training.
+
+\subsection{Statistical Analysis}
+
+We quantified the relationship between \texttt{math\_ratio} and \texttt{best\_f1} using three complementary approaches:
+
+\begin{itemize}
+    \item \textbf{Permutation Test:} A nonparametric test with 5{,}000 permutations was used to evaluate the null hypothesis of no association. The observed slope was $-0.2363$ with a permutation $p$-value of $0.0002$.
+    \item \textbf{Bootstrap Resampling:} We resampled the dataset with replacement 5{,}000 times to estimate the sampling distribution of the slope. The median bootstrap slope was $-0.2367$ with a 95\% confidence interval of $[-0.2639, -0.1963]$.
+    \item \textbf{Weighted Least Squares (WLS):} A regression model with heteroskedasticity-robust HC3 standard errors yielded a slope of $-0.236$ with a 95\% confidence interval of $[-0.271, -0.202]$.
+\end{itemize}
+
+\subsection{Influence Diagnostics}
+
+We computed Cook's distance for each model group and performed leave-one-out analyses. One high-influence group was identified, but removing it did not materially change the slope estimate.
+
+\subsection{Mixed-Effects Modeling}
+
+A linear mixed-effects model with a random intercept per model group was fit as a secondary analysis. More complex random effects structures produced singularity warnings and were not used for primary inference. The random-intercept model estimated a slope of approximately $-0.273$.
+
+\section{Results}
+
+Across all 52 runs, we observe a consistent negative association between \texttt{math\_ratio} and \texttt{best\_f1}. A unit increase in \texttt{math\_ratio} corresponds to a decrease of approximately $0.236$ in \texttt{best\_f1}. Interpreted per percentage point, this corresponds to a change of $-0.00236$.
+
+The permutation test strongly rejects the null hypothesis of no association ($p = 0.0002$). Bootstrap and WLS estimates agree closely, and influence diagnostics confirm that the effect is not driven by a single outlier group.
+
+\section{Figures}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{figs/figure1_scatter.png}
+\caption{Scatter plot of \texttt{best\_f1} versus \texttt{math\_ratio} with regression line and 95\% confidence interval.}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics

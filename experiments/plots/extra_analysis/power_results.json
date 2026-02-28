@@ -1,0 +1,7 @@
+{
+  "observed_sd_best_f1": 0.04004148121961565,
+  "assumed_effect_delta": 0.025266696866768457,
+  "n_80": 40,
+  "n_90": 53,
+  "simulated_power_at_n_80": 0.811
+}

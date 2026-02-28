@@ -1,0 +1,39 @@
+{
+  "n_per_set": 200,
+  "seed": 42,
+  "stats_by_dataset": {
+    "clean": {
+      "n": 200,
+      "mean_vibration": 25.882005912690833,
+      "std_vibration": 10.399802908392378,
+      "mean_density": 0.0,
+      "accuracy_detection": 0.0
+    },
+    "contaminated": {
+      "n": 200,
+      "mean_vibration": 20.574324633177977,
+      "std_vibration": 7.919250351382926,
+      "mean_density": 0.14210429435503194,
+      "accuracy_detection": 0.99
+    },
+    "externalized": {
+      "n": 200,
+      "mean_vibration": 13.70281092870871,
+      "std_vibration": 5.5265120712939195,
+      "mean_density": 0.0,
+      "accuracy_detection": 0.0
+    }
+  },
+  "contaminated_analysis": {
+    "pearson_corr": -0.16536211498858022,
+    "pearson_p": 0.01928124327828783,
+    "spearman_corr": -0.14013426473359408,
+    "spearman_p": 0.04779883126870034,
+    "auc_vibration": 0.09343434343434344,
+    "median_threshold": 18.302573432694885,
+    "precision_at_median": 0.98,
+    "recall_at_median": 0.494949494949495,
+    "f1_at_median": 0.6577181208053692,
+    "accuracy_at_median": 0.49
+  }
+}

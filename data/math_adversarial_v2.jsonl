@@ -1,0 +1,1200 @@
+{"index": 1, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 6 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 2, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 6 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "16", "true_label": 1}
+{"index": 3, "category": "Math-Adversarial-v2", "question": "What is 25% of 161?", "answer": "40.250", "true_label": 0}
+{"index": 4, "category": "Math-Adversarial-v2", "question": "What is 25% of 161?", "answer": "4025.000", "true_label": 1}
+{"index": 5, "category": "Math-Adversarial-v2", "question": "What is half of 1/7?", "answer": "1/14", "true_label": 0}
+{"index": 6, "category": "Math-Adversarial-v2", "question": "What is half of 1/7?", "answer": "1/3", "true_label": 1}
+{"index": 7, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 8, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 9, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 10, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 11, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 20?", "answer": "11", "true_label": 0}
+{"index": 12, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 20?", "answer": "13", "true_label": 1}
+{"index": 13, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 19 and then subtract 16, what's the result?", "answer": "288", "true_label": 0}
+{"index": 14, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 19 and then subtract 16, what's the result?", "answer": "0", "true_label": 1}
+{"index": 15, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 13?", "answer": "0", "true_label": 0}
+{"index": 16, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 13?", "answer": "1", "true_label": 1}
+{"index": 17, "category": "Math-Adversarial-v2", "question": "A rope is 266 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "88 mm", "true_label": 0}
+{"index": 18, "category": "Math-Adversarial-v2", "question": "A rope is 266 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "88", "true_label": 1}
+{"index": 19, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 12 and then subtract 3, what's the result?", "answer": "33", "true_label": 0}
+{"index": 20, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 12 and then subtract 3, what's the result?", "answer": "0", "true_label": 1}
+{"index": 21, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 19?", "answer": "8", "true_label": 0}
+{"index": 22, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 19?", "answer": "10", "true_label": 1}
+{"index": 23, "category": "Math-Adversarial-v2", "question": "A rope is 262 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "87.333 cm", "true_label": 0}
+{"index": 24, "category": "Math-Adversarial-v2", "question": "A rope is 262 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.873 m", "true_label": 1}
+{"index": 25, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 4 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "7", "true_label": 0}
+{"index": 26, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 4 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "0", "true_label": 1}
+{"index": 27, "category": "Math-Adversarial-v2", "question": "A rope is 151 m. If cut into 3 equal pieces, how long is each piece?", "answer": "50.333 m", "true_label": 0}
+{"index": 28, "category": "Math-Adversarial-v2", "question": "A rope is 151 m. If cut into 3 equal pieces, how long is each piece?", "answer": "50", "true_label": 1}
+{"index": 29, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 8?", "answer": "0", "true_label": 0}
+{"index": 30, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 8?", "answer": "2", "true_label": 1}
+{"index": 31, "category": "Math-Adversarial-v2", "question": "What is half of 8/4?", "answer": "8/8", "true_label": 0}
+{"index": 32, "category": "Math-Adversarial-v2", "question": "What is half of 8/4?", "answer": "4/4", "true_label": 1}
+{"index": 33, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 13?", "answer": "10", "true_label": 0}
+{"index": 34, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 13?", "answer": "12", "true_label": 1}
+{"index": 35, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 4 and then subtract 9, what's the result?", "answer": "27", "true_label": 0}
+{"index": 36, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 4 and then subtract 9, what's the result?", "answer": "0", "true_label": 1}
+{"index": 37, "category": "Math-Adversarial-v2", "question": "What is half of 2/12?", "answer": "2/24", "true_label": 0}
+{"index": 38, "category": "Math-Adversarial-v2", "question": "What is half of 2/12?", "answer": "1/12", "true_label": 1}
+{"index": 39, "category": "Math-Adversarial-v2", "question": "What is 5% of 452?", "answer": "22.600", "true_label": 0}
+{"index": 40, "category": "Math-Adversarial-v2", "question": "What is 5% of 452?", "answer": "2260.000", "true_label": 1}
+{"index": 41, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 3 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "6", "true_label": 0}
+{"index": 42, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 3 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "-1", "true_label": 1}
+{"index": 43, "category": "Math-Adversarial-v2", "question": "How many integers are between 12 and 15?", "answer": "2", "true_label": 0}
+{"index": 44, "category": "Math-Adversarial-v2", "question": "How many integers are between 12 and 15?", "answer": "4", "true_label": 1}
+{"index": 45, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 2 apples. C takes 5 apples from B. How many apples does A have now?", "answer": "3", "true_label": 0}
+{"index": 46, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 2 apples. C takes 5 apples from B. How many apples does A have now?", "answer": "8", "true_label": 1}
+{"index": 47, "category": "Math-Adversarial-v2", "question": "What is half of 5/10?", "answer": "5/20", "true_label": 0}
+{"index": 48, "category": "Math-Adversarial-v2", "question": "What is half of 5/10?", "answer": "5/5", "true_label": 1}
+{"index": 49, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 20?", "answer": "16", "true_label": 0}
+{"index": 50, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 20?", "answer": "18", "true_label": 1}
+{"index": 51, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 52, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 53, "category": "Math-Adversarial-v2", "question": "What is 25% of 54?", "answer": "13.500", "true_label": 0}
+{"index": 54, "category": "Math-Adversarial-v2", "question": "What is 25% of 54?", "answer": "1350.000", "true_label": 1}
+{"index": 55, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 56, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 57, "category": "Math-Adversarial-v2", "question": "A rope is 207 m. If cut into 3 equal pieces, how long is each piece?", "answer": "69.000 m", "true_label": 0}
+{"index": 58, "category": "Math-Adversarial-v2", "question": "A rope is 207 m. If cut into 3 equal pieces, how long is each piece?", "answer": "69", "true_label": 1}
+{"index": 59, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 3 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "6", "true_label": 0}
+{"index": 60, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 3 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "14", "true_label": 1}
+{"index": 61, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 62, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 63, "category": "Math-Adversarial-v2", "question": "What is 10% of 37?", "answer": "3.700", "true_label": 0}
+{"index": 64, "category": "Math-Adversarial-v2", "question": "What is 10% of 37?", "answer": "370.000", "true_label": 1}
+{"index": 65, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 5 and then subtract 7, what's the result?", "answer": "28", "true_label": 0}
+{"index": 66, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 5 and then subtract 7, what's the result?", "answer": "35", "true_label": 1}
+{"index": 67, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 5?", "answer": "1", "true_label": 0}
+{"index": 68, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 5?", "answer": "3", "true_label": 1}
+{"index": 69, "category": "Math-Adversarial-v2", "question": "A rope is 230 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "76 mm", "true_label": 0}
+{"index": 70, "category": "Math-Adversarial-v2", "question": "A rope is 230 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "76", "true_label": 1}
+{"index": 71, "category": "Math-Adversarial-v2", "question": "A rope is 79 m. If cut into 3 equal pieces, how long is each piece?", "answer": "26.333 m", "true_label": 0}
+{"index": 72, "category": "Math-Adversarial-v2", "question": "A rope is 79 m. If cut into 3 equal pieces, how long is each piece?", "answer": "26", "true_label": 1}
+{"index": 73, "category": "Math-Adversarial-v2", "question": "If you multiply 6 by 3 and then subtract 6, what's the result?", "answer": "12", "true_label": 0}
+{"index": 74, "category": "Math-Adversarial-v2", "question": "If you multiply 6 by 3 and then subtract 6, what's the result?", "answer": "0", "true_label": 1}
+{"index": 75, "category": "Math-Adversarial-v2", "question": "If you add 84 to 97, what is the result?", "answer": "181", "true_label": 0}
+{"index": 76, "category": "Math-Adversarial-v2", "question": "If you add 84 to 97, what is the result?", "answer": "13", "true_label": 1}
+{"index": 77, "category": "Math-Adversarial-v2", "question": "What is 10% of 73?", "answer": "7.300", "true_label": 0}
+{"index": 78, "category": "Math-Adversarial-v2", "question": "What is 10% of 73?", "answer": "730.000", "true_label": 1}
+{"index": 79, "category": "Math-Adversarial-v2", "question": "If you add 21 to 133, what is the result?", "answer": "154", "true_label": 0}
+{"index": 80, "category": "Math-Adversarial-v2", "question": "If you add 21 to 133, what is the result?", "answer": "155", "true_label": 1}
+{"index": 81, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 82, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 83, "category": "Math-Adversarial-v2", "question": "How many integers are between 9 and 20?", "answer": "10", "true_label": 0}
+{"index": 84, "category": "Math-Adversarial-v2", "question": "How many integers are between 9 and 20?", "answer": "12", "true_label": 1}
+{"index": 85, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 5 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 86, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 5 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "8", "true_label": 1}
+{"index": 87, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 12?", "answer": "7", "true_label": 0}
+{"index": 88, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 12?", "answer": "9", "true_label": 1}
+{"index": 89, "category": "Math-Adversarial-v2", "question": "What is half of 5/9?", "answer": "5/18", "true_label": 0}
+{"index": 90, "category": "Math-Adversarial-v2", "question": "What is half of 5/9?", "answer": "5/4", "true_label": 1}
+{"index": 91, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 7 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "9", "true_label": 0}
+{"index": 92, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 7 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "0", "true_label": 1}
+{"index": 93, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 1 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "3", "true_label": 0}
+{"index": 94, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 1 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "4", "true_label": 1}
+{"index": 95, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 96, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 97, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 98, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 99, "category": "Math-Adversarial-v2", "question": "What is 20% of 90?", "answer": "18.000", "true_label": 0}
+{"index": 100, "category": "Math-Adversarial-v2", "question": "What is 20% of 90?", "answer": "1800.000", "true_label": 1}
+{"index": 101, "category": "Math-Adversarial-v2", "question": "A rope is 104 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "34.667 cm", "true_label": 0}
+{"index": 102, "category": "Math-Adversarial-v2", "question": "A rope is 104 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.347 m", "true_label": 1}
+{"index": 103, "category": "Math-Adversarial-v2", "question": "If you multiply 8 by 7 and then subtract 8, what's the result?", "answer": "48", "true_label": 0}
+{"index": 104, "category": "Math-Adversarial-v2", "question": "If you multiply 8 by 7 and then subtract 8, what's the result?", "answer": "0", "true_label": 1}
+{"index": 105, "category": "Math-Adversarial-v2", "question": "If you add 166 to 49, what is the result?", "answer": "215", "true_label": 0}
+{"index": 106, "category": "Math-Adversarial-v2", "question": "If you add 166 to 49, what is the result?", "answer": "117", "true_label": 1}
+{"index": 107, "category": "Math-Adversarial-v2", "question": "What is 20% of 310?", "answer": "62.000", "true_label": 0}
+{"index": 108, "category": "Math-Adversarial-v2", "question": "What is 20% of 310?", "answer": "6200.000", "true_label": 1}
+{"index": 109, "category": "Math-Adversarial-v2", "question": "What is 12% of 469?", "answer": "56.280", "true_label": 0}
+{"index": 110, "category": "Math-Adversarial-v2", "question": "What is 12% of 469?", "answer": "5628.000", "true_label": 1}
+{"index": 111, "category": "Math-Adversarial-v2", "question": "A has 7 apples. B gives A 10 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "17", "true_label": 0}
+{"index": 112, "category": "Math-Adversarial-v2", "question": "A has 7 apples. B gives A 10 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "26", "true_label": 1}
+{"index": 113, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 114, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 115, "category": "Math-Adversarial-v2", "question": "If you add 141 to 69, what is the result?", "answer": "210", "true_label": 0}
+{"index": 116, "category": "Math-Adversarial-v2", "question": "If you add 141 to 69, what is the result?", "answer": "72", "true_label": 1}
+{"index": 117, "category": "Math-Adversarial-v2", "question": "If you multiply 10 by 10 and then subtract 10, what's the result?", "answer": "90", "true_label": 0}
+{"index": 118, "category": "Math-Adversarial-v2", "question": "If you multiply 10 by 10 and then subtract 10, what's the result?", "answer": "0", "true_label": 1}
+{"index": 119, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 4 and then subtract 19, what's the result?", "answer": "57", "true_label": 0}
+{"index": 120, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 4 and then subtract 19, what's the result?", "answer": "76", "true_label": 1}
+{"index": 121, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 3 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "9", "true_label": 0}
+{"index": 122, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 3 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "0", "true_label": 1}
+{"index": 123, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 6 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 124, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 6 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "7", "true_label": 1}
+{"index": 125, "category": "Math-Adversarial-v2", "question": "A rope is 68 m. If cut into 3 equal pieces, how long is each piece?", "answer": "22.667 m", "true_label": 0}
+{"index": 126, "category": "Math-Adversarial-v2", "question": "A rope is 68 m. If cut into 3 equal pieces, how long is each piece?", "answer": "22", "true_label": 1}
+{"index": 127, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 14 and then subtract 3, what's the result?", "answer": "39", "true_label": 0}
+{"index": 128, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 14 and then subtract 3, what's the result?", "answer": "0", "true_label": 1}
+{"index": 129, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 15 and then subtract 3, what's the result?", "answer": "42", "true_label": 0}
+{"index": 130, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 15 and then subtract 3, what's the result?", "answer": "0", "true_label": 1}
+{"index": 131, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 9 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "11", "true_label": 0}
+{"index": 132, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 9 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "13", "true_label": 1}
+{"index": 133, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 134, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 135, "category": "Math-Adversarial-v2", "question": "What is 25% of 55?", "answer": "13.750", "true_label": 0}
+{"index": 136, "category": "Math-Adversarial-v2", "question": "What is 25% of 55?", "answer": "1375.000", "true_label": 1}
+{"index": 137, "category": "Math-Adversarial-v2", "question": "What is 12% of 336?", "answer": "40.320", "true_label": 0}
+{"index": 138, "category": "Math-Adversarial-v2", "question": "What is 12% of 336?", "answer": "4032.000", "true_label": 1}
+{"index": 139, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 140, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 141, "category": "Math-Adversarial-v2", "question": "If you add 101 to 116, what is the result?", "answer": "217", "true_label": 0}
+{"index": 142, "category": "Math-Adversarial-v2", "question": "If you add 101 to 116, what is the result?", "answer": "15", "true_label": 1}
+{"index": 143, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 11?", "answer": "3", "true_label": 0}
+{"index": 144, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 11?", "answer": "5", "true_label": 1}
+{"index": 145, "category": "Math-Adversarial-v2", "question": "What is 5% of 288?", "answer": "14.400", "true_label": 0}
+{"index": 146, "category": "Math-Adversarial-v2", "question": "What is 5% of 288?", "answer": "1440.000", "true_label": 1}
+{"index": 147, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 148, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 149, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 150, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 151, "category": "Math-Adversarial-v2", "question": "A rope is 120 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "40 mm", "true_label": 0}
+{"index": 152, "category": "Math-Adversarial-v2", "question": "A rope is 120 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "40", "true_label": 1}
+{"index": 153, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 3 apples. C takes 5 apples from B. How many apples does A have now?", "answer": "11", "true_label": 0}
+{"index": 154, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 3 apples. C takes 5 apples from B. How many apples does A have now?", "answer": "16", "true_label": 1}
+{"index": 155, "category": "Math-Adversarial-v2", "question": "If you add 138 to 58, what is the result?", "answer": "196", "true_label": 0}
+{"index": 156, "category": "Math-Adversarial-v2", "question": "If you add 138 to 58, what is the result?", "answer": "197", "true_label": 1}
+{"index": 157, "category": "Math-Adversarial-v2", "question": "What is half of 6/6?", "answer": "6/12", "true_label": 0}
+{"index": 158, "category": "Math-Adversarial-v2", "question": "What is half of 6/6?", "answer": "3/6", "true_label": 1}
+{"index": 159, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 160, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 161, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 12?", "answer": "7", "true_label": 0}
+{"index": 162, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 12?", "answer": "9", "true_label": 1}
+{"index": 163, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 10?", "answer": "7", "true_label": 0}
+{"index": 164, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 10?", "answer": "9", "true_label": 1}
+{"index": 165, "category": "Math-Adversarial-v2", "question": "What is half of 8/10?", "answer": "8/20", "true_label": 0}
+{"index": 166, "category": "Math-Adversarial-v2", "question": "What is half of 8/10?", "answer": "4/10", "true_label": 1}
+{"index": 167, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 9 and then subtract 4, what's the result?", "answer": "32", "true_label": 0}
+{"index": 168, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 9 and then subtract 4, what's the result?", "answer": "0", "true_label": 1}
+{"index": 169, "category": "Math-Adversarial-v2", "question": "How many integers are between 11 and 18?", "answer": "6", "true_label": 0}
+{"index": 170, "category": "Math-Adversarial-v2", "question": "How many integers are between 11 and 18?", "answer": "8", "true_label": 1}
+{"index": 171, "category": "Math-Adversarial-v2", "question": "How many integers are between 5 and 16?", "answer": "10", "true_label": 0}
+{"index": 172, "category": "Math-Adversarial-v2", "question": "How many integers are between 5 and 16?", "answer": "12", "true_label": 1}
+{"index": 173, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 8 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 174, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 8 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "17", "true_label": 1}
+{"index": 175, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 1 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "9", "true_label": 0}
+{"index": 176, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 1 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "11", "true_label": 1}
+{"index": 177, "category": "Math-Adversarial-v2", "question": "What is 25% of 44?", "answer": "11.000", "true_label": 0}
+{"index": 178, "category": "Math-Adversarial-v2", "question": "What is 25% of 44?", "answer": "1100.000", "true_label": 1}
+{"index": 179, "category": "Math-Adversarial-v2", "question": "What is half of 6/6?", "answer": "6/12", "true_label": 0}
+{"index": 180, "category": "Math-Adversarial-v2", "question": "What is half of 6/6?", "answer": "3/6", "true_label": 1}
+{"index": 181, "category": "Math-Adversarial-v2", "question": "A rope is 213 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "71.000 cm", "true_label": 0}
+{"index": 182, "category": "Math-Adversarial-v2", "question": "A rope is 213 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.710 m", "true_label": 1}
+{"index": 183, "category": "Math-Adversarial-v2", "question": "What is 25% of 235?", "answer": "58.750", "true_label": 0}
+{"index": 184, "category": "Math-Adversarial-v2", "question": "What is 25% of 235?", "answer": "5875.000", "true_label": 1}
+{"index": 185, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 20?", "answer": "12", "true_label": 0}
+{"index": 186, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 20?", "answer": "14", "true_label": 1}
+{"index": 187, "category": "Math-Adversarial-v2", "question": "A rope is 216 m. If cut into 3 equal pieces, how long is each piece?", "answer": "72.000 m", "true_label": 0}
+{"index": 188, "category": "Math-Adversarial-v2", "question": "A rope is 216 m. If cut into 3 equal pieces, how long is each piece?", "answer": "72", "true_label": 1}
+{"index": 189, "category": "Math-Adversarial-v2", "question": "What is 5% of 365?", "answer": "18.250", "true_label": 0}
+{"index": 190, "category": "Math-Adversarial-v2", "question": "What is 5% of 365?", "answer": "1825.000", "true_label": 1}
+{"index": 191, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 3 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "6", "true_label": 0}
+{"index": 192, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 3 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "-3", "true_label": 1}
+{"index": 193, "category": "Math-Adversarial-v2", "question": "If you multiply 20 by 8 and then subtract 20, what's the result?", "answer": "140", "true_label": 0}
+{"index": 194, "category": "Math-Adversarial-v2", "question": "If you multiply 20 by 8 and then subtract 20, what's the result?", "answer": "160", "true_label": 1}
+{"index": 195, "category": "Math-Adversarial-v2", "question": "A rope is 88 m. If cut into 3 equal pieces, how long is each piece?", "answer": "29.333 m", "true_label": 0}
+{"index": 196, "category": "Math-Adversarial-v2", "question": "A rope is 88 m. If cut into 3 equal pieces, how long is each piece?", "answer": "29", "true_label": 1}
+{"index": 197, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 198, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 199, "category": "Math-Adversarial-v2", "question": "If you add 64 to 93, what is the result?", "answer": "157", "true_label": 0}
+{"index": 200, "category": "Math-Adversarial-v2", "question": "If you add 64 to 93, what is the result?", "answer": "29", "true_label": 1}
+{"index": 201, "category": "Math-Adversarial-v2", "question": "If you add 84 to 8, what is the result?", "answer": "92", "true_label": 0}
+{"index": 202, "category": "Math-Adversarial-v2", "question": "If you add 84 to 8, what is the result?", "answer": "91", "true_label": 1}
+{"index": 203, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 9?", "answer": "4", "true_label": 0}
+{"index": 204, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 9?", "answer": "6", "true_label": 1}
+{"index": 205, "category": "Math-Adversarial-v2", "question": "What is half of 2/9?", "answer": "2/18", "true_label": 0}
+{"index": 206, "category": "Math-Adversarial-v2", "question": "What is half of 2/9?", "answer": "1/9", "true_label": 1}
+{"index": 207, "category": "Math-Adversarial-v2", "question": "A has 10 apples. B gives A 3 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 208, "category": "Math-Adversarial-v2", "question": "A has 10 apples. B gives A 3 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "19", "true_label": 1}
+{"index": 209, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 210, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 211, "category": "Math-Adversarial-v2", "question": "What is 10% of 392?", "answer": "39.200", "true_label": 0}
+{"index": 212, "category": "Math-Adversarial-v2", "question": "What is 10% of 392?", "answer": "3920.000", "true_label": 1}
+{"index": 213, "category": "Math-Adversarial-v2", "question": "If you add 18 to 49, what is the result?", "answer": "67", "true_label": 0}
+{"index": 214, "category": "Math-Adversarial-v2", "question": "If you add 18 to 49, what is the result?", "answer": "31", "true_label": 1}
+{"index": 215, "category": "Math-Adversarial-v2", "question": "A rope is 296 m. If cut into 3 equal pieces, how long is each piece?", "answer": "98.667 m", "true_label": 0}
+{"index": 216, "category": "Math-Adversarial-v2", "question": "A rope is 296 m. If cut into 3 equal pieces, how long is each piece?", "answer": "98", "true_label": 1}
+{"index": 217, "category": "Math-Adversarial-v2", "question": "A rope is 69 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "23 mm", "true_label": 0}
+{"index": 218, "category": "Math-Adversarial-v2", "question": "A rope is 69 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "23", "true_label": 1}
+{"index": 219, "category": "Math-Adversarial-v2", "question": "A rope is 125 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "41 mm", "true_label": 0}
+{"index": 220, "category": "Math-Adversarial-v2", "question": "A rope is 125 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "41", "true_label": 1}
+{"index": 221, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 9 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "17", "true_label": 0}
+{"index": 222, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 9 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "20", "true_label": 1}
+{"index": 223, "category": "Math-Adversarial-v2", "question": "What is half of 1/4?", "answer": "1/8", "true_label": 0}
+{"index": 224, "category": "Math-Adversarial-v2", "question": "What is half of 1/4?", "answer": "1/2", "true_label": 1}
+{"index": 225, "category": "Math-Adversarial-v2", "question": "What is half of 4/6?", "answer": "4/12", "true_label": 0}
+{"index": 226, "category": "Math-Adversarial-v2", "question": "What is half of 4/6?", "answer": "2/6", "true_label": 1}
+{"index": 227, "category": "Math-Adversarial-v2", "question": "If you add 71 to 68, what is the result?", "answer": "139", "true_label": 0}
+{"index": 228, "category": "Math-Adversarial-v2", "question": "If you add 71 to 68, what is the result?", "answer": "140", "true_label": 1}
+{"index": 229, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 230, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 231, "category": "Math-Adversarial-v2", "question": "If you add 12 to 99, what is the result?", "answer": "111", "true_label": 0}
+{"index": 232, "category": "Math-Adversarial-v2", "question": "If you add 12 to 99, what is the result?", "answer": "110", "true_label": 1}
+{"index": 233, "category": "Math-Adversarial-v2", "question": "A rope is 206 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "68 mm", "true_label": 0}
+{"index": 234, "category": "Math-Adversarial-v2", "question": "A rope is 206 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "68", "true_label": 1}
+{"index": 235, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 236, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 237, "category": "Math-Adversarial-v2", "question": "What is half of 7/7?", "answer": "7/14", "true_label": 0}
+{"index": 238, "category": "Math-Adversarial-v2", "question": "What is half of 7/7?", "answer": "7/3", "true_label": 1}
+{"index": 239, "category": "Math-Adversarial-v2", "question": "What is 5% of 419?", "answer": "20.950", "true_label": 0}
+{"index": 240, "category": "Math-Adversarial-v2", "question": "What is 5% of 419?", "answer": "2095.000", "true_label": 1}
+{"index": 241, "category": "Math-Adversarial-v2", "question": "If you add 84 to 44, what is the result?", "answer": "128", "true_label": 0}
+{"index": 242, "category": "Math-Adversarial-v2", "question": "If you add 84 to 44, what is the result?", "answer": "129", "true_label": 1}
+{"index": 243, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 244, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 245, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 246, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 247, "category": "Math-Adversarial-v2", "question": "If you add 35 to 39, what is the result?", "answer": "74", "true_label": 0}
+{"index": 248, "category": "Math-Adversarial-v2", "question": "If you add 35 to 39, what is the result?", "answer": "75", "true_label": 1}
+{"index": 249, "category": "Math-Adversarial-v2", "question": "If you multiply 6 by 5 and then subtract 6, what's the result?", "answer": "24", "true_label": 0}
+{"index": 250, "category": "Math-Adversarial-v2", "question": "If you multiply 6 by 5 and then subtract 6, what's the result?", "answer": "30", "true_label": 1}
+{"index": 251, "category": "Math-Adversarial-v2", "question": "What is 5% of 192?", "answer": "9.600", "true_label": 0}
+{"index": 252, "category": "Math-Adversarial-v2", "question": "What is 5% of 192?", "answer": "960.000", "true_label": 1}
+{"index": 253, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 7?", "answer": "0", "true_label": 0}
+{"index": 254, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 7?", "answer": "1", "true_label": 1}
+{"index": 255, "category": "Math-Adversarial-v2", "question": "How many integers are between 11 and 14?", "answer": "2", "true_label": 0}
+{"index": 256, "category": "Math-Adversarial-v2", "question": "How many integers are between 11 and 14?", "answer": "4", "true_label": 1}
+{"index": 257, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 19 and then subtract 9, what's the result?", "answer": "162", "true_label": 0}
+{"index": 258, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 19 and then subtract 9, what's the result?", "answer": "0", "true_label": 1}
+{"index": 259, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 6 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 260, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 6 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "7", "true_label": 1}
+{"index": 261, "category": "Math-Adversarial-v2", "question": "If you add 106 to 131, what is the result?", "answer": "237", "true_label": 0}
+{"index": 262, "category": "Math-Adversarial-v2", "question": "If you add 106 to 131, what is the result?", "answer": "236", "true_label": 1}
+{"index": 263, "category": "Math-Adversarial-v2", "question": "If you add 69 to 111, what is the result?", "answer": "180", "true_label": 0}
+{"index": 264, "category": "Math-Adversarial-v2", "question": "If you add 69 to 111, what is the result?", "answer": "42", "true_label": 1}
+{"index": 265, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 20?", "answer": "6", "true_label": 0}
+{"index": 266, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 20?", "answer": "8", "true_label": 1}
+{"index": 267, "category": "Math-Adversarial-v2", "question": "A rope is 253 m. If cut into 3 equal pieces, how long is each piece?", "answer": "84.333 m", "true_label": 0}
+{"index": 268, "category": "Math-Adversarial-v2", "question": "A rope is 253 m. If cut into 3 equal pieces, how long is each piece?", "answer": "84", "true_label": 1}
+{"index": 269, "category": "Math-Adversarial-v2", "question": "If you add 86 to 163, what is the result?", "answer": "249", "true_label": 0}
+{"index": 270, "category": "Math-Adversarial-v2", "question": "If you add 86 to 163, what is the result?", "answer": "77", "true_label": 1}
+{"index": 271, "category": "Math-Adversarial-v2", "question": "If you add 80 to 1, what is the result?", "answer": "81", "true_label": 0}
+{"index": 272, "category": "Math-Adversarial-v2", "question": "If you add 80 to 1, what is the result?", "answer": "79", "true_label": 1}
+{"index": 273, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 274, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 275, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 4 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "7", "true_label": 0}
+{"index": 276, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 4 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "5", "true_label": 1}
+{"index": 277, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 8 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 278, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 8 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "6", "true_label": 1}
+{"index": 279, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 4 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 280, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 4 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "12", "true_label": 1}
+{"index": 281, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 7 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 282, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 7 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "19", "true_label": 1}
+{"index": 283, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 17?", "answer": "15", "true_label": 0}
+{"index": 284, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 17?", "answer": "17", "true_label": 1}
+{"index": 285, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 2 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "8", "true_label": 0}
+{"index": 286, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 2 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "1", "true_label": 1}
+{"index": 287, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 7 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 288, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 7 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "10", "true_label": 1}
+{"index": 289, "category": "Math-Adversarial-v2", "question": "What is 5% of 68?", "answer": "3.400", "true_label": 0}
+{"index": 290, "category": "Math-Adversarial-v2", "question": "What is 5% of 68?", "answer": "340.000", "true_label": 1}
+{"index": 291, "category": "Math-Adversarial-v2", "question": "If you add 135 to 19, what is the result?", "answer": "154", "true_label": 0}
+{"index": 292, "category": "Math-Adversarial-v2", "question": "If you add 135 to 19, what is the result?", "answer": "116", "true_label": 1}
+{"index": 293, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 18 and then subtract 19, what's the result?", "answer": "323", "true_label": 0}
+{"index": 294, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 18 and then subtract 19, what's the result?", "answer": "342", "true_label": 1}
+{"index": 295, "category": "Math-Adversarial-v2", "question": "What is 10% of 497?", "answer": "49.700", "true_label": 0}
+{"index": 296, "category": "Math-Adversarial-v2", "question": "What is 10% of 497?", "answer": "4970.000", "true_label": 1}
+{"index": 297, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 298, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 299, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 17 and then subtract 19, what's the result?", "answer": "304", "true_label": 0}
+{"index": 300, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 17 and then subtract 19, what's the result?", "answer": "323", "true_label": 1}
+{"index": 301, "category": "Math-Adversarial-v2", "question": "If you multiply 10 by 16 and then subtract 10, what's the result?", "answer": "150", "true_label": 0}
+{"index": 302, "category": "Math-Adversarial-v2", "question": "If you multiply 10 by 16 and then subtract 10, what's the result?", "answer": "160", "true_label": 1}
+{"index": 303, "category": "Math-Adversarial-v2", "question": "A rope is 286 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "95 mm", "true_label": 0}
+{"index": 304, "category": "Math-Adversarial-v2", "question": "A rope is 286 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "95", "true_label": 1}
+{"index": 305, "category": "Math-Adversarial-v2", "question": "If you add 105 to 102, what is the result?", "answer": "207", "true_label": 0}
+{"index": 306, "category": "Math-Adversarial-v2", "question": "If you add 105 to 102, what is the result?", "answer": "206", "true_label": 1}
+{"index": 307, "category": "Math-Adversarial-v2", "question": "What is half of 7/7?", "answer": "7/14", "true_label": 0}
+{"index": 308, "category": "Math-Adversarial-v2", "question": "What is half of 7/7?", "answer": "7/3", "true_label": 1}
+{"index": 309, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 310, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 311, "category": "Math-Adversarial-v2", "question": "A rope is 188 m. If cut into 3 equal pieces, how long is each piece?", "answer": "62.667 m", "true_label": 0}
+{"index": 312, "category": "Math-Adversarial-v2", "question": "A rope is 188 m. If cut into 3 equal pieces, how long is each piece?", "answer": "62", "true_label": 1}
+{"index": 313, "category": "Math-Adversarial-v2", "question": "What is half of 8/9?", "answer": "8/18", "true_label": 0}
+{"index": 314, "category": "Math-Adversarial-v2", "question": "What is half of 8/9?", "answer": "4/9", "true_label": 1}
+{"index": 315, "category": "Math-Adversarial-v2", "question": "A rope is 244 m. If cut into 3 equal pieces, how long is each piece?", "answer": "81.333 m", "true_label": 0}
+{"index": 316, "category": "Math-Adversarial-v2", "question": "A rope is 244 m. If cut into 3 equal pieces, how long is each piece?", "answer": "81", "true_label": 1}
+{"index": 317, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 318, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 319, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 320, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 321, "category": "Math-Adversarial-v2", "question": "What is half of 4/11?", "answer": "4/22", "true_label": 0}
+{"index": 322, "category": "Math-Adversarial-v2", "question": "What is half of 4/11?", "answer": "2/11", "true_label": 1}
+{"index": 323, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 6 apples. C takes 5 apples from B. How many apples does A have now?", "answer": "7", "true_label": 0}
+{"index": 324, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 6 apples. C takes 5 apples from B. How many apples does A have now?", "answer": "2", "true_label": 1}
+{"index": 325, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 1 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "6", "true_label": 0}
+{"index": 326, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 1 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "13", "true_label": 1}
+{"index": 327, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 328, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 329, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 8 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 330, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 8 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "16", "true_label": 1}
+{"index": 331, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 18?", "answer": "15", "true_label": 0}
+{"index": 332, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 18?", "answer": "17", "true_label": 1}
+{"index": 333, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 14?", "answer": "11", "true_label": 0}
+{"index": 334, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 14?", "answer": "13", "true_label": 1}
+{"index": 335, "category": "Math-Adversarial-v2", "question": "A rope is 144 m. If cut into 3 equal pieces, how long is each piece?", "answer": "48.000 m", "true_label": 0}
+{"index": 336, "category": "Math-Adversarial-v2", "question": "A rope is 144 m. If cut into 3 equal pieces, how long is each piece?", "answer": "48", "true_label": 1}
+{"index": 337, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 338, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 339, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 18?", "answer": "16", "true_label": 0}
+{"index": 340, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 18?", "answer": "18", "true_label": 1}
+{"index": 341, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 10 apples. C takes 5 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 342, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 10 apples. C takes 5 apples from B. How many apples does A have now?", "answer": "17", "true_label": 1}
+{"index": 343, "category": "Math-Adversarial-v2", "question": "What is half of 8/12?", "answer": "8/24", "true_label": 0}
+{"index": 344, "category": "Math-Adversarial-v2", "question": "What is half of 8/12?", "answer": "4/12", "true_label": 1}
+{"index": 345, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 346, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 347, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 348, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 349, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 350, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 351, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 6?", "answer": "4", "true_label": 0}
+{"index": 352, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 6?", "answer": "6", "true_label": 1}
+{"index": 353, "category": "Math-Adversarial-v2", "question": "What is 5% of 167?", "answer": "8.350", "true_label": 0}
+{"index": 354, "category": "Math-Adversarial-v2", "question": "What is 5% of 167?", "answer": "835.000", "true_label": 1}
+{"index": 355, "category": "Math-Adversarial-v2", "question": "What is half of 4/11?", "answer": "4/22", "true_label": 0}
+{"index": 356, "category": "Math-Adversarial-v2", "question": "What is half of 4/11?", "answer": "2/11", "true_label": 1}
+{"index": 357, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 358, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 359, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 360, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 361, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 17 and then subtract 3, what's the result?", "answer": "48", "true_label": 0}
+{"index": 362, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 17 and then subtract 3, what's the result?", "answer": "51", "true_label": 1}
+{"index": 363, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 8 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 364, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 8 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "19", "true_label": 1}
+{"index": 365, "category": "Math-Adversarial-v2", "question": "A rope is 149 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "49.667 cm", "true_label": 0}
+{"index": 366, "category": "Math-Adversarial-v2", "question": "A rope is 149 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.497 m", "true_label": 1}
+{"index": 367, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 14?", "answer": "3", "true_label": 0}
+{"index": 368, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 14?", "answer": "5", "true_label": 1}
+{"index": 369, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 9?", "answer": "7", "true_label": 0}
+{"index": 370, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 9?", "answer": "9", "true_label": 1}
+{"index": 371, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 372, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 373, "category": "Math-Adversarial-v2", "question": "What is 20% of 31?", "answer": "6.200", "true_label": 0}
+{"index": 374, "category": "Math-Adversarial-v2", "question": "What is 20% of 31?", "answer": "620.000", "true_label": 1}
+{"index": 375, "category": "Math-Adversarial-v2", "question": "If you multiply 13 by 18 and then subtract 13, what's the result?", "answer": "221", "true_label": 0}
+{"index": 376, "category": "Math-Adversarial-v2", "question": "If you multiply 13 by 18 and then subtract 13, what's the result?", "answer": "234", "true_label": 1}
+{"index": 377, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 4 and then subtract 7, what's the result?", "answer": "21", "true_label": 0}
+{"index": 378, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 4 and then subtract 7, what's the result?", "answer": "28", "true_label": 1}
+{"index": 379, "category": "Math-Adversarial-v2", "question": "A rope is 64 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "21 mm", "true_label": 0}
+{"index": 380, "category": "Math-Adversarial-v2", "question": "A rope is 64 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "21", "true_label": 1}
+{"index": 381, "category": "Math-Adversarial-v2", "question": "What is half of 8/8?", "answer": "8/16", "true_label": 0}
+{"index": 382, "category": "Math-Adversarial-v2", "question": "What is half of 8/8?", "answer": "4/8", "true_label": 1}
+{"index": 383, "category": "Math-Adversarial-v2", "question": "What is 12% of 362?", "answer": "43.440", "true_label": 0}
+{"index": 384, "category": "Math-Adversarial-v2", "question": "What is 12% of 362?", "answer": "4344.000", "true_label": 1}
+{"index": 385, "category": "Math-Adversarial-v2", "question": "What is half of 5/9?", "answer": "5/18", "true_label": 0}
+{"index": 386, "category": "Math-Adversarial-v2", "question": "What is half of 5/9?", "answer": "5/4", "true_label": 1}
+{"index": 387, "category": "Math-Adversarial-v2", "question": "If you add 124 to 161, what is the result?", "answer": "285", "true_label": 0}
+{"index": 388, "category": "Math-Adversarial-v2", "question": "If you add 124 to 161, what is the result?", "answer": "37", "true_label": 1}
+{"index": 389, "category": "Math-Adversarial-v2", "question": "What is 12% of 399?", "answer": "47.880", "true_label": 0}
+{"index": 390, "category": "Math-Adversarial-v2", "question": "What is 12% of 399?", "answer": "4788.000", "true_label": 1}
+{"index": 391, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 20?", "answer": "11", "true_label": 0}
+{"index": 392, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 20?", "answer": "13", "true_label": 1}
+{"index": 393, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 10?", "answer": "0", "true_label": 0}
+{"index": 394, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 10?", "answer": "1", "true_label": 1}
+{"index": 395, "category": "Math-Adversarial-v2", "question": "If you multiply 10 by 8 and then subtract 10, what's the result?", "answer": "70", "true_label": 0}
+{"index": 396, "category": "Math-Adversarial-v2", "question": "If you multiply 10 by 8 and then subtract 10, what's the result?", "answer": "80", "true_label": 1}
+{"index": 397, "category": "Math-Adversarial-v2", "question": "What is 20% of 261?", "answer": "52.200", "true_label": 0}
+{"index": 398, "category": "Math-Adversarial-v2", "question": "What is 20% of 261?", "answer": "5220.000", "true_label": 1}
+{"index": 399, "category": "Math-Adversarial-v2", "question": "What is 20% of 213?", "answer": "42.600", "true_label": 0}
+{"index": 400, "category": "Math-Adversarial-v2", "question": "What is 20% of 213?", "answer": "4260.000", "true_label": 1}
+{"index": 401, "category": "Math-Adversarial-v2", "question": "What is 20% of 383?", "answer": "76.600", "true_label": 0}
+{"index": 402, "category": "Math-Adversarial-v2", "question": "What is 20% of 383?", "answer": "7660.000", "true_label": 1}
+{"index": 403, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 15?", "answer": "1", "true_label": 0}
+{"index": 404, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 15?", "answer": "3", "true_label": 1}
+{"index": 405, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 8 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 406, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 8 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "20", "true_label": 1}
+{"index": 407, "category": "Math-Adversarial-v2", "question": "What is 5% of 309?", "answer": "15.450", "true_label": 0}
+{"index": 408, "category": "Math-Adversarial-v2", "question": "What is 5% of 309?", "answer": "1545.000", "true_label": 1}
+{"index": 409, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 2 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "7", "true_label": 0}
+{"index": 410, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 2 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "1", "true_label": 1}
+{"index": 411, "category": "Math-Adversarial-v2", "question": "What is half of 2/4?", "answer": "2/8", "true_label": 0}
+{"index": 412, "category": "Math-Adversarial-v2", "question": "What is half of 2/4?", "answer": "1/4", "true_label": 1}
+{"index": 413, "category": "Math-Adversarial-v2", "question": "A rope is 117 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "39.000 cm", "true_label": 0}
+{"index": 414, "category": "Math-Adversarial-v2", "question": "A rope is 117 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.390 m", "true_label": 1}
+{"index": 415, "category": "Math-Adversarial-v2", "question": "If you multiply 5 by 9 and then subtract 5, what's the result?", "answer": "40", "true_label": 0}
+{"index": 416, "category": "Math-Adversarial-v2", "question": "If you multiply 5 by 9 and then subtract 5, what's the result?", "answer": "45", "true_label": 1}
+{"index": 417, "category": "Math-Adversarial-v2", "question": "If you multiply 13 by 12 and then subtract 13, what's the result?", "answer": "143", "true_label": 0}
+{"index": 418, "category": "Math-Adversarial-v2", "question": "If you multiply 13 by 12 and then subtract 13, what's the result?", "answer": "156", "true_label": 1}
+{"index": 419, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 18 and then subtract 16, what's the result?", "answer": "272", "true_label": 0}
+{"index": 420, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 18 and then subtract 16, what's the result?", "answer": "288", "true_label": 1}
+{"index": 421, "category": "Math-Adversarial-v2", "question": "What is half of 7/11?", "answer": "7/22", "true_label": 0}
+{"index": 422, "category": "Math-Adversarial-v2", "question": "What is half of 7/11?", "answer": "7/5", "true_label": 1}
+{"index": 423, "category": "Math-Adversarial-v2", "question": "What is half of 5/10?", "answer": "5/20", "true_label": 0}
+{"index": 424, "category": "Math-Adversarial-v2", "question": "What is half of 5/10?", "answer": "5/5", "true_label": 1}
+{"index": 425, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 8 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 426, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 8 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "14", "true_label": 1}
+{"index": 427, "category": "Math-Adversarial-v2", "question": "What is half of 4/5?", "answer": "4/10", "true_label": 0}
+{"index": 428, "category": "Math-Adversarial-v2", "question": "What is half of 4/5?", "answer": "2/5", "true_label": 1}
+{"index": 429, "category": "Math-Adversarial-v2", "question": "If you add 183 to 79, what is the result?", "answer": "262", "true_label": 0}
+{"index": 430, "category": "Math-Adversarial-v2", "question": "If you add 183 to 79, what is the result?", "answer": "104", "true_label": 1}
+{"index": 431, "category": "Math-Adversarial-v2", "question": "If you add 116 to 198, what is the result?", "answer": "314", "true_label": 0}
+{"index": 432, "category": "Math-Adversarial-v2", "question": "If you add 116 to 198, what is the result?", "answer": "313", "true_label": 1}
+{"index": 433, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 434, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 435, "category": "Math-Adversarial-v2", "question": "What is 10% of 330?", "answer": "33.000", "true_label": 0}
+{"index": 436, "category": "Math-Adversarial-v2", "question": "What is 10% of 330?", "answer": "3300.000", "true_label": 1}
+{"index": 437, "category": "Math-Adversarial-v2", "question": "How many integers are between 12 and 19?", "answer": "6", "true_label": 0}
+{"index": 438, "category": "Math-Adversarial-v2", "question": "How many integers are between 12 and 19?", "answer": "8", "true_label": 1}
+{"index": 439, "category": "Math-Adversarial-v2", "question": "How many integers are between 17 and 20?", "answer": "2", "true_label": 0}
+{"index": 440, "category": "Math-Adversarial-v2", "question": "How many integers are between 17 and 20?", "answer": "4", "true_label": 1}
+{"index": 441, "category": "Math-Adversarial-v2", "question": "How many integers are between 6 and 20?", "answer": "13", "true_label": 0}
+{"index": 442, "category": "Math-Adversarial-v2", "question": "How many integers are between 6 and 20?", "answer": "15", "true_label": 1}
+{"index": 443, "category": "Math-Adversarial-v2", "question": "What is 12% of 126?", "answer": "15.120", "true_label": 0}
+{"index": 444, "category": "Math-Adversarial-v2", "question": "What is 12% of 126?", "answer": "1512.000", "true_label": 1}
+{"index": 445, "category": "Math-Adversarial-v2", "question": "What is 12% of 21?", "answer": "2.520", "true_label": 0}
+{"index": 446, "category": "Math-Adversarial-v2", "question": "What is 12% of 21?", "answer": "252.000", "true_label": 1}
+{"index": 447, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 4 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "8", "true_label": 0}
+{"index": 448, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 4 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "12", "true_label": 1}
+{"index": 449, "category": "Math-Adversarial-v2", "question": "What is 25% of 472?", "answer": "118.000", "true_label": 0}
+{"index": 450, "category": "Math-Adversarial-v2", "question": "What is 25% of 472?", "answer": "11800.000", "true_label": 1}
+{"index": 451, "category": "Math-Adversarial-v2", "question": "What is half of 1/6?", "answer": "1/12", "true_label": 0}
+{"index": 452, "category": "Math-Adversarial-v2", "question": "What is half of 1/6?", "answer": "1/3", "true_label": 1}
+{"index": 453, "category": "Math-Adversarial-v2", "question": "What is 25% of 267?", "answer": "66.750", "true_label": 0}
+{"index": 454, "category": "Math-Adversarial-v2", "question": "What is 25% of 267?", "answer": "6675.000", "true_label": 1}
+{"index": 455, "category": "Math-Adversarial-v2", "question": "A has 7 apples. B gives A 7 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 456, "category": "Math-Adversarial-v2", "question": "A has 7 apples. B gives A 7 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "22", "true_label": 1}
+{"index": 457, "category": "Math-Adversarial-v2", "question": "If you add 103 to 51, what is the result?", "answer": "154", "true_label": 0}
+{"index": 458, "category": "Math-Adversarial-v2", "question": "If you add 103 to 51, what is the result?", "answer": "155", "true_label": 1}
+{"index": 459, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 8 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "17", "true_label": 0}
+{"index": 460, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 8 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "9", "true_label": 1}
+{"index": 461, "category": "Math-Adversarial-v2", "question": "What is half of 1/8?", "answer": "1/16", "true_label": 0}
+{"index": 462, "category": "Math-Adversarial-v2", "question": "What is half of 1/8?", "answer": "1/4", "true_label": 1}
+{"index": 463, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 8?", "answer": "4", "true_label": 0}
+{"index": 464, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 8?", "answer": "6", "true_label": 1}
+{"index": 465, "category": "Math-Adversarial-v2", "question": "How many integers are between 5 and 13?", "answer": "7", "true_label": 0}
+{"index": 466, "category": "Math-Adversarial-v2", "question": "How many integers are between 5 and 13?", "answer": "9", "true_label": 1}
+{"index": 467, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 6?", "answer": "4", "true_label": 0}
+{"index": 468, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 6?", "answer": "6", "true_label": 1}
+{"index": 469, "category": "Math-Adversarial-v2", "question": "A rope is 256 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "85.333 cm", "true_label": 0}
+{"index": 470, "category": "Math-Adversarial-v2", "question": "A rope is 256 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.853 m", "true_label": 1}
+{"index": 471, "category": "Math-Adversarial-v2", "question": "If you multiply 5 by 2 and then subtract 5, what's the result?", "answer": "5", "true_label": 0}
+{"index": 472, "category": "Math-Adversarial-v2", "question": "If you multiply 5 by 2 and then subtract 5, what's the result?", "answer": "10", "true_label": 1}
+{"index": 473, "category": "Math-Adversarial-v2", "question": "What is half of 7/8?", "answer": "7/16", "true_label": 0}
+{"index": 474, "category": "Math-Adversarial-v2", "question": "What is half of 7/8?", "answer": "7/4", "true_label": 1}
+{"index": 475, "category": "Math-Adversarial-v2", "question": "If you multiply 2 by 16 and then subtract 2, what's the result?", "answer": "30", "true_label": 0}
+{"index": 476, "category": "Math-Adversarial-v2", "question": "If you multiply 2 by 16 and then subtract 2, what's the result?", "answer": "32", "true_label": 1}
+{"index": 477, "category": "Math-Adversarial-v2", "question": "What is 20% of 419?", "answer": "83.800", "true_label": 0}
+{"index": 478, "category": "Math-Adversarial-v2", "question": "What is 20% of 419?", "answer": "8380.000", "true_label": 1}
+{"index": 479, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 19?", "answer": "10", "true_label": 0}
+{"index": 480, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 19?", "answer": "12", "true_label": 1}
+{"index": 481, "category": "Math-Adversarial-v2", "question": "If you add 62 to 47, what is the result?", "answer": "109", "true_label": 0}
+{"index": 482, "category": "Math-Adversarial-v2", "question": "If you add 62 to 47, what is the result?", "answer": "108", "true_label": 1}
+{"index": 483, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 3 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 484, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 3 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "16", "true_label": 1}
+{"index": 485, "category": "Math-Adversarial-v2", "question": "A rope is 120 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "40 mm", "true_label": 0}
+{"index": 486, "category": "Math-Adversarial-v2", "question": "A rope is 120 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "40", "true_label": 1}
+{"index": 487, "category": "Math-Adversarial-v2", "question": "How many integers are between 5 and 13?", "answer": "7", "true_label": 0}
+{"index": 488, "category": "Math-Adversarial-v2", "question": "How many integers are between 5 and 13?", "answer": "9", "true_label": 1}
+{"index": 489, "category": "Math-Adversarial-v2", "question": "What is 5% of 159?", "answer": "7.950", "true_label": 0}
+{"index": 490, "category": "Math-Adversarial-v2", "question": "What is 5% of 159?", "answer": "795.000", "true_label": 1}
+{"index": 491, "category": "Math-Adversarial-v2", "question": "A rope is 191 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "63.667 cm", "true_label": 0}
+{"index": 492, "category": "Math-Adversarial-v2", "question": "A rope is 191 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.637 m", "true_label": 1}
+{"index": 493, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 494, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 495, "category": "Math-Adversarial-v2", "question": "A rope is 232 m. If cut into 3 equal pieces, how long is each piece?", "answer": "77.333 m", "true_label": 0}
+{"index": 496, "category": "Math-Adversarial-v2", "question": "A rope is 232 m. If cut into 3 equal pieces, how long is each piece?", "answer": "77", "true_label": 1}
+{"index": 497, "category": "Math-Adversarial-v2", "question": "What is half of 5/12?", "answer": "5/24", "true_label": 0}
+{"index": 498, "category": "Math-Adversarial-v2", "question": "What is half of 5/12?", "answer": "5/6", "true_label": 1}
+{"index": 499, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 500, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 501, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 5 and then subtract 3, what's the result?", "answer": "12", "true_label": 0}
+{"index": 502, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 5 and then subtract 3, what's the result?", "answer": "0", "true_label": 1}
+{"index": 503, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 504, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 505, "category": "Math-Adversarial-v2", "question": "If you add 85 to 53, what is the result?", "answer": "138", "true_label": 0}
+{"index": 506, "category": "Math-Adversarial-v2", "question": "If you add 85 to 53, what is the result?", "answer": "32", "true_label": 1}
+{"index": 507, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 10?", "answer": "1", "true_label": 0}
+{"index": 508, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 10?", "answer": "3", "true_label": 1}
+{"index": 509, "category": "Math-Adversarial-v2", "question": "A rope is 174 m. If cut into 3 equal pieces, how long is each piece?", "answer": "58.000 m", "true_label": 0}
+{"index": 510, "category": "Math-Adversarial-v2", "question": "A rope is 174 m. If cut into 3 equal pieces, how long is each piece?", "answer": "58", "true_label": 1}
+{"index": 511, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 10 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "11", "true_label": 0}
+{"index": 512, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 10 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "13", "true_label": 1}
+{"index": 513, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 514, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 515, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 20 and then subtract 19, what's the result?", "answer": "361", "true_label": 0}
+{"index": 516, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 20 and then subtract 19, what's the result?", "answer": "0", "true_label": 1}
+{"index": 517, "category": "Math-Adversarial-v2", "question": "What is half of 1/11?", "answer": "1/22", "true_label": 0}
+{"index": 518, "category": "Math-Adversarial-v2", "question": "What is half of 1/11?", "answer": "1/5", "true_label": 1}
+{"index": 519, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 20?", "answer": "9", "true_label": 0}
+{"index": 520, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 20?", "answer": "11", "true_label": 1}
+{"index": 521, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 2 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "5", "true_label": 0}
+{"index": 522, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 2 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "9", "true_label": 1}
+{"index": 523, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 17 and then subtract 4, what's the result?", "answer": "64", "true_label": 0}
+{"index": 524, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 17 and then subtract 4, what's the result?", "answer": "68", "true_label": 1}
+{"index": 525, "category": "Math-Adversarial-v2", "question": "How many integers are between 15 and 18?", "answer": "2", "true_label": 0}
+{"index": 526, "category": "Math-Adversarial-v2", "question": "How many integers are between 15 and 18?", "answer": "4", "true_label": 1}
+{"index": 527, "category": "Math-Adversarial-v2", "question": "What is 25% of 23?", "answer": "5.750", "true_label": 0}
+{"index": 528, "category": "Math-Adversarial-v2", "question": "What is 25% of 23?", "answer": "575.000", "true_label": 1}
+{"index": 529, "category": "Math-Adversarial-v2", "question": "If you add 6 to 68, what is the result?", "answer": "74", "true_label": 0}
+{"index": 530, "category": "Math-Adversarial-v2", "question": "If you add 6 to 68, what is the result?", "answer": "75", "true_label": 1}
+{"index": 531, "category": "Math-Adversarial-v2", "question": "A rope is 156 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "52 mm", "true_label": 0}
+{"index": 532, "category": "Math-Adversarial-v2", "question": "A rope is 156 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "52", "true_label": 1}
+{"index": 533, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 534, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 535, "category": "Math-Adversarial-v2", "question": "If you add 61 to 91, what is the result?", "answer": "152", "true_label": 0}
+{"index": 536, "category": "Math-Adversarial-v2", "question": "If you add 61 to 91, what is the result?", "answer": "30", "true_label": 1}
+{"index": 537, "category": "Math-Adversarial-v2", "question": "If you multiply 13 by 20 and then subtract 13, what's the result?", "answer": "247", "true_label": 0}
+{"index": 538, "category": "Math-Adversarial-v2", "question": "If you multiply 13 by 20 and then subtract 13, what's the result?", "answer": "260", "true_label": 1}
+{"index": 539, "category": "Math-Adversarial-v2", "question": "If you multiply 6 by 20 and then subtract 6, what's the result?", "answer": "114", "true_label": 0}
+{"index": 540, "category": "Math-Adversarial-v2", "question": "If you multiply 6 by 20 and then subtract 6, what's the result?", "answer": "120", "true_label": 1}
+{"index": 541, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 542, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 543, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 7 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 544, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 7 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "19", "true_label": 1}
+{"index": 545, "category": "Math-Adversarial-v2", "question": "What is half of 1/3?", "answer": "1/6", "true_label": 0}
+{"index": 546, "category": "Math-Adversarial-v2", "question": "What is half of 1/3?", "answer": "1/1", "true_label": 1}
+{"index": 547, "category": "Math-Adversarial-v2", "question": "What is 5% of 140?", "answer": "7.000", "true_label": 0}
+{"index": 548, "category": "Math-Adversarial-v2", "question": "What is 5% of 140?", "answer": "700.000", "true_label": 1}
+{"index": 549, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 8 and then subtract 4, what's the result?", "answer": "28", "true_label": 0}
+{"index": 550, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 8 and then subtract 4, what's the result?", "answer": "32", "true_label": 1}
+{"index": 551, "category": "Math-Adversarial-v2", "question": "What is 5% of 96?", "answer": "4.800", "true_label": 0}
+{"index": 552, "category": "Math-Adversarial-v2", "question": "What is 5% of 96?", "answer": "480.000", "true_label": 1}
+{"index": 553, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 16 and then subtract 7, what's the result?", "answer": "105", "true_label": 0}
+{"index": 554, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 16 and then subtract 7, what's the result?", "answer": "112", "true_label": 1}
+{"index": 555, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 9 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "17", "true_label": 0}
+{"index": 556, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 9 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "26", "true_label": 1}
+{"index": 557, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 6 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 558, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 6 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "13", "true_label": 1}
+{"index": 559, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 12 and then subtract 9, what's the result?", "answer": "99", "true_label": 0}
+{"index": 560, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 12 and then subtract 9, what's the result?", "answer": "108", "true_label": 1}
+{"index": 561, "category": "Math-Adversarial-v2", "question": "A rope is 109 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "36.333 cm", "true_label": 0}
+{"index": 562, "category": "Math-Adversarial-v2", "question": "A rope is 109 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.363 m", "true_label": 1}
+{"index": 563, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 5 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 564, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 5 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "22", "true_label": 1}
+{"index": 565, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 10 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 566, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 10 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "10", "true_label": 1}
+{"index": 567, "category": "Math-Adversarial-v2", "question": "A has 10 apples. B gives A 4 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 568, "category": "Math-Adversarial-v2", "question": "A has 10 apples. B gives A 4 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "16", "true_label": 1}
+{"index": 569, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 570, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 571, "category": "Math-Adversarial-v2", "question": "What is 5% of 389?", "answer": "19.450", "true_label": 0}
+{"index": 572, "category": "Math-Adversarial-v2", "question": "What is 5% of 389?", "answer": "1945.000", "true_label": 1}
+{"index": 573, "category": "Math-Adversarial-v2", "question": "What is 10% of 37?", "answer": "3.700", "true_label": 0}
+{"index": 574, "category": "Math-Adversarial-v2", "question": "What is 10% of 37?", "answer": "370.000", "true_label": 1}
+{"index": 575, "category": "Math-Adversarial-v2", "question": "How many integers are between 9 and 17?", "answer": "7", "true_label": 0}
+{"index": 576, "category": "Math-Adversarial-v2", "question": "How many integers are between 9 and 17?", "answer": "9", "true_label": 1}
+{"index": 577, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 2 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "6", "true_label": 0}
+{"index": 578, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 2 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "-2", "true_label": 1}
+{"index": 579, "category": "Math-Adversarial-v2", "question": "What is 25% of 34?", "answer": "8.500", "true_label": 0}
+{"index": 580, "category": "Math-Adversarial-v2", "question": "What is 25% of 34?", "answer": "850.000", "true_label": 1}
+{"index": 581, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 582, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 583, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 584, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 585, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 6 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "14", "true_label": 0}
+{"index": 586, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 6 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "15", "true_label": 1}
+{"index": 587, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 588, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 589, "category": "Math-Adversarial-v2", "question": "If you add 188 to 10, what is the result?", "answer": "198", "true_label": 0}
+{"index": 590, "category": "Math-Adversarial-v2", "question": "If you add 188 to 10, what is the result?", "answer": "178", "true_label": 1}
+{"index": 591, "category": "Math-Adversarial-v2", "question": "What is half of 7/3?", "answer": "7/6", "true_label": 0}
+{"index": 592, "category": "Math-Adversarial-v2", "question": "What is half of 7/3?", "answer": "7/1", "true_label": 1}
+{"index": 593, "category": "Math-Adversarial-v2", "question": "A rope is 191 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "63 mm", "true_label": 0}
+{"index": 594, "category": "Math-Adversarial-v2", "question": "A rope is 191 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "63", "true_label": 1}
+{"index": 595, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 596, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 597, "category": "Math-Adversarial-v2", "question": "What is half of 1/7?", "answer": "1/14", "true_label": 0}
+{"index": 598, "category": "Math-Adversarial-v2", "question": "What is half of 1/7?", "answer": "1/3", "true_label": 1}
+{"index": 599, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 600, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 601, "category": "Math-Adversarial-v2", "question": "If you multiply 14 by 20 and then subtract 14, what's the result?", "answer": "266", "true_label": 0}
+{"index": 602, "category": "Math-Adversarial-v2", "question": "If you multiply 14 by 20 and then subtract 14, what's the result?", "answer": "280", "true_label": 1}
+{"index": 603, "category": "Math-Adversarial-v2", "question": "What is 20% of 273?", "answer": "54.600", "true_label": 0}
+{"index": 604, "category": "Math-Adversarial-v2", "question": "What is 20% of 273?", "answer": "5460.000", "true_label": 1}
+{"index": 605, "category": "Math-Adversarial-v2", "question": "A rope is 160 m. If cut into 3 equal pieces, how long is each piece?", "answer": "53.333 m", "true_label": 0}
+{"index": 606, "category": "Math-Adversarial-v2", "question": "A rope is 160 m. If cut into 3 equal pieces, how long is each piece?", "answer": "53", "true_label": 1}
+{"index": 607, "category": "Math-Adversarial-v2", "question": "If you add 97 to 102, what is the result?", "answer": "199", "true_label": 0}
+{"index": 608, "category": "Math-Adversarial-v2", "question": "If you add 97 to 102, what is the result?", "answer": "198", "true_label": 1}
+{"index": 609, "category": "Math-Adversarial-v2", "question": "What is half of 7/2?", "answer": "7/4", "true_label": 0}
+{"index": 610, "category": "Math-Adversarial-v2", "question": "What is half of 7/2?", "answer": "7/1", "true_label": 1}
+{"index": 611, "category": "Math-Adversarial-v2", "question": "What is 25% of 341?", "answer": "85.250", "true_label": 0}
+{"index": 612, "category": "Math-Adversarial-v2", "question": "What is 25% of 341?", "answer": "8525.000", "true_label": 1}
+{"index": 613, "category": "Math-Adversarial-v2", "question": "What is 20% of 145?", "answer": "29.000", "true_label": 0}
+{"index": 614, "category": "Math-Adversarial-v2", "question": "What is 20% of 145?", "answer": "2900.000", "true_label": 1}
+{"index": 615, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 6?", "answer": "3", "true_label": 0}
+{"index": 616, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 6?", "answer": "5", "true_label": 1}
+{"index": 617, "category": "Math-Adversarial-v2", "question": "A rope is 184 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "61.333 cm", "true_label": 0}
+{"index": 618, "category": "Math-Adversarial-v2", "question": "A rope is 184 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.613 m", "true_label": 1}
+{"index": 619, "category": "Math-Adversarial-v2", "question": "If you multiply 18 by 7 and then subtract 18, what's the result?", "answer": "108", "true_label": 0}
+{"index": 620, "category": "Math-Adversarial-v2", "question": "If you multiply 18 by 7 and then subtract 18, what's the result?", "answer": "126", "true_label": 1}
+{"index": 621, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 622, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 623, "category": "Math-Adversarial-v2", "question": "A rope is 147 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "49.000 cm", "true_label": 0}
+{"index": 624, "category": "Math-Adversarial-v2", "question": "A rope is 147 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.490 m", "true_label": 1}
+{"index": 625, "category": "Math-Adversarial-v2", "question": "What is half of 6/11?", "answer": "6/22", "true_label": 0}
+{"index": 626, "category": "Math-Adversarial-v2", "question": "What is half of 6/11?", "answer": "3/11", "true_label": 1}
+{"index": 627, "category": "Math-Adversarial-v2", "question": "If you multiply 2 by 10 and then subtract 2, what's the result?", "answer": "18", "true_label": 0}
+{"index": 628, "category": "Math-Adversarial-v2", "question": "If you multiply 2 by 10 and then subtract 2, what's the result?", "answer": "0", "true_label": 1}
+{"index": 629, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 7 and then subtract 4, what's the result?", "answer": "24", "true_label": 0}
+{"index": 630, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 7 and then subtract 4, what's the result?", "answer": "0", "true_label": 1}
+{"index": 631, "category": "Math-Adversarial-v2", "question": "A has 7 apples. B gives A 3 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 632, "category": "Math-Adversarial-v2", "question": "A has 7 apples. B gives A 3 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "13", "true_label": 1}
+{"index": 633, "category": "Math-Adversarial-v2", "question": "A rope is 138 m. If cut into 3 equal pieces, how long is each piece?", "answer": "46.000 m", "true_label": 0}
+{"index": 634, "category": "Math-Adversarial-v2", "question": "A rope is 138 m. If cut into 3 equal pieces, how long is each piece?", "answer": "46", "true_label": 1}
+{"index": 635, "category": "Math-Adversarial-v2", "question": "If you multiply 17 by 9 and then subtract 17, what's the result?", "answer": "136", "true_label": 0}
+{"index": 636, "category": "Math-Adversarial-v2", "question": "If you multiply 17 by 9 and then subtract 17, what's the result?", "answer": "0", "true_label": 1}
+{"index": 637, "category": "Math-Adversarial-v2", "question": "A rope is 118 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "39.333 cm", "true_label": 0}
+{"index": 638, "category": "Math-Adversarial-v2", "question": "A rope is 118 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.393 m", "true_label": 1}
+{"index": 639, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 17?", "answer": "14", "true_label": 0}
+{"index": 640, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 17?", "answer": "16", "true_label": 1}
+{"index": 641, "category": "Math-Adversarial-v2", "question": "If you multiply 11 by 15 and then subtract 11, what's the result?", "answer": "154", "true_label": 0}
+{"index": 642, "category": "Math-Adversarial-v2", "question": "If you multiply 11 by 15 and then subtract 11, what's the result?", "answer": "0", "true_label": 1}
+{"index": 643, "category": "Math-Adversarial-v2", "question": "If you add 65 to 77, what is the result?", "answer": "142", "true_label": 0}
+{"index": 644, "category": "Math-Adversarial-v2", "question": "If you add 65 to 77, what is the result?", "answer": "12", "true_label": 1}
+{"index": 645, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 2 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 646, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 2 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "19", "true_label": 1}
+{"index": 647, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 4 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 648, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 4 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "5", "true_label": 1}
+{"index": 649, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 650, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 651, "category": "Math-Adversarial-v2", "question": "What is 10% of 68?", "answer": "6.800", "true_label": 0}
+{"index": 652, "category": "Math-Adversarial-v2", "question": "What is 10% of 68?", "answer": "680.000", "true_label": 1}
+{"index": 653, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 1 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "5", "true_label": 0}
+{"index": 654, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 1 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "12", "true_label": 1}
+{"index": 655, "category": "Math-Adversarial-v2", "question": "If you multiply 10 by 15 and then subtract 10, what's the result?", "answer": "140", "true_label": 0}
+{"index": 656, "category": "Math-Adversarial-v2", "question": "If you multiply 10 by 15 and then subtract 10, what's the result?", "answer": "0", "true_label": 1}
+{"index": 657, "category": "Math-Adversarial-v2", "question": "If you multiply 8 by 15 and then subtract 8, what's the result?", "answer": "112", "true_label": 0}
+{"index": 658, "category": "Math-Adversarial-v2", "question": "If you multiply 8 by 15 and then subtract 8, what's the result?", "answer": "120", "true_label": 1}
+{"index": 659, "category": "Math-Adversarial-v2", "question": "A rope is 222 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "74 mm", "true_label": 0}
+{"index": 660, "category": "Math-Adversarial-v2", "question": "A rope is 222 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "74", "true_label": 1}
+{"index": 661, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 9 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "17", "true_label": 0}
+{"index": 662, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 9 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "14", "true_label": 1}
+{"index": 663, "category": "Math-Adversarial-v2", "question": "If you add 196 to 53, what is the result?", "answer": "249", "true_label": 0}
+{"index": 664, "category": "Math-Adversarial-v2", "question": "If you add 196 to 53, what is the result?", "answer": "143", "true_label": 1}
+{"index": 665, "category": "Math-Adversarial-v2", "question": "If you multiply 8 by 8 and then subtract 8, what's the result?", "answer": "56", "true_label": 0}
+{"index": 666, "category": "Math-Adversarial-v2", "question": "If you multiply 8 by 8 and then subtract 8, what's the result?", "answer": "0", "true_label": 1}
+{"index": 667, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 8 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "9", "true_label": 0}
+{"index": 668, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 8 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "6", "true_label": 1}
+{"index": 669, "category": "Math-Adversarial-v2", "question": "If you add 135 to 120, what is the result?", "answer": "255", "true_label": 0}
+{"index": 670, "category": "Math-Adversarial-v2", "question": "If you add 135 to 120, what is the result?", "answer": "15", "true_label": 1}
+{"index": 671, "category": "Math-Adversarial-v2", "question": "What is half of 3/3?", "answer": "3/6", "true_label": 0}
+{"index": 672, "category": "Math-Adversarial-v2", "question": "What is half of 3/3?", "answer": "3/1", "true_label": 1}
+{"index": 673, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 3 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "7", "true_label": 0}
+{"index": 674, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 3 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "-3", "true_label": 1}
+{"index": 675, "category": "Math-Adversarial-v2", "question": "If you add 11 to 129, what is the result?", "answer": "140", "true_label": 0}
+{"index": 676, "category": "Math-Adversarial-v2", "question": "If you add 11 to 129, what is the result?", "answer": "118", "true_label": 1}
+{"index": 677, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 678, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 679, "category": "Math-Adversarial-v2", "question": "What is half of 5/5?", "answer": "5/10", "true_label": 0}
+{"index": 680, "category": "Math-Adversarial-v2", "question": "What is half of 5/5?", "answer": "5/2", "true_label": 1}
+{"index": 681, "category": "Math-Adversarial-v2", "question": "How many integers are between 14 and 16?", "answer": "1", "true_label": 0}
+{"index": 682, "category": "Math-Adversarial-v2", "question": "How many integers are between 14 and 16?", "answer": "3", "true_label": 1}
+{"index": 683, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 7?", "answer": "4", "true_label": 0}
+{"index": 684, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 7?", "answer": "6", "true_label": 1}
+{"index": 685, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 686, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 687, "category": "Math-Adversarial-v2", "question": "What is 12% of 239?", "answer": "28.680", "true_label": 0}
+{"index": 688, "category": "Math-Adversarial-v2", "question": "What is 12% of 239?", "answer": "2868.000", "true_label": 1}
+{"index": 689, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 690, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 691, "category": "Math-Adversarial-v2", "question": "If you multiply 15 by 20 and then subtract 15, what's the result?", "answer": "285", "true_label": 0}
+{"index": 692, "category": "Math-Adversarial-v2", "question": "If you multiply 15 by 20 and then subtract 15, what's the result?", "answer": "300", "true_label": 1}
+{"index": 693, "category": "Math-Adversarial-v2", "question": "What is 25% of 123?", "answer": "30.750", "true_label": 0}
+{"index": 694, "category": "Math-Adversarial-v2", "question": "What is 25% of 123?", "answer": "3075.000", "true_label": 1}
+{"index": 695, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 16 and then subtract 16, what's the result?", "answer": "240", "true_label": 0}
+{"index": 696, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 16 and then subtract 16, what's the result?", "answer": "0", "true_label": 1}
+{"index": 697, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 17?", "answer": "9", "true_label": 0}
+{"index": 698, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 17?", "answer": "11", "true_label": 1}
+{"index": 699, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 5 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "8", "true_label": 0}
+{"index": 700, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 5 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "1", "true_label": 1}
+{"index": 701, "category": "Math-Adversarial-v2", "question": "A rope is 165 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "55.000 cm", "true_label": 0}
+{"index": 702, "category": "Math-Adversarial-v2", "question": "A rope is 165 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.550 m", "true_label": 1}
+{"index": 703, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 10 and then subtract 9, what's the result?", "answer": "81", "true_label": 0}
+{"index": 704, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 10 and then subtract 9, what's the result?", "answer": "90", "true_label": 1}
+{"index": 705, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 7 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 706, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 7 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "6", "true_label": 1}
+{"index": 707, "category": "Math-Adversarial-v2", "question": "What is half of 4/4?", "answer": "4/8", "true_label": 0}
+{"index": 708, "category": "Math-Adversarial-v2", "question": "What is half of 4/4?", "answer": "2/4", "true_label": 1}
+{"index": 709, "category": "Math-Adversarial-v2", "question": "What is 25% of 196?", "answer": "49.000", "true_label": 0}
+{"index": 710, "category": "Math-Adversarial-v2", "question": "What is 25% of 196?", "answer": "4900.000", "true_label": 1}
+{"index": 711, "category": "Math-Adversarial-v2", "question": "If you add 198 to 73, what is the result?", "answer": "271", "true_label": 0}
+{"index": 712, "category": "Math-Adversarial-v2", "question": "If you add 198 to 73, what is the result?", "answer": "125", "true_label": 1}
+{"index": 713, "category": "Math-Adversarial-v2", "question": "If you add 177 to 90, what is the result?", "answer": "267", "true_label": 0}
+{"index": 714, "category": "Math-Adversarial-v2", "question": "If you add 177 to 90, what is the result?", "answer": "87", "true_label": 1}
+{"index": 715, "category": "Math-Adversarial-v2", "question": "A has 10 apples. B gives A 10 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "20", "true_label": 0}
+{"index": 716, "category": "Math-Adversarial-v2", "question": "A has 10 apples. B gives A 10 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "10", "true_label": 1}
+{"index": 717, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 14 and then subtract 3, what's the result?", "answer": "39", "true_label": 0}
+{"index": 718, "category": "Math-Adversarial-v2", "question": "If you multiply 3 by 14 and then subtract 3, what's the result?", "answer": "0", "true_label": 1}
+{"index": 719, "category": "Math-Adversarial-v2", "question": "What is 20% of 436?", "answer": "87.200", "true_label": 0}
+{"index": 720, "category": "Math-Adversarial-v2", "question": "What is 20% of 436?", "answer": "8720.000", "true_label": 1}
+{"index": 721, "category": "Math-Adversarial-v2", "question": "A rope is 244 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "81.333 cm", "true_label": 0}
+{"index": 722, "category": "Math-Adversarial-v2", "question": "A rope is 244 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.813 m", "true_label": 1}
+{"index": 723, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 11?", "answer": "6", "true_label": 0}
+{"index": 724, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 11?", "answer": "8", "true_label": 1}
+{"index": 725, "category": "Math-Adversarial-v2", "question": "If you add 176 to 142, what is the result?", "answer": "318", "true_label": 0}
+{"index": 726, "category": "Math-Adversarial-v2", "question": "If you add 176 to 142, what is the result?", "answer": "34", "true_label": 1}
+{"index": 727, "category": "Math-Adversarial-v2", "question": "What is 5% of 41?", "answer": "2.050", "true_label": 0}
+{"index": 728, "category": "Math-Adversarial-v2", "question": "What is 5% of 41?", "answer": "205.000", "true_label": 1}
+{"index": 729, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 730, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 731, "category": "Math-Adversarial-v2", "question": "A rope is 241 m. If cut into 3 equal pieces, how long is each piece?", "answer": "80.333 m", "true_label": 0}
+{"index": 732, "category": "Math-Adversarial-v2", "question": "A rope is 241 m. If cut into 3 equal pieces, how long is each piece?", "answer": "80", "true_label": 1}
+{"index": 733, "category": "Math-Adversarial-v2", "question": "If you multiply 8 by 14 and then subtract 8, what's the result?", "answer": "104", "true_label": 0}
+{"index": 734, "category": "Math-Adversarial-v2", "question": "If you multiply 8 by 14 and then subtract 8, what's the result?", "answer": "0", "true_label": 1}
+{"index": 735, "category": "Math-Adversarial-v2", "question": "What is 5% of 101?", "answer": "5.050", "true_label": 0}
+{"index": 736, "category": "Math-Adversarial-v2", "question": "What is 5% of 101?", "answer": "505.000", "true_label": 1}
+{"index": 737, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 738, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 739, "category": "Math-Adversarial-v2", "question": "A rope is 104 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "34.667 cm", "true_label": 0}
+{"index": 740, "category": "Math-Adversarial-v2", "question": "A rope is 104 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.347 m", "true_label": 1}
+{"index": 741, "category": "Math-Adversarial-v2", "question": "A rope is 120 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "40 mm", "true_label": 0}
+{"index": 742, "category": "Math-Adversarial-v2", "question": "A rope is 120 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "40", "true_label": 1}
+{"index": 743, "category": "Math-Adversarial-v2", "question": "What is 12% of 132?", "answer": "15.840", "true_label": 0}
+{"index": 744, "category": "Math-Adversarial-v2", "question": "What is 12% of 132?", "answer": "1584.000", "true_label": 1}
+{"index": 745, "category": "Math-Adversarial-v2", "question": "What is half of 1/10?", "answer": "1/20", "true_label": 0}
+{"index": 746, "category": "Math-Adversarial-v2", "question": "What is half of 1/10?", "answer": "1/5", "true_label": 1}
+{"index": 747, "category": "Math-Adversarial-v2", "question": "If you add 125 to 67, what is the result?", "answer": "192", "true_label": 0}
+{"index": 748, "category": "Math-Adversarial-v2", "question": "If you add 125 to 67, what is the result?", "answer": "58", "true_label": 1}
+{"index": 749, "category": "Math-Adversarial-v2", "question": "What is half of 8/8?", "answer": "8/16", "true_label": 0}
+{"index": 750, "category": "Math-Adversarial-v2", "question": "What is half of 8/8?", "answer": "4/8", "true_label": 1}
+{"index": 751, "category": "Math-Adversarial-v2", "question": "If you multiply 20 by 18 and then subtract 20, what's the result?", "answer": "340", "true_label": 0}
+{"index": 752, "category": "Math-Adversarial-v2", "question": "If you multiply 20 by 18 and then subtract 20, what's the result?", "answer": "0", "true_label": 1}
+{"index": 753, "category": "Math-Adversarial-v2", "question": "If you add 176 to 171, what is the result?", "answer": "347", "true_label": 0}
+{"index": 754, "category": "Math-Adversarial-v2", "question": "If you add 176 to 171, what is the result?", "answer": "5", "true_label": 1}
+{"index": 755, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 1 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "6", "true_label": 0}
+{"index": 756, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 1 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "-3", "true_label": 1}
+{"index": 757, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 758, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 759, "category": "Math-Adversarial-v2", "question": "If you add 139 to 79, what is the result?", "answer": "218", "true_label": 0}
+{"index": 760, "category": "Math-Adversarial-v2", "question": "If you add 139 to 79, what is the result?", "answer": "60", "true_label": 1}
+{"index": 761, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 7 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "9", "true_label": 0}
+{"index": 762, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 7 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "1", "true_label": 1}
+{"index": 763, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 764, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 765, "category": "Math-Adversarial-v2", "question": "What is 5% of 388?", "answer": "19.400", "true_label": 0}
+{"index": 766, "category": "Math-Adversarial-v2", "question": "What is 5% of 388?", "answer": "1940.000", "true_label": 1}
+{"index": 767, "category": "Math-Adversarial-v2", "question": "What is 25% of 355?", "answer": "88.750", "true_label": 0}
+{"index": 768, "category": "Math-Adversarial-v2", "question": "What is 25% of 355?", "answer": "8875.000", "true_label": 1}
+{"index": 769, "category": "Math-Adversarial-v2", "question": "How many integers are between 11 and 20?", "answer": "8", "true_label": 0}
+{"index": 770, "category": "Math-Adversarial-v2", "question": "How many integers are between 11 and 20?", "answer": "10", "true_label": 1}
+{"index": 771, "category": "Math-Adversarial-v2", "question": "If you multiply 5 by 19 and then subtract 5, what's the result?", "answer": "90", "true_label": 0}
+{"index": 772, "category": "Math-Adversarial-v2", "question": "If you multiply 5 by 19 and then subtract 5, what's the result?", "answer": "95", "true_label": 1}
+{"index": 773, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 774, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 775, "category": "Math-Adversarial-v2", "question": "A rope is 33 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "11 mm", "true_label": 0}
+{"index": 776, "category": "Math-Adversarial-v2", "question": "A rope is 33 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "11", "true_label": 1}
+{"index": 777, "category": "Math-Adversarial-v2", "question": "What is half of 9/10?", "answer": "9/20", "true_label": 0}
+{"index": 778, "category": "Math-Adversarial-v2", "question": "What is half of 9/10?", "answer": "9/5", "true_label": 1}
+{"index": 779, "category": "Math-Adversarial-v2", "question": "How many integers are between 12 and 13?", "answer": "0", "true_label": 0}
+{"index": 780, "category": "Math-Adversarial-v2", "question": "How many integers are between 12 and 13?", "answer": "2", "true_label": 1}
+{"index": 781, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 18?", "answer": "15", "true_label": 0}
+{"index": 782, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 18?", "answer": "17", "true_label": 1}
+{"index": 783, "category": "Math-Adversarial-v2", "question": "A rope is 283 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "94.333 cm", "true_label": 0}
+{"index": 784, "category": "Math-Adversarial-v2", "question": "A rope is 283 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.943 m", "true_label": 1}
+{"index": 785, "category": "Math-Adversarial-v2", "question": "What is half of 2/11?", "answer": "2/22", "true_label": 0}
+{"index": 786, "category": "Math-Adversarial-v2", "question": "What is half of 2/11?", "answer": "1/11", "true_label": 1}
+{"index": 787, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 12?", "answer": "10", "true_label": 0}
+{"index": 788, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 12?", "answer": "12", "true_label": 1}
+{"index": 789, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 14?", "answer": "5", "true_label": 0}
+{"index": 790, "category": "Math-Adversarial-v2", "question": "How many integers are between 8 and 14?", "answer": "7", "true_label": 1}
+{"index": 791, "category": "Math-Adversarial-v2", "question": "What is 10% of 185?", "answer": "18.500", "true_label": 0}
+{"index": 792, "category": "Math-Adversarial-v2", "question": "What is 10% of 185?", "answer": "1850.000", "true_label": 1}
+{"index": 793, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 15?", "answer": "13", "true_label": 0}
+{"index": 794, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 15?", "answer": "15", "true_label": 1}
+{"index": 795, "category": "Math-Adversarial-v2", "question": "What is half of 5/11?", "answer": "5/22", "true_label": 0}
+{"index": 796, "category": "Math-Adversarial-v2", "question": "What is half of 5/11?", "answer": "5/5", "true_label": 1}
+{"index": 797, "category": "Math-Adversarial-v2", "question": "What is half of 1/8?", "answer": "1/16", "true_label": 0}
+{"index": 798, "category": "Math-Adversarial-v2", "question": "What is half of 1/8?", "answer": "1/4", "true_label": 1}
+{"index": 799, "category": "Math-Adversarial-v2", "question": "If you add 187 to 143, what is the result?", "answer": "330", "true_label": 0}
+{"index": 800, "category": "Math-Adversarial-v2", "question": "If you add 187 to 143, what is the result?", "answer": "44", "true_label": 1}
+{"index": 801, "category": "Math-Adversarial-v2", "question": "What is half of 5/7?", "answer": "5/14", "true_label": 0}
+{"index": 802, "category": "Math-Adversarial-v2", "question": "What is half of 5/7?", "answer": "5/3", "true_label": 1}
+{"index": 803, "category": "Math-Adversarial-v2", "question": "If you add 38 to 197, what is the result?", "answer": "235", "true_label": 0}
+{"index": 804, "category": "Math-Adversarial-v2", "question": "If you add 38 to 197, what is the result?", "answer": "159", "true_label": 1}
+{"index": 805, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 14 and then subtract 7, what's the result?", "answer": "91", "true_label": 0}
+{"index": 806, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 14 and then subtract 7, what's the result?", "answer": "0", "true_label": 1}
+{"index": 807, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 808, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 809, "category": "Math-Adversarial-v2", "question": "What is 10% of 122?", "answer": "12.200", "true_label": 0}
+{"index": 810, "category": "Math-Adversarial-v2", "question": "What is 10% of 122?", "answer": "1220.000", "true_label": 1}
+{"index": 811, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 1 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "4", "true_label": 0}
+{"index": 812, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 1 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "0", "true_label": 1}
+{"index": 813, "category": "Math-Adversarial-v2", "question": "What is 20% of 301?", "answer": "60.200", "true_label": 0}
+{"index": 814, "category": "Math-Adversarial-v2", "question": "What is 20% of 301?", "answer": "6020.000", "true_label": 1}
+{"index": 815, "category": "Math-Adversarial-v2", "question": "How many integers are between 6 and 12?", "answer": "5", "true_label": 0}
+{"index": 816, "category": "Math-Adversarial-v2", "question": "How many integers are between 6 and 12?", "answer": "7", "true_label": 1}
+{"index": 817, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 818, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 819, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 820, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 821, "category": "Math-Adversarial-v2", "question": "A rope is 39 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "13 mm", "true_label": 0}
+{"index": 822, "category": "Math-Adversarial-v2", "question": "A rope is 39 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "13", "true_label": 1}
+{"index": 823, "category": "Math-Adversarial-v2", "question": "If you add 158 to 21, what is the result?", "answer": "179", "true_label": 0}
+{"index": 824, "category": "Math-Adversarial-v2", "question": "If you add 158 to 21, what is the result?", "answer": "178", "true_label": 1}
+{"index": 825, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 8 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 826, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 8 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "5", "true_label": 1}
+{"index": 827, "category": "Math-Adversarial-v2", "question": "What is 5% of 316?", "answer": "15.800", "true_label": 0}
+{"index": 828, "category": "Math-Adversarial-v2", "question": "What is 5% of 316?", "answer": "1580.000", "true_label": 1}
+{"index": 829, "category": "Math-Adversarial-v2", "question": "What is half of 8/11?", "answer": "8/22", "true_label": 0}
+{"index": 830, "category": "Math-Adversarial-v2", "question": "What is half of 8/11?", "answer": "4/11", "true_label": 1}
+{"index": 831, "category": "Math-Adversarial-v2", "question": "What is 10% of 390?", "answer": "39.000", "true_label": 0}
+{"index": 832, "category": "Math-Adversarial-v2", "question": "What is 10% of 390?", "answer": "3900.000", "true_label": 1}
+{"index": 833, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 2 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "6", "true_label": 0}
+{"index": 834, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 2 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "-1", "true_label": 1}
+{"index": 835, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 7 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 836, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 7 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "13", "true_label": 1}
+{"index": 837, "category": "Math-Adversarial-v2", "question": "What is 5% of 70?", "answer": "3.500", "true_label": 0}
+{"index": 838, "category": "Math-Adversarial-v2", "question": "What is 5% of 70?", "answer": "350.000", "true_label": 1}
+{"index": 839, "category": "Math-Adversarial-v2", "question": "What is half of 2/6?", "answer": "2/12", "true_label": 0}
+{"index": 840, "category": "Math-Adversarial-v2", "question": "What is half of 2/6?", "answer": "1/6", "true_label": 1}
+{"index": 841, "category": "Math-Adversarial-v2", "question": "A rope is 182 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "60.667 cm", "true_label": 0}
+{"index": 842, "category": "Math-Adversarial-v2", "question": "A rope is 182 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.607 m", "true_label": 1}
+{"index": 843, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 844, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 845, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 9 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 846, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 9 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "8", "true_label": 1}
+{"index": 847, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 15?", "answer": "4", "true_label": 0}
+{"index": 848, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 15?", "answer": "6", "true_label": 1}
+{"index": 849, "category": "Math-Adversarial-v2", "question": "What is half of 2/2?", "answer": "2/4", "true_label": 0}
+{"index": 850, "category": "Math-Adversarial-v2", "question": "What is half of 2/2?", "answer": "1/2", "true_label": 1}
+{"index": 851, "category": "Math-Adversarial-v2", "question": "A rope is 179 m. If cut into 3 equal pieces, how long is each piece?", "answer": "59.667 m", "true_label": 0}
+{"index": 852, "category": "Math-Adversarial-v2", "question": "A rope is 179 m. If cut into 3 equal pieces, how long is each piece?", "answer": "59", "true_label": 1}
+{"index": 853, "category": "Math-Adversarial-v2", "question": "What is half of 9/2?", "answer": "9/4", "true_label": 0}
+{"index": 854, "category": "Math-Adversarial-v2", "question": "What is half of 9/2?", "answer": "9/1", "true_label": 1}
+{"index": 855, "category": "Math-Adversarial-v2", "question": "If you multiply 5 by 19 and then subtract 5, what's the result?", "answer": "90", "true_label": 0}
+{"index": 856, "category": "Math-Adversarial-v2", "question": "If you multiply 5 by 19 and then subtract 5, what's the result?", "answer": "0", "true_label": 1}
+{"index": 857, "category": "Math-Adversarial-v2", "question": "What is 5% of 93?", "answer": "4.650", "true_label": 0}
+{"index": 858, "category": "Math-Adversarial-v2", "question": "What is 5% of 93?", "answer": "465.000", "true_label": 1}
+{"index": 859, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 18 and then subtract 7, what's the result?", "answer": "119", "true_label": 0}
+{"index": 860, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 18 and then subtract 7, what's the result?", "answer": "126", "true_label": 1}
+{"index": 861, "category": "Math-Adversarial-v2", "question": "How many integers are between 14 and 14?", "answer": "0", "true_label": 0}
+{"index": 862, "category": "Math-Adversarial-v2", "question": "How many integers are between 14 and 14?", "answer": "1", "true_label": 1}
+{"index": 863, "category": "Math-Adversarial-v2", "question": "If you add 50 to 92, what is the result?", "answer": "142", "true_label": 0}
+{"index": 864, "category": "Math-Adversarial-v2", "question": "If you add 50 to 92, what is the result?", "answer": "42", "true_label": 1}
+{"index": 865, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 866, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 867, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 2 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "4", "true_label": 0}
+{"index": 868, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 2 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "-6", "true_label": 1}
+{"index": 869, "category": "Math-Adversarial-v2", "question": "If you multiply 18 by 2 and then subtract 18, what's the result?", "answer": "18", "true_label": 0}
+{"index": 870, "category": "Math-Adversarial-v2", "question": "If you multiply 18 by 2 and then subtract 18, what's the result?", "answer": "0", "true_label": 1}
+{"index": 871, "category": "Math-Adversarial-v2", "question": "A rope is 149 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "49.667 cm", "true_label": 0}
+{"index": 872, "category": "Math-Adversarial-v2", "question": "A rope is 149 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.497 m", "true_label": 1}
+{"index": 873, "category": "Math-Adversarial-v2", "question": "A rope is 48 m. If cut into 3 equal pieces, how long is each piece?", "answer": "16.000 m", "true_label": 0}
+{"index": 874, "category": "Math-Adversarial-v2", "question": "A rope is 48 m. If cut into 3 equal pieces, how long is each piece?", "answer": "16", "true_label": 1}
+{"index": 875, "category": "Math-Adversarial-v2", "question": "If you add 54 to 158, what is the result?", "answer": "212", "true_label": 0}
+{"index": 876, "category": "Math-Adversarial-v2", "question": "If you add 54 to 158, what is the result?", "answer": "104", "true_label": 1}
+{"index": 877, "category": "Math-Adversarial-v2", "question": "How many integers are between 9 and 10?", "answer": "0", "true_label": 0}
+{"index": 878, "category": "Math-Adversarial-v2", "question": "How many integers are between 9 and 10?", "answer": "2", "true_label": 1}
+{"index": 879, "category": "Math-Adversarial-v2", "question": "A rope is 234 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "78.000 cm", "true_label": 0}
+{"index": 880, "category": "Math-Adversarial-v2", "question": "A rope is 234 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.780 m", "true_label": 1}
+{"index": 881, "category": "Math-Adversarial-v2", "question": "What is half of 7/12?", "answer": "7/24", "true_label": 0}
+{"index": 882, "category": "Math-Adversarial-v2", "question": "What is half of 7/12?", "answer": "7/6", "true_label": 1}
+{"index": 883, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 7 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "9", "true_label": 0}
+{"index": 884, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 7 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "5", "true_label": 1}
+{"index": 885, "category": "Math-Adversarial-v2", "question": "What is half of 4/12?", "answer": "4/24", "true_label": 0}
+{"index": 886, "category": "Math-Adversarial-v2", "question": "What is half of 4/12?", "answer": "2/12", "true_label": 1}
+{"index": 887, "category": "Math-Adversarial-v2", "question": "What is 25% of 482?", "answer": "120.500", "true_label": 0}
+{"index": 888, "category": "Math-Adversarial-v2", "question": "What is 25% of 482?", "answer": "12050.000", "true_label": 1}
+{"index": 889, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 9 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "18", "true_label": 0}
+{"index": 890, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 9 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "28", "true_label": 1}
+{"index": 891, "category": "Math-Adversarial-v2", "question": "A rope is 85 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "28.333 cm", "true_label": 0}
+{"index": 892, "category": "Math-Adversarial-v2", "question": "A rope is 85 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.283 m", "true_label": 1}
+{"index": 893, "category": "Math-Adversarial-v2", "question": "If you add 157 to 118, what is the result?", "answer": "275", "true_label": 0}
+{"index": 894, "category": "Math-Adversarial-v2", "question": "If you add 157 to 118, what is the result?", "answer": "274", "true_label": 1}
+{"index": 895, "category": "Math-Adversarial-v2", "question": "If you multiply 2 by 17 and then subtract 2, what's the result?", "answer": "32", "true_label": 0}
+{"index": 896, "category": "Math-Adversarial-v2", "question": "If you multiply 2 by 17 and then subtract 2, what's the result?", "answer": "34", "true_label": 1}
+{"index": 897, "category": "Math-Adversarial-v2", "question": "If you add 118 to 116, what is the result?", "answer": "234", "true_label": 0}
+{"index": 898, "category": "Math-Adversarial-v2", "question": "If you add 118 to 116, what is the result?", "answer": "235", "true_label": 1}
+{"index": 899, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 900, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 901, "category": "Math-Adversarial-v2", "question": "If you add 173 to 181, what is the result?", "answer": "354", "true_label": 0}
+{"index": 902, "category": "Math-Adversarial-v2", "question": "If you add 173 to 181, what is the result?", "answer": "355", "true_label": 1}
+{"index": 903, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 19?", "answer": "14", "true_label": 0}
+{"index": 904, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 19?", "answer": "16", "true_label": 1}
+{"index": 905, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 5 and then subtract 7, what's the result?", "answer": "28", "true_label": 0}
+{"index": 906, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 5 and then subtract 7, what's the result?", "answer": "35", "true_label": 1}
+{"index": 907, "category": "Math-Adversarial-v2", "question": "A rope is 94 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "31.333 cm", "true_label": 0}
+{"index": 908, "category": "Math-Adversarial-v2", "question": "A rope is 94 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.313 m", "true_label": 1}
+{"index": 909, "category": "Math-Adversarial-v2", "question": "What is 25% of 233?", "answer": "58.250", "true_label": 0}
+{"index": 910, "category": "Math-Adversarial-v2", "question": "What is 25% of 233?", "answer": "5825.000", "true_label": 1}
+{"index": 911, "category": "Math-Adversarial-v2", "question": "How many integers are between 20 and 20?", "answer": "0", "true_label": 0}
+{"index": 912, "category": "Math-Adversarial-v2", "question": "How many integers are between 20 and 20?", "answer": "1", "true_label": 1}
+{"index": 913, "category": "Math-Adversarial-v2", "question": "What is 20% of 90?", "answer": "18.000", "true_label": 0}
+{"index": 914, "category": "Math-Adversarial-v2", "question": "What is 20% of 90?", "answer": "1800.000", "true_label": 1}
+{"index": 915, "category": "Math-Adversarial-v2", "question": "What is 12% of 304?", "answer": "36.480", "true_label": 0}
+{"index": 916, "category": "Math-Adversarial-v2", "question": "What is 12% of 304?", "answer": "3648.000", "true_label": 1}
+{"index": 917, "category": "Math-Adversarial-v2", "question": "A rope is 116 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "38 mm", "true_label": 0}
+{"index": 918, "category": "Math-Adversarial-v2", "question": "A rope is 116 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "38", "true_label": 1}
+{"index": 919, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 2 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "8", "true_label": 0}
+{"index": 920, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 2 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "16", "true_label": 1}
+{"index": 921, "category": "Math-Adversarial-v2", "question": "What is 10% of 313?", "answer": "31.300", "true_label": 0}
+{"index": 922, "category": "Math-Adversarial-v2", "question": "What is 10% of 313?", "answer": "3130.000", "true_label": 1}
+{"index": 923, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 924, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 925, "category": "Math-Adversarial-v2", "question": "If you add 107 to 162, what is the result?", "answer": "269", "true_label": 0}
+{"index": 926, "category": "Math-Adversarial-v2", "question": "If you add 107 to 162, what is the result?", "answer": "270", "true_label": 1}
+{"index": 927, "category": "Math-Adversarial-v2", "question": "If you multiply 2 by 5 and then subtract 2, what's the result?", "answer": "8", "true_label": 0}
+{"index": 928, "category": "Math-Adversarial-v2", "question": "If you multiply 2 by 5 and then subtract 2, what's the result?", "answer": "0", "true_label": 1}
+{"index": 929, "category": "Math-Adversarial-v2", "question": "A rope is 292 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "97 mm", "true_label": 0}
+{"index": 930, "category": "Math-Adversarial-v2", "question": "A rope is 292 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "97", "true_label": 1}
+{"index": 931, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 2 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "11", "true_label": 0}
+{"index": 932, "category": "Math-Adversarial-v2", "question": "A has 9 apples. B gives A 2 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "18", "true_label": 1}
+{"index": 933, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 9 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 934, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 9 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "15", "true_label": 1}
+{"index": 935, "category": "Math-Adversarial-v2", "question": "If you multiply 12 by 8 and then subtract 12, what's the result?", "answer": "84", "true_label": 0}
+{"index": 936, "category": "Math-Adversarial-v2", "question": "If you multiply 12 by 8 and then subtract 12, what's the result?", "answer": "0", "true_label": 1}
+{"index": 937, "category": "Math-Adversarial-v2", "question": "What is half of 3/8?", "answer": "3/16", "true_label": 0}
+{"index": 938, "category": "Math-Adversarial-v2", "question": "What is half of 3/8?", "answer": "3/4", "true_label": 1}
+{"index": 939, "category": "Math-Adversarial-v2", "question": "If you add 101 to 82, what is the result?", "answer": "183", "true_label": 0}
+{"index": 940, "category": "Math-Adversarial-v2", "question": "If you add 101 to 82, what is the result?", "answer": "184", "true_label": 1}
+{"index": 941, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 9 and then subtract 7, what's the result?", "answer": "56", "true_label": 0}
+{"index": 942, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 9 and then subtract 7, what's the result?", "answer": "63", "true_label": 1}
+{"index": 943, "category": "Math-Adversarial-v2", "question": "A rope is 123 m. If cut into 3 equal pieces, how long is each piece?", "answer": "41.000 m", "true_label": 0}
+{"index": 944, "category": "Math-Adversarial-v2", "question": "A rope is 123 m. If cut into 3 equal pieces, how long is each piece?", "answer": "41", "true_label": 1}
+{"index": 945, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 12?", "answer": "4", "true_label": 0}
+{"index": 946, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 12?", "answer": "6", "true_label": 1}
+{"index": 947, "category": "Math-Adversarial-v2", "question": "What is half of 6/11?", "answer": "6/22", "true_label": 0}
+{"index": 948, "category": "Math-Adversarial-v2", "question": "What is half of 6/11?", "answer": "3/11", "true_label": 1}
+{"index": 949, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 2 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "3", "true_label": 0}
+{"index": 950, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 2 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "0", "true_label": 1}
+{"index": 951, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 6 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 952, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 6 apples. C takes 8 apples from B. How many apples does A have now?", "answer": "2", "true_label": 1}
+{"index": 953, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 1 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "2", "true_label": 0}
+{"index": 954, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 1 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "9", "true_label": 1}
+{"index": 955, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 6?", "answer": "1", "true_label": 0}
+{"index": 956, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 6?", "answer": "3", "true_label": 1}
+{"index": 957, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 11 and then subtract 19, what's the result?", "answer": "190", "true_label": 0}
+{"index": 958, "category": "Math-Adversarial-v2", "question": "If you multiply 19 by 11 and then subtract 19, what's the result?", "answer": "0", "true_label": 1}
+{"index": 959, "category": "Math-Adversarial-v2", "question": "What is half of 5/8?", "answer": "5/16", "true_label": 0}
+{"index": 960, "category": "Math-Adversarial-v2", "question": "What is half of 5/8?", "answer": "5/4", "true_label": 1}
+{"index": 961, "category": "Math-Adversarial-v2", "question": "What is half of 9/2?", "answer": "9/4", "true_label": 0}
+{"index": 962, "category": "Math-Adversarial-v2", "question": "What is half of 9/2?", "answer": "9/1", "true_label": 1}
+{"index": 963, "category": "Math-Adversarial-v2", "question": "What is half of 1/10?", "answer": "1/20", "true_label": 0}
+{"index": 964, "category": "Math-Adversarial-v2", "question": "What is half of 1/10?", "answer": "1/5", "true_label": 1}
+{"index": 965, "category": "Math-Adversarial-v2", "question": "If you add 122 to 148, what is the result?", "answer": "270", "true_label": 0}
+{"index": 966, "category": "Math-Adversarial-v2", "question": "If you add 122 to 148, what is the result?", "answer": "271", "true_label": 1}
+{"index": 967, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 5 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "7", "true_label": 0}
+{"index": 968, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 5 apples. C takes 4 apples from B. How many apples does A have now?", "answer": "3", "true_label": 1}
+{"index": 969, "category": "Math-Adversarial-v2", "question": "If you add 197 to 64, what is the result?", "answer": "261", "true_label": 0}
+{"index": 970, "category": "Math-Adversarial-v2", "question": "If you add 197 to 64, what is the result?", "answer": "133", "true_label": 1}
+{"index": 971, "category": "Math-Adversarial-v2", "question": "What is 10% of 38?", "answer": "3.800", "true_label": 0}
+{"index": 972, "category": "Math-Adversarial-v2", "question": "What is 10% of 38?", "answer": "380.000", "true_label": 1}
+{"index": 973, "category": "Math-Adversarial-v2", "question": "What is 5% of 416?", "answer": "20.800", "true_label": 0}
+{"index": 974, "category": "Math-Adversarial-v2", "question": "What is 5% of 416?", "answer": "2080.000", "true_label": 1}
+{"index": 975, "category": "Math-Adversarial-v2", "question": "What is half of 2/9?", "answer": "2/18", "true_label": 0}
+{"index": 976, "category": "Math-Adversarial-v2", "question": "What is half of 2/9?", "answer": "1/9", "true_label": 1}
+{"index": 977, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 2?", "answer": "0", "true_label": 0}
+{"index": 978, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 2?", "answer": "1", "true_label": 1}
+{"index": 979, "category": "Math-Adversarial-v2", "question": "If you multiply 14 by 10 and then subtract 14, what's the result?", "answer": "126", "true_label": 0}
+{"index": 980, "category": "Math-Adversarial-v2", "question": "If you multiply 14 by 10 and then subtract 14, what's the result?", "answer": "140", "true_label": 1}
+{"index": 981, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 13 and then subtract 16, what's the result?", "answer": "192", "true_label": 0}
+{"index": 982, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 13 and then subtract 16, what's the result?", "answer": "0", "true_label": 1}
+{"index": 983, "category": "Math-Adversarial-v2", "question": "If you multiply 14 by 8 and then subtract 14, what's the result?", "answer": "98", "true_label": 0}
+{"index": 984, "category": "Math-Adversarial-v2", "question": "If you multiply 14 by 8 and then subtract 14, what's the result?", "answer": "112", "true_label": 1}
+{"index": 985, "category": "Math-Adversarial-v2", "question": "What is 12% of 249?", "answer": "29.880", "true_label": 0}
+{"index": 986, "category": "Math-Adversarial-v2", "question": "What is 12% of 249?", "answer": "2988.000", "true_label": 1}
+{"index": 987, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 988, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 989, "category": "Math-Adversarial-v2", "question": "What is 12% of 283?", "answer": "33.960", "true_label": 0}
+{"index": 990, "category": "Math-Adversarial-v2", "question": "What is 12% of 283?", "answer": "3396.000", "true_label": 1}
+{"index": 991, "category": "Math-Adversarial-v2", "question": "How many integers are between 17 and 18?", "answer": "0", "true_label": 0}
+{"index": 992, "category": "Math-Adversarial-v2", "question": "How many integers are between 17 and 18?", "answer": "2", "true_label": 1}
+{"index": 993, "category": "Math-Adversarial-v2", "question": "What is half of 6/11?", "answer": "6/22", "true_label": 0}
+{"index": 994, "category": "Math-Adversarial-v2", "question": "What is half of 6/11?", "answer": "3/11", "true_label": 1}
+{"index": 995, "category": "Math-Adversarial-v2", "question": "How many integers are between 11 and 20?", "answer": "8", "true_label": 0}
+{"index": 996, "category": "Math-Adversarial-v2", "question": "How many integers are between 11 and 20?", "answer": "10", "true_label": 1}
+{"index": 997, "category": "Math-Adversarial-v2", "question": "What is half of 2/7?", "answer": "2/14", "true_label": 0}
+{"index": 998, "category": "Math-Adversarial-v2", "question": "What is half of 2/7?", "answer": "1/7", "true_label": 1}
+{"index": 999, "category": "Math-Adversarial-v2", "question": "What is half of 7/9?", "answer": "7/18", "true_label": 0}
+{"index": 1000, "category": "Math-Adversarial-v2", "question": "What is half of 7/9?", "answer": "7/4", "true_label": 1}
+{"index": 1001, "category": "Math-Adversarial-v2", "question": "A rope is 135 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "45 mm", "true_label": 0}
+{"index": 1002, "category": "Math-Adversarial-v2", "question": "A rope is 135 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "45", "true_label": 1}
+{"index": 1003, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 11?", "answer": "7", "true_label": 0}
+{"index": 1004, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 11?", "answer": "9", "true_label": 1}
+{"index": 1005, "category": "Math-Adversarial-v2", "question": "What is half of 3/5?", "answer": "3/10", "true_label": 0}
+{"index": 1006, "category": "Math-Adversarial-v2", "question": "What is half of 3/5?", "answer": "3/2", "true_label": 1}
+{"index": 1007, "category": "Math-Adversarial-v2", "question": "What is half of 2/3?", "answer": "2/6", "true_label": 0}
+{"index": 1008, "category": "Math-Adversarial-v2", "question": "What is half of 2/3?", "answer": "1/3", "true_label": 1}
+{"index": 1009, "category": "Math-Adversarial-v2", "question": "What is 5% of 370?", "answer": "18.500", "true_label": 0}
+{"index": 1010, "category": "Math-Adversarial-v2", "question": "What is 5% of 370?", "answer": "1850.000", "true_label": 1}
+{"index": 1011, "category": "Math-Adversarial-v2", "question": "What is half of 7/11?", "answer": "7/22", "true_label": 0}
+{"index": 1012, "category": "Math-Adversarial-v2", "question": "What is half of 7/11?", "answer": "7/5", "true_label": 1}
+{"index": 1013, "category": "Math-Adversarial-v2", "question": "If you multiply 12 by 2 and then subtract 12, what's the result?", "answer": "12", "true_label": 0}
+{"index": 1014, "category": "Math-Adversarial-v2", "question": "If you multiply 12 by 2 and then subtract 12, what's the result?", "answer": "24", "true_label": 1}
+{"index": 1015, "category": "Math-Adversarial-v2", "question": "What is half of 9/7?", "answer": "9/14", "true_label": 0}
+{"index": 1016, "category": "Math-Adversarial-v2", "question": "What is half of 9/7?", "answer": "9/3", "true_label": 1}
+{"index": 1017, "category": "Math-Adversarial-v2", "question": "A rope is 47 m. If cut into 3 equal pieces, how long is each piece?", "answer": "15.667 m", "true_label": 0}
+{"index": 1018, "category": "Math-Adversarial-v2", "question": "A rope is 47 m. If cut into 3 equal pieces, how long is each piece?", "answer": "15", "true_label": 1}
+{"index": 1019, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 1020, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 1021, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 1022, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 1023, "category": "Math-Adversarial-v2", "question": "If you add 78 to 120, what is the result?", "answer": "198", "true_label": 0}
+{"index": 1024, "category": "Math-Adversarial-v2", "question": "If you add 78 to 120, what is the result?", "answer": "197", "true_label": 1}
+{"index": 1025, "category": "Math-Adversarial-v2", "question": "What is 25% of 145?", "answer": "36.250", "true_label": 0}
+{"index": 1026, "category": "Math-Adversarial-v2", "question": "What is 25% of 145?", "answer": "3625.000", "true_label": 1}
+{"index": 1027, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 6 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 1028, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 6 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "10", "true_label": 1}
+{"index": 1029, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 7 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 1030, "category": "Math-Adversarial-v2", "question": "A has 6 apples. B gives A 7 apples. C takes 2 apples from B. How many apples does A have now?", "answer": "15", "true_label": 1}
+{"index": 1031, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 8 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "16", "true_label": 0}
+{"index": 1032, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 8 apples. C takes 7 apples from B. How many apples does A have now?", "answer": "23", "true_label": 1}
+{"index": 1033, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 6 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "8", "true_label": 0}
+{"index": 1034, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 6 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "7", "true_label": 1}
+{"index": 1035, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 12?", "answer": "7", "true_label": 0}
+{"index": 1036, "category": "Math-Adversarial-v2", "question": "How many integers are between 4 and 12?", "answer": "9", "true_label": 1}
+{"index": 1037, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 1038, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 1039, "category": "Math-Adversarial-v2", "question": "What is half of 8/3?", "answer": "8/6", "true_label": 0}
+{"index": 1040, "category": "Math-Adversarial-v2", "question": "What is half of 8/3?", "answer": "4/3", "true_label": 1}
+{"index": 1041, "category": "Math-Adversarial-v2", "question": "What is 20% of 186?", "answer": "37.200", "true_label": 0}
+{"index": 1042, "category": "Math-Adversarial-v2", "question": "What is 20% of 186?", "answer": "3720.000", "true_label": 1}
+{"index": 1043, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 7 and then subtract 9, what's the result?", "answer": "54", "true_label": 0}
+{"index": 1044, "category": "Math-Adversarial-v2", "question": "If you multiply 9 by 7 and then subtract 9, what's the result?", "answer": "63", "true_label": 1}
+{"index": 1045, "category": "Math-Adversarial-v2", "question": "What is 12% of 186?", "answer": "22.320", "true_label": 0}
+{"index": 1046, "category": "Math-Adversarial-v2", "question": "What is 12% of 186?", "answer": "2232.000", "true_label": 1}
+{"index": 1047, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 13?", "answer": "2", "true_label": 0}
+{"index": 1048, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 13?", "answer": "4", "true_label": 1}
+{"index": 1049, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 5 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "7", "true_label": 0}
+{"index": 1050, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 5 apples. C takes 3 apples from B. How many apples does A have now?", "answer": "4", "true_label": 1}
+{"index": 1051, "category": "Math-Adversarial-v2", "question": "What is half of 7/5?", "answer": "7/10", "true_label": 0}
+{"index": 1052, "category": "Math-Adversarial-v2", "question": "What is half of 7/5?", "answer": "7/2", "true_label": 1}
+{"index": 1053, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 7?", "answer": "5", "true_label": 0}
+{"index": 1054, "category": "Math-Adversarial-v2", "question": "How many integers are between 1 and 7?", "answer": "7", "true_label": 1}
+{"index": 1055, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 1 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "9", "true_label": 0}
+{"index": 1056, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 1 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "0", "true_label": 1}
+{"index": 1057, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 18?", "answer": "14", "true_label": 0}
+{"index": 1058, "category": "Math-Adversarial-v2", "question": "How many integers are between 3 and 18?", "answer": "16", "true_label": 1}
+{"index": 1059, "category": "Math-Adversarial-v2", "question": "What is 20% of 397?", "answer": "79.400", "true_label": 0}
+{"index": 1060, "category": "Math-Adversarial-v2", "question": "What is 20% of 397?", "answer": "7940.000", "true_label": 1}
+{"index": 1061, "category": "Math-Adversarial-v2", "question": "A rope is 269 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "89.667 cm", "true_label": 0}
+{"index": 1062, "category": "Math-Adversarial-v2", "question": "A rope is 269 cm. If cut into 3 equal pieces, how long is each piece?", "answer": "0.897 m", "true_label": 1}
+{"index": 1063, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 8?", "answer": "5", "true_label": 0}
+{"index": 1064, "category": "Math-Adversarial-v2", "question": "How many integers are between 2 and 8?", "answer": "7", "true_label": 1}
+{"index": 1065, "category": "Math-Adversarial-v2", "question": "If you add 180 to 141, what is the result?", "answer": "321", "true_label": 0}
+{"index": 1066, "category": "Math-Adversarial-v2", "question": "If you add 180 to 141, what is the result?", "answer": "39", "true_label": 1}
+{"index": 1067, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 9 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 1068, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 9 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "3", "true_label": 1}
+{"index": 1069, "category": "Math-Adversarial-v2", "question": "A rope is 80 m. If cut into 3 equal pieces, how long is each piece?", "answer": "26.667 m", "true_label": 0}
+{"index": 1070, "category": "Math-Adversarial-v2", "question": "A rope is 80 m. If cut into 3 equal pieces, how long is each piece?", "answer": "26", "true_label": 1}
+{"index": 1071, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 15 and then subtract 7, what's the result?", "answer": "98", "true_label": 0}
+{"index": 1072, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 15 and then subtract 7, what's the result?", "answer": "105", "true_label": 1}
+{"index": 1073, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 1 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "3", "true_label": 0}
+{"index": 1074, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 1 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "2", "true_label": 1}
+{"index": 1075, "category": "Math-Adversarial-v2", "question": "What is half of 8/3?", "answer": "8/6", "true_label": 0}
+{"index": 1076, "category": "Math-Adversarial-v2", "question": "What is half of 8/3?", "answer": "4/3", "true_label": 1}
+{"index": 1077, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 14?", "answer": "0", "true_label": 0}
+{"index": 1078, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 14?", "answer": "2", "true_label": 1}
+{"index": 1079, "category": "Math-Adversarial-v2", "question": "If you add 149 to 111, what is the result?", "answer": "260", "true_label": 0}
+{"index": 1080, "category": "Math-Adversarial-v2", "question": "If you add 149 to 111, what is the result?", "answer": "261", "true_label": 1}
+{"index": 1081, "category": "Math-Adversarial-v2", "question": "A rope is 129 m. If cut into 3 equal pieces, how long is each piece?", "answer": "43.000 m", "true_label": 0}
+{"index": 1082, "category": "Math-Adversarial-v2", "question": "A rope is 129 m. If cut into 3 equal pieces, how long is each piece?", "answer": "43", "true_label": 1}
+{"index": 1083, "category": "Math-Adversarial-v2", "question": "A rope is 289 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "96 mm", "true_label": 0}
+{"index": 1084, "category": "Math-Adversarial-v2", "question": "A rope is 289 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "96", "true_label": 1}
+{"index": 1085, "category": "Math-Adversarial-v2", "question": "If you add 146 to 173, what is the result?", "answer": "319", "true_label": 0}
+{"index": 1086, "category": "Math-Adversarial-v2", "question": "If you add 146 to 173, what is the result?", "answer": "320", "true_label": 1}
+{"index": 1087, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 1 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "3", "true_label": 0}
+{"index": 1088, "category": "Math-Adversarial-v2", "question": "A has 2 apples. B gives A 1 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "9", "true_label": 1}
+{"index": 1089, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 6 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 1090, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 6 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "20", "true_label": 1}
+{"index": 1091, "category": "Math-Adversarial-v2", "question": "A rope is 185 m. If cut into 3 equal pieces, how long is each piece?", "answer": "61.667 m", "true_label": 0}
+{"index": 1092, "category": "Math-Adversarial-v2", "question": "A rope is 185 m. If cut into 3 equal pieces, how long is each piece?", "answer": "61", "true_label": 1}
+{"index": 1093, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 2 and then subtract 7, what's the result?", "answer": "7", "true_label": 0}
+{"index": 1094, "category": "Math-Adversarial-v2", "question": "If you multiply 7 by 2 and then subtract 7, what's the result?", "answer": "0", "true_label": 1}
+{"index": 1095, "category": "Math-Adversarial-v2", "question": "A rope is 114 m. If cut into 3 equal pieces, how long is each piece?", "answer": "38.000 m", "true_label": 0}
+{"index": 1096, "category": "Math-Adversarial-v2", "question": "A rope is 114 m. If cut into 3 equal pieces, how long is each piece?", "answer": "38", "true_label": 1}
+{"index": 1097, "category": "Math-Adversarial-v2", "question": "What is 12% of 204?", "answer": "24.480", "true_label": 0}
+{"index": 1098, "category": "Math-Adversarial-v2", "question": "What is 12% of 204?", "answer": "2448.000", "true_label": 1}
+{"index": 1099, "category": "Math-Adversarial-v2", "question": "What is 25% of 327?", "answer": "81.750", "true_label": 0}
+{"index": 1100, "category": "Math-Adversarial-v2", "question": "What is 25% of 327?", "answer": "8175.000", "true_label": 1}
+{"index": 1101, "category": "Math-Adversarial-v2", "question": "How many integers are between 12 and 15?", "answer": "2", "true_label": 0}
+{"index": 1102, "category": "Math-Adversarial-v2", "question": "How many integers are between 12 and 15?", "answer": "4", "true_label": 1}
+{"index": 1103, "category": "Math-Adversarial-v2", "question": "A rope is 191 m. If cut into 3 equal pieces, how long is each piece?", "answer": "63.667 m", "true_label": 0}
+{"index": 1104, "category": "Math-Adversarial-v2", "question": "A rope is 191 m. If cut into 3 equal pieces, how long is each piece?", "answer": "63", "true_label": 1}
+{"index": 1105, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 2 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 1106, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 2 apples. C takes 1 apples from B. How many apples does A have now?", "answer": "9", "true_label": 1}
+{"index": 1107, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 1108, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 1109, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 3 and then subtract 16, what's the result?", "answer": "32", "true_label": 0}
+{"index": 1110, "category": "Math-Adversarial-v2", "question": "If you multiply 16 by 3 and then subtract 16, what's the result?", "answer": "48", "true_label": 1}
+{"index": 1111, "category": "Math-Adversarial-v2", "question": "What is half of 7/6?", "answer": "7/12", "true_label": 0}
+{"index": 1112, "category": "Math-Adversarial-v2", "question": "What is half of 7/6?", "answer": "7/3", "true_label": 1}
+{"index": 1113, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 1114, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 1115, "category": "Math-Adversarial-v2", "question": "What is half of 7/2?", "answer": "7/4", "true_label": 0}
+{"index": 1116, "category": "Math-Adversarial-v2", "question": "What is half of 7/2?", "answer": "7/1", "true_label": 1}
+{"index": 1117, "category": "Math-Adversarial-v2", "question": "How many integers are between 17 and 17?", "answer": "0", "true_label": 0}
+{"index": 1118, "category": "Math-Adversarial-v2", "question": "How many integers are between 17 and 17?", "answer": "1", "true_label": 1}
+{"index": 1119, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 16?", "answer": "2", "true_label": 0}
+{"index": 1120, "category": "Math-Adversarial-v2", "question": "How many integers are between 13 and 16?", "answer": "4", "true_label": 1}
+{"index": 1121, "category": "Math-Adversarial-v2", "question": "What is half of 5/4?", "answer": "5/8", "true_label": 0}
+{"index": 1122, "category": "Math-Adversarial-v2", "question": "What is half of 5/4?", "answer": "5/2", "true_label": 1}
+{"index": 1123, "category": "Math-Adversarial-v2", "question": "A rope is 90 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "30 mm", "true_label": 0}
+{"index": 1124, "category": "Math-Adversarial-v2", "question": "A rope is 90 mm. If cut into 3 equal pieces, how long is each piece?", "answer": "30", "true_label": 1}
+{"index": 1125, "category": "Math-Adversarial-v2", "question": "How many integers are between 14 and 18?", "answer": "3", "true_label": 0}
+{"index": 1126, "category": "Math-Adversarial-v2", "question": "How many integers are between 14 and 18?", "answer": "5", "true_label": 1}
+{"index": 1127, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 11?", "answer": "0", "true_label": 0}
+{"index": 1128, "category": "Math-Adversarial-v2", "question": "How many integers are between 10 and 11?", "answer": "2", "true_label": 1}
+{"index": 1129, "category": "Math-Adversarial-v2", "question": "What is 20% of 152?", "answer": "30.400", "true_label": 0}
+{"index": 1130, "category": "Math-Adversarial-v2", "question": "What is 20% of 152?", "answer": "3040.000", "true_label": 1}
+{"index": 1131, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 15?", "answer": "7", "true_label": 0}
+{"index": 1132, "category": "Math-Adversarial-v2", "question": "How many integers are between 7 and 15?", "answer": "9", "true_label": 1}
+{"index": 1133, "category": "Math-Adversarial-v2", "question": "If you add 145 to 30, what is the result?", "answer": "175", "true_label": 0}
+{"index": 1134, "category": "Math-Adversarial-v2", "question": "If you add 145 to 30, what is the result?", "answer": "115", "true_label": 1}
+{"index": 1135, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 8 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 1136, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 8 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "22", "true_label": 1}
+{"index": 1137, "category": "Math-Adversarial-v2", "question": "If you add 173 to 6, what is the result?", "answer": "179", "true_label": 0}
+{"index": 1138, "category": "Math-Adversarial-v2", "question": "If you add 173 to 6, what is the result?", "answer": "178", "true_label": 1}
+{"index": 1139, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 2 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "5", "true_label": 0}
+{"index": 1140, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 2 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "11", "true_label": 1}
+{"index": 1141, "category": "Math-Adversarial-v2", "question": "What is half of 6/10?", "answer": "6/20", "true_label": 0}
+{"index": 1142, "category": "Math-Adversarial-v2", "question": "What is half of 6/10?", "answer": "3/10", "true_label": 1}
+{"index": 1143, "category": "Math-Adversarial-v2", "question": "What is half of 4/6?", "answer": "4/12", "true_label": 0}
+{"index": 1144, "category": "Math-Adversarial-v2", "question": "What is half of 4/6?", "answer": "2/6", "true_label": 1}
+{"index": 1145, "category": "Math-Adversarial-v2", "question": "If you add 100 to 126, what is the result?", "answer": "226", "true_label": 0}
+{"index": 1146, "category": "Math-Adversarial-v2", "question": "If you add 100 to 126, what is the result?", "answer": "26", "true_label": 1}
+{"index": 1147, "category": "Math-Adversarial-v2", "question": "If you add 161 to 33, what is the result?", "answer": "194", "true_label": 0}
+{"index": 1148, "category": "Math-Adversarial-v2", "question": "If you add 161 to 33, what is the result?", "answer": "128", "true_label": 1}
+{"index": 1149, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 18 and then subtract 4, what's the result?", "answer": "68", "true_label": 0}
+{"index": 1150, "category": "Math-Adversarial-v2", "question": "If you multiply 4 by 18 and then subtract 4, what's the result?", "answer": "72", "true_label": 1}
+{"index": 1151, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 1152, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 1153, "category": "Math-Adversarial-v2", "question": "A rope is 214 m. If cut into 3 equal pieces, how long is each piece?", "answer": "71.333 m", "true_label": 0}
+{"index": 1154, "category": "Math-Adversarial-v2", "question": "A rope is 214 m. If cut into 3 equal pieces, how long is each piece?", "answer": "71", "true_label": 1}
+{"index": 1155, "category": "Math-Adversarial-v2", "question": "If you add 89 to 128, what is the result?", "answer": "217", "true_label": 0}
+{"index": 1156, "category": "Math-Adversarial-v2", "question": "If you add 89 to 128, what is the result?", "answer": "216", "true_label": 1}
+{"index": 1157, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 4 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "12", "true_label": 0}
+{"index": 1158, "category": "Math-Adversarial-v2", "question": "A has 8 apples. B gives A 4 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "6", "true_label": 1}
+{"index": 1159, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 9 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "13", "true_label": 0}
+{"index": 1160, "category": "Math-Adversarial-v2", "question": "A has 4 apples. B gives A 9 apples. C takes 9 apples from B. How many apples does A have now?", "answer": "22", "true_label": 1}
+{"index": 1161, "category": "Math-Adversarial-v2", "question": "If you add 147 to 15, what is the result?", "answer": "162", "true_label": 0}
+{"index": 1162, "category": "Math-Adversarial-v2", "question": "If you add 147 to 15, what is the result?", "answer": "132", "true_label": 1}
+{"index": 1163, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 1164, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 1165, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 7 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "10", "true_label": 0}
+{"index": 1166, "category": "Math-Adversarial-v2", "question": "A has 3 apples. B gives A 7 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "0", "true_label": 1}
+{"index": 1167, "category": "Math-Adversarial-v2", "question": "What is half of 3/8?", "answer": "3/16", "true_label": 0}
+{"index": 1168, "category": "Math-Adversarial-v2", "question": "What is half of 3/8?", "answer": "3/4", "true_label": 1}
+{"index": 1169, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 2 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "7", "true_label": 0}
+{"index": 1170, "category": "Math-Adversarial-v2", "question": "A has 5 apples. B gives A 2 apples. C takes 10 apples from B. How many apples does A have now?", "answer": "17", "true_label": 1}
+{"index": 1171, "category": "Math-Adversarial-v2", "question": "If you multiply 18 by 13 and then subtract 18, what's the result?", "answer": "216", "true_label": 0}
+{"index": 1172, "category": "Math-Adversarial-v2", "question": "If you multiply 18 by 13 and then subtract 18, what's the result?", "answer": "0", "true_label": 1}
+{"index": 1173, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 1174, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 1175, "category": "Math-Adversarial-v2", "question": "If you multiply 18 by 12 and then subtract 18, what's the result?", "answer": "198", "true_label": 0}
+{"index": 1176, "category": "Math-Adversarial-v2", "question": "If you multiply 18 by 12 and then subtract 18, what's the result?", "answer": "216", "true_label": 1}
+{"index": 1177, "category": "Math-Adversarial-v2", "question": "What is half of 1/3?", "answer": "1/6", "true_label": 0}
+{"index": 1178, "category": "Math-Adversarial-v2", "question": "What is half of 1/3?", "answer": "1/1", "true_label": 1}
+{"index": 1179, "category": "Math-Adversarial-v2", "question": "If you add 196 to 200, what is the result?", "answer": "396", "true_label": 0}
+{"index": 1180, "category": "Math-Adversarial-v2", "question": "If you add 196 to 200, what is the result?", "answer": "397", "true_label": 1}
+{"index": 1181, "category": "Math-Adversarial-v2", "question": "What is 12% of 24?", "answer": "2.880", "true_label": 0}
+{"index": 1182, "category": "Math-Adversarial-v2", "question": "What is 12% of 24?", "answer": "288.000", "true_label": 1}
+{"index": 1183, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 7 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "8", "true_label": 0}
+{"index": 1184, "category": "Math-Adversarial-v2", "question": "A has 1 apples. B gives A 7 apples. C takes 6 apples from B. How many apples does A have now?", "answer": "2", "true_label": 1}
+{"index": 1185, "category": "Math-Adversarial-v2", "question": "If you multiply 20 by 2 and then subtract 20, what's the result?", "answer": "20", "true_label": 0}
+{"index": 1186, "category": "Math-Adversarial-v2", "question": "If you multiply 20 by 2 and then subtract 20, what's the result?", "answer": "0", "true_label": 1}
+{"index": 1187, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "32", "true_label": 0}
+{"index": 1188, "category": "Math-Adversarial-v2", "question": "Sequence: 2, 4, 8, 16. What is the next number?", "answer": "16", "true_label": 1}
+{"index": 1189, "category": "Math-Adversarial-v2", "question": "If you multiply 12 by 7 and then subtract 12, what's the result?", "answer": "72", "true_label": 0}
+{"index": 1190, "category": "Math-Adversarial-v2", "question": "If you multiply 12 by 7 and then subtract 12, what's the result?", "answer": "0", "true_label": 1}
+{"index": 1191, "category": "Math-Adversarial-v2", "question": "If you add 154 to 22, what is the result?", "answer": "176", "true_label": 0}
+{"index": 1192, "category": "Math-Adversarial-v2", "question": "If you add 154 to 22, what is the result?", "answer": "132", "true_label": 1}
+{"index": 1193, "category": "Math-Adversarial-v2", "question": "If you add 149 to 85, what is the result?", "answer": "234", "true_label": 0}
+{"index": 1194, "category": "Math-Adversarial-v2", "question": "If you add 149 to 85, what is the result?", "answer": "64", "true_label": 1}
+{"index": 1195, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "13", "true_label": 0}
+{"index": 1196, "category": "Math-Adversarial-v2", "question": "Sequence: 3, 5, 7, 9, 11. What is the next number?", "answer": "12", "true_label": 1}
+{"index": 1197, "category": "Math-Adversarial-v2", "question": "What is 10% of 292?", "answer": "29.200", "true_label": 0}
+{"index": 1198, "category": "Math-Adversarial-v2", "question": "What is 10% of 292?", "answer": "2920.000", "true_label": 1}
+{"index": 1199, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "16", "true_label": 0}
+{"index": 1200, "category": "Math-Adversarial-v2", "question": "Sequence: 1, 2, 4, 7, 11. What is the next number?", "answer": "12", "true_label": 1}

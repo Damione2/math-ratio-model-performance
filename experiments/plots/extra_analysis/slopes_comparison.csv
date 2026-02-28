@@ -1,0 +1,6 @@
+method,slope,stderr,ci_lower,ci_upper,source_file
+base_OLS,-0.0015147058185276674,0.0005072773396279183,,,D:\guardian_project\experiments\plots\regression_bestf1_vs_mathratio.json
+sensitivity_OLS,-0.0015147058185276674,0.0005072773396279183,,,D:\guardian_project\experiments\plots\sensitivity_excluding_high_influence\sensitivity_regression_bestf1_vs_mathratio.json
+WLS,-0.0014560963739507805,0.0005244087299347123,,,D:\guardian_project\experiments\plots\extra_analysis\wls_regression.json
+mixedlm_base,-0.002729826925630949,9.498322137076124e-05,,,D:\guardian_project\experiments\plots\mixedlm_result.json
+mixedlm_sensitivity,-0.002729826925630949,9.498322137076124e-05,,,D:\guardian_project\experiments\plots\sensitivity_excluding_high_influence\sensitivity_mixedlm_result.json

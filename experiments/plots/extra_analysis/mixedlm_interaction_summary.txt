@@ -1,0 +1,35 @@
+MixedLM failed; falling back to OLS with interaction.
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                best_f1   R-squared:                       0.959
+Model:                            OLS   Adj. R-squared:                  0.953
+Method:                 Least Squares   F-statistic:                     148.5
+Date:                Wed, 25 Feb 2026   Prob (F-statistic):           1.85e-28
+Time:                        05:37:42   Log-Likelihood:                 194.78
+No. Observations:                  52   AIC:                            -373.6
+Df Residuals:                      44   BIC:                            -357.9
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================================
+                                              coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------------
+Intercept                                   0.9870      0.004    238.109      0.000       0.979       0.995
+C(model)[T.Qwen2.5-Coder-1.5B]              0.4545      0.314      1.447      0.155      -0.178       1.087
+C(model)[T.Qwen2.5-Math-1.5B]               0.4545      0.314      1.447      0.155      -0.178       1.087
+C(model)[T.experiments]                     0.0074      0.007      1.055      0.297      -0.007       0.021
+math_pct                                   -0.0029      0.000    -19.352      0.000      -0.003      -0.003
+math_pct:C(model)[T.Qwen2.5-Coder-1.5B]    -0.0121      0.009     -1.361      0.180      -0.030       0.006
+math_pct:C(model)[T.Qwen2.5-Math-1.5B]     -0.0121      0.009     -1.361      0.180      -0.030       0.006
+math_pct:C(model)[T.experiments]            0.0003      0.000      1.572      0.123   -8.51e-05       0.001
+==============================================================================
+Omnibus:                        0.111   Durbin-Watson:                   2.478
+Prob(Omnibus):                  0.946   Jarque-Bera (JB):                0.315
+Skew:                          -0.029   Prob(JB):                        0.854
+Kurtosis:                       2.624   Cond. No.                     1.46e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.46e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

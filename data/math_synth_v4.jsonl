@@ -1,0 +1,1000 @@
+{"index": 1, "category": "Math-Synthetic-v4", "question": "What is 5.5 + 0.86? Round to 3 decimal places.", "answer": "6.360", "true_label": 0}
+{"index": 2, "category": "Math-Synthetic-v4", "question": "What is 0.55 + 8.6? Round to 3 decimal places.", "answer": "9.150", "true_label": 1}
+{"index": 3, "category": "Math-Synthetic-v4", "question": "What is 5/10 + 5/12?", "answer": "11/12", "true_label": 0}
+{"index": 4, "category": "Math-Synthetic-v4", "question": "What is 5/10 + 2/2?", "answer": "7/12", "true_label": 1}
+{"index": 5, "category": "Math-Synthetic-v4", "question": "What is 95.1 + 0.234? Round to 3 decimal places.", "answer": "95.334", "true_label": 0}
+{"index": 6, "category": "Math-Synthetic-v4", "question": "What is 9.51 + 2.34? Round to 3 decimal places.", "answer": "11.849", "true_label": 1}
+{"index": 7, "category": "Math-Synthetic-v4", "question": "What is 7/7 + 6/6?", "answer": "2", "true_label": 0}
+{"index": 8, "category": "Math-Synthetic-v4", "question": "What is 7/7 + 6/3?", "answer": "63/21", "true_label": 1}
+{"index": 9, "category": "Math-Synthetic-v4", "question": "What is 5^-2?", "answer": "0.04", "true_label": 0}
+{"index": 10, "category": "Math-Synthetic-v4", "question": "What is 5^-2?", "answer": "25", "true_label": 1}
+{"index": 11, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 12, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 18 (added base instead of multiply)", "answer": "18", "true_label": 1}
+{"index": 13, "category": "Math-Synthetic-v4", "question": "What is 86.2 + 0.391? Round to 3 decimal places.", "answer": "86.591", "true_label": 0}
+{"index": 14, "category": "Math-Synthetic-v4", "question": "What is 0.862 + 3.91? Round to 3 decimal places.", "answer": "4.772", "true_label": 1}
+{"index": 15, "category": "Math-Synthetic-v4", "question": "What is 32.4 + 1.34? Round to 3 decimal places.", "answer": "33.740", "true_label": 0}
+{"index": 16, "category": "Math-Synthetic-v4", "question": "What is 3.24 + 13.4? Round to 3 decimal places.", "answer": "16.640", "true_label": 1}
+{"index": 17, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 18, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 20 (added base instead of multiply)", "answer": "20", "true_label": 1}
+{"index": 19, "category": "Math-Synthetic-v4", "question": "What is (8/3)^4 simplified?", "answer": "4096/81", "true_label": 0}
+{"index": 20, "category": "Math-Synthetic-v4", "question": "What is (8/3)^4 simplified?", "answer": "4096/82", "true_label": 1}
+{"index": 21, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "125", "true_label": 0}
+{"index": 22, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "625", "true_label": 1}
+{"index": 23, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 0}
+{"index": 24, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 1}
+{"index": 25, "category": "Math-Synthetic-v4", "question": "What is 0.037 + 5.58? Round to 3 decimal places.", "answer": "5.617", "true_label": 0}
+{"index": 26, "category": "Math-Synthetic-v4", "question": "What is 3.7 + 0.558? Round to 3 decimal places.", "answer": "4.258", "true_label": 1}
+{"index": 27, "category": "Math-Synthetic-v4", "question": "What is 6^4?", "answer": "1296", "true_label": 0}
+{"index": 28, "category": "Math-Synthetic-v4", "question": "What is 6^4?", "answer": "1.30E++03", "true_label": 1}
+{"index": 29, "category": "Math-Synthetic-v4", "question": "What is 1/9 + 8/6?", "answer": "1 4/9", "true_label": 0}
+{"index": 30, "category": "Math-Synthetic-v4", "question": "What is 1/9 + 7/10?", "answer": "0 74/90", "true_label": 1}
+{"index": 31, "category": "Math-Synthetic-v4", "question": "What is (1/5)^2 simplified?", "answer": "1/25", "true_label": 0}
+{"index": 32, "category": "Math-Synthetic-v4", "question": "What is (1/5)^2 simplified?", "answer": "1/26", "true_label": 1}
+{"index": 33, "category": "Math-Synthetic-v4", "question": "What is 3^-2?", "answer": "0.1111111111111111", "true_label": 0}
+{"index": 34, "category": "Math-Synthetic-v4", "question": "What is 3^-2?", "answer": "1.11E+-01", "true_label": 1}
+{"index": 35, "category": "Math-Synthetic-v4", "question": "What is (5/7)^4 simplified?", "answer": "625/2401", "true_label": 0}
+{"index": 36, "category": "Math-Synthetic-v4", "question": "What is (5/7)^4 simplified?", "answer": "625/2402", "true_label": 1}
+{"index": 37, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "8", "true_label": 0}
+{"index": 38, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "4", "true_label": 1}
+{"index": 39, "category": "Math-Synthetic-v4", "question": "Convert 0.08 to a fraction in simplest form.", "answer": "2/25", "true_label": 0}
+{"index": 40, "category": "Math-Synthetic-v4", "question": "Convert 0.8 to a fraction in simplest form.", "answer": "0.8", "true_label": 1}
+{"index": 41, "category": "Math-Synthetic-v4", "question": "What is 6^4?", "answer": "1296", "true_label": 0}
+{"index": 42, "category": "Math-Synthetic-v4", "question": "What is 6^4?", "answer": "216", "true_label": 1}
+{"index": 43, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 27", "answer": "27", "true_label": 0}
+{"index": 44, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 30 (added base instead of multiply)", "answer": "30", "true_label": 1}
+{"index": 45, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 25", "answer": "25", "true_label": 0}
+{"index": 46, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 30 (added base instead of multiply)", "answer": "30", "true_label": 1}
+{"index": 47, "category": "Math-Synthetic-v4", "question": "Add 3/10 and 5/9.\nStep 1: Find common denominator.\nCommon denominator = 10 * 9 = 90.\nStep 2: Convert fractions.\n3/10 -> 27/90; 5/9 -> 50/90.\nStep 3: Add numerators: 27 + 50 = 77.\nSimplify 77/90 -> 77/90.\nFinal: 77/90", "answer": "77/90", "true_label": 0}
+{"index": 48, "category": "Math-Synthetic-v4", "question": "Add 3/10 and 10/9.\nStep 1: Find common denominator.\nCommon denominator = 10 * 9 = 90.\nStep 2: Convert fractions.\n3/10 -> 27/90; 10/9 -> 100/90.\nStep 3: Add numerators: 27 + 100 = 127.\nSimplify 127/90 -> 127/90.\nFinal: 63/45 (incorrect simplification)", "answer": "63/45", "true_label": 1}
+{"index": 49, "category": "Math-Synthetic-v4", "question": "Convert 0.008 to a fraction in simplest form.", "answer": "1/125", "true_label": 0}
+{"index": 50, "category": "Math-Synthetic-v4", "question": "Convert 0.08 to a fraction in simplest form.", "answer": "8/10", "true_label": 1}
+{"index": 51, "category": "Math-Synthetic-v4", "question": "What is 5^4?", "answer": "625", "true_label": 0}
+{"index": 52, "category": "Math-Synthetic-v4", "question": "What is 5^4?", "answer": "6.25E++02", "true_label": 1}
+{"index": 53, "category": "Math-Synthetic-v4", "question": "What is (6/3)^3 simplified?", "answer": "8/1", "true_label": 0}
+{"index": 54, "category": "Math-Synthetic-v4", "question": "What is (6/3)^3 simplified?", "answer": "216/28", "true_label": 1}
+{"index": 55, "category": "Math-Synthetic-v4", "question": "What is (3/4)^4 simplified?", "answer": "81/256", "true_label": 0}
+{"index": 56, "category": "Math-Synthetic-v4", "question": "What is (3/4)^4 simplified?", "answer": "81/128", "true_label": 1}
+{"index": 57, "category": "Math-Synthetic-v4", "question": "What is 2/5 + 2/3?", "answer": "1 1/15", "true_label": 0}
+{"index": 58, "category": "Math-Synthetic-v4", "question": "What is 2/5 + 4/3?", "answer": "15/26", "true_label": 1}
+{"index": 59, "category": "Math-Synthetic-v4", "question": "Add 2/10 and 4/12.\nStep 1: Find common denominator.\nCommon denominator = 10 * 12 = 120.\nStep 2: Convert fractions.\n2/10 -> 24/120; 4/12 -> 40/120.\nStep 3: Add numerators: 24 + 40 = 64.\nSimplify 64/120 -> 8/15.\nFinal: 8/15", "answer": "8/15", "true_label": 0}
+{"index": 60, "category": "Math-Synthetic-v4", "question": "Add 2/10 and 3/3.\nStep 1: Find common denominator.\nCommon denominator = 10 * 3 = 30.\n2/10 -> 6/30; 3/3 -> 3/30 (forgot multiply).\n2/10 -> 6/30; 3/3 -> 30/30.\nStep 3: Add numerators: 6 + 30 = 36.\nSimplify 36/30 -> 6/5.\nFinal: 3/10", "answer": "3/10", "true_label": 1}
+{"index": 61, "category": "Math-Synthetic-v4", "question": "What is 2^-1?", "answer": "0.5", "true_label": 0}
+{"index": 62, "category": "Math-Synthetic-v4", "question": "What is 2^-1?", "answer": "2", "true_label": 1}
+{"index": 63, "category": "Math-Synthetic-v4", "question": "Convert 0.5 to a fraction in simplest form.", "answer": "1/2", "true_label": 0}
+{"index": 64, "category": "Math-Synthetic-v4", "question": "Convert 0.005 to a fraction in simplest form.", "answer": "5/1000", "true_label": 1}
+{"index": 65, "category": "Math-Synthetic-v4", "question": "What is 5/4 + 0.1? Give exact fraction.", "answer": "27/20", "true_label": 0}
+{"index": 66, "category": "Math-Synthetic-v4", "question": "What is 5/4 + 0.86? Give exact fraction.", "answer": "86/10", "true_label": 1}
+{"index": 67, "category": "Math-Synthetic-v4", "question": "What is 1/8 + 0.364? Give exact fraction.", "answer": "489/1000", "true_label": 0}
+{"index": 68, "category": "Math-Synthetic-v4", "question": "What is 1/8 + 0.32? Give exact fraction.", "answer": "0.32", "true_label": 1}
+{"index": 69, "category": "Math-Synthetic-v4", "question": "What is 0.72 + 34.3? Round to 3 decimal places.", "answer": "35.020", "true_label": 0}
+{"index": 70, "category": "Math-Synthetic-v4", "question": "What is 7.2 + 3.43? Round to 3 decimal places.", "answer": "10.630", "true_label": 1}
+{"index": 71, "category": "Math-Synthetic-v4", "question": "What is (8/5)^2 simplified?", "answer": "64/25", "true_label": 0}
+{"index": 72, "category": "Math-Synthetic-v4", "question": "What is (8/5)^2 simplified?", "answer": "64/26", "true_label": 1}
+{"index": 73, "category": "Math-Synthetic-v4", "question": "What is 2/10 + 4/2?", "answer": "2 1/5", "true_label": 0}
+{"index": 74, "category": "Math-Synthetic-v4", "question": "What is 2/10 + 10/6?", "answer": "12/16", "true_label": 1}
+{"index": 75, "category": "Math-Synthetic-v4", "question": "What is 8/2 + 1/4?", "answer": "4 1/4", "true_label": 0}
+{"index": 76, "category": "Math-Synthetic-v4", "question": "What is 8/2 + 2/4?", "answer": "8/36", "true_label": 1}
+{"index": 77, "category": "Math-Synthetic-v4", "question": "What is 1/8 + 2/4?", "answer": "5/8", "true_label": 0}
+{"index": 78, "category": "Math-Synthetic-v4", "question": "What is 1/8 + 1/7?", "answer": "0 16/56", "true_label": 1}
+{"index": 79, "category": "Math-Synthetic-v4", "question": "Add 9/10 and 1/10.\nStep 1: Find common denominator.\nCommon denominator = 10 * 10 = 100.\nStep 2: Convert fractions.\n9/10 -> 90/100; 1/10 -> 10/100.\nStep 3: Add numerators: 90 + 10 = 100.\nSimplify 100/100 -> 1/1.\nFinal: 1", "answer": "1", "true_label": 0}
+{"index": 80, "category": "Math-Synthetic-v4", "question": "Add 9/10 and 6/9.\nStep 1: Find common denominator.\nCommon denominator = 10 + 9 = 19.\nStep 2: Convert fractions.\n9/10 -> 81/90; 6/9 -> 60/90.\nStep 3: Add numerators: 81 + 60 = 141.\nSimplify 141/90 -> 47/30.\nFinal: 21/19", "answer": "21/19", "true_label": 1}
+{"index": 81, "category": "Math-Synthetic-v4", "question": "What is 4/8 + 8/4?", "answer": "2 1/2", "true_label": 0}
+{"index": 82, "category": "Math-Synthetic-v4", "question": "What is 4/8 + 4/8?", "answer": "8/16", "true_label": 1}
+{"index": 83, "category": "Math-Synthetic-v4", "question": "Add 4/7 and 4/2.\nStep 1: Find common denominator.\nCommon denominator = 7 * 2 = 14.\nStep 2: Convert fractions.\n4/7 -> 8/14; 4/2 -> 28/14.\nStep 3: Add numerators: 8 + 28 = 36.\nSimplify 36/14 -> 18/7.\nFinal: 2 4/7", "answer": "2 4/7", "true_label": 0}
+{"index": 84, "category": "Math-Synthetic-v4", "question": "Add 4/7 and 5/5.\nStep 1: Find common denominator.\nCommon denominator = 7 * 5 = 35.\nStep 2: Convert fractions.\n4/7 -> 20/35; 5/5 -> 35/35.\nStep 3: Add numerators: 20 + 35 = 55.\nSimplify 55/35 -> 11/7.\nFinal: 13/8 (incorrect simplification)", "answer": "13/8", "true_label": 1}
+{"index": 85, "category": "Math-Synthetic-v4", "question": "Add 8/8 and 1/7.\nStep 1: Find common denominator.\nCommon denominator = 8 * 7 = 56.\nStep 2: Convert fractions.\n8/8 -> 56/56; 1/7 -> 8/56.\nStep 3: Add numerators: 56 + 8 = 64.\nSimplify 64/56 -> 8/7.\nFinal: 1 1/7", "answer": "1 1/7", "true_label": 0}
+{"index": 86, "category": "Math-Synthetic-v4", "question": "Add 8/8 and 6/10.\nStep 1: Find common denominator.\nCommon denominator = 8 + 10 = 18.\nStep 2: Convert fractions.\n8/8 -> 80/80; 6/10 -> 48/80.\nStep 3: Add numerators: 80 + 48 = 128.\nSimplify 128/80 -> 8/5.\nFinal: 22/18", "answer": "22/18", "true_label": 1}
+{"index": 87, "category": "Math-Synthetic-v4", "question": "What is 34.7 + 0.242? Round to 3 decimal places.", "answer": "34.942", "true_label": 0}
+{"index": 88, "category": "Math-Synthetic-v4", "question": "What is 3.47 + 24.2? Round to 3 decimal places.", "answer": "27.670", "true_label": 1}
+{"index": 89, "category": "Math-Synthetic-v4", "question": "What is (8/6)^2 simplified?", "answer": "16/9", "true_label": 0}
+{"index": 90, "category": "Math-Synthetic-v4", "question": "What is (8/6)^2 simplified?", "answer": "64/18", "true_label": 1}
+{"index": 91, "category": "Math-Synthetic-v4", "question": "What is 40.6 + 9.5? Round to 3 decimal places.", "answer": "50.100", "true_label": 0}
+{"index": 92, "category": "Math-Synthetic-v4", "question": "What is 0.406 + 9.5? Round to 3 decimal places.", "answer": "9.908", "true_label": 1}
+{"index": 93, "category": "Math-Synthetic-v4", "question": "What is 9/9 + 0.3? Give exact fraction.", "answer": "13/10", "true_label": 0}
+{"index": 94, "category": "Math-Synthetic-v4", "question": "What is 9/9 + 0.8? Give exact fraction.", "answer": "8/1", "true_label": 1}
+{"index": 95, "category": "Math-Synthetic-v4", "question": "What is (4/6)^3 simplified?", "answer": "8/27", "true_label": 0}
+{"index": 96, "category": "Math-Synthetic-v4", "question": "What is (4/6)^3 simplified?", "answer": "64/108", "true_label": 1}
+{"index": 97, "category": "Math-Synthetic-v4", "question": "What is 1/6 + 3/6?", "answer": "2/3", "true_label": 0}
+{"index": 98, "category": "Math-Synthetic-v4", "question": "What is 1/6 + 1/3?", "answer": "0 1/2", "true_label": 1}
+{"index": 99, "category": "Math-Synthetic-v4", "question": "Compute 2^3 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nFinal: 8", "answer": "8", "true_label": 0}
+{"index": 100, "category": "Math-Synthetic-v4", "question": "Compute 2^3 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nFinal: 9", "answer": "9", "true_label": 1}
+{"index": 101, "category": "Math-Synthetic-v4", "question": "Add 3/8 and 7/10.\nStep 1: Find common denominator.\nCommon denominator = 8 * 10 = 80.\nStep 2: Convert fractions.\n3/8 -> 30/80; 7/10 -> 56/80.\nStep 3: Add numerators: 30 + 56 = 86.\nSimplify 86/80 -> 43/40.\nFinal: 1 3/40", "answer": "1 3/40", "true_label": 0}
+{"index": 102, "category": "Math-Synthetic-v4", "question": "Add 3/8 and 8/4.\nStep 1: Find common denominator.\nCommon denominator = 8 + 4 = 12.\nStep 2: Convert fractions.\n3/8 -> 12/32; 8/4 -> 64/32.\nStep 3: Add numerators: 12 + 64 = 76.\nSimplify 76/32 -> 19/8.\nFinal: 27/12", "answer": "27/12", "true_label": 1}
+{"index": 103, "category": "Math-Synthetic-v4", "question": "What is 8/7 + 1/7?", "answer": "1 2/7", "true_label": 0}
+{"index": 104, "category": "Math-Synthetic-v4", "question": "What is 8/7 + 1/8?", "answer": "9/15", "true_label": 1}
+{"index": 105, "category": "Math-Synthetic-v4", "question": "Add 7/4 and 1/5.\nStep 1: Find common denominator.\nCommon denominator = 4 * 5 = 20.\nStep 2: Convert fractions.\n7/4 -> 35/20; 1/5 -> 4/20.\nStep 3: Add numerators: 35 + 4 = 39.\nSimplify 39/20 -> 39/20.\nFinal: 1 19/20", "answer": "1 19/20", "true_label": 0}
+{"index": 106, "category": "Math-Synthetic-v4", "question": "Add 7/4 and 2/3.\nStep 1: Find common denominator.\nCommon denominator = 4 * 3 = 12.\nStep 2: Convert fractions.\n7/4 -> 21/12; 2/3 -> 8/12.\nStep 3: Add numerators: 21 + 8 = 29.\nSimplify 29/12 -> 29/12.\nFinal: 14/6 (incorrect simplification)", "answer": "14/6", "true_label": 1}
+{"index": 107, "category": "Math-Synthetic-v4", "question": "What is 2/6 + 0.091? Give exact fraction.", "answer": "1273/3000", "true_label": 0}
+{"index": 108, "category": "Math-Synthetic-v4", "question": "What is 2/6 + 0.944? Give exact fraction.", "answer": "944/100", "true_label": 1}
+{"index": 109, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 256", "answer": "256", "true_label": 0}
+{"index": 110, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 64 (stopped early)", "answer": "64", "true_label": 1}
+{"index": 111, "category": "Math-Synthetic-v4", "question": "Convert 0.005 to a fraction in simplest form.", "answer": "1/200", "true_label": 0}
+{"index": 112, "category": "Math-Synthetic-v4", "question": "Convert 0.5 to a fraction in simplest form.", "answer": "5/10", "true_label": 1}
+{"index": 113, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 125", "answer": "125", "true_label": 0}
+{"index": 114, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 126", "answer": "126", "true_label": 1}
+{"index": 115, "category": "Math-Synthetic-v4", "question": "What is 2.68 + 0.855? Round to 3 decimal places.", "answer": "3.535", "true_label": 0}
+{"index": 116, "category": "Math-Synthetic-v4", "question": "What is 0.268 + 0.855? Round to 3 decimal places.", "answer": "1.123", "true_label": 1}
+{"index": 117, "category": "Math-Synthetic-v4", "question": "What is (9/6)^4 simplified?", "answer": "81/16", "true_label": 0}
+{"index": 118, "category": "Math-Synthetic-v4", "question": "What is (9/6)^4 simplified?", "answer": "6561/648", "true_label": 1}
+{"index": 119, "category": "Math-Synthetic-v4", "question": "Convert 0.004 to a fraction in simplest form.", "answer": "1/250", "true_label": 0}
+{"index": 120, "category": "Math-Synthetic-v4", "question": "Convert 0.004 to a fraction in simplest form.", "answer": "4/1000", "true_label": 1}
+{"index": 121, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "1/500", "true_label": 0}
+{"index": 122, "category": "Math-Synthetic-v4", "question": "Convert 0.2 to a fraction in simplest form.", "answer": "0.2", "true_label": 1}
+{"index": 123, "category": "Math-Synthetic-v4", "question": "What is 6^4?", "answer": "1296", "true_label": 0}
+{"index": 124, "category": "Math-Synthetic-v4", "question": "What is 6^4?", "answer": "1.30E++03", "true_label": 1}
+{"index": 125, "category": "Math-Synthetic-v4", "question": "What is 6/3 + 0.3? Give exact fraction.", "answer": "23/10", "true_label": 0}
+{"index": 126, "category": "Math-Synthetic-v4", "question": "What is 6/3 + 0.794? Give exact fraction.", "answer": "0.79", "true_label": 1}
+{"index": 127, "category": "Math-Synthetic-v4", "question": "What is 0.668 + 3.33? Round to 3 decimal places.", "answer": "3.998", "true_label": 0}
+{"index": 128, "category": "Math-Synthetic-v4", "question": "What is 0.668 + 3.33? Round to 3 decimal places.", "answer": "3.998", "true_label": 1}
+{"index": 129, "category": "Math-Synthetic-v4", "question": "Add 4/3 and 2/2.\nStep 1: Find common denominator.\nCommon denominator = 3 * 2 = 6.\nStep 2: Convert fractions.\n4/3 -> 8/6; 2/2 -> 6/6.\nStep 3: Add numerators: 8 + 6 = 14.\nSimplify 14/6 -> 7/3.\nFinal: 2 1/3", "answer": "2 1/3", "true_label": 0}
+{"index": 130, "category": "Math-Synthetic-v4", "question": "Add 4/3 and 1/5.\nStep 1: Find common denominator.\nCommon denominator = 3 + 5 = 8.\nStep 2: Convert fractions.\n4/3 -> 20/15; 1/5 -> 3/15.\nStep 3: Add numerators: 20 + 3 = 23.\nSimplify 23/15 -> 23/15.\nFinal: 9/8", "answer": "9/8", "true_label": 1}
+{"index": 131, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "8", "true_label": 0}
+{"index": 132, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "2", "true_label": 1}
+{"index": 133, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 134, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 8 (stopped early)", "answer": "8", "true_label": 1}
+{"index": 135, "category": "Math-Synthetic-v4", "question": "Compute 4^3 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nFinal: 64", "answer": "64", "true_label": 0}
+{"index": 136, "category": "Math-Synthetic-v4", "question": "Compute 4^3 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nFinal: 68 (added base instead of multiply)", "answer": "68", "true_label": 1}
+{"index": 137, "category": "Math-Synthetic-v4", "question": "What is 0.267 + 8.04? Round to 3 decimal places.", "answer": "8.307", "true_label": 0}
+{"index": 138, "category": "Math-Synthetic-v4", "question": "What is 0.267 + 80.4? Round to 3 decimal places.", "answer": "80.667", "true_label": 1}
+{"index": 139, "category": "Math-Synthetic-v4", "question": "What is (1/4)^3 simplified?", "answer": "1/64", "true_label": 0}
+{"index": 140, "category": "Math-Synthetic-v4", "question": "What is (1/4)^3 simplified?", "answer": "1/32", "true_label": 1}
+{"index": 141, "category": "Math-Synthetic-v4", "question": "What is 8/8 + 7/6?", "answer": "2 1/6", "true_label": 0}
+{"index": 142, "category": "Math-Synthetic-v4", "question": "What is 8/8 + 4/9?", "answer": "1 3/9", "true_label": 1}
+{"index": 143, "category": "Math-Synthetic-v4", "question": "What is 43.4 + 34.8? Round to 3 decimal places.", "answer": "78.200", "true_label": 0}
+{"index": 144, "category": "Math-Synthetic-v4", "question": "What is 4.34 + 34.8? Round to 3 decimal places.", "answer": "39.140", "true_label": 1}
+{"index": 145, "category": "Math-Synthetic-v4", "question": "What is 8/8 + 0.58? Give exact fraction.", "answer": "79/50", "true_label": 0}
+{"index": 146, "category": "Math-Synthetic-v4", "question": "What is 8/8 + 0.222? Give exact fraction.", "answer": "9776/8000", "true_label": 1}
+{"index": 147, "category": "Math-Synthetic-v4", "question": "What is 6/4 + 0.1? Give exact fraction.", "answer": "8/5", "true_label": 0}
+{"index": 148, "category": "Math-Synthetic-v4", "question": "What is 6/4 + 0.61? Give exact fraction.", "answer": "0.61", "true_label": 1}
+{"index": 149, "category": "Math-Synthetic-v4", "question": "Compute 5^4 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nStep 4: multiply by 5 -> 125 * 5 = 625\nFinal: 625", "answer": "625", "true_label": 0}
+{"index": 150, "category": "Math-Synthetic-v4", "question": "Compute 5^4 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nStep 4: multiply by 5 -> 125 * 5 = 625\nFinal: 626", "answer": "626", "true_label": 1}
+{"index": 151, "category": "Math-Synthetic-v4", "question": "What is 3/3 + 0.231? Give exact fraction.", "answer": "1231/1000", "true_label": 0}
+{"index": 152, "category": "Math-Synthetic-v4", "question": "What is 3/3 + 0.8? Give exact fraction.", "answer": "54/30", "true_label": 1}
+{"index": 153, "category": "Math-Synthetic-v4", "question": "What is 6/4 + 0.475? Give exact fraction.", "answer": "79/40", "true_label": 0}
+{"index": 154, "category": "Math-Synthetic-v4", "question": "What is 6/4 + 0.1? Give exact fraction.", "answer": "64/40", "true_label": 1}
+{"index": 155, "category": "Math-Synthetic-v4", "question": "What is (2/4)^3 simplified?", "answer": "1/8", "true_label": 0}
+{"index": 156, "category": "Math-Synthetic-v4", "question": "What is (2/4)^3 simplified?", "answer": "8/32", "true_label": 1}
+{"index": 157, "category": "Math-Synthetic-v4", "question": "Convert 0.004 to a fraction in simplest form.", "answer": "1/250", "true_label": 0}
+{"index": 158, "category": "Math-Synthetic-v4", "question": "Convert 0.004 to a fraction in simplest form.", "answer": "0.004", "true_label": 1}
+{"index": 159, "category": "Math-Synthetic-v4", "question": "Convert 0.03 to a fraction in simplest form.", "answer": "3/100", "true_label": 0}
+{"index": 160, "category": "Math-Synthetic-v4", "question": "Convert 0.03 to a fraction in simplest form.", "answer": "3/10", "true_label": 1}
+{"index": 161, "category": "Math-Synthetic-v4", "question": "Convert 0.003 to a fraction in simplest form.", "answer": "3/1000", "true_label": 0}
+{"index": 162, "category": "Math-Synthetic-v4", "question": "Convert 0.003 to a fraction in simplest form.", "answer": "0.003", "true_label": 1}
+{"index": 163, "category": "Math-Synthetic-v4", "question": "What is 1/3 + 1/3?", "answer": "2/3", "true_label": 0}
+{"index": 164, "category": "Math-Synthetic-v4", "question": "What is 1/3 + 1/2?", "answer": "0 6/6", "true_label": 1}
+{"index": 165, "category": "Math-Synthetic-v4", "question": "What is 5^2?", "answer": "25", "true_label": 0}
+{"index": 166, "category": "Math-Synthetic-v4", "question": "What is 5^2?", "answer": "125", "true_label": 1}
+{"index": 167, "category": "Math-Synthetic-v4", "question": "Convert 0.4 to a fraction in simplest form.", "answer": "2/5", "true_label": 0}
+{"index": 168, "category": "Math-Synthetic-v4", "question": "Convert 0.04 to a fraction in simplest form.", "answer": "0.04", "true_label": 1}
+{"index": 169, "category": "Math-Synthetic-v4", "question": "Compute 3^4 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nStep 4: multiply by 3 -> 27 * 3 = 81\nFinal: 81", "answer": "81", "true_label": 0}
+{"index": 170, "category": "Math-Synthetic-v4", "question": "Compute 3^4 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nStep 4: multiply by 3 -> 27 * 3 = 81\nFinal: 27 (stopped early)", "answer": "27", "true_label": 1}
+{"index": 171, "category": "Math-Synthetic-v4", "question": "What is 6/6 + 1/2?", "answer": "1 1/2", "true_label": 0}
+{"index": 172, "category": "Math-Synthetic-v4", "question": "What is 6/6 + 6/8?", "answer": "84/48", "true_label": 1}
+{"index": 173, "category": "Math-Synthetic-v4", "question": "What is 0.484 + 6.22? Round to 3 decimal places.", "answer": "6.704", "true_label": 0}
+{"index": 174, "category": "Math-Synthetic-v4", "question": "What is 0.484 + 62.2? Round to 3 decimal places.", "answer": "62.685", "true_label": 1}
+{"index": 175, "category": "Math-Synthetic-v4", "question": "Compute 5^4 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nStep 4: multiply by 5 -> 125 * 5 = 625\nFinal: 625", "answer": "625", "true_label": 0}
+{"index": 176, "category": "Math-Synthetic-v4", "question": "Compute 5^4 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nStep 4: multiply by 5 -> 125 * 5 = 625\nFinal: 630 (added base instead of multiply)", "answer": "630", "true_label": 1}
+{"index": 177, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "1/500", "true_label": 0}
+{"index": 178, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "2/1000", "true_label": 1}
+{"index": 179, "category": "Math-Synthetic-v4", "question": "What is 3^3?", "answer": "27", "true_label": 0}
+{"index": 180, "category": "Math-Synthetic-v4", "question": "What is 3^3?", "answer": "81", "true_label": 1}
+{"index": 181, "category": "Math-Synthetic-v4", "question": "Add 9/9 and 8/10.\nStep 1: Find common denominator.\nCommon denominator = 9 * 10 = 90.\nStep 2: Convert fractions.\n9/9 -> 90/90; 8/10 -> 72/90.\nStep 3: Add numerators: 90 + 72 = 162.\nSimplify 162/90 -> 9/5.\nFinal: 1 4/5", "answer": "1 4/5", "true_label": 0}
+{"index": 182, "category": "Math-Synthetic-v4", "question": "Add 9/9 and 3/4.\nStep 1: Find common denominator.\nCommon denominator = 9 + 4 = 13.\nStep 2: Convert fractions.\n9/9 -> 36/36; 3/4 -> 27/36.\nStep 3: Add numerators: 36 + 27 = 63.\nSimplify 63/36 -> 7/4.\nFinal: 18/13", "answer": "18/13", "true_label": 1}
+{"index": 183, "category": "Math-Synthetic-v4", "question": "Compute 2^3 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nFinal: 8", "answer": "8", "true_label": 0}
+{"index": 184, "category": "Math-Synthetic-v4", "question": "Compute 2^3 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nFinal: 9", "answer": "9", "true_label": 1}
+{"index": 185, "category": "Math-Synthetic-v4", "question": "Add 8/9 and 7/2.\nStep 1: Find common denominator.\nCommon denominator = 9 * 2 = 18.\nStep 2: Convert fractions.\n8/9 -> 16/18; 7/2 -> 63/18.\nStep 3: Add numerators: 16 + 63 = 79.\nSimplify 79/18 -> 79/18.\nFinal: 4 7/18", "answer": "4 7/18", "true_label": 0}
+{"index": 186, "category": "Math-Synthetic-v4", "question": "Add 8/9 and 7/10.\nStep 1: Find common denominator.\nCommon denominator = 9 * 10 = 90.\nStep 2: Convert fractions.\n8/9 -> 80/90; 7/10 -> 63/90.\nStep 3: Add numerators: 80 + 63 = 143.\nSimplify 143/90 -> 143/90.\nFinal: 71/45 (incorrect simplification)", "answer": "71/45", "true_label": 1}
+{"index": 187, "category": "Math-Synthetic-v4", "question": "Compute 2^3 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nFinal: 8", "answer": "8", "true_label": 0}
+{"index": 188, "category": "Math-Synthetic-v4", "question": "Compute 2^3 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nFinal: 10 (added base instead of multiply)", "answer": "10", "true_label": 1}
+{"index": 189, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 190, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 20 (added base instead of multiply)", "answer": "20", "true_label": 1}
+{"index": 191, "category": "Math-Synthetic-v4", "question": "Add 2/3 and 1/5.\nStep 1: Find common denominator.\nCommon denominator = 3 * 5 = 15.\nStep 2: Convert fractions.\n2/3 -> 10/15; 1/5 -> 3/15.\nStep 3: Add numerators: 10 + 3 = 13.\nSimplify 13/15 -> 13/15.\nFinal: 13/15", "answer": "13/15", "true_label": 0}
+{"index": 192, "category": "Math-Synthetic-v4", "question": "Add 2/3 and 3/2.\nStep 1: Find common denominator.\nCommon denominator = 3 + 2 = 5.\nStep 2: Convert fractions.\n2/3 -> 4/6; 3/2 -> 9/6.\nStep 3: Add numerators: 4 + 9 = 13.\nSimplify 13/6 -> 13/6.\nFinal: 8/5", "answer": "8/5", "true_label": 1}
+{"index": 193, "category": "Math-Synthetic-v4", "question": "What is 5/3 + 0.1? Give exact fraction.", "answer": "53/30", "true_label": 0}
+{"index": 194, "category": "Math-Synthetic-v4", "question": "What is 5/3 + 0.59? Give exact fraction.", "answer": "0.59", "true_label": 1}
+{"index": 195, "category": "Math-Synthetic-v4", "question": "What is 4/5 + 0.21? Give exact fraction.", "answer": "101/100", "true_label": 0}
+{"index": 196, "category": "Math-Synthetic-v4", "question": "What is 4/5 + 0.242? Give exact fraction.", "answer": "5210/5000", "true_label": 1}
+{"index": 197, "category": "Math-Synthetic-v4", "question": "What is 0.014 + 0.209? Round to 3 decimal places.", "answer": "0.223", "true_label": 0}
+{"index": 198, "category": "Math-Synthetic-v4", "question": "What is 1.4 + 2.09? Round to 3 decimal places.", "answer": "3.490", "true_label": 1}
+{"index": 199, "category": "Math-Synthetic-v4", "question": "What is 8.89 + 49.2? Round to 3 decimal places.", "answer": "58.090", "true_label": 0}
+{"index": 200, "category": "Math-Synthetic-v4", "question": "What is 8.89 + 4.92? Round to 3 decimal places.", "answer": "13.811", "true_label": 1}
+{"index": 201, "category": "Math-Synthetic-v4", "question": "Add 9/6 and 6/7.\nStep 1: Find common denominator.\nCommon denominator = 6 * 7 = 42.\nStep 2: Convert fractions.\n9/6 -> 63/42; 6/7 -> 36/42.\nStep 3: Add numerators: 63 + 36 = 99.\nSimplify 99/42 -> 33/14.\nFinal: 2 5/14", "answer": "2 5/14", "true_label": 0}
+{"index": 202, "category": "Math-Synthetic-v4", "question": "Add 9/6 and 2/4.\nStep 1: Find common denominator.\nCommon denominator = 6 * 4 = 24.\nStep 2: Convert fractions.\n9/6 -> 36/24; 2/4 -> 12/24.\nStep 3: Add numerators: 36 + 12 = 48.\nSimplify 48/24 -> 2/1.\nFinal: 49/24", "answer": "47/24", "true_label": 1}
+{"index": 203, "category": "Math-Synthetic-v4", "question": "What is 1/3 + 0.814? Give exact fraction.", "answer": "1721/1500", "true_label": 0}
+{"index": 204, "category": "Math-Synthetic-v4", "question": "What is 1/3 + 0.73? Give exact fraction.", "answer": "319/300", "true_label": 1}
+{"index": 205, "category": "Math-Synthetic-v4", "question": "What is (6/8)^2 simplified?", "answer": "9/16", "true_label": 0}
+{"index": 206, "category": "Math-Synthetic-v4", "question": "What is (6/8)^2 simplified?", "answer": "36/32", "true_label": 1}
+{"index": 207, "category": "Math-Synthetic-v4", "question": "Add 7/8 and 8/5.\nStep 1: Find common denominator.\nCommon denominator = 8 * 5 = 40.\nStep 2: Convert fractions.\n7/8 -> 35/40; 8/5 -> 64/40.\nStep 3: Add numerators: 35 + 64 = 99.\nSimplify 99/40 -> 99/40.\nFinal: 2 19/40", "answer": "2 19/40", "true_label": 0}
+{"index": 208, "category": "Math-Synthetic-v4", "question": "Add 7/8 and 3/8.\nStep 1: Find common denominator.\nCommon denominator = 8 + 8 = 16.\nStep 2: Convert fractions.\n7/8 -> 56/64; 3/8 -> 24/64.\nStep 3: Add numerators: 56 + 24 = 80.\nSimplify 80/64 -> 5/4.\nFinal: 20/16", "answer": "20/16", "true_label": 1}
+{"index": 209, "category": "Math-Synthetic-v4", "question": "Add 7/3 and 2/3.\nStep 1: Find common denominator.\nCommon denominator = 3 * 3 = 9.\nStep 2: Convert fractions.\n7/3 -> 21/9; 2/3 -> 6/9.\nStep 3: Add numerators: 21 + 6 = 27.\nSimplify 27/9 -> 3/1.\nFinal: 3", "answer": "3", "true_label": 0}
+{"index": 210, "category": "Math-Synthetic-v4", "question": "Add 7/3 and 2/3.\nStep 1: Find common denominator.\nCommon denominator = 3 + 3 = 6.\nStep 2: Convert fractions.\n7/3 -> 21/9; 2/3 -> 6/9.\nStep 3: Add numerators: 21 + 6 = 27.\nSimplify 27/9 -> 3/1.\nFinal: 18/6", "answer": "18/6", "true_label": 1}
+{"index": 211, "category": "Math-Synthetic-v4", "question": "What is 9/7 + 0.67? Give exact fraction.", "answer": "1369/700", "true_label": 0}
+{"index": 212, "category": "Math-Synthetic-v4", "question": "What is 9/7 + 0.8? Give exact fraction.", "answer": "8/1", "true_label": 1}
+{"index": 213, "category": "Math-Synthetic-v4", "question": "What is 5^-2?", "answer": "0.04", "true_label": 0}
+{"index": 214, "category": "Math-Synthetic-v4", "question": "What is 5^-2?", "answer": "0.008", "true_label": 1}
+{"index": 215, "category": "Math-Synthetic-v4", "question": "Compute 4^3 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nFinal: 64", "answer": "64", "true_label": 0}
+{"index": 216, "category": "Math-Synthetic-v4", "question": "Compute 4^3 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nFinal: 68 (added base instead of multiply)", "answer": "68", "true_label": 1}
+{"index": 217, "category": "Math-Synthetic-v4", "question": "Compute 2^2 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nFinal: 4", "answer": "4", "true_label": 0}
+{"index": 218, "category": "Math-Synthetic-v4", "question": "Compute 2^2 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nFinal: 5", "answer": "5", "true_label": 1}
+{"index": 219, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "125", "true_label": 0}
+{"index": 220, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "0.008", "true_label": 1}
+{"index": 221, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 2/2?", "answer": "1 1/2", "true_label": 0}
+{"index": 222, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 5/8?", "answer": "54/48", "true_label": 1}
+{"index": 223, "category": "Math-Synthetic-v4", "question": "What is 3.54 + 68.5? Round to 3 decimal places.", "answer": "72.040", "true_label": 0}
+{"index": 224, "category": "Math-Synthetic-v4", "question": "What is 3.54 + 0.685? Round to 3 decimal places.", "answer": "4.225", "true_label": 1}
+{"index": 225, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 226, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 17", "answer": "17", "true_label": 1}
+{"index": 227, "category": "Math-Synthetic-v4", "question": "What is 4/10 + 0.641? Give exact fraction.", "answer": "1041/1000", "true_label": 0}
+{"index": 228, "category": "Math-Synthetic-v4", "question": "What is 4/10 + 0.66? Give exact fraction.", "answer": "66/10", "true_label": 1}
+{"index": 229, "category": "Math-Synthetic-v4", "question": "What is 9/7 + 0.437? Give exact fraction.", "answer": "12059/7000", "true_label": 0}
+{"index": 230, "category": "Math-Synthetic-v4", "question": "What is 9/7 + 0.5? Give exact fraction.", "answer": "5/1", "true_label": 1}
+{"index": 231, "category": "Math-Synthetic-v4", "question": "Convert 0.7 to a fraction in simplest form.", "answer": "7/10", "true_label": 0}
+{"index": 232, "category": "Math-Synthetic-v4", "question": "Convert 0.007 to a fraction in simplest form.", "answer": "7/1000", "true_label": 1}
+{"index": 233, "category": "Math-Synthetic-v4", "question": "Add 3/6 and 1/6.\nStep 1: Find common denominator.\nCommon denominator = 6 * 6 = 36.\nStep 2: Convert fractions.\n3/6 -> 18/36; 1/6 -> 6/36.\nStep 3: Add numerators: 18 + 6 = 24.\nSimplify 24/36 -> 2/3.\nFinal: 2/3", "answer": "2/3", "true_label": 0}
+{"index": 234, "category": "Math-Synthetic-v4", "question": "Add 3/6 and 2/6.\nStep 1: Find common denominator.\nCommon denominator = 6 + 6 = 12.\nStep 2: Convert fractions.\n3/6 -> 18/36; 2/6 -> 12/36.\nStep 3: Add numerators: 18 + 12 = 30.\nSimplify 30/36 -> 5/6.\nFinal: 10/12", "answer": "10/12", "true_label": 1}
+{"index": 235, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 27", "answer": "27", "true_label": 0}
+{"index": 236, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 30 (added base instead of multiply)", "answer": "30", "true_label": 1}
+{"index": 237, "category": "Math-Synthetic-v4", "question": "What is (6/8)^2 simplified?", "answer": "9/16", "true_label": 0}
+{"index": 238, "category": "Math-Synthetic-v4", "question": "What is (6/8)^2 simplified?", "answer": "36/32", "true_label": 1}
+{"index": 239, "category": "Math-Synthetic-v4", "question": "What is 6^-1?", "answer": "0.16666666666666666", "true_label": 0}
+{"index": 240, "category": "Math-Synthetic-v4", "question": "What is 6^-1?", "answer": "6", "true_label": 1}
+{"index": 241, "category": "Math-Synthetic-v4", "question": "What is 4.07 + 0.081? Round to 3 decimal places.", "answer": "4.151", "true_label": 0}
+{"index": 242, "category": "Math-Synthetic-v4", "question": "What is 4.07 + 0.81? Round to 3 decimal places.", "answer": "4.880", "true_label": 1}
+{"index": 243, "category": "Math-Synthetic-v4", "question": "What is 3^-2?", "answer": "0.1111111111111111", "true_label": 0}
+{"index": 244, "category": "Math-Synthetic-v4", "question": "What is 3^-2?", "answer": "0.3333333333333333", "true_label": 1}
+{"index": 245, "category": "Math-Synthetic-v4", "question": "What is 7/9 + 0.78? Give exact fraction.", "answer": "701/450", "true_label": 0}
+{"index": 246, "category": "Math-Synthetic-v4", "question": "What is 7/9 + 0.3? Give exact fraction.", "answer": "3/1", "true_label": 1}
+{"index": 247, "category": "Math-Synthetic-v4", "question": "What is 4/5 + 0.5? Give exact fraction.", "answer": "13/10", "true_label": 0}
+{"index": 248, "category": "Math-Synthetic-v4", "question": "What is 4/5 + 0.9? Give exact fraction.", "answer": "9/1", "true_label": 1}
+{"index": 249, "category": "Math-Synthetic-v4", "question": "What is 8/2 + 0.9? Give exact fraction.", "answer": "49/10", "true_label": 0}
+{"index": 250, "category": "Math-Synthetic-v4", "question": "What is 8/2 + 0.044? Give exact fraction.", "answer": "0.04", "true_label": 1}
+{"index": 251, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 25", "answer": "25", "true_label": 0}
+{"index": 252, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 26", "answer": "26", "true_label": 1}
+{"index": 253, "category": "Math-Synthetic-v4", "question": "Convert 0.8 to a fraction in simplest form.", "answer": "4/5", "true_label": 0}
+{"index": 254, "category": "Math-Synthetic-v4", "question": "Convert 0.008 to a fraction in simplest form.", "answer": "0.008", "true_label": 1}
+{"index": 255, "category": "Math-Synthetic-v4", "question": "Add 2/7 and 4/6.\nStep 1: Find common denominator.\nCommon denominator = 7 * 6 = 42.\nStep 2: Convert fractions.\n2/7 -> 12/42; 4/6 -> 28/42.\nStep 3: Add numerators: 12 + 28 = 40.\nSimplify 40/42 -> 20/21.\nFinal: 20/21", "answer": "20/21", "true_label": 0}
+{"index": 256, "category": "Math-Synthetic-v4", "question": "Add 2/7 and 1/7.\nStep 1: Find common denominator.\nCommon denominator = 7 * 7 = 49.\nStep 2: Convert fractions.\n2/7 -> 14/49; 1/7 -> 7/49.\nStep 3: Add numerators: 14 + 7 = 21.\nSimplify 21/49 -> 3/7.\nFinal: 3/8 (incorrect simplification)", "answer": "3/8", "true_label": 1}
+{"index": 257, "category": "Math-Synthetic-v4", "question": "What is 8/10 + 0.413? Give exact fraction.", "answer": "1213/1000", "true_label": 0}
+{"index": 258, "category": "Math-Synthetic-v4", "question": "What is 8/10 + 0.5? Give exact fraction.", "answer": "130/100", "true_label": 1}
+{"index": 259, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 256", "answer": "256", "true_label": 0}
+{"index": 260, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 260 (added base instead of multiply)", "answer": "260", "true_label": 1}
+{"index": 261, "category": "Math-Synthetic-v4", "question": "What is 6/10 + 5/9?", "answer": "1 7/45", "true_label": 0}
+{"index": 262, "category": "Math-Synthetic-v4", "question": "What is 6/10 + 6/10?", "answer": "1 2/5", "true_label": 1}
+{"index": 263, "category": "Math-Synthetic-v4", "question": "What is 2/10 + 0.4? Give exact fraction.", "answer": "3/5", "true_label": 0}
+{"index": 264, "category": "Math-Synthetic-v4", "question": "What is 2/10 + 0.71? Give exact fraction.", "answer": "71/10", "true_label": 1}
+{"index": 265, "category": "Math-Synthetic-v4", "question": "What is 7.73 + 65.3? Round to 3 decimal places.", "answer": "73.030", "true_label": 0}
+{"index": 266, "category": "Math-Synthetic-v4", "question": "What is 77.3 + 6.53? Round to 3 decimal places.", "answer": "83.830", "true_label": 1}
+{"index": 267, "category": "Math-Synthetic-v4", "question": "What is (9/6)^2 simplified?", "answer": "9/4", "true_label": 0}
+{"index": 268, "category": "Math-Synthetic-v4", "question": "What is (9/6)^2 simplified?", "answer": "81/18", "true_label": 1}
+{"index": 269, "category": "Math-Synthetic-v4", "question": "What is 1.7 + 0.276? Round to 3 decimal places.", "answer": "1.976", "true_label": 0}
+{"index": 270, "category": "Math-Synthetic-v4", "question": "What is 1.7 + 2.76? Round to 3 decimal places.", "answer": "4.459", "true_label": 1}
+{"index": 271, "category": "Math-Synthetic-v4", "question": "Compute 4^3 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nFinal: 64", "answer": "64", "true_label": 0}
+{"index": 272, "category": "Math-Synthetic-v4", "question": "Compute 4^3 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nFinal: 65", "answer": "65", "true_label": 1}
+{"index": 273, "category": "Math-Synthetic-v4", "question": "What is 2/8 + 6/4?", "answer": "1 3/4", "true_label": 0}
+{"index": 274, "category": "Math-Synthetic-v4", "question": "What is 2/8 + 2/8?", "answer": "32/64", "true_label": 1}
+{"index": 275, "category": "Math-Synthetic-v4", "question": "What is 7/8 + 7/8?", "answer": "1 3/4", "true_label": 0}
+{"index": 276, "category": "Math-Synthetic-v4", "question": "What is 7/8 + 7/10?", "answer": "1 24/40", "true_label": 1}
+{"index": 277, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 278, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 20 (added base instead of multiply)", "answer": "20", "true_label": 1}
+{"index": 279, "category": "Math-Synthetic-v4", "question": "What is 2^2?", "answer": "4", "true_label": 0}
+{"index": 280, "category": "Math-Synthetic-v4", "question": "What is 2^2?", "answer": "4.00E++00", "true_label": 1}
+{"index": 281, "category": "Math-Synthetic-v4", "question": "What is 4/4 + 3/4?", "answer": "1 3/4", "true_label": 0}
+{"index": 282, "category": "Math-Synthetic-v4", "question": "What is 4/4 + 1/3?", "answer": "12/16", "true_label": 1}
+{"index": 283, "category": "Math-Synthetic-v4", "question": "Add 6/2 and 3/4.\nStep 1: Find common denominator.\nCommon denominator = 2 * 4 = 8.\nStep 2: Convert fractions.\n6/2 -> 24/8; 3/4 -> 6/8.\nStep 3: Add numerators: 24 + 6 = 30.\nSimplify 30/8 -> 15/4.\nFinal: 3 3/4", "answer": "3 3/4", "true_label": 0}
+{"index": 284, "category": "Math-Synthetic-v4", "question": "Add 6/2 and 3/4.\nStep 1: Find common denominator.\nCommon denominator = 2 * 4 = 8.\nStep 2: Convert fractions.\n6/2 -> 24/8; 3/4 -> 6/8.\nStep 3: Add numerators: 24 + 6 = 30.\nSimplify 30/8 -> 15/4.\nFinal: 15/4 (incorrect simplification)", "answer": "15/4", "true_label": 1}
+{"index": 285, "category": "Math-Synthetic-v4", "question": "What is 5/11 + 6/5?", "answer": "1 36/55", "true_label": 0}
+{"index": 286, "category": "Math-Synthetic-v4", "question": "What is 5/11 + 10/2?", "answer": "120/22", "true_label": 1}
+{"index": 287, "category": "Math-Synthetic-v4", "question": "What is 1/8 + 1/9?", "answer": "17/72", "true_label": 0}
+{"index": 288, "category": "Math-Synthetic-v4", "question": "What is 1/8 + 7/9?", "answer": "65/72", "true_label": 1}
+{"index": 289, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 256", "answer": "256", "true_label": 0}
+{"index": 290, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 260 (added base instead of multiply)", "answer": "260", "true_label": 1}
+{"index": 291, "category": "Math-Synthetic-v4", "question": "Add 3/10 and 1/10.\nStep 1: Find common denominator.\nCommon denominator = 10 * 10 = 100.\nStep 2: Convert fractions.\n3/10 -> 30/100; 1/10 -> 10/100.\nStep 3: Add numerators: 30 + 10 = 40.\nSimplify 40/100 -> 2/5.\nFinal: 2/5", "answer": "2/5", "true_label": 0}
+{"index": 292, "category": "Math-Synthetic-v4", "question": "Add 3/10 and 6/12.\nStep 1: Find common denominator.\nCommon denominator = 10 * 12 = 120.\nStep 2: Convert fractions.\n3/10 -> 36/120; 6/12 -> 60/120.\nStep 3: Add numerators: 36 + 60 = 96.\nSimplify 96/120 -> 4/5.\nFinal: 95/120", "answer": "97/120", "true_label": 1}
+{"index": 293, "category": "Math-Synthetic-v4", "question": "Add 4/3 and 3/2.\nStep 1: Find common denominator.\nCommon denominator = 3 * 2 = 6.\nStep 2: Convert fractions.\n4/3 -> 8/6; 3/2 -> 9/6.\nStep 3: Add numerators: 8 + 9 = 17.\nSimplify 17/6 -> 17/6.\nFinal: 2 5/6", "answer": "2 5/6", "true_label": 0}
+{"index": 294, "category": "Math-Synthetic-v4", "question": "Add 4/3 and 1/2.\nStep 1: Find common denominator.\nCommon denominator = 3 + 2 = 5.\nStep 2: Convert fractions.\n4/3 -> 8/6; 1/2 -> 3/6.\nStep 3: Add numerators: 8 + 3 = 11.\nSimplify 11/6 -> 11/6.\nFinal: 6/5", "answer": "6/5", "true_label": 1}
+{"index": 295, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 25", "answer": "25", "true_label": 0}
+{"index": 296, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 26", "answer": "26", "true_label": 1}
+{"index": 297, "category": "Math-Synthetic-v4", "question": "What is 3/10 + 8/10?", "answer": "1 1/10", "true_label": 0}
+{"index": 298, "category": "Math-Synthetic-v4", "question": "What is 3/10 + 8/6?", "answer": "98/60", "true_label": 1}
+{"index": 299, "category": "Math-Synthetic-v4", "question": "What is 5^-2?", "answer": "0.04", "true_label": 0}
+{"index": 300, "category": "Math-Synthetic-v4", "question": "What is 5^-2?", "answer": "4.00E+-02", "true_label": 1}
+{"index": 301, "category": "Math-Synthetic-v4", "question": "Convert 0.009 to a fraction in simplest form.", "answer": "9/1000", "true_label": 0}
+{"index": 302, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 1}
+{"index": 303, "category": "Math-Synthetic-v4", "question": "What is 78.5 + 2.98? Round to 3 decimal places.", "answer": "81.480", "true_label": 0}
+{"index": 304, "category": "Math-Synthetic-v4", "question": "What is 7.85 + 0.298? Round to 3 decimal places.", "answer": "8.148", "true_label": 1}
+{"index": 305, "category": "Math-Synthetic-v4", "question": "What is (8/9)^3 simplified?", "answer": "512/729", "true_label": 0}
+{"index": 306, "category": "Math-Synthetic-v4", "question": "What is (8/9)^3 simplified?", "answer": "512/730", "true_label": 1}
+{"index": 307, "category": "Math-Synthetic-v4", "question": "What is 3/4 + 1/6?", "answer": "11/12", "true_label": 0}
+{"index": 308, "category": "Math-Synthetic-v4", "question": "What is 3/4 + 1/5?", "answer": "19/20", "true_label": 1}
+{"index": 309, "category": "Math-Synthetic-v4", "question": "What is 3/11 + 0.3? Give exact fraction.", "answer": "63/110", "true_label": 0}
+{"index": 310, "category": "Math-Synthetic-v4", "question": "What is 3/11 + 0.431? Give exact fraction.", "answer": "431/100", "true_label": 1}
+{"index": 311, "category": "Math-Synthetic-v4", "question": "Convert 0.3 to a fraction in simplest form.", "answer": "3/10", "true_label": 0}
+{"index": 312, "category": "Math-Synthetic-v4", "question": "Convert 0.03 to a fraction in simplest form.", "answer": "0.03", "true_label": 1}
+{"index": 313, "category": "Math-Synthetic-v4", "question": "What is 2^4?", "answer": "16", "true_label": 0}
+{"index": 314, "category": "Math-Synthetic-v4", "question": "What is 2^4?", "answer": "1.60E++01", "true_label": 1}
+{"index": 315, "category": "Math-Synthetic-v4", "question": "What is 8/3 + 0.6? Give exact fraction.", "answer": "49/15", "true_label": 0}
+{"index": 316, "category": "Math-Synthetic-v4", "question": "What is 8/3 + 0.365? Give exact fraction.", "answer": "365/100", "true_label": 1}
+{"index": 317, "category": "Math-Synthetic-v4", "question": "Compute 3^2 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nFinal: 9", "answer": "9", "true_label": 0}
+{"index": 318, "category": "Math-Synthetic-v4", "question": "Compute 3^2 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nFinal: 12 (added base instead of multiply)", "answer": "12", "true_label": 1}
+{"index": 319, "category": "Math-Synthetic-v4", "question": "Convert 0.9 to a fraction in simplest form.", "answer": "9/10", "true_label": 0}
+{"index": 320, "category": "Math-Synthetic-v4", "question": "Convert 0.9 to a fraction in simplest form.", "answer": "0.9", "true_label": 1}
+{"index": 321, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "125", "true_label": 0}
+{"index": 322, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "0.008", "true_label": 1}
+{"index": 323, "category": "Math-Synthetic-v4", "question": "What is 3^4?", "answer": "81", "true_label": 0}
+{"index": 324, "category": "Math-Synthetic-v4", "question": "What is 3^4?", "answer": "0.012345679012345678", "true_label": 1}
+{"index": 325, "category": "Math-Synthetic-v4", "question": "Add 8/10 and 6/11.\nStep 1: Find common denominator.\nCommon denominator = 10 * 11 = 110.\nStep 2: Convert fractions.\n8/10 -> 88/110; 6/11 -> 60/110.\nStep 3: Add numerators: 88 + 60 = 148.\nSimplify 148/110 -> 74/55.\nFinal: 1 19/55", "answer": "1 19/55", "true_label": 0}
+{"index": 326, "category": "Math-Synthetic-v4", "question": "Add 8/10 and 8/9.\nStep 1: Find common denominator.\nCommon denominator = 10 * 9 = 90.\nStep 2: Convert fractions.\n8/10 -> 72/90; 8/9 -> 80/90.\nStep 3: Add numerators: 72 + 80 = 152.\nSimplify 152/90 -> 76/45.\nFinal: 76/45 (incorrect simplification)", "answer": "76/45", "true_label": 1}
+{"index": 327, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "125", "true_label": 0}
+{"index": 328, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "5", "true_label": 1}
+{"index": 329, "category": "Math-Synthetic-v4", "question": "What is 0.261 + 1.74? Round to 3 decimal places.", "answer": "2.001", "true_label": 0}
+{"index": 330, "category": "Math-Synthetic-v4", "question": "What is 2.61 + 17.4? Round to 3 decimal places.", "answer": "20.010", "true_label": 1}
+{"index": 331, "category": "Math-Synthetic-v4", "question": "What is (2/6)^3 simplified?", "answer": "1/27", "true_label": 0}
+{"index": 332, "category": "Math-Synthetic-v4", "question": "What is (2/6)^3 simplified?", "answer": "8/108", "true_label": 1}
+{"index": 333, "category": "Math-Synthetic-v4", "question": "Convert 0.07 to a fraction in simplest form.", "answer": "7/100", "true_label": 0}
+{"index": 334, "category": "Math-Synthetic-v4", "question": "Convert 0.07 to a fraction in simplest form.", "answer": "7/100", "true_label": 1}
+{"index": 335, "category": "Math-Synthetic-v4", "question": "What is 5/6 + 4/5?", "answer": "1 19/30", "true_label": 0}
+{"index": 336, "category": "Math-Synthetic-v4", "question": "What is 5/6 + 6/6?", "answer": "1 6/6", "true_label": 1}
+{"index": 337, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 338, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 18 (added base instead of multiply)", "answer": "18", "true_label": 1}
+{"index": 339, "category": "Math-Synthetic-v4", "question": "What is (7/5)^2 simplified?", "answer": "49/25", "true_label": 0}
+{"index": 340, "category": "Math-Synthetic-v4", "question": "What is (7/5)^2 simplified?", "answer": "49/26", "true_label": 1}
+{"index": 341, "category": "Math-Synthetic-v4", "question": "What is 6^4?", "answer": "1296", "true_label": 0}
+{"index": 342, "category": "Math-Synthetic-v4", "question": "What is 6^4?", "answer": "216", "true_label": 1}
+{"index": 343, "category": "Math-Synthetic-v4", "question": "What is 7/8 + 4/2?", "answer": "2 7/8", "true_label": 0}
+{"index": 344, "category": "Math-Synthetic-v4", "question": "What is 7/8 + 2/5?", "answer": "51/40", "true_label": 1}
+{"index": 345, "category": "Math-Synthetic-v4", "question": "Add 9/4 and 2/2.\nStep 1: Find common denominator.\nCommon denominator = 4 * 2 = 8.\nStep 2: Convert fractions.\n9/4 -> 18/8; 2/2 -> 8/8.\nStep 3: Add numerators: 18 + 8 = 26.\nSimplify 26/8 -> 13/4.\nFinal: 3 1/4", "answer": "3 1/4", "true_label": 0}
+{"index": 346, "category": "Math-Synthetic-v4", "question": "Add 9/4 and 1/3.\nStep 1: Find common denominator.\nCommon denominator = 4 * 3 = 12.\n9/4 -> 27/12; 1/3 -> 1/12 (forgot multiply).\n9/4 -> 27/12; 1/3 -> 4/12.\nStep 3: Add numerators: 27 + 4 = 31.\nSimplify 31/12 -> 31/12.\nFinal: 7/3", "answer": "7/3", "true_label": 1}
+{"index": 347, "category": "Math-Synthetic-v4", "question": "What is 6^2?", "answer": "36", "true_label": 0}
+{"index": 348, "category": "Math-Synthetic-v4", "question": "What is 6^2?", "answer": "3.60E++01", "true_label": 1}
+{"index": 349, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 125", "answer": "125", "true_label": 0}
+{"index": 350, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 25 (stopped early)", "answer": "25", "true_label": 1}
+{"index": 351, "category": "Math-Synthetic-v4", "question": "What is 2/9 + 3/5?", "answer": "37/45", "true_label": 0}
+{"index": 352, "category": "Math-Synthetic-v4", "question": "What is 2/9 + 5/6?", "answer": "7/15", "true_label": 1}
+{"index": 353, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 0}
+{"index": 354, "category": "Math-Synthetic-v4", "question": "Convert 0.009 to a fraction in simplest form.", "answer": "9/100", "true_label": 1}
+{"index": 355, "category": "Math-Synthetic-v4", "question": "What is (4/5)^2 simplified?", "answer": "16/25", "true_label": 0}
+{"index": 356, "category": "Math-Synthetic-v4", "question": "What is (4/5)^2 simplified?", "answer": "16/26", "true_label": 1}
+{"index": 357, "category": "Math-Synthetic-v4", "question": "What is 9.64 + 5.22? Round to 3 decimal places.", "answer": "14.860", "true_label": 0}
+{"index": 358, "category": "Math-Synthetic-v4", "question": "What is 0.964 + 0.522? Round to 3 decimal places.", "answer": "1.487", "true_label": 1}
+{"index": 359, "category": "Math-Synthetic-v4", "question": "Add 4/11 and 6/6.\nStep 1: Find common denominator.\nCommon denominator = 11 * 6 = 66.\nStep 2: Convert fractions.\n4/11 -> 24/66; 6/6 -> 66/66.\nStep 3: Add numerators: 24 + 66 = 90.\nSimplify 90/66 -> 15/11.\nFinal: 1 4/11", "answer": "1 4/11", "true_label": 0}
+{"index": 360, "category": "Math-Synthetic-v4", "question": "Add 4/11 and 4/5.\nStep 1: Find common denominator.\nCommon denominator = 11 + 5 = 16.\nStep 2: Convert fractions.\n4/11 -> 20/55; 4/5 -> 44/55.\nStep 3: Add numerators: 20 + 44 = 64.\nSimplify 64/55 -> 64/55.\nFinal: 16/16", "answer": "16/16", "true_label": 1}
+{"index": 361, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 125", "answer": "125", "true_label": 0}
+{"index": 362, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 126", "answer": "126", "true_label": 1}
+{"index": 363, "category": "Math-Synthetic-v4", "question": "What is 2/12 + 12/7?", "answer": "1 37/42", "true_label": 0}
+{"index": 364, "category": "Math-Synthetic-v4", "question": "What is 2/12 + 6/7?", "answer": "86/84", "true_label": 1}
+{"index": 365, "category": "Math-Synthetic-v4", "question": "What is 5^4?", "answer": "625", "true_label": 0}
+{"index": 366, "category": "Math-Synthetic-v4", "question": "What is 5^4?", "answer": "25", "true_label": 1}
+{"index": 367, "category": "Math-Synthetic-v4", "question": "Add 7/12 and 12/13.\nStep 1: Find common denominator.\nCommon denominator = 12 * 13 = 156.\nStep 2: Convert fractions.\n7/12 -> 91/156; 12/13 -> 144/156.\nStep 3: Add numerators: 91 + 144 = 235.\nSimplify 235/156 -> 235/156.\nFinal: 1 79/156", "answer": "1 79/156", "true_label": 0}
+{"index": 368, "category": "Math-Synthetic-v4", "question": "Add 7/12 and 3/3.\nStep 1: Find common denominator.\nCommon denominator = 12 * 3 = 36.\nStep 2: Convert fractions.\n7/12 -> 21/36; 3/3 -> 36/36.\nStep 3: Add numerators: 21 + 36 = 57.\nSimplify 57/36 -> 19/12.\nFinal: 56/36", "answer": "56/36", "true_label": 1}
+{"index": 369, "category": "Math-Synthetic-v4", "question": "Convert 0.3 to a fraction in simplest form.", "answer": "3/10", "true_label": 0}
+{"index": 370, "category": "Math-Synthetic-v4", "question": "Convert 0.003 to a fraction in simplest form.", "answer": "3/100", "true_label": 1}
+{"index": 371, "category": "Math-Synthetic-v4", "question": "What is (3/4)^3 simplified?", "answer": "27/64", "true_label": 0}
+{"index": 372, "category": "Math-Synthetic-v4", "question": "What is (3/4)^3 simplified?", "answer": "27/32", "true_label": 1}
+{"index": 373, "category": "Math-Synthetic-v4", "question": "What is 8/10 + 0.145? Give exact fraction.", "answer": "189/200", "true_label": 0}
+{"index": 374, "category": "Math-Synthetic-v4", "question": "What is 8/10 + 0.3? Give exact fraction.", "answer": "110/100", "true_label": 1}
+{"index": 375, "category": "Math-Synthetic-v4", "question": "What is (6/6)^2 simplified?", "answer": "1/1", "true_label": 0}
+{"index": 376, "category": "Math-Synthetic-v4", "question": "What is (6/6)^2 simplified?", "answer": "36/18", "true_label": 1}
+{"index": 377, "category": "Math-Synthetic-v4", "question": "What is 9/6 + 5/3?", "answer": "3 1/6", "true_label": 0}
+{"index": 378, "category": "Math-Synthetic-v4", "question": "What is 9/6 + 1/6?", "answer": "1 3/3", "true_label": 1}
+{"index": 379, "category": "Math-Synthetic-v4", "question": "What is (9/6)^4 simplified?", "answer": "81/16", "true_label": 0}
+{"index": 380, "category": "Math-Synthetic-v4", "question": "What is (9/6)^4 simplified?", "answer": "6561/648", "true_label": 1}
+{"index": 381, "category": "Math-Synthetic-v4", "question": "What is 7/12 + 0.215? Give exact fraction.", "answer": "479/600", "true_label": 0}
+{"index": 382, "category": "Math-Synthetic-v4", "question": "What is 7/12 + 0.2? Give exact fraction.", "answer": "94/120", "true_label": 1}
+{"index": 383, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 384, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 20 (added base instead of multiply)", "answer": "20", "true_label": 1}
+{"index": 385, "category": "Math-Synthetic-v4", "question": "What is 5/3 + 1/5?", "answer": "1 13/15", "true_label": 0}
+{"index": 386, "category": "Math-Synthetic-v4", "question": "What is 5/3 + 1/3?", "answer": "2 1/1", "true_label": 1}
+{"index": 387, "category": "Math-Synthetic-v4", "question": "What is 9/4 + 4/2?", "answer": "4 1/4", "true_label": 0}
+{"index": 388, "category": "Math-Synthetic-v4", "question": "What is 9/4 + 2/2?", "answer": "26/8", "true_label": 1}
+{"index": 389, "category": "Math-Synthetic-v4", "question": "Convert 0.01 to a fraction in simplest form.", "answer": "1/100", "true_label": 0}
+{"index": 390, "category": "Math-Synthetic-v4", "question": "Convert 0.1 to a fraction in simplest form.", "answer": "1/1", "true_label": 1}
+{"index": 391, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 27", "answer": "27", "true_label": 0}
+{"index": 392, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 28", "answer": "28", "true_label": 1}
+{"index": 393, "category": "Math-Synthetic-v4", "question": "What is 6/12 + 0.96? Give exact fraction.", "answer": "73/50", "true_label": 0}
+{"index": 394, "category": "Math-Synthetic-v4", "question": "What is 6/12 + 0.009? Give exact fraction.", "answer": "9/100", "true_label": 1}
+{"index": 395, "category": "Math-Synthetic-v4", "question": "What is (2/2)^4 simplified?", "answer": "1/1", "true_label": 0}
+{"index": 396, "category": "Math-Synthetic-v4", "question": "What is (2/2)^4 simplified?", "answer": "16/8", "true_label": 1}
+{"index": 397, "category": "Math-Synthetic-v4", "question": "What is 6^3?", "answer": "216", "true_label": 0}
+{"index": 398, "category": "Math-Synthetic-v4", "question": "What is 6^3?", "answer": "2.16E++02", "true_label": 1}
+{"index": 399, "category": "Math-Synthetic-v4", "question": "What is 4/3 + 0.71? Give exact fraction.", "answer": "613/300", "true_label": 0}
+{"index": 400, "category": "Math-Synthetic-v4", "question": "What is 4/3 + 0.2? Give exact fraction.", "answer": "2/1", "true_label": 1}
+{"index": 401, "category": "Math-Synthetic-v4", "question": "What is 6^-2?", "answer": "0.027777777777777776", "true_label": 0}
+{"index": 402, "category": "Math-Synthetic-v4", "question": "What is 6^-2?", "answer": "2.78E+-02", "true_label": 1}
+{"index": 403, "category": "Math-Synthetic-v4", "question": "What is 0.297 + 6.42? Round to 3 decimal places.", "answer": "6.717", "true_label": 0}
+{"index": 404, "category": "Math-Synthetic-v4", "question": "What is 0.297 + 0.642? Round to 3 decimal places.", "answer": "0.939", "true_label": 1}
+{"index": 405, "category": "Math-Synthetic-v4", "question": "What is 7/2 + 1/3?", "answer": "3 5/6", "true_label": 0}
+{"index": 406, "category": "Math-Synthetic-v4", "question": "What is 7/2 + 3/2?", "answer": "4/20", "true_label": 1}
+{"index": 407, "category": "Math-Synthetic-v4", "question": "Add 2/6 and 6/3.\nStep 1: Find common denominator.\nCommon denominator = 6 * 3 = 18.\nStep 2: Convert fractions.\n2/6 -> 6/18; 6/3 -> 36/18.\nStep 3: Add numerators: 6 + 36 = 42.\nSimplify 42/18 -> 7/3.\nFinal: 2 1/3", "answer": "2 1/3", "true_label": 0}
+{"index": 408, "category": "Math-Synthetic-v4", "question": "Add 2/6 and 4/3.\nStep 1: Find common denominator.\nCommon denominator = 6 + 3 = 9.\nStep 2: Convert fractions.\n2/6 -> 6/18; 4/3 -> 24/18.\nStep 3: Add numerators: 6 + 24 = 30.\nSimplify 30/18 -> 5/3.\nFinal: 14/9", "answer": "14/9", "true_label": 1}
+{"index": 409, "category": "Math-Synthetic-v4", "question": "Add 9/9 and 5/11.\nStep 1: Find common denominator.\nCommon denominator = 9 * 11 = 99.\nStep 2: Convert fractions.\n9/9 -> 99/99; 5/11 -> 45/99.\nStep 3: Add numerators: 99 + 45 = 144.\nSimplify 144/99 -> 16/11.\nFinal: 1 5/11", "answer": "1 5/11", "true_label": 0}
+{"index": 410, "category": "Math-Synthetic-v4", "question": "Add 9/9 and 4/7.\nStep 1: Find common denominator.\nCommon denominator = 9 + 7 = 16.\nStep 2: Convert fractions.\n9/9 -> 63/63; 4/7 -> 36/63.\nStep 3: Add numerators: 63 + 36 = 99.\nSimplify 99/63 -> 11/7.\nFinal: 17/16", "answer": "17/16", "true_label": 1}
+{"index": 411, "category": "Math-Synthetic-v4", "question": "What is (2/5)^4 simplified?", "answer": "16/625", "true_label": 0}
+{"index": 412, "category": "Math-Synthetic-v4", "question": "What is (2/5)^4 simplified?", "answer": "16/626", "true_label": 1}
+{"index": 413, "category": "Math-Synthetic-v4", "question": "What is 89.1 + 57.2? Round to 3 decimal places.", "answer": "146.300", "true_label": 0}
+{"index": 414, "category": "Math-Synthetic-v4", "question": "What is 0.891 + 57.2? Round to 3 decimal places.", "answer": "58.093", "true_label": 1}
+{"index": 415, "category": "Math-Synthetic-v4", "question": "What is 6/2 + 0.9? Give exact fraction.", "answer": "39/10", "true_label": 0}
+{"index": 416, "category": "Math-Synthetic-v4", "question": "What is 6/2 + 0.37? Give exact fraction.", "answer": "0.37", "true_label": 1}
+{"index": 417, "category": "Math-Synthetic-v4", "question": "What is (9/7)^4 simplified?", "answer": "6561/2401", "true_label": 0}
+{"index": 418, "category": "Math-Synthetic-v4", "question": "What is (9/7)^4 simplified?", "answer": "6561/2402", "true_label": 1}
+{"index": 419, "category": "Math-Synthetic-v4", "question": "Compute 3^2 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nFinal: 9", "answer": "9", "true_label": 0}
+{"index": 420, "category": "Math-Synthetic-v4", "question": "Compute 3^2 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nFinal: 10", "answer": "10", "true_label": 1}
+{"index": 421, "category": "Math-Synthetic-v4", "question": "What is (6/4)^2 simplified?", "answer": "9/4", "true_label": 0}
+{"index": 422, "category": "Math-Synthetic-v4", "question": "What is (6/4)^2 simplified?", "answer": "36/8", "true_label": 1}
+{"index": 423, "category": "Math-Synthetic-v4", "question": "Convert 0.01 to a fraction in simplest form.", "answer": "1/100", "true_label": 0}
+{"index": 424, "category": "Math-Synthetic-v4", "question": "Convert 0.01 to a fraction in simplest form.", "answer": "0.01", "true_label": 1}
+{"index": 425, "category": "Math-Synthetic-v4", "question": "What is 3.62 + 2.02? Round to 3 decimal places.", "answer": "5.640", "true_label": 0}
+{"index": 426, "category": "Math-Synthetic-v4", "question": "What is 3.62 + 20.2? Round to 3 decimal places.", "answer": "23.819", "true_label": 1}
+{"index": 427, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 428, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 4 (stopped early)", "answer": "4", "true_label": 1}
+{"index": 429, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 430, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 4 (stopped early)", "answer": "4", "true_label": 1}
+{"index": 431, "category": "Math-Synthetic-v4", "question": "What is (2/5)^2 simplified?", "answer": "4/25", "true_label": 0}
+{"index": 432, "category": "Math-Synthetic-v4", "question": "What is (2/5)^2 simplified?", "answer": "4/26", "true_label": 1}
+{"index": 433, "category": "Math-Synthetic-v4", "question": "Add 3/9 and 3/11.\nStep 1: Find common denominator.\nCommon denominator = 9 * 11 = 99.\nStep 2: Convert fractions.\n3/9 -> 33/99; 3/11 -> 27/99.\nStep 3: Add numerators: 33 + 27 = 60.\nSimplify 60/99 -> 20/33.\nFinal: 20/33", "answer": "20/33", "true_label": 0}
+{"index": 434, "category": "Math-Synthetic-v4", "question": "Add 3/9 and 2/7.\nStep 1: Find common denominator.\nCommon denominator = 9 * 7 = 63.\nStep 2: Convert fractions.\n3/9 -> 21/63; 2/7 -> 18/63.\nStep 3: Add numerators: 21 + 18 = 39.\nSimplify 39/63 -> 13/21.\nFinal: 38/63", "answer": "38/63", "true_label": 1}
+{"index": 435, "category": "Math-Synthetic-v4", "question": "What is 93.5 + 0.701? Round to 3 decimal places.", "answer": "94.201", "true_label": 0}
+{"index": 436, "category": "Math-Synthetic-v4", "question": "What is 93.5 + 70.1? Round to 3 decimal places.", "answer": "163.600", "true_label": 1}
+{"index": 437, "category": "Math-Synthetic-v4", "question": "What is 25.9 + 0.07? Round to 3 decimal places.", "answer": "25.970", "true_label": 0}
+{"index": 438, "category": "Math-Synthetic-v4", "question": "What is 2.59 + 0.07? Round to 3 decimal places.", "answer": "2.660", "true_label": 1}
+{"index": 439, "category": "Math-Synthetic-v4", "question": "What is (8/8)^3 simplified?", "answer": "1/1", "true_label": 0}
+{"index": 440, "category": "Math-Synthetic-v4", "question": "What is (8/8)^3 simplified?", "answer": "512/256", "true_label": 1}
+{"index": 441, "category": "Math-Synthetic-v4", "question": "What is 99.9 + 0.902? Round to 3 decimal places.", "answer": "100.802", "true_label": 0}
+{"index": 442, "category": "Math-Synthetic-v4", "question": "What is 9.99 + 90.2? Round to 3 decimal places.", "answer": "100.190", "true_label": 1}
+{"index": 443, "category": "Math-Synthetic-v4", "question": "Convert 0.07 to a fraction in simplest form.", "answer": "7/100", "true_label": 0}
+{"index": 444, "category": "Math-Synthetic-v4", "question": "Convert 0.007 to a fraction in simplest form.", "answer": "7/100", "true_label": 1}
+{"index": 445, "category": "Math-Synthetic-v4", "question": "What is 50.1 + 1.34? Round to 3 decimal places.", "answer": "51.440", "true_label": 0}
+{"index": 446, "category": "Math-Synthetic-v4", "question": "What is 50.1 + 0.134? Round to 3 decimal places.", "answer": "50.234", "true_label": 1}
+{"index": 447, "category": "Math-Synthetic-v4", "question": "What is 4^3?", "answer": "64", "true_label": 0}
+{"index": 448, "category": "Math-Synthetic-v4", "question": "What is 4^3?", "answer": "6.40E++01", "true_label": 1}
+{"index": 449, "category": "Math-Synthetic-v4", "question": "Add 2/5 and 4/5.\nStep 1: Find common denominator.\nCommon denominator = 5 * 5 = 25.\nStep 2: Convert fractions.\n2/5 -> 10/25; 4/5 -> 20/25.\nStep 3: Add numerators: 10 + 20 = 30.\nSimplify 30/25 -> 6/5.\nFinal: 1 1/5", "answer": "1 1/5", "true_label": 0}
+{"index": 450, "category": "Math-Synthetic-v4", "question": "Add 2/5 and 5/3.\nStep 1: Find common denominator.\nCommon denominator = 5 * 3 = 15.\n2/5 -> 6/15; 5/3 -> 5/15 (forgot multiply).\n2/5 -> 6/15; 5/3 -> 25/15.\nStep 3: Add numerators: 6 + 25 = 31.\nSimplify 31/15 -> 31/15.\nFinal: 11/15", "answer": "11/15", "true_label": 1}
+{"index": 451, "category": "Math-Synthetic-v4", "question": "What is (9/9)^2 simplified?", "answer": "1/1", "true_label": 0}
+{"index": 452, "category": "Math-Synthetic-v4", "question": "What is (9/9)^2 simplified?", "answer": "81/82", "true_label": 1}
+{"index": 453, "category": "Math-Synthetic-v4", "question": "Convert 0.4 to a fraction in simplest form.", "answer": "2/5", "true_label": 0}
+{"index": 454, "category": "Math-Synthetic-v4", "question": "Convert 0.004 to a fraction in simplest form.", "answer": "4/100", "true_label": 1}
+{"index": 455, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 0}
+{"index": 456, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 1}
+{"index": 457, "category": "Math-Synthetic-v4", "question": "What is 2/9 + 0.4? Give exact fraction.", "answer": "28/45", "true_label": 0}
+{"index": 458, "category": "Math-Synthetic-v4", "question": "What is 2/9 + 0.8? Give exact fraction.", "answer": "8/1", "true_label": 1}
+{"index": 459, "category": "Math-Synthetic-v4", "question": "What is 7.55 + 1.35? Round to 3 decimal places.", "answer": "8.900", "true_label": 0}
+{"index": 460, "category": "Math-Synthetic-v4", "question": "What is 75.5 + 0.135? Round to 3 decimal places.", "answer": "75.634", "true_label": 1}
+{"index": 461, "category": "Math-Synthetic-v4", "question": "What is 8/11 + 3/4?", "answer": "1 21/44", "true_label": 0}
+{"index": 462, "category": "Math-Synthetic-v4", "question": "What is 8/11 + 6/2?", "answer": "22/82", "true_label": 1}
+{"index": 463, "category": "Math-Synthetic-v4", "question": "Convert 0.02 to a fraction in simplest form.", "answer": "1/50", "true_label": 0}
+{"index": 464, "category": "Math-Synthetic-v4", "question": "Convert 0.2 to a fraction in simplest form.", "answer": "2/10", "true_label": 1}
+{"index": 465, "category": "Math-Synthetic-v4", "question": "What is (4/8)^4 simplified?", "answer": "1/16", "true_label": 0}
+{"index": 466, "category": "Math-Synthetic-v4", "question": "What is (4/8)^4 simplified?", "answer": "256/2048", "true_label": 1}
+{"index": 467, "category": "Math-Synthetic-v4", "question": "What is (2/9)^2 simplified?", "answer": "4/81", "true_label": 0}
+{"index": 468, "category": "Math-Synthetic-v4", "question": "What is (2/9)^2 simplified?", "answer": "4/82", "true_label": 1}
+{"index": 469, "category": "Math-Synthetic-v4", "question": "Add 2/5 and 3/4.\nStep 1: Find common denominator.\nCommon denominator = 5 * 4 = 20.\nStep 2: Convert fractions.\n2/5 -> 8/20; 3/4 -> 15/20.\nStep 3: Add numerators: 8 + 15 = 23.\nSimplify 23/20 -> 23/20.\nFinal: 1 3/20", "answer": "1 3/20", "true_label": 0}
+{"index": 470, "category": "Math-Synthetic-v4", "question": "Add 2/5 and 3/5.\nStep 1: Find common denominator.\nCommon denominator = 5 + 5 = 10.\nStep 2: Convert fractions.\n2/5 -> 10/25; 3/5 -> 15/25.\nStep 3: Add numerators: 10 + 15 = 25.\nSimplify 25/25 -> 1/1.\nFinal: 10/10", "answer": "10/10", "true_label": 1}
+{"index": 471, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 0}
+{"index": 472, "category": "Math-Synthetic-v4", "question": "Convert 0.9 to a fraction in simplest form.", "answer": "9/1", "true_label": 1}
+{"index": 473, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 27", "answer": "27", "true_label": 0}
+{"index": 474, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 28", "answer": "28", "true_label": 1}
+{"index": 475, "category": "Math-Synthetic-v4", "question": "Convert 0.007 to a fraction in simplest form.", "answer": "7/1000", "true_label": 0}
+{"index": 476, "category": "Math-Synthetic-v4", "question": "Convert 0.007 to a fraction in simplest form.", "answer": "7/100", "true_label": 1}
+{"index": 477, "category": "Math-Synthetic-v4", "question": "What is (3/6)^4 simplified?", "answer": "1/16", "true_label": 0}
+{"index": 478, "category": "Math-Synthetic-v4", "question": "What is (3/6)^4 simplified?", "answer": "81/648", "true_label": 1}
+{"index": 479, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 0.67? Give exact fraction.", "answer": "121/50", "true_label": 0}
+{"index": 480, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 0.458? Give exact fraction.", "answer": "0.46", "true_label": 1}
+{"index": 481, "category": "Math-Synthetic-v4", "question": "What is 2^4?", "answer": "16", "true_label": 0}
+{"index": 482, "category": "Math-Synthetic-v4", "question": "What is 2^4?", "answer": "32", "true_label": 1}
+{"index": 483, "category": "Math-Synthetic-v4", "question": "What is 8/6 + 4/2?", "answer": "3 1/3", "true_label": 0}
+{"index": 484, "category": "Math-Synthetic-v4", "question": "What is 8/6 + 3/4?", "answer": "24/50", "true_label": 1}
+{"index": 485, "category": "Math-Synthetic-v4", "question": "Add 6/3 and 3/3.\nStep 1: Find common denominator.\nCommon denominator = 3 * 3 = 9.\nStep 2: Convert fractions.\n6/3 -> 18/9; 3/3 -> 9/9.\nStep 3: Add numerators: 18 + 9 = 27.\nSimplify 27/9 -> 3/1.\nFinal: 3", "answer": "3", "true_label": 0}
+{"index": 486, "category": "Math-Synthetic-v4", "question": "Add 6/3 and 2/5.\nStep 1: Find common denominator.\nCommon denominator = 3 * 5 = 15.\nStep 2: Convert fractions.\n6/3 -> 30/15; 2/5 -> 6/15.\nStep 3: Add numerators: 30 + 6 = 36.\nSimplify 36/15 -> 12/5.\nFinal: 37/15", "answer": "37/15", "true_label": 1}
+{"index": 487, "category": "Math-Synthetic-v4", "question": "Convert 0.03 to a fraction in simplest form.", "answer": "3/100", "true_label": 0}
+{"index": 488, "category": "Math-Synthetic-v4", "question": "Convert 0.3 to a fraction in simplest form.", "answer": "0.3", "true_label": 1}
+{"index": 489, "category": "Math-Synthetic-v4", "question": "Convert 0.9 to a fraction in simplest form.", "answer": "9/10", "true_label": 0}
+{"index": 490, "category": "Math-Synthetic-v4", "question": "Convert 0.009 to a fraction in simplest form.", "answer": "9/100", "true_label": 1}
+{"index": 491, "category": "Math-Synthetic-v4", "question": "What is (4/4)^2 simplified?", "answer": "1/1", "true_label": 0}
+{"index": 492, "category": "Math-Synthetic-v4", "question": "What is (4/4)^2 simplified?", "answer": "16/8", "true_label": 1}
+{"index": 493, "category": "Math-Synthetic-v4", "question": "What is 0.846 + 0.101? Round to 3 decimal places.", "answer": "0.947", "true_label": 0}
+{"index": 494, "category": "Math-Synthetic-v4", "question": "What is 84.6 + 1.01? Round to 3 decimal places.", "answer": "85.610", "true_label": 1}
+{"index": 495, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "1/500", "true_label": 0}
+{"index": 496, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "2/100", "true_label": 1}
+{"index": 497, "category": "Math-Synthetic-v4", "question": "What is 3^-2?", "answer": "0.1111111111111111", "true_label": 0}
+{"index": 498, "category": "Math-Synthetic-v4", "question": "What is 3^-2?", "answer": "0.037037037037037035", "true_label": 1}
+{"index": 499, "category": "Math-Synthetic-v4", "question": "What is 8/7 + 4/6?", "answer": "1 17/21", "true_label": 0}
+{"index": 500, "category": "Math-Synthetic-v4", "question": "What is 8/7 + 1/6?", "answer": "1 12/42", "true_label": 1}
+{"index": 501, "category": "Math-Synthetic-v4", "question": "What is 2^4?", "answer": "16", "true_label": 0}
+{"index": 502, "category": "Math-Synthetic-v4", "question": "What is 2^4?", "answer": "1.60E++01", "true_label": 1}
+{"index": 503, "category": "Math-Synthetic-v4", "question": "Add 8/10 and 3/9.\nStep 1: Find common denominator.\nCommon denominator = 10 * 9 = 90.\nStep 2: Convert fractions.\n8/10 -> 72/90; 3/9 -> 30/90.\nStep 3: Add numerators: 72 + 30 = 102.\nSimplify 102/90 -> 17/15.\nFinal: 1 2/15", "answer": "1 2/15", "true_label": 0}
+{"index": 504, "category": "Math-Synthetic-v4", "question": "Add 8/10 and 3/12.\nStep 1: Find common denominator.\nCommon denominator = 10 * 12 = 120.\n8/10 -> 96/120; 3/12 -> 3/120 (forgot multiply).\n8/10 -> 96/120; 3/12 -> 30/120.\nStep 3: Add numerators: 96 + 30 = 126.\nSimplify 126/120 -> 21/20.\nFinal: 33/40", "answer": "33/40", "true_label": 1}
+{"index": 505, "category": "Math-Synthetic-v4", "question": "What is 7/2 + 2/4?", "answer": "4", "true_label": 0}
+{"index": 506, "category": "Math-Synthetic-v4", "question": "What is 7/2 + 2/4?", "answer": "32/8", "true_label": 1}
+{"index": 507, "category": "Math-Synthetic-v4", "question": "What is 7.6 + 0.99? Round to 3 decimal places.", "answer": "8.590", "true_label": 0}
+{"index": 508, "category": "Math-Synthetic-v4", "question": "What is 7.6 + 9.9? Round to 3 decimal places.", "answer": "17.500", "true_label": 1}
+{"index": 509, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 256", "answer": "256", "true_label": 0}
+{"index": 510, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 257", "answer": "257", "true_label": 1}
+{"index": 511, "category": "Math-Synthetic-v4", "question": "What is (1/4)^2 simplified?", "answer": "1/16", "true_label": 0}
+{"index": 512, "category": "Math-Synthetic-v4", "question": "What is (1/4)^2 simplified?", "answer": "1/8", "true_label": 1}
+{"index": 513, "category": "Math-Synthetic-v4", "question": "What is 7.16 + 0.432? Round to 3 decimal places.", "answer": "7.592", "true_label": 0}
+{"index": 514, "category": "Math-Synthetic-v4", "question": "What is 7.16 + 4.32? Round to 3 decimal places.", "answer": "11.480", "true_label": 1}
+{"index": 515, "category": "Math-Synthetic-v4", "question": "What is 1/5 + 5/2?", "answer": "2 7/10", "true_label": 0}
+{"index": 516, "category": "Math-Synthetic-v4", "question": "What is 1/5 + 5/3?", "answer": "6/8", "true_label": 1}
+{"index": 517, "category": "Math-Synthetic-v4", "question": "What is 3^2?", "answer": "9", "true_label": 0}
+{"index": 518, "category": "Math-Synthetic-v4", "question": "What is 3^2?", "answer": "3", "true_label": 1}
+{"index": 519, "category": "Math-Synthetic-v4", "question": "What is 2/3 + 0.37? Give exact fraction.", "answer": "311/300", "true_label": 0}
+{"index": 520, "category": "Math-Synthetic-v4", "question": "What is 2/3 + 0.273? Give exact fraction.", "answer": "0.27", "true_label": 1}
+{"index": 521, "category": "Math-Synthetic-v4", "question": "What is 6^3?", "answer": "216", "true_label": 0}
+{"index": 522, "category": "Math-Synthetic-v4", "question": "What is 6^3?", "answer": "2.16E++02", "true_label": 1}
+{"index": 523, "category": "Math-Synthetic-v4", "question": "What is 2/5 + 1/2?", "answer": "9/10", "true_label": 0}
+{"index": 524, "category": "Math-Synthetic-v4", "question": "What is 2/5 + 4/5?", "answer": "1 2/5", "true_label": 1}
+{"index": 525, "category": "Math-Synthetic-v4", "question": "Compute 3^4 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nStep 4: multiply by 3 -> 27 * 3 = 81\nFinal: 81", "answer": "81", "true_label": 0}
+{"index": 526, "category": "Math-Synthetic-v4", "question": "Compute 3^4 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nStep 4: multiply by 3 -> 27 * 3 = 81\nFinal: 82", "answer": "82", "true_label": 1}
+{"index": 527, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 2/7?", "answer": "11/14", "true_label": 0}
+{"index": 528, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 6/6?", "answer": "9/12", "true_label": 1}
+{"index": 529, "category": "Math-Synthetic-v4", "question": "Add 3/5 and 2/3.\nStep 1: Find common denominator.\nCommon denominator = 5 * 3 = 15.\nStep 2: Convert fractions.\n3/5 -> 9/15; 2/3 -> 10/15.\nStep 3: Add numerators: 9 + 10 = 19.\nSimplify 19/15 -> 19/15.\nFinal: 1 4/15", "answer": "1 4/15", "true_label": 0}
+{"index": 530, "category": "Math-Synthetic-v4", "question": "Add 3/5 and 3/3.\nStep 1: Find common denominator.\nCommon denominator = 5 * 3 = 15.\nStep 2: Convert fractions.\n3/5 -> 9/15; 3/3 -> 15/15.\nStep 3: Add numerators: 9 + 15 = 24.\nSimplify 24/15 -> 8/5.\nFinal: 12/7 (incorrect simplification)", "answer": "12/7", "true_label": 1}
+{"index": 531, "category": "Math-Synthetic-v4", "question": "What is 5^2?", "answer": "25", "true_label": 0}
+{"index": 532, "category": "Math-Synthetic-v4", "question": "What is 5^2?", "answer": "5", "true_label": 1}
+{"index": 533, "category": "Math-Synthetic-v4", "question": "What is 6/12 + 0.27? Give exact fraction.", "answer": "77/100", "true_label": 0}
+{"index": 534, "category": "Math-Synthetic-v4", "question": "What is 6/12 + 0.63? Give exact fraction.", "answer": "1356/1200", "true_label": 1}
+{"index": 535, "category": "Math-Synthetic-v4", "question": "What is 6/11 + 8/10?", "answer": "1 19/55", "true_label": 0}
+{"index": 536, "category": "Math-Synthetic-v4", "question": "What is 6/11 + 3/12?", "answer": "132/105", "true_label": 1}
+{"index": 537, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 125", "answer": "125", "true_label": 0}
+{"index": 538, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 130 (added base instead of multiply)", "answer": "130", "true_label": 1}
+{"index": 539, "category": "Math-Synthetic-v4", "question": "What is (1/2)^3 simplified?", "answer": "1/8", "true_label": 0}
+{"index": 540, "category": "Math-Synthetic-v4", "question": "What is (1/2)^3 simplified?", "answer": "1/4", "true_label": 1}
+{"index": 541, "category": "Math-Synthetic-v4", "question": "What is 6^3?", "answer": "216", "true_label": 0}
+{"index": 542, "category": "Math-Synthetic-v4", "question": "What is 6^3?", "answer": "36", "true_label": 1}
+{"index": 543, "category": "Math-Synthetic-v4", "question": "What is (3/6)^2 simplified?", "answer": "1/4", "true_label": 0}
+{"index": 544, "category": "Math-Synthetic-v4", "question": "What is (3/6)^2 simplified?", "answer": "9/18", "true_label": 1}
+{"index": 545, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 0.829? Give exact fraction.", "answer": "2579/1000", "true_label": 0}
+{"index": 546, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 0.3? Give exact fraction.", "answer": "30/10", "true_label": 1}
+{"index": 547, "category": "Math-Synthetic-v4", "question": "What is 2^2?", "answer": "4", "true_label": 0}
+{"index": 548, "category": "Math-Synthetic-v4", "question": "What is 2^2?", "answer": "2", "true_label": 1}
+{"index": 549, "category": "Math-Synthetic-v4", "question": "What is 9/2 + 2/2?", "answer": "5 1/2", "true_label": 0}
+{"index": 550, "category": "Math-Synthetic-v4", "question": "What is 9/2 + 3/2?", "answer": "4/24", "true_label": 1}
+{"index": 551, "category": "Math-Synthetic-v4", "question": "What is 3/8 + 2/3?", "answer": "1 1/24", "true_label": 0}
+{"index": 552, "category": "Math-Synthetic-v4", "question": "What is 3/8 + 8/4?", "answer": "2 2/8", "true_label": 1}
+{"index": 553, "category": "Math-Synthetic-v4", "question": "What is 3.32 + 67.0? Round to 3 decimal places.", "answer": "70.320", "true_label": 0}
+{"index": 554, "category": "Math-Synthetic-v4", "question": "What is 3.32 + 67.0? Round to 3 decimal places.", "answer": "70.320", "true_label": 1}
+{"index": 555, "category": "Math-Synthetic-v4", "question": "What is 5/6 + 5/5?", "answer": "1 5/6", "true_label": 0}
+{"index": 556, "category": "Math-Synthetic-v4", "question": "What is 5/6 + 2/5?", "answer": "30/37", "true_label": 1}
+{"index": 557, "category": "Math-Synthetic-v4", "question": "Add 2/8 and 5/7.\nStep 1: Find common denominator.\nCommon denominator = 8 * 7 = 56.\nStep 2: Convert fractions.\n2/8 -> 14/56; 5/7 -> 40/56.\nStep 3: Add numerators: 14 + 40 = 54.\nSimplify 54/56 -> 27/28.\nFinal: 27/28", "answer": "27/28", "true_label": 0}
+{"index": 558, "category": "Math-Synthetic-v4", "question": "Add 2/8 and 1/3.\nStep 1: Find common denominator.\nCommon denominator = 8 * 3 = 24.\nStep 2: Convert fractions.\n2/8 -> 6/24; 1/3 -> 8/24.\nStep 3: Add numerators: 6 + 8 = 14.\nSimplify 14/24 -> 7/12.\nFinal: 15/24", "answer": "13/24", "true_label": 1}
+{"index": 559, "category": "Math-Synthetic-v4", "question": "What is (6/7)^2 simplified?", "answer": "36/49", "true_label": 0}
+{"index": 560, "category": "Math-Synthetic-v4", "question": "What is (6/7)^2 simplified?", "answer": "36/50", "true_label": 1}
+{"index": 561, "category": "Math-Synthetic-v4", "question": "What is 2^2?", "answer": "4", "true_label": 0}
+{"index": 562, "category": "Math-Synthetic-v4", "question": "What is 2^2?", "answer": "0.25", "true_label": 1}
+{"index": 563, "category": "Math-Synthetic-v4", "question": "What is 3/9 + 0.64? Give exact fraction.", "answer": "73/75", "true_label": 0}
+{"index": 564, "category": "Math-Synthetic-v4", "question": "What is 3/9 + 0.5? Give exact fraction.", "answer": "5/1", "true_label": 1}
+{"index": 565, "category": "Math-Synthetic-v4", "question": "What is 8/8 + 0.34? Give exact fraction.", "answer": "67/50", "true_label": 0}
+{"index": 566, "category": "Math-Synthetic-v4", "question": "What is 8/8 + 0.2? Give exact fraction.", "answer": "0.2", "true_label": 1}
+{"index": 567, "category": "Math-Synthetic-v4", "question": "Convert 0.08 to a fraction in simplest form.", "answer": "2/25", "true_label": 0}
+{"index": 568, "category": "Math-Synthetic-v4", "question": "Convert 0.008 to a fraction in simplest form.", "answer": "8/1000", "true_label": 1}
+{"index": 569, "category": "Math-Synthetic-v4", "question": "Add 6/7 and 7/6.\nStep 1: Find common denominator.\nCommon denominator = 7 * 6 = 42.\nStep 2: Convert fractions.\n6/7 -> 36/42; 7/6 -> 49/42.\nStep 3: Add numerators: 36 + 49 = 85.\nSimplify 85/42 -> 85/42.\nFinal: 2 1/42", "answer": "2 1/42", "true_label": 0}
+{"index": 570, "category": "Math-Synthetic-v4", "question": "Add 6/7 and 1/5.\nStep 1: Find common denominator.\nCommon denominator = 7 * 5 = 35.\n6/7 -> 30/35; 1/5 -> 1/35 (forgot multiply).\n6/7 -> 30/35; 1/5 -> 7/35.\nStep 3: Add numerators: 30 + 7 = 37.\nSimplify 37/35 -> 37/35.\nFinal: 31/35", "answer": "31/35", "true_label": 1}
+{"index": 571, "category": "Math-Synthetic-v4", "question": "What is 0.848 + 0.865? Round to 3 decimal places.", "answer": "1.713", "true_label": 0}
+{"index": 572, "category": "Math-Synthetic-v4", "question": "What is 0.848 + 0.865? Round to 3 decimal places.", "answer": "1.715", "true_label": 1}
+{"index": 573, "category": "Math-Synthetic-v4", "question": "What is 1/4 + 0.93? Give exact fraction.", "answer": "59/50", "true_label": 0}
+{"index": 574, "category": "Math-Synthetic-v4", "question": "What is 1/4 + 0.4? Give exact fraction.", "answer": "4/1", "true_label": 1}
+{"index": 575, "category": "Math-Synthetic-v4", "question": "What is (2/6)^2 simplified?", "answer": "1/9", "true_label": 0}
+{"index": 576, "category": "Math-Synthetic-v4", "question": "What is (2/6)^2 simplified?", "answer": "4/18", "true_label": 1}
+{"index": 577, "category": "Math-Synthetic-v4", "question": "What is (9/9)^4 simplified?", "answer": "1/1", "true_label": 0}
+{"index": 578, "category": "Math-Synthetic-v4", "question": "What is (9/9)^4 simplified?", "answer": "6561/6562", "true_label": 1}
+{"index": 579, "category": "Math-Synthetic-v4", "question": "What is 2.78 + 8.39? Round to 3 decimal places.", "answer": "11.170", "true_label": 0}
+{"index": 580, "category": "Math-Synthetic-v4", "question": "What is 0.278 + 0.839? Round to 3 decimal places.", "answer": "1.117", "true_label": 1}
+{"index": 581, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 25", "answer": "25", "true_label": 0}
+{"index": 582, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 30 (added base instead of multiply)", "answer": "30", "true_label": 1}
+{"index": 583, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 5/3?", "answer": "2 1/6", "true_label": 0}
+{"index": 584, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 5/2?", "answer": "12/36", "true_label": 1}
+{"index": 585, "category": "Math-Synthetic-v4", "question": "What is (8/9)^4 simplified?", "answer": "4096/6561", "true_label": 0}
+{"index": 586, "category": "Math-Synthetic-v4", "question": "What is (8/9)^4 simplified?", "answer": "4096/6562", "true_label": 1}
+{"index": 587, "category": "Math-Synthetic-v4", "question": "What is 5/11 + 0.85? Give exact fraction.", "answer": "287/220", "true_label": 0}
+{"index": 588, "category": "Math-Synthetic-v4", "question": "What is 5/11 + 0.2? Give exact fraction.", "answer": "2/1", "true_label": 1}
+{"index": 589, "category": "Math-Synthetic-v4", "question": "Add 4/9 and 9/5.\nStep 1: Find common denominator.\nCommon denominator = 9 * 5 = 45.\nStep 2: Convert fractions.\n4/9 -> 20/45; 9/5 -> 81/45.\nStep 3: Add numerators: 20 + 81 = 101.\nSimplify 101/45 -> 101/45.\nFinal: 2 11/45", "answer": "2 11/45", "true_label": 0}
+{"index": 590, "category": "Math-Synthetic-v4", "question": "Add 4/9 and 2/6.\nStep 1: Find common denominator.\nCommon denominator = 9 * 6 = 54.\nStep 2: Convert fractions.\n4/9 -> 24/54; 2/6 -> 18/54.\nStep 3: Add numerators: 24 + 18 = 42.\nSimplify 42/54 -> 7/9.\nFinal: 43/54", "answer": "41/54", "true_label": 1}
+{"index": 591, "category": "Math-Synthetic-v4", "question": "What is 53.4 + 3.59? Round to 3 decimal places.", "answer": "56.990", "true_label": 0}
+{"index": 592, "category": "Math-Synthetic-v4", "question": "What is 53.4 + 35.9? Round to 3 decimal places.", "answer": "89.301", "true_label": 1}
+{"index": 593, "category": "Math-Synthetic-v4", "question": "Convert 0.008 to a fraction in simplest form.", "answer": "1/125", "true_label": 0}
+{"index": 594, "category": "Math-Synthetic-v4", "question": "Convert 0.8 to a fraction in simplest form.", "answer": "8/1", "true_label": 1}
+{"index": 595, "category": "Math-Synthetic-v4", "question": "What is 1/3 + 3/3?", "answer": "1 1/3", "true_label": 0}
+{"index": 596, "category": "Math-Synthetic-v4", "question": "What is 1/3 + 2/2?", "answer": "8/6", "true_label": 1}
+{"index": 597, "category": "Math-Synthetic-v4", "question": "What is (6/8)^4 simplified?", "answer": "81/256", "true_label": 0}
+{"index": 598, "category": "Math-Synthetic-v4", "question": "What is (6/8)^4 simplified?", "answer": "1296/2048", "true_label": 1}
+{"index": 599, "category": "Math-Synthetic-v4", "question": "Convert 0.9 to a fraction in simplest form.", "answer": "9/10", "true_label": 0}
+{"index": 600, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/10", "true_label": 1}
+{"index": 601, "category": "Math-Synthetic-v4", "question": "What is (4/2)^3 simplified?", "answer": "8/1", "true_label": 0}
+{"index": 602, "category": "Math-Synthetic-v4", "question": "What is (4/2)^3 simplified?", "answer": "64/4", "true_label": 1}
+{"index": 603, "category": "Math-Synthetic-v4", "question": "What is (6/9)^2 simplified?", "answer": "4/9", "true_label": 0}
+{"index": 604, "category": "Math-Synthetic-v4", "question": "What is (6/9)^2 simplified?", "answer": "36/82", "true_label": 1}
+{"index": 605, "category": "Math-Synthetic-v4", "question": "What is 6.01 + 0.205? Round to 3 decimal places.", "answer": "6.215", "true_label": 0}
+{"index": 606, "category": "Math-Synthetic-v4", "question": "What is 6.01 + 20.5? Round to 3 decimal places.", "answer": "26.509", "true_label": 1}
+{"index": 607, "category": "Math-Synthetic-v4", "question": "What is (3/5)^2 simplified?", "answer": "9/25", "true_label": 0}
+{"index": 608, "category": "Math-Synthetic-v4", "question": "What is (3/5)^2 simplified?", "answer": "9/26", "true_label": 1}
+{"index": 609, "category": "Math-Synthetic-v4", "question": "What is 8/6 + 0.7? Give exact fraction.", "answer": "61/30", "true_label": 0}
+{"index": 610, "category": "Math-Synthetic-v4", "question": "What is 8/6 + 0.3? Give exact fraction.", "answer": "98/60", "true_label": 1}
+{"index": 611, "category": "Math-Synthetic-v4", "question": "What is (4/4)^4 simplified?", "answer": "1/1", "true_label": 0}
+{"index": 612, "category": "Math-Synthetic-v4", "question": "What is (4/4)^4 simplified?", "answer": "256/128", "true_label": 1}
+{"index": 613, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 125", "answer": "125", "true_label": 0}
+{"index": 614, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 126", "answer": "126", "true_label": 1}
+{"index": 615, "category": "Math-Synthetic-v4", "question": "What is (4/3)^2 simplified?", "answer": "16/9", "true_label": 0}
+{"index": 616, "category": "Math-Synthetic-v4", "question": "What is (4/3)^2 simplified?", "answer": "16/10", "true_label": 1}
+{"index": 617, "category": "Math-Synthetic-v4", "question": "What is 6^3?", "answer": "216", "true_label": 0}
+{"index": 618, "category": "Math-Synthetic-v4", "question": "What is 6^3?", "answer": "36", "true_label": 1}
+{"index": 619, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "1/500", "true_label": 0}
+{"index": 620, "category": "Math-Synthetic-v4", "question": "Convert 0.02 to a fraction in simplest form.", "answer": "2/10", "true_label": 1}
+{"index": 621, "category": "Math-Synthetic-v4", "question": "What is 6/5 + 3/7?", "answer": "1 22/35", "true_label": 0}
+{"index": 622, "category": "Math-Synthetic-v4", "question": "What is 6/5 + 4/2?", "answer": "10/32", "true_label": 1}
+{"index": 623, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 0.067? Give exact fraction.", "answer": "567/1000", "true_label": 0}
+{"index": 624, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 0.31? Give exact fraction.", "answer": "0.31", "true_label": 1}
+{"index": 625, "category": "Math-Synthetic-v4", "question": "Convert 0.03 to a fraction in simplest form.", "answer": "3/100", "true_label": 0}
+{"index": 626, "category": "Math-Synthetic-v4", "question": "Convert 0.3 to a fraction in simplest form.", "answer": "3/10", "true_label": 1}
+{"index": 627, "category": "Math-Synthetic-v4", "question": "What is 3/5 + 1/4?", "answer": "17/20", "true_label": 0}
+{"index": 628, "category": "Math-Synthetic-v4", "question": "What is 3/5 + 3/5?", "answer": "30/25", "true_label": 1}
+{"index": 629, "category": "Math-Synthetic-v4", "question": "Convert 0.7 to a fraction in simplest form.", "answer": "7/10", "true_label": 0}
+{"index": 630, "category": "Math-Synthetic-v4", "question": "Convert 0.007 to a fraction in simplest form.", "answer": "0.007", "true_label": 1}
+{"index": 631, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 25", "answer": "25", "true_label": 0}
+{"index": 632, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 26", "answer": "26", "true_label": 1}
+{"index": 633, "category": "Math-Synthetic-v4", "question": "What is 7.86 + 8.8? Round to 3 decimal places.", "answer": "16.660", "true_label": 0}
+{"index": 634, "category": "Math-Synthetic-v4", "question": "What is 0.786 + 0.088? Round to 3 decimal places.", "answer": "0.875", "true_label": 1}
+{"index": 635, "category": "Math-Synthetic-v4", "question": "What is 6/10 + 7/4?", "answer": "2 7/20", "true_label": 0}
+{"index": 636, "category": "Math-Synthetic-v4", "question": "What is 6/10 + 10/6?", "answer": "60/136", "true_label": 1}
+{"index": 637, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 638, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 4 (stopped early)", "answer": "4", "true_label": 1}
+{"index": 639, "category": "Math-Synthetic-v4", "question": "What is 4^3?", "answer": "64", "true_label": 0}
+{"index": 640, "category": "Math-Synthetic-v4", "question": "What is 4^3?", "answer": "0.015625", "true_label": 1}
+{"index": 641, "category": "Math-Synthetic-v4", "question": "What is 7/3 + 2/3?", "answer": "3", "true_label": 0}
+{"index": 642, "category": "Math-Synthetic-v4", "question": "What is 7/3 + 2/4?", "answer": "9/7", "true_label": 1}
+{"index": 643, "category": "Math-Synthetic-v4", "question": "What is (6/2)^2 simplified?", "answer": "9/1", "true_label": 0}
+{"index": 644, "category": "Math-Synthetic-v4", "question": "What is (6/2)^2 simplified?", "answer": "36/2", "true_label": 1}
+{"index": 645, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 0}
+{"index": 646, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/10", "true_label": 1}
+{"index": 647, "category": "Math-Synthetic-v4", "question": "What is 7.24 + 20.6? Round to 3 decimal places.", "answer": "27.840", "true_label": 0}
+{"index": 648, "category": "Math-Synthetic-v4", "question": "What is 7.24 + 2.06? Round to 3 decimal places.", "answer": "9.300", "true_label": 1}
+{"index": 649, "category": "Math-Synthetic-v4", "question": "What is 4^-1?", "answer": "0.25", "true_label": 0}
+{"index": 650, "category": "Math-Synthetic-v4", "question": "What is 4^-1?", "answer": "2.50E+-01", "true_label": 1}
+{"index": 651, "category": "Math-Synthetic-v4", "question": "Add 7/3 and 1/5.\nStep 1: Find common denominator.\nCommon denominator = 3 * 5 = 15.\nStep 2: Convert fractions.\n7/3 -> 35/15; 1/5 -> 3/15.\nStep 3: Add numerators: 35 + 3 = 38.\nSimplify 38/15 -> 38/15.\nFinal: 2 8/15", "answer": "2 8/15", "true_label": 0}
+{"index": 652, "category": "Math-Synthetic-v4", "question": "Add 7/3 and 1/4.\nStep 1: Find common denominator.\nCommon denominator = 3 * 4 = 12.\n7/3 -> 28/12; 1/4 -> 1/12 (forgot multiply).\n7/3 -> 28/12; 1/4 -> 3/12.\nStep 3: Add numerators: 28 + 3 = 31.\nSimplify 31/12 -> 31/12.\nFinal: 29/12", "answer": "29/12", "true_label": 1}
+{"index": 653, "category": "Math-Synthetic-v4", "question": "Add 7/10 and 1/12.\nStep 1: Find common denominator.\nCommon denominator = 10 * 12 = 120.\nStep 2: Convert fractions.\n7/10 -> 84/120; 1/12 -> 10/120.\nStep 3: Add numerators: 84 + 10 = 94.\nSimplify 94/120 -> 47/60.\nFinal: 47/60", "answer": "47/60", "true_label": 0}
+{"index": 654, "category": "Math-Synthetic-v4", "question": "Add 7/10 and 9/11.\nStep 1: Find common denominator.\nCommon denominator = 10 * 11 = 110.\nStep 2: Convert fractions.\n7/10 -> 77/110; 9/11 -> 90/110.\nStep 3: Add numerators: 77 + 90 = 167.\nSimplify 167/110 -> 167/110.\nFinal: 168/110", "answer": "168/110", "true_label": 1}
+{"index": 655, "category": "Math-Synthetic-v4", "question": "What is 5^4?", "answer": "625", "true_label": 0}
+{"index": 656, "category": "Math-Synthetic-v4", "question": "What is 5^4?", "answer": "25", "true_label": 1}
+{"index": 657, "category": "Math-Synthetic-v4", "question": "What is 1/12 + 0.24? Give exact fraction.", "answer": "97/300", "true_label": 0}
+{"index": 658, "category": "Math-Synthetic-v4", "question": "What is 1/12 + 0.869? Give exact fraction.", "answer": "11428/12000", "true_label": 1}
+{"index": 659, "category": "Math-Synthetic-v4", "question": "What is 0.06 + 0.504? Round to 3 decimal places.", "answer": "0.564", "true_label": 0}
+{"index": 660, "category": "Math-Synthetic-v4", "question": "What is 0.06 + 5.04? Round to 3 decimal places.", "answer": "5.101", "true_label": 1}
+{"index": 661, "category": "Math-Synthetic-v4", "question": "What is (4/5)^3 simplified?", "answer": "64/125", "true_label": 0}
+{"index": 662, "category": "Math-Synthetic-v4", "question": "What is (4/5)^3 simplified?", "answer": "64/126", "true_label": 1}
+{"index": 663, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 664, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 20 (added base instead of multiply)", "answer": "20", "true_label": 1}
+{"index": 665, "category": "Math-Synthetic-v4", "question": "What is 6/10 + 2/11?", "answer": "43/55", "true_label": 0}
+{"index": 666, "category": "Math-Synthetic-v4", "question": "What is 6/10 + 8/4?", "answer": "104/40", "true_label": 1}
+{"index": 667, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 25", "answer": "25", "true_label": 0}
+{"index": 668, "category": "Math-Synthetic-v4", "question": "Compute 5^2 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nFinal: 30 (added base instead of multiply)", "answer": "30", "true_label": 1}
+{"index": 669, "category": "Math-Synthetic-v4", "question": "Convert 0.003 to a fraction in simplest form.", "answer": "3/1000", "true_label": 0}
+{"index": 670, "category": "Math-Synthetic-v4", "question": "Convert 0.003 to a fraction in simplest form.", "answer": "0.003", "true_label": 1}
+{"index": 671, "category": "Math-Synthetic-v4", "question": "What is 6^-1?", "answer": "0.16666666666666666", "true_label": 0}
+{"index": 672, "category": "Math-Synthetic-v4", "question": "What is 6^-1?", "answer": "6", "true_label": 1}
+{"index": 673, "category": "Math-Synthetic-v4", "question": "Convert 0.004 to a fraction in simplest form.", "answer": "1/250", "true_label": 0}
+{"index": 674, "category": "Math-Synthetic-v4", "question": "Convert 0.04 to a fraction in simplest form.", "answer": "0.04", "true_label": 1}
+{"index": 675, "category": "Math-Synthetic-v4", "question": "What is (5/7)^4 simplified?", "answer": "625/2401", "true_label": 0}
+{"index": 676, "category": "Math-Synthetic-v4", "question": "What is (5/7)^4 simplified?", "answer": "625/2402", "true_label": 1}
+{"index": 677, "category": "Math-Synthetic-v4", "question": "What is (3/9)^2 simplified?", "answer": "1/9", "true_label": 0}
+{"index": 678, "category": "Math-Synthetic-v4", "question": "What is (3/9)^2 simplified?", "answer": "9/82", "true_label": 1}
+{"index": 679, "category": "Math-Synthetic-v4", "question": "What is (2/9)^3 simplified?", "answer": "8/729", "true_label": 0}
+{"index": 680, "category": "Math-Synthetic-v4", "question": "What is (2/9)^3 simplified?", "answer": "8/730", "true_label": 1}
+{"index": 681, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 682, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 17", "answer": "17", "true_label": 1}
+{"index": 683, "category": "Math-Synthetic-v4", "question": "Compute 2^2 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nFinal: 4", "answer": "4", "true_label": 0}
+{"index": 684, "category": "Math-Synthetic-v4", "question": "Compute 2^2 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nFinal: 2 (stopped early)", "answer": "2", "true_label": 1}
+{"index": 685, "category": "Math-Synthetic-v4", "question": "What is 9/9 + 0.362? Give exact fraction.", "answer": "681/500", "true_label": 0}
+{"index": 686, "category": "Math-Synthetic-v4", "question": "What is 9/9 + 0.305? Give exact fraction.", "answer": "11745/9000", "true_label": 1}
+{"index": 687, "category": "Math-Synthetic-v4", "question": "What is 4^-2?", "answer": "0.0625", "true_label": 0}
+{"index": 688, "category": "Math-Synthetic-v4", "question": "What is 4^-2?", "answer": "0.015625", "true_label": 1}
+{"index": 689, "category": "Math-Synthetic-v4", "question": "What is 1/12 + 0.891? Give exact fraction.", "answer": "2923/3000", "true_label": 0}
+{"index": 690, "category": "Math-Synthetic-v4", "question": "What is 1/12 + 0.338? Give exact fraction.", "answer": "0.34", "true_label": 1}
+{"index": 691, "category": "Math-Synthetic-v4", "question": "What is 5/7 + 4/7?", "answer": "1 2/7", "true_label": 0}
+{"index": 692, "category": "Math-Synthetic-v4", "question": "What is 5/7 + 4/8?", "answer": "56/68", "true_label": 1}
+{"index": 693, "category": "Math-Synthetic-v4", "question": "Add 4/2 and 2/3.\nStep 1: Find common denominator.\nCommon denominator = 2 * 3 = 6.\nStep 2: Convert fractions.\n4/2 -> 12/6; 2/3 -> 4/6.\nStep 3: Add numerators: 12 + 4 = 16.\nSimplify 16/6 -> 8/3.\nFinal: 2 2/3", "answer": "2 2/3", "true_label": 0}
+{"index": 694, "category": "Math-Synthetic-v4", "question": "Add 4/2 and 2/3.\nStep 1: Find common denominator.\nCommon denominator = 2 + 3 = 5.\nStep 2: Convert fractions.\n4/2 -> 12/6; 2/3 -> 4/6.\nStep 3: Add numerators: 12 + 4 = 16.\nSimplify 16/6 -> 8/3.\nFinal: 10/5", "answer": "10/5", "true_label": 1}
+{"index": 695, "category": "Math-Synthetic-v4", "question": "What is (7/5)^3 simplified?", "answer": "343/125", "true_label": 0}
+{"index": 696, "category": "Math-Synthetic-v4", "question": "What is (7/5)^3 simplified?", "answer": "343/126", "true_label": 1}
+{"index": 697, "category": "Math-Synthetic-v4", "question": "What is 4.91 + 0.429? Round to 3 decimal places.", "answer": "5.339", "true_label": 0}
+{"index": 698, "category": "Math-Synthetic-v4", "question": "What is 49.1 + 4.29? Round to 3 decimal places.", "answer": "53.392", "true_label": 1}
+{"index": 699, "category": "Math-Synthetic-v4", "question": "What is 3/3 + 0.69? Give exact fraction.", "answer": "169/100", "true_label": 0}
+{"index": 700, "category": "Math-Synthetic-v4", "question": "What is 3/3 + 0.48? Give exact fraction.", "answer": "444/300", "true_label": 1}
+{"index": 701, "category": "Math-Synthetic-v4", "question": "What is 7/12 + 6/14?", "answer": "1 1/84", "true_label": 0}
+{"index": 702, "category": "Math-Synthetic-v4", "question": "What is 7/12 + 10/12?", "answer": "17/24", "true_label": 1}
+{"index": 703, "category": "Math-Synthetic-v4", "question": "What is 63.1 + 77.7? Round to 3 decimal places.", "answer": "140.800", "true_label": 0}
+{"index": 704, "category": "Math-Synthetic-v4", "question": "What is 0.631 + 7.77? Round to 3 decimal places.", "answer": "8.403", "true_label": 1}
+{"index": 705, "category": "Math-Synthetic-v4", "question": "Add 8/9 and 5/11.\nStep 1: Find common denominator.\nCommon denominator = 9 * 11 = 99.\nStep 2: Convert fractions.\n8/9 -> 88/99; 5/11 -> 45/99.\nStep 3: Add numerators: 88 + 45 = 133.\nSimplify 133/99 -> 133/99.\nFinal: 1 34/99", "answer": "1 34/99", "true_label": 0}
+{"index": 706, "category": "Math-Synthetic-v4", "question": "Add 8/9 and 7/3.\nStep 1: Find common denominator.\nCommon denominator = 9 * 3 = 27.\nStep 2: Convert fractions.\n8/9 -> 24/27; 7/3 -> 63/27.\nStep 3: Add numerators: 24 + 63 = 87.\nSimplify 87/27 -> 29/9.\nFinal: 86/27", "answer": "88/27", "true_label": 1}
+{"index": 707, "category": "Math-Synthetic-v4", "question": "What is 0.099 + 0.579? Round to 3 decimal places.", "answer": "0.678", "true_label": 0}
+{"index": 708, "category": "Math-Synthetic-v4", "question": "What is 0.99 + 57.9? Round to 3 decimal places.", "answer": "58.890", "true_label": 1}
+{"index": 709, "category": "Math-Synthetic-v4", "question": "What is 0.359 + 2.61? Round to 3 decimal places.", "answer": "2.969", "true_label": 0}
+{"index": 710, "category": "Math-Synthetic-v4", "question": "What is 3.59 + 2.61? Round to 3 decimal places.", "answer": "6.199", "true_label": 1}
+{"index": 711, "category": "Math-Synthetic-v4", "question": "What is 2^-2?", "answer": "0.25", "true_label": 0}
+{"index": 712, "category": "Math-Synthetic-v4", "question": "What is 2^-2?", "answer": "2.50E+-01", "true_label": 1}
+{"index": 713, "category": "Math-Synthetic-v4", "question": "Compute 2^3 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nFinal: 8", "answer": "8", "true_label": 0}
+{"index": 714, "category": "Math-Synthetic-v4", "question": "Compute 2^3 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nFinal: 10 (added base instead of multiply)", "answer": "10", "true_label": 1}
+{"index": 715, "category": "Math-Synthetic-v4", "question": "What is 2^-1?", "answer": "0.5", "true_label": 0}
+{"index": 716, "category": "Math-Synthetic-v4", "question": "What is 2^-1?", "answer": "2", "true_label": 1}
+{"index": 717, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 125", "answer": "125", "true_label": 0}
+{"index": 718, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 25 (stopped early)", "answer": "25", "true_label": 1}
+{"index": 719, "category": "Math-Synthetic-v4", "question": "What is 94.6 + 95.3? Round to 3 decimal places.", "answer": "189.900", "true_label": 0}
+{"index": 720, "category": "Math-Synthetic-v4", "question": "What is 94.6 + 0.953? Round to 3 decimal places.", "answer": "95.553", "true_label": 1}
+{"index": 721, "category": "Math-Synthetic-v4", "question": "What is 2/4 + 3/3?", "answer": "1 1/2", "true_label": 0}
+{"index": 722, "category": "Math-Synthetic-v4", "question": "What is 2/4 + 4/4?", "answer": "24/16", "true_label": 1}
+{"index": 723, "category": "Math-Synthetic-v4", "question": "What is 6^-2?", "answer": "0.027777777777777776", "true_label": 0}
+{"index": 724, "category": "Math-Synthetic-v4", "question": "What is 6^-2?", "answer": "6", "true_label": 1}
+{"index": 725, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "8", "true_label": 0}
+{"index": 726, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "0.125", "true_label": 1}
+{"index": 727, "category": "Math-Synthetic-v4", "question": "Add 9/7 and 3/4.\nStep 1: Find common denominator.\nCommon denominator = 7 * 4 = 28.\nStep 2: Convert fractions.\n9/7 -> 36/28; 3/4 -> 21/28.\nStep 3: Add numerators: 36 + 21 = 57.\nSimplify 57/28 -> 57/28.\nFinal: 2 1/28", "answer": "2 1/28", "true_label": 0}
+{"index": 728, "category": "Math-Synthetic-v4", "question": "Add 9/7 and 6/7.\nStep 1: Find common denominator.\nCommon denominator = 7 * 7 = 49.\nStep 2: Convert fractions.\n9/7 -> 63/49; 6/7 -> 42/49.\nStep 3: Add numerators: 63 + 42 = 105.\nSimplify 105/49 -> 15/7.\nFinal: 17/8 (incorrect simplification)", "answer": "17/8", "true_label": 1}
+{"index": 729, "category": "Math-Synthetic-v4", "question": "Add 6/7 and 4/2.\nStep 1: Find common denominator.\nCommon denominator = 7 * 2 = 14.\nStep 2: Convert fractions.\n6/7 -> 12/14; 4/2 -> 28/14.\nStep 3: Add numerators: 12 + 28 = 40.\nSimplify 40/14 -> 20/7.\nFinal: 2 6/7", "answer": "2 6/7", "true_label": 0}
+{"index": 730, "category": "Math-Synthetic-v4", "question": "Add 6/7 and 6/5.\nStep 1: Find common denominator.\nCommon denominator = 7 * 5 = 35.\nStep 2: Convert fractions.\n6/7 -> 30/35; 6/5 -> 42/35.\nStep 3: Add numerators: 30 + 42 = 72.\nSimplify 72/35 -> 72/35.\nFinal: 71/35", "answer": "73/35", "true_label": 1}
+{"index": 731, "category": "Math-Synthetic-v4", "question": "What is 2.21 + 2.72? Round to 3 decimal places.", "answer": "4.930", "true_label": 0}
+{"index": 732, "category": "Math-Synthetic-v4", "question": "What is 22.1 + 0.272? Round to 3 decimal places.", "answer": "22.372", "true_label": 1}
+{"index": 733, "category": "Math-Synthetic-v4", "question": "Compute 3^2 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nFinal: 9", "answer": "9", "true_label": 0}
+{"index": 734, "category": "Math-Synthetic-v4", "question": "Compute 3^2 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nFinal: 3 (stopped early)", "answer": "3", "true_label": 1}
+{"index": 735, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 27", "answer": "27", "true_label": 0}
+{"index": 736, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 9 (stopped early)", "answer": "9", "true_label": 1}
+{"index": 737, "category": "Math-Synthetic-v4", "question": "What is (8/7)^2 simplified?", "answer": "64/49", "true_label": 0}
+{"index": 738, "category": "Math-Synthetic-v4", "question": "What is (8/7)^2 simplified?", "answer": "64/50", "true_label": 1}
+{"index": 739, "category": "Math-Synthetic-v4", "question": "What is (7/9)^3 simplified?", "answer": "343/729", "true_label": 0}
+{"index": 740, "category": "Math-Synthetic-v4", "question": "What is (7/9)^3 simplified?", "answer": "343/730", "true_label": 1}
+{"index": 741, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 742, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 20 (added base instead of multiply)", "answer": "20", "true_label": 1}
+{"index": 743, "category": "Math-Synthetic-v4", "question": "What is 0.663 + 24.1? Round to 3 decimal places.", "answer": "24.763", "true_label": 0}
+{"index": 744, "category": "Math-Synthetic-v4", "question": "What is 0.663 + 2.41? Round to 3 decimal places.", "answer": "3.073", "true_label": 1}
+{"index": 745, "category": "Math-Synthetic-v4", "question": "Convert 0.6 to a fraction in simplest form.", "answer": "3/5", "true_label": 0}
+{"index": 746, "category": "Math-Synthetic-v4", "question": "Convert 0.006 to a fraction in simplest form.", "answer": "0.006", "true_label": 1}
+{"index": 747, "category": "Math-Synthetic-v4", "question": "What is (2/7)^3 simplified?", "answer": "8/343", "true_label": 0}
+{"index": 748, "category": "Math-Synthetic-v4", "question": "What is (2/7)^3 simplified?", "answer": "8/344", "true_label": 1}
+{"index": 749, "category": "Math-Synthetic-v4", "question": "What is 4^-2?", "answer": "0.0625", "true_label": 0}
+{"index": 750, "category": "Math-Synthetic-v4", "question": "What is 4^-2?", "answer": "16", "true_label": 1}
+{"index": 751, "category": "Math-Synthetic-v4", "question": "Add 5/7 and 2/6.\nStep 1: Find common denominator.\nCommon denominator = 7 * 6 = 42.\nStep 2: Convert fractions.\n5/7 -> 30/42; 2/6 -> 14/42.\nStep 3: Add numerators: 30 + 14 = 44.\nSimplify 44/42 -> 22/21.\nFinal: 1 1/21", "answer": "1 1/21", "true_label": 0}
+{"index": 752, "category": "Math-Synthetic-v4", "question": "Add 5/7 and 4/4.\nStep 1: Find common denominator.\nCommon denominator = 7 * 4 = 28.\n5/7 -> 20/28; 4/4 -> 4/28 (forgot multiply).\n5/7 -> 20/28; 4/4 -> 28/28.\nStep 3: Add numerators: 20 + 28 = 48.\nSimplify 48/28 -> 12/7.\nFinal: 6/7", "answer": "6/7", "true_label": 1}
+{"index": 753, "category": "Math-Synthetic-v4", "question": "Add 7/5 and 3/3.\nStep 1: Find common denominator.\nCommon denominator = 5 * 3 = 15.\nStep 2: Convert fractions.\n7/5 -> 21/15; 3/3 -> 15/15.\nStep 3: Add numerators: 21 + 15 = 36.\nSimplify 36/15 -> 12/5.\nFinal: 2 2/5", "answer": "2 2/5", "true_label": 0}
+{"index": 754, "category": "Math-Synthetic-v4", "question": "Add 7/5 and 4/4.\nStep 1: Find common denominator.\nCommon denominator = 5 * 4 = 20.\n7/5 -> 28/20; 4/4 -> 4/20 (forgot multiply).\n7/5 -> 28/20; 4/4 -> 20/20.\nStep 3: Add numerators: 28 + 20 = 48.\nSimplify 48/20 -> 12/5.\nFinal: 8/5", "answer": "8/5", "true_label": 1}
+{"index": 755, "category": "Math-Synthetic-v4", "question": "What is 3/3 + 1/5?", "answer": "1 1/5", "true_label": 0}
+{"index": 756, "category": "Math-Synthetic-v4", "question": "What is 3/3 + 2/4?", "answer": "18/12", "true_label": 1}
+{"index": 757, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "1/500", "true_label": 0}
+{"index": 758, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "2/100", "true_label": 1}
+{"index": 759, "category": "Math-Synthetic-v4", "question": "Add 7/7 and 7/2.\nStep 1: Find common denominator.\nCommon denominator = 7 * 2 = 14.\nStep 2: Convert fractions.\n7/7 -> 14/14; 7/2 -> 49/14.\nStep 3: Add numerators: 14 + 49 = 63.\nSimplify 63/14 -> 9/2.\nFinal: 4 1/2", "answer": "4 1/2", "true_label": 0}
+{"index": 760, "category": "Math-Synthetic-v4", "question": "Add 7/7 and 1/9.\nStep 1: Find common denominator.\nCommon denominator = 7 * 9 = 63.\nStep 2: Convert fractions.\n7/7 -> 63/63; 1/9 -> 7/63.\nStep 3: Add numerators: 63 + 7 = 70.\nSimplify 70/63 -> 10/9.\nFinal: 11/10 (incorrect simplification)", "answer": "11/10", "true_label": 1}
+{"index": 761, "category": "Math-Synthetic-v4", "question": "What is 9/5 + 4/3?", "answer": "3 2/15", "true_label": 0}
+{"index": 762, "category": "Math-Synthetic-v4", "question": "What is 9/5 + 1/7?", "answer": "10/12", "true_label": 1}
+{"index": 763, "category": "Math-Synthetic-v4", "question": "Add 8/8 and 6/9.\nStep 1: Find common denominator.\nCommon denominator = 8 * 9 = 72.\nStep 2: Convert fractions.\n8/8 -> 72/72; 6/9 -> 48/72.\nStep 3: Add numerators: 72 + 48 = 120.\nSimplify 120/72 -> 5/3.\nFinal: 1 2/3", "answer": "1 2/3", "true_label": 0}
+{"index": 764, "category": "Math-Synthetic-v4", "question": "Add 8/8 and 5/9.\nStep 1: Find common denominator.\nCommon denominator = 8 * 9 = 72.\nStep 2: Convert fractions.\n8/8 -> 72/72; 5/9 -> 40/72.\nStep 3: Add numerators: 72 + 40 = 112.\nSimplify 112/72 -> 14/9.\nFinal: 111/72", "answer": "113/72", "true_label": 1}
+{"index": 765, "category": "Math-Synthetic-v4", "question": "What is 8/2 + 1/4?", "answer": "4 1/4", "true_label": 0}
+{"index": 766, "category": "Math-Synthetic-v4", "question": "What is 8/2 + 1/3?", "answer": "4 2/3", "true_label": 1}
+{"index": 767, "category": "Math-Synthetic-v4", "question": "Add 3/4 and 3/4.\nStep 1: Find common denominator.\nCommon denominator = 4 * 4 = 16.\nStep 2: Convert fractions.\n3/4 -> 12/16; 3/4 -> 12/16.\nStep 3: Add numerators: 12 + 12 = 24.\nSimplify 24/16 -> 3/2.\nFinal: 1 1/2", "answer": "1 1/2", "true_label": 0}
+{"index": 768, "category": "Math-Synthetic-v4", "question": "Add 3/4 and 1/3.\nStep 1: Find common denominator.\nCommon denominator = 4 * 3 = 12.\n3/4 -> 9/12; 1/3 -> 1/12 (forgot multiply).\n3/4 -> 9/12; 1/3 -> 4/12.\nStep 3: Add numerators: 9 + 4 = 13.\nSimplify 13/12 -> 13/12.\nFinal: 5/6", "answer": "5/6", "true_label": 1}
+{"index": 769, "category": "Math-Synthetic-v4", "question": "What is 8/7 + 4/3?", "answer": "2 10/21", "true_label": 0}
+{"index": 770, "category": "Math-Synthetic-v4", "question": "What is 8/7 + 4/2?", "answer": "14/44", "true_label": 1}
+{"index": 771, "category": "Math-Synthetic-v4", "question": "Compute 5^4 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nStep 4: multiply by 5 -> 125 * 5 = 625\nFinal: 625", "answer": "625", "true_label": 0}
+{"index": 772, "category": "Math-Synthetic-v4", "question": "Compute 5^4 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nStep 4: multiply by 5 -> 125 * 5 = 625\nFinal: 630 (added base instead of multiply)", "answer": "630", "true_label": 1}
+{"index": 773, "category": "Math-Synthetic-v4", "question": "What is 64.6 + 78.9? Round to 3 decimal places.", "answer": "143.500", "true_label": 0}
+{"index": 774, "category": "Math-Synthetic-v4", "question": "What is 6.46 + 0.789? Round to 3 decimal places.", "answer": "7.249", "true_label": 1}
+{"index": 775, "category": "Math-Synthetic-v4", "question": "What is 2/9 + 7/5?", "answer": "1 28/45", "true_label": 0}
+{"index": 776, "category": "Math-Synthetic-v4", "question": "What is 2/9 + 9/4?", "answer": "36/89", "true_label": 1}
+{"index": 777, "category": "Math-Synthetic-v4", "question": "Add 4/5 and 3/2.\nStep 1: Find common denominator.\nCommon denominator = 5 * 2 = 10.\nStep 2: Convert fractions.\n4/5 -> 8/10; 3/2 -> 15/10.\nStep 3: Add numerators: 8 + 15 = 23.\nSimplify 23/10 -> 23/10.\nFinal: 2 3/10", "answer": "2 3/10", "true_label": 0}
+{"index": 778, "category": "Math-Synthetic-v4", "question": "Add 4/5 and 4/3.\nStep 1: Find common denominator.\nCommon denominator = 5 * 3 = 15.\nStep 2: Convert fractions.\n4/5 -> 12/15; 4/3 -> 20/15.\nStep 3: Add numerators: 12 + 20 = 32.\nSimplify 32/15 -> 32/15.\nFinal: 33/15", "answer": "33/15", "true_label": 1}
+{"index": 779, "category": "Math-Synthetic-v4", "question": "Convert 0.008 to a fraction in simplest form.", "answer": "1/125", "true_label": 0}
+{"index": 780, "category": "Math-Synthetic-v4", "question": "Convert 0.08 to a fraction in simplest form.", "answer": "0.08", "true_label": 1}
+{"index": 781, "category": "Math-Synthetic-v4", "question": "What is (2/3)^3 simplified?", "answer": "8/27", "true_label": 0}
+{"index": 782, "category": "Math-Synthetic-v4", "question": "What is (2/3)^3 simplified?", "answer": "8/28", "true_label": 1}
+{"index": 783, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "8", "true_label": 0}
+{"index": 784, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "0.125", "true_label": 1}
+{"index": 785, "category": "Math-Synthetic-v4", "question": "Compute 2^2 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nFinal: 4", "answer": "4", "true_label": 0}
+{"index": 786, "category": "Math-Synthetic-v4", "question": "Compute 2^2 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nFinal: 5", "answer": "5", "true_label": 1}
+{"index": 787, "category": "Math-Synthetic-v4", "question": "What is 3^-1?", "answer": "0.3333333333333333", "true_label": 0}
+{"index": 788, "category": "Math-Synthetic-v4", "question": "What is 3^-1?", "answer": "3", "true_label": 1}
+{"index": 789, "category": "Math-Synthetic-v4", "question": "Add 9/2 and 2/2.\nStep 1: Find common denominator.\nCommon denominator = 2 * 2 = 4.\nStep 2: Convert fractions.\n9/2 -> 18/4; 2/2 -> 4/4.\nStep 3: Add numerators: 18 + 4 = 22.\nSimplify 22/4 -> 11/2.\nFinal: 5 1/2", "answer": "5 1/2", "true_label": 0}
+{"index": 790, "category": "Math-Synthetic-v4", "question": "Add 9/2 and 2/3.\nStep 1: Find common denominator.\nCommon denominator = 2 * 3 = 6.\nStep 2: Convert fractions.\n9/2 -> 27/6; 2/3 -> 4/6.\nStep 3: Add numerators: 27 + 4 = 31.\nSimplify 31/6 -> 31/6.\nFinal: 30/6", "answer": "32/6", "true_label": 1}
+{"index": 791, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 792, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 8 (stopped early)", "answer": "8", "true_label": 1}
+{"index": 793, "category": "Math-Synthetic-v4", "question": "Convert 0.06 to a fraction in simplest form.", "answer": "3/50", "true_label": 0}
+{"index": 794, "category": "Math-Synthetic-v4", "question": "Convert 0.006 to a fraction in simplest form.", "answer": "6/1000", "true_label": 1}
+{"index": 795, "category": "Math-Synthetic-v4", "question": "What is (4/2)^4 simplified?", "answer": "16/1", "true_label": 0}
+{"index": 796, "category": "Math-Synthetic-v4", "question": "What is (4/2)^4 simplified?", "answer": "256/8", "true_label": 1}
+{"index": 797, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 0}
+{"index": 798, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 1}
+{"index": 799, "category": "Math-Synthetic-v4", "question": "What is 5/12 + 3/12?", "answer": "2/3", "true_label": 0}
+{"index": 800, "category": "Math-Synthetic-v4", "question": "What is 5/12 + 6/3?", "answer": "11/15", "true_label": 1}
+{"index": 801, "category": "Math-Synthetic-v4", "question": "What is 4/2 + 3/4?", "answer": "2 3/4", "true_label": 0}
+{"index": 802, "category": "Math-Synthetic-v4", "question": "What is 4/2 + 3/2?", "answer": "4/14", "true_label": 1}
+{"index": 803, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 4/4?", "answer": "2 3/4", "true_label": 0}
+{"index": 804, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 4/6?", "answer": "2 6/12", "true_label": 1}
+{"index": 805, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "125", "true_label": 0}
+{"index": 806, "category": "Math-Synthetic-v4", "question": "What is 5^3?", "answer": "25", "true_label": 1}
+{"index": 807, "category": "Math-Synthetic-v4", "question": "What is 3^4?", "answer": "81", "true_label": 0}
+{"index": 808, "category": "Math-Synthetic-v4", "question": "What is 3^4?", "answer": "9", "true_label": 1}
+{"index": 809, "category": "Math-Synthetic-v4", "question": "Convert 0.2 to a fraction in simplest form.", "answer": "1/5", "true_label": 0}
+{"index": 810, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "0.002", "true_label": 1}
+{"index": 811, "category": "Math-Synthetic-v4", "question": "Compute 4^3 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nFinal: 64", "answer": "64", "true_label": 0}
+{"index": 812, "category": "Math-Synthetic-v4", "question": "Compute 4^3 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nFinal: 65", "answer": "65", "true_label": 1}
+{"index": 813, "category": "Math-Synthetic-v4", "question": "What is 8/10 + 0.754? Give exact fraction.", "answer": "777/500", "true_label": 0}
+{"index": 814, "category": "Math-Synthetic-v4", "question": "What is 8/10 + 0.52? Give exact fraction.", "answer": "1320/1000", "true_label": 1}
+{"index": 815, "category": "Math-Synthetic-v4", "question": "What is (3/5)^2 simplified?", "answer": "9/25", "true_label": 0}
+{"index": 816, "category": "Math-Synthetic-v4", "question": "What is (3/5)^2 simplified?", "answer": "9/26", "true_label": 1}
+{"index": 817, "category": "Math-Synthetic-v4", "question": "Convert 0.006 to a fraction in simplest form.", "answer": "3/500", "true_label": 0}
+{"index": 818, "category": "Math-Synthetic-v4", "question": "Convert 0.06 to a fraction in simplest form.", "answer": "6/100", "true_label": 1}
+{"index": 819, "category": "Math-Synthetic-v4", "question": "Add 8/11 and 1/5.\nStep 1: Find common denominator.\nCommon denominator = 11 * 5 = 55.\nStep 2: Convert fractions.\n8/11 -> 40/55; 1/5 -> 11/55.\nStep 3: Add numerators: 40 + 11 = 51.\nSimplify 51/55 -> 51/55.\nFinal: 51/55", "answer": "51/55", "true_label": 0}
+{"index": 820, "category": "Math-Synthetic-v4", "question": "Add 8/11 and 7/6.\nStep 1: Find common denominator.\nCommon denominator = 11 * 6 = 66.\nStep 2: Convert fractions.\n8/11 -> 48/66; 7/6 -> 77/66.\nStep 3: Add numerators: 48 + 77 = 125.\nSimplify 125/66 -> 125/66.\nFinal: 126/66", "answer": "124/66", "true_label": 1}
+{"index": 821, "category": "Math-Synthetic-v4", "question": "Add 9/7 and 3/2.\nStep 1: Find common denominator.\nCommon denominator = 7 * 2 = 14.\nStep 2: Convert fractions.\n9/7 -> 18/14; 3/2 -> 21/14.\nStep 3: Add numerators: 18 + 21 = 39.\nSimplify 39/14 -> 39/14.\nFinal: 2 11/14", "answer": "2 11/14", "true_label": 0}
+{"index": 822, "category": "Math-Synthetic-v4", "question": "Add 9/7 and 2/9.\nStep 1: Find common denominator.\nCommon denominator = 7 + 9 = 16.\nStep 2: Convert fractions.\n9/7 -> 81/63; 2/9 -> 14/63.\nStep 3: Add numerators: 81 + 14 = 95.\nSimplify 95/63 -> 95/63.\nFinal: 20/16", "answer": "20/16", "true_label": 1}
+{"index": 823, "category": "Math-Synthetic-v4", "question": "What is 1/5 + 0.6? Give exact fraction.", "answer": "4/5", "true_label": 0}
+{"index": 824, "category": "Math-Synthetic-v4", "question": "What is 1/5 + 0.81? Give exact fraction.", "answer": "505/500", "true_label": 1}
+{"index": 825, "category": "Math-Synthetic-v4", "question": "Convert 0.02 to a fraction in simplest form.", "answer": "1/50", "true_label": 0}
+{"index": 826, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "2/1000", "true_label": 1}
+{"index": 827, "category": "Math-Synthetic-v4", "question": "What is 5/4 + 0.271? Give exact fraction.", "answer": "1521/1000", "true_label": 0}
+{"index": 828, "category": "Math-Synthetic-v4", "question": "What is 5/4 + 0.8? Give exact fraction.", "answer": "8/1", "true_label": 1}
+{"index": 829, "category": "Math-Synthetic-v4", "question": "Convert 0.005 to a fraction in simplest form.", "answer": "1/200", "true_label": 0}
+{"index": 830, "category": "Math-Synthetic-v4", "question": "Convert 0.5 to a fraction in simplest form.", "answer": "5/10", "true_label": 1}
+{"index": 831, "category": "Math-Synthetic-v4", "question": "What is (1/9)^2 simplified?", "answer": "1/81", "true_label": 0}
+{"index": 832, "category": "Math-Synthetic-v4", "question": "What is (1/9)^2 simplified?", "answer": "1/82", "true_label": 1}
+{"index": 833, "category": "Math-Synthetic-v4", "question": "What is 12.7 + 8.86? Round to 3 decimal places.", "answer": "21.560", "true_label": 0}
+{"index": 834, "category": "Math-Synthetic-v4", "question": "What is 0.127 + 88.6? Round to 3 decimal places.", "answer": "88.727", "true_label": 1}
+{"index": 835, "category": "Math-Synthetic-v4", "question": "Compute 2^2 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nFinal: 4", "answer": "4", "true_label": 0}
+{"index": 836, "category": "Math-Synthetic-v4", "question": "Compute 2^2 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nFinal: 6 (added base instead of multiply)", "answer": "6", "true_label": 1}
+{"index": 837, "category": "Math-Synthetic-v4", "question": "Convert 0.08 to a fraction in simplest form.", "answer": "2/25", "true_label": 0}
+{"index": 838, "category": "Math-Synthetic-v4", "question": "Convert 0.8 to a fraction in simplest form.", "answer": "8/10", "true_label": 1}
+{"index": 839, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 0.34? Give exact fraction.", "answer": "209/100", "true_label": 0}
+{"index": 840, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 0.5? Give exact fraction.", "answer": "90/40", "true_label": 1}
+{"index": 841, "category": "Math-Synthetic-v4", "question": "What is 6^-1?", "answer": "0.16666666666666666", "true_label": 0}
+{"index": 842, "category": "Math-Synthetic-v4", "question": "What is 6^-1?", "answer": "1.67E+-01", "true_label": 1}
+{"index": 843, "category": "Math-Synthetic-v4", "question": "What is (7/6)^4 simplified?", "answer": "2401/1296", "true_label": 0}
+{"index": 844, "category": "Math-Synthetic-v4", "question": "What is (7/6)^4 simplified?", "answer": "2401/648", "true_label": 1}
+{"index": 845, "category": "Math-Synthetic-v4", "question": "What is 5/5 + 0.48? Give exact fraction.", "answer": "37/25", "true_label": 0}
+{"index": 846, "category": "Math-Synthetic-v4", "question": "What is 5/5 + 0.794? Give exact fraction.", "answer": "0.79", "true_label": 1}
+{"index": 847, "category": "Math-Synthetic-v4", "question": "Convert 0.04 to a fraction in simplest form.", "answer": "1/25", "true_label": 0}
+{"index": 848, "category": "Math-Synthetic-v4", "question": "Convert 0.04 to a fraction in simplest form.", "answer": "4/100", "true_label": 1}
+{"index": 849, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 850, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 18 (added base instead of multiply)", "answer": "18", "true_label": 1}
+{"index": 851, "category": "Math-Synthetic-v4", "question": "What is 2/12 + 0.23? Give exact fraction.", "answer": "119/300", "true_label": 0}
+{"index": 852, "category": "Math-Synthetic-v4", "question": "What is 2/12 + 0.49? Give exact fraction.", "answer": "49/10", "true_label": 1}
+{"index": 853, "category": "Math-Synthetic-v4", "question": "What is 5/8 + 0.9? Give exact fraction.", "answer": "61/40", "true_label": 0}
+{"index": 854, "category": "Math-Synthetic-v4", "question": "What is 5/8 + 0.2? Give exact fraction.", "answer": "2/1", "true_label": 1}
+{"index": 855, "category": "Math-Synthetic-v4", "question": "Add 9/10 and 2/11.\nStep 1: Find common denominator.\nCommon denominator = 10 * 11 = 110.\nStep 2: Convert fractions.\n9/10 -> 99/110; 2/11 -> 20/110.\nStep 3: Add numerators: 99 + 20 = 119.\nSimplify 119/110 -> 119/110.\nFinal: 1 9/110", "answer": "1 9/110", "true_label": 0}
+{"index": 856, "category": "Math-Synthetic-v4", "question": "Add 9/10 and 10/7.\nStep 1: Find common denominator.\nCommon denominator = 10 * 7 = 70.\nStep 2: Convert fractions.\n9/10 -> 63/70; 10/7 -> 100/70.\nStep 3: Add numerators: 63 + 100 = 163.\nSimplify 163/70 -> 163/70.\nFinal: 164/70", "answer": "164/70", "true_label": 1}
+{"index": 857, "category": "Math-Synthetic-v4", "question": "Add 7/6 and 1/2.\nStep 1: Find common denominator.\nCommon denominator = 6 * 2 = 12.\nStep 2: Convert fractions.\n7/6 -> 14/12; 1/2 -> 6/12.\nStep 3: Add numerators: 14 + 6 = 20.\nSimplify 20/12 -> 5/3.\nFinal: 1 2/3", "answer": "1 2/3", "true_label": 0}
+{"index": 858, "category": "Math-Synthetic-v4", "question": "Add 7/6 and 5/3.\nStep 1: Find common denominator.\nCommon denominator = 6 + 3 = 9.\nStep 2: Convert fractions.\n7/6 -> 21/18; 5/3 -> 30/18.\nStep 3: Add numerators: 21 + 30 = 51.\nSimplify 51/18 -> 17/6.\nFinal: 22/9", "answer": "22/9", "true_label": 1}
+{"index": 859, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 1/4?", "answer": "3/4", "true_label": 0}
+{"index": 860, "category": "Math-Synthetic-v4", "question": "What is 3/6 + 6/6?", "answer": "1 1/2", "true_label": 1}
+{"index": 861, "category": "Math-Synthetic-v4", "question": "What is 7/9 + 0.85? Give exact fraction.", "answer": "293/180", "true_label": 0}
+{"index": 862, "category": "Math-Synthetic-v4", "question": "What is 7/9 + 0.7? Give exact fraction.", "answer": "133/90", "true_label": 1}
+{"index": 863, "category": "Math-Synthetic-v4", "question": "What is (6/8)^3 simplified?", "answer": "27/64", "true_label": 0}
+{"index": 864, "category": "Math-Synthetic-v4", "question": "What is (6/8)^3 simplified?", "answer": "216/256", "true_label": 1}
+{"index": 865, "category": "Math-Synthetic-v4", "question": "What is 5/12 + 0.311? Give exact fraction.", "answer": "2183/3000", "true_label": 0}
+{"index": 866, "category": "Math-Synthetic-v4", "question": "What is 5/12 + 0.97? Give exact fraction.", "answer": "0.97", "true_label": 1}
+{"index": 867, "category": "Math-Synthetic-v4", "question": "What is 2^-2?", "answer": "0.25", "true_label": 0}
+{"index": 868, "category": "Math-Synthetic-v4", "question": "What is 2^-2?", "answer": "4", "true_label": 1}
+{"index": 869, "category": "Math-Synthetic-v4", "question": "What is (2/3)^2 simplified?", "answer": "4/9", "true_label": 0}
+{"index": 870, "category": "Math-Synthetic-v4", "question": "What is (2/3)^2 simplified?", "answer": "4/10", "true_label": 1}
+{"index": 871, "category": "Math-Synthetic-v4", "question": "What is 3/3 + 0.5? Give exact fraction.", "answer": "3/2", "true_label": 0}
+{"index": 872, "category": "Math-Synthetic-v4", "question": "What is 3/3 + 0.5? Give exact fraction.", "answer": "0.5", "true_label": 1}
+{"index": 873, "category": "Math-Synthetic-v4", "question": "Convert 0.001 to a fraction in simplest form.", "answer": "1/1000", "true_label": 0}
+{"index": 874, "category": "Math-Synthetic-v4", "question": "Convert 0.1 to a fraction in simplest form.", "answer": "0.1", "true_label": 1}
+{"index": 875, "category": "Math-Synthetic-v4", "question": "What is 4/6 + 0.7? Give exact fraction.", "answer": "41/30", "true_label": 0}
+{"index": 876, "category": "Math-Synthetic-v4", "question": "What is 4/6 + 0.73? Give exact fraction.", "answer": "730/100", "true_label": 1}
+{"index": 877, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 878, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 8 (stopped early)", "answer": "8", "true_label": 1}
+{"index": 879, "category": "Math-Synthetic-v4", "question": "What is 6/5 + 0.943? Give exact fraction.", "answer": "2143/1000", "true_label": 0}
+{"index": 880, "category": "Math-Synthetic-v4", "question": "What is 6/5 + 0.14? Give exact fraction.", "answer": "14/10", "true_label": 1}
+{"index": 881, "category": "Math-Synthetic-v4", "question": "Convert 0.001 to a fraction in simplest form.", "answer": "1/1000", "true_label": 0}
+{"index": 882, "category": "Math-Synthetic-v4", "question": "Convert 0.001 to a fraction in simplest form.", "answer": "1/100", "true_label": 1}
+{"index": 883, "category": "Math-Synthetic-v4", "question": "Convert 0.05 to a fraction in simplest form.", "answer": "1/20", "true_label": 0}
+{"index": 884, "category": "Math-Synthetic-v4", "question": "Convert 0.05 to a fraction in simplest form.", "answer": "5/10", "true_label": 1}
+{"index": 885, "category": "Math-Synthetic-v4", "question": "Add 5/4 and 4/5.\nStep 1: Find common denominator.\nCommon denominator = 4 * 5 = 20.\nStep 2: Convert fractions.\n5/4 -> 25/20; 4/5 -> 16/20.\nStep 3: Add numerators: 25 + 16 = 41.\nSimplify 41/20 -> 41/20.\nFinal: 2 1/20", "answer": "2 1/20", "true_label": 0}
+{"index": 886, "category": "Math-Synthetic-v4", "question": "Add 5/4 and 1/3.\nStep 1: Find common denominator.\nCommon denominator = 4 * 3 = 12.\n5/4 -> 15/12; 1/3 -> 1/12 (forgot multiply).\n5/4 -> 15/12; 1/3 -> 4/12.\nStep 3: Add numerators: 15 + 4 = 19.\nSimplify 19/12 -> 19/12.\nFinal: 4/3", "answer": "4/3", "true_label": 1}
+{"index": 887, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 125", "answer": "125", "true_label": 0}
+{"index": 888, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 25 (stopped early)", "answer": "25", "true_label": 1}
+{"index": 889, "category": "Math-Synthetic-v4", "question": "Add 2/10 and 2/7.\nStep 1: Find common denominator.\nCommon denominator = 10 * 7 = 70.\nStep 2: Convert fractions.\n2/10 -> 14/70; 2/7 -> 20/70.\nStep 3: Add numerators: 14 + 20 = 34.\nSimplify 34/70 -> 17/35.\nFinal: 17/35", "answer": "17/35", "true_label": 0}
+{"index": 890, "category": "Math-Synthetic-v4", "question": "Add 2/10 and 1/9.\nStep 1: Find common denominator.\nCommon denominator = 10 * 9 = 90.\n2/10 -> 18/90; 1/9 -> 1/90 (forgot multiply).\n2/10 -> 18/90; 1/9 -> 10/90.\nStep 3: Add numerators: 18 + 10 = 28.\nSimplify 28/90 -> 14/45.\nFinal: 19/90", "answer": "19/90", "true_label": 1}
+{"index": 891, "category": "Math-Synthetic-v4", "question": "What is (4/6)^4 simplified?", "answer": "16/81", "true_label": 0}
+{"index": 892, "category": "Math-Synthetic-v4", "question": "What is (4/6)^4 simplified?", "answer": "256/648", "true_label": 1}
+{"index": 893, "category": "Math-Synthetic-v4", "question": "Convert 0.09 to a fraction in simplest form.", "answer": "9/100", "true_label": 0}
+{"index": 894, "category": "Math-Synthetic-v4", "question": "Convert 0.9 to a fraction in simplest form.", "answer": "9/10", "true_label": 1}
+{"index": 895, "category": "Math-Synthetic-v4", "question": "Convert 0.05 to a fraction in simplest form.", "answer": "1/20", "true_label": 0}
+{"index": 896, "category": "Math-Synthetic-v4", "question": "Convert 0.5 to a fraction in simplest form.", "answer": "0.5", "true_label": 1}
+{"index": 897, "category": "Math-Synthetic-v4", "question": "Convert 0.6 to a fraction in simplest form.", "answer": "3/5", "true_label": 0}
+{"index": 898, "category": "Math-Synthetic-v4", "question": "Convert 0.06 to a fraction in simplest form.", "answer": "0.06", "true_label": 1}
+{"index": 899, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 900, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 8 (stopped early)", "answer": "8", "true_label": 1}
+{"index": 901, "category": "Math-Synthetic-v4", "question": "What is 2/10 + 0.327? Give exact fraction.", "answer": "527/1000", "true_label": 0}
+{"index": 902, "category": "Math-Synthetic-v4", "question": "What is 2/10 + 0.6? Give exact fraction.", "answer": "6/1", "true_label": 1}
+{"index": 903, "category": "Math-Synthetic-v4", "question": "Convert 0.01 to a fraction in simplest form.", "answer": "1/100", "true_label": 0}
+{"index": 904, "category": "Math-Synthetic-v4", "question": "Convert 0.001 to a fraction in simplest form.", "answer": "1/100", "true_label": 1}
+{"index": 905, "category": "Math-Synthetic-v4", "question": "What is 3^-1?", "answer": "0.3333333333333333", "true_label": 0}
+{"index": 906, "category": "Math-Synthetic-v4", "question": "What is 3^-1?", "answer": "3.33E+-01", "true_label": 1}
+{"index": 907, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 27", "answer": "27", "true_label": 0}
+{"index": 908, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 9 (stopped early)", "answer": "9", "true_label": 1}
+{"index": 909, "category": "Math-Synthetic-v4", "question": "What is (6/9)^2 simplified?", "answer": "4/9", "true_label": 0}
+{"index": 910, "category": "Math-Synthetic-v4", "question": "What is (6/9)^2 simplified?", "answer": "36/82", "true_label": 1}
+{"index": 911, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "1/500", "true_label": 0}
+{"index": 912, "category": "Math-Synthetic-v4", "question": "Convert 0.002 to a fraction in simplest form.", "answer": "2/100", "true_label": 1}
+{"index": 913, "category": "Math-Synthetic-v4", "question": "What is 2^-2?", "answer": "0.25", "true_label": 0}
+{"index": 914, "category": "Math-Synthetic-v4", "question": "What is 2^-2?", "answer": "4", "true_label": 1}
+{"index": 915, "category": "Math-Synthetic-v4", "question": "What is 9/12 + 7/5?", "answer": "2 3/20", "true_label": 0}
+{"index": 916, "category": "Math-Synthetic-v4", "question": "What is 9/12 + 10/14?", "answer": "1 14/28", "true_label": 1}
+{"index": 917, "category": "Math-Synthetic-v4", "question": "What is 5^-1?", "answer": "0.2", "true_label": 0}
+{"index": 918, "category": "Math-Synthetic-v4", "question": "What is 5^-1?", "answer": "5", "true_label": 1}
+{"index": 919, "category": "Math-Synthetic-v4", "question": "Add 7/8 and 7/7.\nStep 1: Find common denominator.\nCommon denominator = 8 * 7 = 56.\nStep 2: Convert fractions.\n7/8 -> 49/56; 7/7 -> 56/56.\nStep 3: Add numerators: 49 + 56 = 105.\nSimplify 105/56 -> 15/8.\nFinal: 1 7/8", "answer": "1 7/8", "true_label": 0}
+{"index": 920, "category": "Math-Synthetic-v4", "question": "Add 7/8 and 8/10.\nStep 1: Find common denominator.\nCommon denominator = 8 * 10 = 80.\nStep 2: Convert fractions.\n7/8 -> 70/80; 8/10 -> 64/80.\nStep 3: Add numerators: 70 + 64 = 134.\nSimplify 134/80 -> 67/40.\nFinal: 133/80", "answer": "133/80", "true_label": 1}
+{"index": 921, "category": "Math-Synthetic-v4", "question": "What is 9/9 + 8/5?", "answer": "2 3/5", "true_label": 0}
+{"index": 922, "category": "Math-Synthetic-v4", "question": "What is 9/9 + 3/5?", "answer": "1 2/5", "true_label": 1}
+{"index": 923, "category": "Math-Synthetic-v4", "question": "Convert 0.04 to a fraction in simplest form.", "answer": "1/25", "true_label": 0}
+{"index": 924, "category": "Math-Synthetic-v4", "question": "Convert 0.04 to a fraction in simplest form.", "answer": "4/100", "true_label": 1}
+{"index": 925, "category": "Math-Synthetic-v4", "question": "What is 1/4 + 0.52? Give exact fraction.", "answer": "77/100", "true_label": 0}
+{"index": 926, "category": "Math-Synthetic-v4", "question": "What is 1/4 + 0.934? Give exact fraction.", "answer": "934/100", "true_label": 1}
+{"index": 927, "category": "Math-Synthetic-v4", "question": "What is 81.6 + 0.979? Round to 3 decimal places.", "answer": "82.579", "true_label": 0}
+{"index": 928, "category": "Math-Synthetic-v4", "question": "What is 81.6 + 97.9? Round to 3 decimal places.", "answer": "179.499", "true_label": 1}
+{"index": 929, "category": "Math-Synthetic-v4", "question": "What is 2^4?", "answer": "16", "true_label": 0}
+{"index": 930, "category": "Math-Synthetic-v4", "question": "What is 2^4?", "answer": "8", "true_label": 1}
+{"index": 931, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "8", "true_label": 0}
+{"index": 932, "category": "Math-Synthetic-v4", "question": "What is 2^3?", "answer": "16", "true_label": 1}
+{"index": 933, "category": "Math-Synthetic-v4", "question": "What is 3^-2?", "answer": "0.1111111111111111", "true_label": 0}
+{"index": 934, "category": "Math-Synthetic-v4", "question": "What is 3^-2?", "answer": "0.3333333333333333", "true_label": 1}
+{"index": 935, "category": "Math-Synthetic-v4", "question": "What is 11.2 + 8.02? Round to 3 decimal places.", "answer": "19.220", "true_label": 0}
+{"index": 936, "category": "Math-Synthetic-v4", "question": "What is 0.112 + 8.02? Round to 3 decimal places.", "answer": "8.132", "true_label": 1}
+{"index": 937, "category": "Math-Synthetic-v4", "question": "What is 2/11 + 0.79? Give exact fraction.", "answer": "1069/1100", "true_label": 0}
+{"index": 938, "category": "Math-Synthetic-v4", "question": "What is 2/11 + 0.082? Give exact fraction.", "answer": "2902/11000", "true_label": 1}
+{"index": 939, "category": "Math-Synthetic-v4", "question": "What is (4/6)^2 simplified?", "answer": "4/9", "true_label": 0}
+{"index": 940, "category": "Math-Synthetic-v4", "question": "What is (4/6)^2 simplified?", "answer": "16/18", "true_label": 1}
+{"index": 941, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 256", "answer": "256", "true_label": 0}
+{"index": 942, "category": "Math-Synthetic-v4", "question": "Compute 4^4 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nStep 3: multiply by 4 -> 16 * 4 = 64\nStep 4: multiply by 4 -> 64 * 4 = 256\nFinal: 64 (stopped early)", "answer": "64", "true_label": 1}
+{"index": 943, "category": "Math-Synthetic-v4", "question": "Convert 0.6 to a fraction in simplest form.", "answer": "3/5", "true_label": 0}
+{"index": 944, "category": "Math-Synthetic-v4", "question": "Convert 0.06 to a fraction in simplest form.", "answer": "6/10", "true_label": 1}
+{"index": 945, "category": "Math-Synthetic-v4", "question": "What is 9/8 + 0.95? Give exact fraction.", "answer": "83/40", "true_label": 0}
+{"index": 946, "category": "Math-Synthetic-v4", "question": "What is 9/8 + 0.1? Give exact fraction.", "answer": "0.1", "true_label": 1}
+{"index": 947, "category": "Math-Synthetic-v4", "question": "What is 7/6 + 0.544? Give exact fraction.", "answer": "1283/750", "true_label": 0}
+{"index": 948, "category": "Math-Synthetic-v4", "question": "What is 7/6 + 0.824? Give exact fraction.", "answer": "11944/6000", "true_label": 1}
+{"index": 949, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 0.6? Give exact fraction.", "answer": "47/20", "true_label": 0}
+{"index": 950, "category": "Math-Synthetic-v4", "question": "What is 7/4 + 0.83? Give exact fraction.", "answer": "0.83", "true_label": 1}
+{"index": 951, "category": "Math-Synthetic-v4", "question": "Add 3/6 and 5/8.\nStep 1: Find common denominator.\nCommon denominator = 6 * 8 = 48.\nStep 2: Convert fractions.\n3/6 -> 24/48; 5/8 -> 30/48.\nStep 3: Add numerators: 24 + 30 = 54.\nSimplify 54/48 -> 9/8.\nFinal: 1 1/8", "answer": "1 1/8", "true_label": 0}
+{"index": 952, "category": "Math-Synthetic-v4", "question": "Add 3/6 and 1/5.\nStep 1: Find common denominator.\nCommon denominator = 6 * 5 = 30.\nStep 2: Convert fractions.\n3/6 -> 15/30; 1/5 -> 6/30.\nStep 3: Add numerators: 15 + 6 = 21.\nSimplify 21/30 -> 7/10.\nFinal: 22/30", "answer": "20/30", "true_label": 1}
+{"index": 953, "category": "Math-Synthetic-v4", "question": "What is 8.21 + 5.97? Round to 3 decimal places.", "answer": "14.180", "true_label": 0}
+{"index": 954, "category": "Math-Synthetic-v4", "question": "What is 8.21 + 5.97? Round to 3 decimal places.", "answer": "14.180", "true_label": 1}
+{"index": 955, "category": "Math-Synthetic-v4", "question": "What is 1/11 + 9/6?", "answer": "1 13/22", "true_label": 0}
+{"index": 956, "category": "Math-Synthetic-v4", "question": "What is 1/11 + 3/3?", "answer": "4/14", "true_label": 1}
+{"index": 957, "category": "Math-Synthetic-v4", "question": "Convert 0.07 to a fraction in simplest form.", "answer": "7/100", "true_label": 0}
+{"index": 958, "category": "Math-Synthetic-v4", "question": "Convert 0.7 to a fraction in simplest form.", "answer": "0.7", "true_label": 1}
+{"index": 959, "category": "Math-Synthetic-v4", "question": "What is 1/7 + 0.8? Give exact fraction.", "answer": "33/35", "true_label": 0}
+{"index": 960, "category": "Math-Synthetic-v4", "question": "What is 1/7 + 0.9? Give exact fraction.", "answer": "9/1", "true_label": 1}
+{"index": 961, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 962, "category": "Math-Synthetic-v4", "question": "Compute 4^2 by repeated multiplication.\nStep 1: multiply by 4 -> 1 * 4 = 4\nStep 2: multiply by 4 -> 4 * 4 = 16\nFinal: 17", "answer": "17", "true_label": 1}
+{"index": 963, "category": "Math-Synthetic-v4", "question": "What is (3/3)^4 simplified?", "answer": "1/1", "true_label": 0}
+{"index": 964, "category": "Math-Synthetic-v4", "question": "What is (3/3)^4 simplified?", "answer": "81/82", "true_label": 1}
+{"index": 965, "category": "Math-Synthetic-v4", "question": "What is (3/8)^4 simplified?", "answer": "81/4096", "true_label": 0}
+{"index": 966, "category": "Math-Synthetic-v4", "question": "What is (3/8)^4 simplified?", "answer": "81/2048", "true_label": 1}
+{"index": 967, "category": "Math-Synthetic-v4", "question": "What is 8/9 + 0.3? Give exact fraction.", "answer": "107/90", "true_label": 0}
+{"index": 968, "category": "Math-Synthetic-v4", "question": "What is 8/9 + 0.417? Give exact fraction.", "answer": "0.42", "true_label": 1}
+{"index": 969, "category": "Math-Synthetic-v4", "question": "What is 8/7 + 2/8?", "answer": "1 11/28", "true_label": 0}
+{"index": 970, "category": "Math-Synthetic-v4", "question": "What is 8/7 + 3/9?", "answer": "93/63", "true_label": 1}
+{"index": 971, "category": "Math-Synthetic-v4", "question": "What is 0.881 + 6.78? Round to 3 decimal places.", "answer": "7.661", "true_label": 0}
+{"index": 972, "category": "Math-Synthetic-v4", "question": "What is 88.1 + 0.678? Round to 3 decimal places.", "answer": "88.778", "true_label": 1}
+{"index": 973, "category": "Math-Synthetic-v4", "question": "Add 6/2 and 1/2.\nStep 1: Find common denominator.\nCommon denominator = 2 * 2 = 4.\nStep 2: Convert fractions.\n6/2 -> 12/4; 1/2 -> 2/4.\nStep 3: Add numerators: 12 + 2 = 14.\nSimplify 14/4 -> 7/2.\nFinal: 3 1/2", "answer": "3 1/2", "true_label": 0}
+{"index": 974, "category": "Math-Synthetic-v4", "question": "Add 6/2 and 1/4.\nStep 1: Find common denominator.\nCommon denominator = 2 * 4 = 8.\nStep 2: Convert fractions.\n6/2 -> 24/8; 1/4 -> 2/8.\nStep 3: Add numerators: 24 + 2 = 26.\nSimplify 26/8 -> 13/4.\nFinal: 27/8", "answer": "27/8", "true_label": 1}
+{"index": 975, "category": "Math-Synthetic-v4", "question": "Add 6/4 and 1/2.\nStep 1: Find common denominator.\nCommon denominator = 4 * 2 = 8.\nStep 2: Convert fractions.\n6/4 -> 12/8; 1/2 -> 4/8.\nStep 3: Add numerators: 12 + 4 = 16.\nSimplify 16/8 -> 2/1.\nFinal: 2", "answer": "2", "true_label": 0}
+{"index": 976, "category": "Math-Synthetic-v4", "question": "Add 6/4 and 2/6.\nStep 1: Find common denominator.\nCommon denominator = 4 * 6 = 24.\nStep 2: Convert fractions.\n6/4 -> 36/24; 2/6 -> 8/24.\nStep 3: Add numerators: 36 + 8 = 44.\nSimplify 44/24 -> 11/6.\nFinal: 43/24", "answer": "45/24", "true_label": 1}
+{"index": 977, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 27", "answer": "27", "true_label": 0}
+{"index": 978, "category": "Math-Synthetic-v4", "question": "Compute 3^3 by repeated multiplication.\nStep 1: multiply by 3 -> 1 * 3 = 3\nStep 2: multiply by 3 -> 3 * 3 = 9\nStep 3: multiply by 3 -> 9 * 3 = 27\nFinal: 28", "answer": "28", "true_label": 1}
+{"index": 979, "category": "Math-Synthetic-v4", "question": "Add 9/2 and 2/3.\nStep 1: Find common denominator.\nCommon denominator = 2 * 3 = 6.\nStep 2: Convert fractions.\n9/2 -> 27/6; 2/3 -> 4/6.\nStep 3: Add numerators: 27 + 4 = 31.\nSimplify 31/6 -> 31/6.\nFinal: 5 1/6", "answer": "5 1/6", "true_label": 0}
+{"index": 980, "category": "Math-Synthetic-v4", "question": "Add 9/2 and 1/4.\nStep 1: Find common denominator.\nCommon denominator = 2 + 4 = 6.\nStep 2: Convert fractions.\n9/2 -> 36/8; 1/4 -> 2/8.\nStep 3: Add numerators: 36 + 2 = 38.\nSimplify 38/8 -> 19/4.\nFinal: 28/6", "answer": "28/6", "true_label": 1}
+{"index": 981, "category": "Math-Synthetic-v4", "question": "Add 4/10 and 9/3.\nStep 1: Find common denominator.\nCommon denominator = 10 * 3 = 30.\nStep 2: Convert fractions.\n4/10 -> 12/30; 9/3 -> 90/30.\nStep 3: Add numerators: 12 + 90 = 102.\nSimplify 102/30 -> 17/5.\nFinal: 3 2/5", "answer": "3 2/5", "true_label": 0}
+{"index": 982, "category": "Math-Synthetic-v4", "question": "Add 4/10 and 1/12.\nStep 1: Find common denominator.\nCommon denominator = 10 * 12 = 120.\nStep 2: Convert fractions.\n4/10 -> 48/120; 1/12 -> 10/120.\nStep 3: Add numerators: 48 + 10 = 58.\nSimplify 58/120 -> 29/60.\nFinal: 59/120", "answer": "59/120", "true_label": 1}
+{"index": 983, "category": "Math-Synthetic-v4", "question": "What is 4^4?", "answer": "256", "true_label": 0}
+{"index": 984, "category": "Math-Synthetic-v4", "question": "What is 4^4?", "answer": "16", "true_label": 1}
+{"index": 985, "category": "Math-Synthetic-v4", "question": "Add 2/2 and 1/4.\nStep 1: Find common denominator.\nCommon denominator = 2 * 4 = 8.\nStep 2: Convert fractions.\n2/2 -> 8/8; 1/4 -> 2/8.\nStep 3: Add numerators: 8 + 2 = 10.\nSimplify 10/8 -> 5/4.\nFinal: 1 1/4", "answer": "1 1/4", "true_label": 0}
+{"index": 986, "category": "Math-Synthetic-v4", "question": "Add 2/2 and 1/3.\nStep 1: Find common denominator.\nCommon denominator = 2 * 3 = 6.\nStep 2: Convert fractions.\n2/2 -> 6/6; 1/3 -> 2/6.\nStep 3: Add numerators: 6 + 2 = 8.\nSimplify 8/6 -> 4/3.\nFinal: 4/3 (incorrect simplification)", "answer": "4/3", "true_label": 1}
+{"index": 987, "category": "Math-Synthetic-v4", "question": "Convert 0.2 to a fraction in simplest form.", "answer": "1/5", "true_label": 0}
+{"index": 988, "category": "Math-Synthetic-v4", "question": "Convert 0.2 to a fraction in simplest form.", "answer": "2/10", "true_label": 1}
+{"index": 989, "category": "Math-Synthetic-v4", "question": "Convert 0.1 to a fraction in simplest form.", "answer": "1/10", "true_label": 0}
+{"index": 990, "category": "Math-Synthetic-v4", "question": "Convert 0.01 to a fraction in simplest form.", "answer": "1/10", "true_label": 1}
+{"index": 991, "category": "Math-Synthetic-v4", "question": "What is 4/3 + 0.2? Give exact fraction.", "answer": "23/15", "true_label": 0}
+{"index": 992, "category": "Math-Synthetic-v4", "question": "What is 4/3 + 0.7? Give exact fraction.", "answer": "0.7", "true_label": 1}
+{"index": 993, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 16", "answer": "16", "true_label": 0}
+{"index": 994, "category": "Math-Synthetic-v4", "question": "Compute 2^4 by repeated multiplication.\nStep 1: multiply by 2 -> 1 * 2 = 2\nStep 2: multiply by 2 -> 2 * 2 = 4\nStep 3: multiply by 2 -> 4 * 2 = 8\nStep 4: multiply by 2 -> 8 * 2 = 16\nFinal: 17", "answer": "17", "true_label": 1}
+{"index": 995, "category": "Math-Synthetic-v4", "question": "Add 2/8 and 6/10.\nStep 1: Find common denominator.\nCommon denominator = 8 * 10 = 80.\nStep 2: Convert fractions.\n2/8 -> 20/80; 6/10 -> 48/80.\nStep 3: Add numerators: 20 + 48 = 68.\nSimplify 68/80 -> 17/20.\nFinal: 17/20", "answer": "17/20", "true_label": 0}
+{"index": 996, "category": "Math-Synthetic-v4", "question": "Add 2/8 and 7/8.\nStep 1: Find common denominator.\nCommon denominator = 8 * 8 = 64.\n2/8 -> 16/64; 7/8 -> 7/64 (forgot multiply).\n2/8 -> 16/64; 7/8 -> 56/64.\nStep 3: Add numerators: 16 + 56 = 72.\nSimplify 72/64 -> 9/8.\nFinal: 23/64", "answer": "23/64", "true_label": 1}
+{"index": 997, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 125", "answer": "125", "true_label": 0}
+{"index": 998, "category": "Math-Synthetic-v4", "question": "Compute 5^3 by repeated multiplication.\nStep 1: multiply by 5 -> 1 * 5 = 5\nStep 2: multiply by 5 -> 5 * 5 = 25\nStep 3: multiply by 5 -> 25 * 5 = 125\nFinal: 126", "answer": "126", "true_label": 1}
+{"index": 999, "category": "Math-Synthetic-v4", "question": "What is 0.987 + 0.533? Round to 3 decimal places.", "answer": "1.520", "true_label": 0}
+{"index": 1000, "category": "Math-Synthetic-v4", "question": "What is 0.987 + 53.3? Round to 3 decimal places.", "answer": "54.287", "true_label": 1}

@@ -1,0 +1,25 @@
+Slide title: Effect of observed math content on validation F1
+
+Opening (10–15s)
+- One sentence: After accounting for model baselines, more observed math content correlates with lower validation F1.
+- State the practical scale: each 1 percentage‑point increase in observed math content is associated with ~0.0025 lower F1 (≈ 0.025 per 10%).
+
+Primary result (15–20s)
+- Point to MixedLM number: math_pct fixed effect = −0.00253 (SE 0.000062). Explain why MixedLM is primary: it uses seed‑level data and models model‑specific baselines (random intercepts).
+- Emphasize precision: tiny SE and strong significance.
+
+Robustness (20–25s)
+- Show aggregated OLS plot (top right): base slope = −0.00227; bootstrap CI excludes zero in the base analysis.
+- Show WLS plot (middle right): slope = −0.00230; weighting by n_seeds gives nearly identical result — small groups are not solely driving the effect.
+- Mention sensitivity: when we remove three high‑influence aggregated groups, aggregated slope weakens to −0.00151 and bootstrap CI includes zero. This is why we present both seed‑level and aggregated checks.
+
+Diagnostics and caveats (15–20s)
+- Call out Cook’s D flagged groups (0% Qwen runs and Qwen2.5‑1.5B at 12.21%). Recommend manual inspection of those seed folders for anomalies.
+- Note interaction test: OLS interaction shows different intercepts by model but no significant slope differences — supports reporting a common slope with model intercepts.
+
+Concluding line (5–10s)
+- Summarize: Direction is robust across methods; magnitude is consistent across principled analyses (MixedLM and WLS). Recommend reporting MixedLM as primary and including aggregated OLS/WLS and sensitivity checks in supplementary material.
+
+Pointers for Q&A
+- If asked about causality: clarify this is observational within the ablation design; we control for model baselines but cannot claim causal mechanism without further controlled experiments.
+- If asked about next steps: propose adding 2–3 seeds for groups with n_seeds == 1 and attempting a MixedLM with random slopes if data supports it.
