@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Effect of Math Example Ratio on Model Performance"
+authors:
+  - family-names: "Damyanov"
+    given-names: "Damyan"
+    email: "damione1@gmail.com"
+date-released: 2026-02-28
+repository-code: "https://github.com/Damione2/math-ratio-model-performance"
+version: "1.0.0"
+license: "MIT"
