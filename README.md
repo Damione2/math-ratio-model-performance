@@ -2,9 +2,19 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18816903.svg)](https://doi.org/10.5281/zenodo.18816903)
 
-
 This repository contains the code, experiments, and analysis for studying how the **fraction of math examples** (`math_ratio`) in training data affects a model’s **best F1 score** (`best_f1`).  
 We run **multi-seed ablations**, perform **robust statistical analysis** (permutation tests, bootstrap, WLS, mixed-effects models), and provide all scripts needed to reproduce the figures and tables.
+
+---
+
+## Paper (preprint)
+
+The preprint PDF and LaTeX source are included in the repository:
+
+- **paper/paper.pdf** — downloadable preprint (v1.0.0)  
+- **paper/latex_src/** — LaTeX source files used to generate the PDF (for arXiv or local compilation)
+
+Direct links: `paper/paper.pdf` and `paper/latex_src/`
 
 ---
 
@@ -26,50 +36,47 @@ Influence diagnostics (Cook’s D and leave-one-out) show that the effect is **n
 
 ---
 
-## Repository structure
+## Repository structure (relevant parts)
 
-```text
-guardian_project/
+math-ratio-model-performance/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
 ├── requirements.txt
 ├── environment.txt
-│
-├── paper/                  # LaTeX source for arXiv
-│   ├── main.tex
-│   ├── refs.bib
-│   └── figs/
-│       ├── figure1_scatter.png
-│       ├── figure2_bootstrap.png
-│       ├── figure3_residuals.png
-│       ├── cooks_distance.csv
-│       └── leave_one_out_summary.csv
-│
+├── paper/
+│   ├── paper.pdf
+│   └── latex_src/
+│       ├── main.tex
+│       ├── refs.bib
+│       └── figs/ (figure files used by the LaTeX source)
 ├── experiments/
-│   ├── ablation_summary.csv
-│   ├── ablation_summary_filtered_excl_high_influence.csv
-│   ├── bootstrap_slopes_direct.txt
-│   ├── bootstrap_slopes_direct_summary.txt
-│   ├── permutation_test_result.txt
-│   ├── wls_regression_result.txt
-│   ├── mixedlm_random_intercept_summary.txt
-│   └── plots/
-│       ├── math_vs_bestf1_labeled.png
-│       ├── bootstrap_slope_distribution.png
-│       ├── residuals_vs_fitted.png
-│       ├── cooks_distance.csv
-│       └── leave_one_out_summary.csv
-│
+│   └── plots/ (figures used in the manuscript)
 ├── scripts/
-│   ├── bootstrap_slope_direct.py
-│   ├── permutation_test_math_effect.py
-│   ├── wls_regression.py
-│   ├── plot_math_vs_bestf1_labeled.py
-│   ├── plot_bootstrap_ci.py
-│   ├── plot_residuals.py
-│   └── reproduce_all.sh   # optional convenience script
-│
-├── runs/                   # training runs (not all tracked in git)
-├── runs_archive/           # archived runs (not tracked in git)
-└── final_report/           # collected figures/tables for the paper
+└── docs/
+
+---
+
+## How to reproduce (quick)
+
+1. Install requirements: `pip install -r requirements.txt`  
+2. Generate the main scatter plot: `python scripts/plot_math_vs_bestf1_labeled.py`  
+3. Run bootstrap analysis: `python scripts/bootstrap_slope_direct.py`  
+4. Reproduce mixed-effects analysis: `python scripts/wls_regression.py` and `python scripts/mixedlm_analysis.py`
+
+For full reproduction, see `docs/REPRODUCIBILITY.md` (detailed environment, exact commands, and expected outputs).
+
+---
+
+## Paper build (local)
+
+To compile the LaTeX source locally:
+
+1. Ensure TeX Live or MikTeX is installed.  
+2. From repository root:
+```bash
+cd paper/latex_src
+pdflatex main.tex
+bibtex main
+pdflatex main.tex
+pdflatex main.tex
