@@ -38,7 +38,7 @@ Influence diagnostics (Cook’s D, leave‑one‑out) indicate the effect is not
 ---
 
 ## Repository structure
-
+```
 math-ratio-model-performance/
 ├── README.md
 ├── LICENSE
@@ -69,7 +69,7 @@ math-ratio-model-performance/
 │   └── REPRODUCIBILITY.md
 └── paper_assets/
 └── high_res_figs/
-
+```
 ---
 
 ## Quick reproduction (one‑click)
@@ -91,7 +91,7 @@ bash
 python scripts/wls_regression.py --predictions examples/sample_predictions.csv
 python scripts/mixedlm_analysis.py --predictions examples/sample_predictions.csv
 Full environment and exact commands are in docs/REPRODUCIBILITY.md.
-
+```
 ## How to interpret the numbers
 The negative slope indicates that increasing math_ratio produces a small but consistent decrease in best_f1. The effect is statistically robust across multiple analyses.
 
