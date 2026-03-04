@@ -13,6 +13,13 @@
 \usepackage{geometry}
 \geometry{margin=1in}
 
+% Bibliography: modern workflow
+\usepackage{csquotes}
+\usepackage{xurl}                      % better URL line breaking
+\setlength{\emergencystretch}{3em}     % help with tight lines
+\usepackage[backend=biber,style=authoryear]{biblatex}
+\addbibresource{refs.bib}
+
 \title{The Impact of Mathematical Example Ratios on LLM Stability, Accuracy, and Hallucination Behavior}
 \author{Damyan Damyanov\\Independent Researcher\\\texttt{https://github.com/Damione2/math-ratio-model-performance} (March 2026)}
 \date{}
@@ -71,11 +78,9 @@ We vary only random seeds for initialization and data shuffling when measuring s
 \subsection{Statistical modeling}
 We fit linear and mixed‑effects models to quantify the effect of math ratio \(r\) on outcomes while accounting for seed and dataset noise. For outcome \(y_{ij}\) (e.g., best F1) for seed \(i\) and dataset \(j\):
 
-
 \[
 y_{ij} = \beta_0 + \beta_1 r_j + u_i + \epsilon_{ij},
 \]
-
 
 where \(u_i\sim\mathcal{N}(0,\sigma_u^2)\) captures seed‑level random effects and \(\epsilon_{ij}\sim\mathcal{N}(0,\sigma^2)\) is residual noise. We report robust standard errors (HC3), bootstrap intervals, and permutation p‑values to support inference.
 
@@ -92,10 +97,10 @@ Across 52 runs we observe the following pattern:
 \subsection{Quantified effect on best F1}
 The main quantitative finding for best F1 is summarized by the slope estimates:
 \begin{itemize}[noitemsep]
-  \item WLS (HC3) slope: \(\hat\beta_1 \approx -0.236\) per unit math\_ratio (≈ \(-0.00236\) per percentage point), 95\% CI \([-0.271,-0.202]\).
-  \item Bootstrap (5,000 resamples): median slope ≈ \(-0.2367\), 95\% CI \([-0.2639,-0.1963]\).
-  \item Permutation test (5,000 permutations): observed slope = \(-0.2363\), \(p_{\text{perm}}\approx 0.0002\).
-  \item Mixed‑effects model (random intercept): slope ≈ \(-0.273\).
+  \item WLS (HC3) slope: \(\hat\beta_1 \approx -0.236\) per unit math\_ratio (approximately \(-0.00236\) per percentage point), 95\% CI \([-0.271,-0.202]\).
+  \item Bootstrap (5,000 resamples): median slope \(\approx -0.2367\), 95\% CI \([-0.2639,-0.1963]\).
+  \item Permutation test (5,000 permutations): observed slope \(= -0.2363\), \(p_{\text{perm}}\approx 0.0002\).
+  \item Mixed‑effects model (random intercept): slope \(\approx -0.273\).
 \end{itemize}
 Influence diagnostics (Cook's D, leave‑one‑out) show no single run drives the effect.
 
@@ -148,17 +153,19 @@ The repository contains scripts for dataset generation, training, evaluation, an
 \end{itemize}
 Exact environment and versions are documented in \texttt{docs/REPRODUCIBILITY.md}.
 
+% Ensure at least one cited key appears so the bibliography is populated.
+See the accompanying repository and preprint for full artifacts \cite{damyanov2026}.
+
+% For testing only: uncomment the following line to force-print all entries
+\nocite{*}
+
+\begingroup
+\raggedright
+\printbibliography
+\endgroup
+
 \section*{Acknowledgments}
 Thanks to the open‑source community and to the authors of the Thinking Machines analysis for highlighting inference nondeterminism as an important engineering concern.
-
-\bibliographystyle{plain}
-\begin{thebibliography}{9}
-\bibitem{damyanov2026}
-Damyanov, D. (2026). \textit{Math‑Ratio Effects on LLM Stability and Hallucination Behavior}. GitHub repository. \url{https://github.com/Damione2/math-ratio-model-performance}
-
-\bibitem{he2025}
-He, H. (2025). Defeating Nondeterminism in LLM Inference. Thinking Machines. Sep 10, 2025. \url{https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/}
-\end{thebibliography}
 
 \appendix
 \section{Appendix A: Example prompts and dataset snippets}
