@@ -37,6 +37,23 @@ Influence diagnostics (Cook’s D, leave‑one‑out) indicate the effect is not
 
 ---
 
+## Related Work
+
+Recent work on hallucination mechanisms in LLMs provides complementary perspectives to the findings in this repository. Two strands are particularly relevant:
+
+- **H‑Neurons (arXiv:2512.01797)** identifies small, specialized neuron groups whose activation patterns correlate strongly with hallucination‑prone behavior. These neurons emerge during pre‑training and are shaped by the statistical structure of the training corpus. The H‑Neurons analysis explains how domain‑specific statistical regularities can create internal attractors that misactivate outside their intended context.
+
+- **Closed‑form Continuous‑time Neural Networks (Hasani et al., 2021)** introduced the CfC formulation used here. CfC provides a continuous‑time, closed‑form update for hidden states (liquid time‑constant dynamics) that enables stable temporal processing and efficient per‑sample routing. The CfC‑LNN experts in this repository are built directly on that formulation.
+
+These perspectives align with the math‑ratio results reported here: increasing the proportion of mathematical examples improves in‑domain mathematical accuracy but also produces more confident, ungrounded outputs on general tasks. In the H‑Neurons framework, this can be interpreted as domain‑specific attractors becoming over‑represented; in the CfC/LNN framework, the same phenomenon manifests as increased temporal coherence and routing confidence that is poorly calibrated out of domain. The CfC‑based detector in this project captures the dynamical, behavioral consequences of such internal structures.
+
+**References (informal):**  
+- H‑Neurons: *H‑Neurons: On the Existence, Impact, and Origin of Hallucination‑Associated Neurons in LLMs*, arXiv:2512.01797 (2025).  
+- Hasani, R., Lechner, M., Amini, A., Rus, D., *Closed‑form Continuous‑time Neural Networks*, arXiv:2106.13898 (2021).
+- Defeating Nondeterminism in LLM Inference — He, H. (2025). Thinking Machines blog. Practical notes on inference nondeterminism and mitigation strategies. https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
+
+---
+
 ## Repository structure
 ```
 math-ratio-model-performance/
